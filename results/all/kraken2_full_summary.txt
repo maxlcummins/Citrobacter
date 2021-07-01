@@ -765,90 +765,62 @@ name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
 173	  1.57	3	3	S	2079596	                Acinetobacter sp. SWBY1
 173	  0.52	1	0	S	40214	                Acinetobacter johnsonii
 173	  0.52	1	1	S1	1242245	                  Acinetobacter johnsonii XBB1
-175	  6.46	19	19	U	0	unclassified
-175	 93.54	275	7	R	1	root
-175	 91.16	268	0	R1	131567	  cellular organisms
-175	 90.82	267	1	D	2	    Bacteria
-175	 90.48	266	0	P	1224	      Proteobacteria
-175	 90.48	266	12	C	1236	        Gammaproteobacteria
-175	 86.39	254	25	O	91347	          Enterobacterales
-175	 73.81	217	24	F	543	            Enterobacteriaceae
-175	 49.32	145	29	G	544	              Citrobacter
-175	 35.03	103	5	G1	1344959	                Citrobacter freundii complex
-175	 32.99	97	88	S	546	                  Citrobacter freundii
-175	  3.06	9	9	S1	1333848	                    Citrobacter freundii CFNIH1
-175	  0.34	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
-175	  2.04	6	6	S	67824	                Citrobacter farmeri
-175	  1.36	4	4	S	545	                Citrobacter koseri
-175	  1.02	3	3	S	1920110	                Citrobacter sp. CFNIH10
-175	  5.78	17	0	G	570	              Klebsiella
-175	  3.06	9	9	S	244366	                Klebsiella variicola
-175	  2.04	6	5	S	573	                Klebsiella pneumoniae
-175	  0.34	1	1	S1	1380908	                  Klebsiella pneumoniae JM45
-175	  0.34	1	1	S	571	                Klebsiella oxytoca
-175	  0.34	1	0	S	1134687	                Klebsiella michiganensis
+175	  1.02	3	3	U	0	unclassified
+175	 98.98	291	0	R	1	root
+175	 98.98	291	0	R1	131567	  cellular organisms
+175	 98.98	291	7	D	2	    Bacteria
+175	 96.60	284	5	P	1224	      Proteobacteria
+175	 94.90	279	8	C	1236	        Gammaproteobacteria
+175	 89.12	262	31	O	91347	          Enterobacterales
+175	 76.87	226	37	F	543	            Enterobacteriaceae
+175	 43.54	128	13	G	544	              Citrobacter
+175	 38.44	113	0	G1	1344959	                Citrobacter freundii complex
+175	 38.10	112	101	S	546	                  Citrobacter freundii
+175	  3.40	10	10	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
+175	  0.34	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
+175	  0.34	1	1	S	1639133	                  Citrobacter portucalensis
+175	  0.34	1	1	S	67824	                Citrobacter farmeri
+175	  0.34	1	0	G1	2644389	                unclassified Citrobacter
+175	  0.34	1	1	S	2742638	                  Citrobacter sp. RHBSTW-00137
+175	  9.52	28	3	G	570	              Klebsiella
+175	  3.74	11	10	S	573	                Klebsiella pneumoniae
+175	  0.34	1	1	S1	72407	                  Klebsiella pneumoniae subsp. pneumoniae
+175	  2.72	8	8	S	2058152	                Klebsiella grimontii
+175	  1.36	4	3	S	1134687	                Klebsiella michiganensis
 175	  0.34	1	1	S1	1191061	                  Klebsiella michiganensis E718
-175	  3.74	11	0	G	561	              Escherichia
-175	  3.74	11	11	S	562	                Escherichia coli
-175	  3.40	10	0	G	590	              Salmonella
-175	  3.40	10	0	S	28901	                Salmonella enterica
-175	  3.40	10	0	S1	59201	                  Salmonella enterica subsp. enterica
-175	  1.36	4	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
-175	  1.36	4	4	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+175	  0.34	1	1	S	1463165	                Klebsiella quasipneumoniae
+175	  0.34	1	1	S	2153354	                Klebsiella huaxiensis
+175	  5.78	17	0	G	547	              Enterobacter
+175	  5.78	17	1	G1	354276	                Enterobacter cloacae complex
+175	  2.04	6	5	S	158836	                  Enterobacter hormaechei
+175	  0.34	1	1	S1	1812934	                    Enterobacter hormaechei subsp. hoffmannii
+175	  1.70	5	5	S	208224	                  Enterobacter kobei
+175	  1.02	3	3	S	550	                  Enterobacter cloacae
+175	  0.68	2	2	S	1812935	                  Enterobacter roggenkampii
+175	  2.72	8	0	G	590	              Salmonella
+175	  2.72	8	0	S	28901	                Salmonella enterica
+175	  2.72	8	0	S1	59201	                  Salmonella enterica subsp. enterica
+175	  1.70	5	5	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
 175	  1.02	3	0	S2	58095	                    Salmonella enterica subsp. enterica serovar Agona
 175	  1.02	3	3	S3	454166	                      Salmonella enterica subsp. enterica serovar Agona str. SL483
-175	  0.34	1	1	S2	70803	                    Salmonella enterica subsp. enterica serovar Minnesota
-175	  0.34	1	0	S2	1160741	                    Salmonella enterica subsp. enterica serovar Crossness
-175	  0.34	1	1	S3	1242090	                      Salmonella enterica subsp. enterica serovar Crossness str. 1422-74
-175	  0.34	1	0	S2	1242079	                    Salmonella enterica subsp. enterica serovar Apapa
-175	  0.34	1	1	S3	1242088	                      Salmonella enterica subsp. enterica serovar Apapa str. SA20060561
-175	  2.72	8	0	G	547	              Enterobacter
-175	  2.72	8	1	G1	354276	                Enterobacter cloacae complex
-175	  0.68	2	2	S	61645	                  Enterobacter asburiae
-175	  0.68	2	2	S	2027919	                  Enterobacter cloacae complex sp.
-175	  0.34	1	1	S	550	                  Enterobacter cloacae
-175	  0.34	1	0	S	158836	                  Enterobacter hormaechei
-175	  0.34	1	1	S1	301102	                    Enterobacter hormaechei subsp. oharae
-175	  0.34	1	1	S	1915310	                  Enterobacter cloacae complex sp. ECNIH7
-175	  0.68	2	0	G	83654	              Leclercia
-175	  0.68	2	2	S	1920116	                Leclercia sp. LSNIH3
-175	  3.74	11	0	F	1903411	            Yersiniaceae
-175	  3.74	11	0	G	629	              Yersinia
-175	  3.74	11	0	G1	1649845	                Yersinia pseudotuberculosis complex
-175	  3.74	11	11	S	632	                  Yersinia pestis
-175	  0.34	1	0	F	1903412	            Hafniaceae
-175	  0.34	1	0	G	635	              Edwardsiella
-175	  0.34	1	1	S	93378	                Edwardsiella hoshinae
-175	  0.34	1	0	D	2759	    Eukaryota
-175	  0.34	1	0	D1	33154	      Opisthokonta
-175	  0.34	1	0	K	33208	        Metazoa
-175	  0.34	1	0	K1	6072	          Eumetazoa
-175	  0.34	1	0	K2	33213	            Bilateria
-175	  0.34	1	0	K3	33511	              Deuterostomia
-175	  0.34	1	0	P	7711	                Chordata
-175	  0.34	1	0	P1	89593	                  Craniata
-175	  0.34	1	0	P2	7742	                    Vertebrata
-175	  0.34	1	0	P3	7776	                      Gnathostomata
-175	  0.34	1	0	P4	117570	                        Teleostomi
-175	  0.34	1	0	P5	117571	                          Euteleostomi
-175	  0.34	1	0	P6	8287	                            Sarcopterygii
-175	  0.34	1	0	P7	1338369	                              Dipnotetrapodomorpha
-175	  0.34	1	0	P8	32523	                                Tetrapoda
-175	  0.34	1	0	P9	32524	                                  Amniota
-175	  0.34	1	0	C	40674	                                    Mammalia
-175	  0.34	1	0	C1	32525	                                      Theria
-175	  0.34	1	0	C2	9347	                                        Eutheria
-175	  0.34	1	0	C3	1437010	                                          Boreoeutheria
-175	  0.34	1	0	C4	314146	                                            Euarchontoglires
-175	  0.34	1	0	O	9443	                                              Primates
-175	  0.34	1	0	O1	376913	                                                Haplorrhini
-175	  0.34	1	0	O2	314293	                                                  Simiiformes
-175	  0.34	1	0	O3	9526	                                                    Catarrhini
-175	  0.34	1	0	O4	314295	                                                      Hominoidea
-175	  0.34	1	0	F	9604	                                                        Hominidae
-175	  0.34	1	0	F1	207598	                                                          Homininae
-175	  0.34	1	0	G	9605	                                                            Homo
-175	  0.34	1	1	S	9606	                                                              Homo sapiens
+175	  2.38	7	0	G	561	              Escherichia
+175	  2.38	7	6	S	562	                Escherichia coli
+175	  0.34	1	1	S1	2773706	                  Escherichia coli O68:H12
+175	  0.34	1	0	G	158876	              Yokenella
+175	  0.34	1	1	S	158877	                Yokenella regensburgei
+175	  1.70	5	0	F	1903411	            Yersiniaceae
+175	  1.70	5	0	G	629	              Yersinia
+175	  1.70	5	0	G1	1649845	                Yersinia pseudotuberculosis complex
+175	  1.70	5	5	S	632	                  Yersinia pestis
+175	  2.72	8	0	O	135624	          Aeromonadales
+175	  2.72	8	0	F	84642	            Aeromonadaceae
+175	  2.72	8	0	G	642	              Aeromonas
+175	  2.72	8	0	G1	257493	                unclassified Aeromonas
+175	  2.72	8	8	S	2675707	                  Aeromonas sp. WP2-W18-CRE-05
+175	  0.34	1	0	O	72274	          Pseudomonadales
+175	  0.34	1	0	F	468	            Moraxellaceae
+175	  0.34	1	0	G	469	              Acinetobacter
+175	  0.34	1	1	S	29430	                Acinetobacter haemolyticus
 183	 24.75	126	126	U	0	unclassified
 183	 75.25	383	15	R	1	root
 183	 72.30	368	0	R1	131567	  cellular organisms
@@ -1071,58 +1043,60 @@ name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
 192	  0.32	1	0	O	135624	          Aeromonadales
 192	  0.32	1	0	F	84642	            Aeromonadaceae
 192	  0.32	1	1	G	642	              Aeromonas
-199	  0.67	2	2	U	0	unclassified
-199	 99.33	297	3	R	1	root
-199	 98.33	294	0	R1	131567	  cellular organisms
-199	 98.33	294	1	D	2	    Bacteria
-199	 97.99	293	5	P	1224	      Proteobacteria
-199	 96.32	288	12	C	1236	        Gammaproteobacteria
-199	 90.64	271	22	O	91347	          Enterobacterales
-199	 82.94	248	90	F	543	            Enterobacteriaceae
-199	 37.79	113	3	G	544	              Citrobacter
-199	 35.12	105	15	G1	1344959	                Citrobacter freundii complex
-199	 28.09	84	84	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-199	  1.00	3	3	S	57706	                  Citrobacter braakii
-199	  0.67	2	2	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-199	  0.33	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
-199	  1.00	3	3	S	35703	                Citrobacter amalonaticus
-199	  0.33	1	1	S	1703250	                Citrobacter sp. CRE-46
-199	  0.33	1	1	S	1920110	                Citrobacter sp. CFNIH10
-199	 10.70	32	1	G	561	              Escherichia
-199	 10.37	31	31	S	562	                Escherichia coli
-199	  1.67	5	0	G	590	              Salmonella
-199	  1.67	5	1	S	28901	                Salmonella enterica
-199	  1.34	4	0	S1	59201	                  Salmonella enterica subsp. enterica
-199	  1.00	3	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
-199	  1.00	3	3	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
-199	  0.33	1	0	S2	913074	                    Salmonella enterica subsp. enterica serovar Inverness
-199	  0.33	1	1	S3	941187	                      Salmonella enterica subsp. enterica serovar Inverness str. ATCC 10720
-199	  1.34	4	1	G	570	              Klebsiella
-199	  1.00	3	3	S	573	                Klebsiella pneumoniae
-199	  0.67	2	0	G	547	              Enterobacter
-199	  0.67	2	0	G1	354276	                Enterobacter cloacae complex
-199	  0.67	2	0	S	61645	                  Enterobacter asburiae
-199	  0.67	2	2	S1	640513	                    Enterobacter asburiae LF7a
-199	  0.33	1	0	G	83654	              Leclercia
-199	  0.33	1	1	S	1920114	                Leclercia sp. LSNIH1
-199	  0.33	1	0	G	1330546	              Pluralibacter
-199	  0.33	1	1	S	61647	                Pluralibacter gergoviae
-199	  0.33	1	0	F	1903412	            Hafniaceae
-199	  0.33	1	0	G	635	              Edwardsiella
-199	  0.33	1	0	S	1821960	                Edwardsiella anguillarum
-199	  0.33	1	1	S1	667120	                  Edwardsiella anguillarum ET080813
-199	  1.00	3	0	O	135624	          Aeromonadales
-199	  1.00	3	0	F	84642	            Aeromonadaceae
-199	  1.00	3	2	G	642	              Aeromonas
-199	  0.33	1	1	S	1636609	                Aeromonas sp. ASNIH4
-199	  0.67	2	0	O	72274	          Pseudomonadales
-199	  0.33	1	0	F	468	            Moraxellaceae
-199	  0.33	1	0	G	469	              Acinetobacter
-199	  0.33	1	1	S	108981	                Acinetobacter schindleri
-199	  0.33	1	0	F	135621	            Pseudomonadaceae
-199	  0.33	1	0	G	286	              Pseudomonas
-199	  0.33	1	0	G1	136841	                Pseudomonas aeruginosa group
-199	  0.33	1	1	S	287	                  Pseudomonas aeruginosa
+199	  0.33	1	1	U	0	unclassified
+199	 99.67	298	0	R	1	root
+199	 99.67	298	0	R1	131567	  cellular organisms
+199	 99.67	298	2	D	2	    Bacteria
+199	 99.00	296	10	P	1224	      Proteobacteria
+199	 95.65	286	12	C	1236	        Gammaproteobacteria
+199	 91.64	274	9	O	91347	          Enterobacterales
+199	 88.63	265	89	F	543	            Enterobacteriaceae
+199	 41.47	124	31	G	544	              Citrobacter
+199	 25.08	75	18	G1	2644389	                unclassified Citrobacter
+199	  2.01	6	6	S	2742667	                  Citrobacter sp. RHBSTW-00881
+199	  1.67	5	5	S	184912	                  Citrobacter sp. TSA-1
+199	  1.67	5	5	S	2742662	                  Citrobacter sp. RHBSTW-00696
+199	  1.34	4	4	S	2742647	                  Citrobacter sp. RHBSTW-00424
+199	  1.34	4	4	S	2742653	                  Citrobacter sp. RHBSTW-00524
+199	  1.34	4	4	S	2742668	                  Citrobacter sp. RHBSTW-00887
+199	  1.00	3	3	S	2742678	                  Citrobacter sp. RHBSTW-01044
+199	  1.00	3	3	S	2546350	                  Citrobacter sp. LY-1
+199	  1.00	3	3	S	2562449	                  Citrobacter sp. SNU WT2
+199	  1.00	3	3	S	2742675	                  Citrobacter sp. RHBSTW-00986
+199	  0.67	2	2	S	2742661	                  Citrobacter sp. RHBSTW-00678
+199	  0.67	2	2	S	2742627	                  Citrobacter sp. RHB36-C18
+199	  0.67	2	2	S	2742670	                  Citrobacter sp. RHBSTW-00903
+199	  0.67	2	2	S	2683822	                  Citrobacter sp. 172116965
+199	  0.33	1	1	S	2742657	                  Citrobacter sp. RHBSTW-00599
+199	  0.33	1	1	S	2742635	                  Citrobacter sp. RHBSTW-00107
+199	  0.33	1	1	S	2742626	                  Citrobacter sp. RHB35-C21
+199	  0.33	1	1	S	2742655	                  Citrobacter sp. RHBSTW-00570
+199	  0.33	1	1	S	2742648	                  Citrobacter sp. RHBSTW-00446
+199	  0.33	1	1	S	2742624	                  Citrobacter sp. RHB25-C09
+199	  0.33	1	1	S	2742677	                  Citrobacter sp. RHBSTW-01013
+199	  0.33	1	1	S	1920110	                  Citrobacter sp. CFNIH10
+199	  0.33	1	1	S	1703250	                  Citrobacter sp. CRE-46
+199	  6.02	18	0	G1	1344959	                Citrobacter freundii complex
+199	  4.35	13	13	S	546	                  Citrobacter freundii
+199	  1.00	3	3	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
+199	  0.33	1	1	S	57706	                  Citrobacter braakii
+199	  0.33	1	1	S	1639133	                  Citrobacter portucalensis
+199	 12.04	36	0	G	561	              Escherichia
+199	 12.04	36	36	S	562	                Escherichia coli
+199	  3.01	9	0	G	570	              Klebsiella
+199	  2.01	6	6	S	573	                Klebsiella pneumoniae
+199	  0.33	1	0	S	1134687	                Klebsiella michiganensis
+199	  0.33	1	1	S1	1191061	                  Klebsiella michiganensis E718
+199	  0.33	1	1	S	1463165	                Klebsiella quasipneumoniae
+199	  0.33	1	1	S	2153354	                Klebsiella huaxiensis
+199	  2.01	6	1	G	547	              Enterobacter
+199	  1.67	5	0	G1	354276	                Enterobacter cloacae complex
+199	  0.67	2	2	S	158836	                  Enterobacter hormaechei
+199	  0.33	1	1	S	61645	                  Enterobacter asburiae
+199	  0.33	1	1	S	208224	                  Enterobacter kobei
+199	  0.33	1	1	S	1812935	                  Enterobacter roggenkampii
+199	  0.33	1	0	G	590	              Salmonella
+199	  0.33	1	1	S	28901	                Salmonella enterica
 200	  1.96	3	3	U	0	unclassified
 200	 98.04	150	1	R	1	root
 200	 97.39	149	0	R1	131567	  cellular organisms
@@ -1339,36 +1313,60 @@ name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
 213	  0.44	1	0	G	9605	                                                            Homo
 213	  0.44	1	1	S	9606	                                                              Homo sapiens
 216	  0.58	1	1	U	0	unclassified
-216	 99.42	172	2	R	1	root
-216	 98.27	170	0	R1	131567	  cellular organisms
-216	 98.27	170	1	D	2	    Bacteria
-216	 97.69	169	3	P	1224	      Proteobacteria
-216	 95.95	166	12	C	1236	        Gammaproteobacteria
-216	 88.44	153	16	O	91347	          Enterobacterales
-216	 79.19	137	28	F	543	            Enterobacteriaceae
-216	 58.38	101	9	G	544	              Citrobacter
-216	 50.29	87	11	G1	1344959	                Citrobacter freundii complex
-216	 39.88	69	69	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-216	  1.73	3	3	S	57706	                  Citrobacter braakii
-216	  1.16	2	2	S	546	                  Citrobacter freundii
-216	  1.16	2	2	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-216	  1.73	3	3	S	545	                Citrobacter koseri
-216	  1.16	2	2	S	35703	                Citrobacter amalonaticus
-216	  2.31	4	0	G	570	              Klebsiella
-216	  1.16	2	2	S	571	                Klebsiella oxytoca
+216	 99.42	172	0	R	1	root
+216	 99.42	172	0	R1	131567	  cellular organisms
+216	 99.42	172	2	D	2	    Bacteria
+216	 97.69	169	8	P	1224	      Proteobacteria
+216	 93.06	161	13	C	1236	        Gammaproteobacteria
+216	 85.55	148	16	O	91347	          Enterobacterales
+216	 76.30	132	26	F	543	            Enterobacteriaceae
+216	 55.49	96	30	G	544	              Citrobacter
+216	 31.79	55	9	G1	2644389	                unclassified Citrobacter
+216	  4.05	7	7	S	2742647	                  Citrobacter sp. RHBSTW-00424
+216	  2.89	5	5	S	2742667	                  Citrobacter sp. RHBSTW-00881
+216	  2.31	4	4	S	2742655	                  Citrobacter sp. RHBSTW-00570
+216	  2.31	4	4	S	184912	                  Citrobacter sp. TSA-1
+216	  2.31	4	4	S	2742670	                  Citrobacter sp. RHBSTW-00903
+216	  1.73	3	3	S	2742678	                  Citrobacter sp. RHBSTW-01044
+216	  1.73	3	3	S	2742627	                  Citrobacter sp. RHB36-C18
+216	  1.73	3	3	S	2546350	                  Citrobacter sp. LY-1
+216	  1.73	3	3	S	2562449	                  Citrobacter sp. SNU WT2
+216	  1.73	3	3	S	2742653	                  Citrobacter sp. RHBSTW-00524
+216	  1.16	2	2	S	2742668	                  Citrobacter sp. RHBSTW-00887
+216	  0.58	1	1	S	2683822	                  Citrobacter sp. 172116965
+216	  0.58	1	1	S	2742675	                  Citrobacter sp. RHBSTW-00986
+216	  0.58	1	1	S	2742661	                  Citrobacter sp. RHBSTW-00678
+216	  0.58	1	1	S	2742677	                  Citrobacter sp. RHBSTW-01013
+216	  0.58	1	1	S	2742624	                  Citrobacter sp. RHB25-C09
+216	  5.78	10	0	G1	1344959	                Citrobacter freundii complex
+216	  5.20	9	9	S	546	                  Citrobacter freundii
+216	  0.58	1	1	S	1639133	                  Citrobacter portucalensis
+216	  0.58	1	1	S	545	                Citrobacter koseri
+216	  4.05	7	0	G	570	              Klebsiella
 216	  1.16	2	2	S	573	                Klebsiella pneumoniae
-216	  1.16	2	0	G	561	              Escherichia
-216	  1.16	2	2	S	562	                Escherichia coli
-216	  1.16	2	0	G	590	              Salmonella
-216	  1.16	2	0	S	28901	                Salmonella enterica
-216	  1.16	2	0	S1	59201	                  Salmonella enterica subsp. enterica
-216	  1.16	2	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
-216	  1.16	2	2	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
-216	  0.58	1	0	O	72274	          Pseudomonadales
-216	  0.58	1	0	F	135621	            Pseudomonadaceae
-216	  0.58	1	0	G	286	              Pseudomonas
-216	  0.58	1	0	G1	136841	                Pseudomonas aeruginosa group
-216	  0.58	1	1	S	53408	                  Pseudomonas citronellolis
+216	  0.58	1	1	S	571	                Klebsiella oxytoca
+216	  0.58	1	0	S	1134687	                Klebsiella michiganensis
+216	  0.58	1	1	S1	1191061	                  Klebsiella michiganensis E718
+216	  0.58	1	1	S	1463165	                Klebsiella quasipneumoniae
+216	  0.58	1	1	S	2153354	                Klebsiella huaxiensis
+216	  0.58	1	0	G1	2608929	                unclassified Klebsiella
+216	  0.58	1	1	S	2675711	                  Klebsiella sp. WP3-S18-ESBL-05
+216	  0.58	1	0	G	547	              Enterobacter
+216	  0.58	1	0	G1	354276	                Enterobacter cloacae complex
+216	  0.58	1	0	S	158836	                  Enterobacter hormaechei
+216	  0.58	1	1	S1	1812934	                    Enterobacter hormaechei subsp. hoffmannii
+216	  0.58	1	0	G	590	              Salmonella
+216	  0.58	1	1	S	28901	                Salmonella enterica
+216	  0.58	1	0	G	2055876	              Metakosakonia
+216	  0.58	1	0	G1	2639707	                unclassified Metakosakonia
+216	  0.58	1	1	S	2487150	                  Metakosakonia sp. MRY16-398
+216	  0.58	1	0	D1	1783272	      Terrabacteria group
+216	  0.58	1	0	P	201174	        Actinobacteria
+216	  0.58	1	0	C	1760	          Actinobacteria
+216	  0.58	1	0	O	85006	            Micrococcales
+216	  0.58	1	0	F	1268	              Micrococcaceae
+216	  0.58	1	0	G	1742989	                Glutamicibacter
+216	  0.58	1	1	S	1933880	                  Glutamicibacter halophytocola
 217	  4.28	8	8	U	0	unclassified
 217	 95.72	179	10	R	1	root
 217	 90.37	169	0	R1	131567	  cellular organisms
@@ -1895,41 +1893,54 @@ name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
 243	  0.39	1	0	G	9605	                                                            Homo
 243	  0.39	1	1	S	9606	                                                              Homo sapiens
 246	  0.56	1	1	U	0	unclassified
-246	 99.44	176	3	R	1	root
-246	 97.74	173	0	R1	131567	  cellular organisms
-246	 97.74	173	1	D	2	    Bacteria
-246	 97.18	172	5	P	1224	      Proteobacteria
-246	 94.35	167	11	C	1236	        Gammaproteobacteria
-246	 86.44	153	14	O	91347	          Enterobacterales
-246	 78.53	139	29	F	543	            Enterobacteriaceae
-246	 57.63	102	6	G	544	              Citrobacter
-246	 53.67	95	12	G1	1344959	                Citrobacter freundii complex
-246	 40.11	71	71	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-246	  2.26	4	4	S	546	                  Citrobacter freundii
-246	  2.26	4	4	S	57706	                  Citrobacter braakii
-246	  1.69	3	3	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-246	  0.56	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
-246	  0.56	1	1	S	545	                Citrobacter koseri
-246	  1.69	3	0	G	590	              Salmonella
-246	  1.69	3	0	S	28901	                Salmonella enterica
-246	  1.69	3	0	S1	59201	                  Salmonella enterica subsp. enterica
-246	  1.69	3	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
-246	  1.69	3	3	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
-246	  1.13	2	0	G	570	              Klebsiella
-246	  1.13	2	2	S	571	                Klebsiella oxytoca
-246	  0.56	1	0	G	561	              Escherichia
-246	  0.56	1	1	S	562	                Escherichia coli
-246	  0.56	1	0	G	83654	              Leclercia
-246	  0.56	1	1	S	1920114	                Leclercia sp. LSNIH1
-246	  0.56	1	0	G	160674	              Raoultella
-246	  0.56	1	1	S	54291	                Raoultella ornithinolytica
-246	  1.13	2	0	O	135624	          Aeromonadales
-246	  1.13	2	0	F	84642	            Aeromonadaceae
-246	  1.13	2	2	G	642	              Aeromonas
-246	  0.56	1	0	O	72274	          Pseudomonadales
-246	  0.56	1	0	F	468	            Moraxellaceae
-246	  0.56	1	0	G	469	              Acinetobacter
-246	  0.56	1	1	S	108981	                Acinetobacter schindleri
+246	 99.44	176	0	R	1	root
+246	 99.44	176	0	R1	131567	  cellular organisms
+246	 99.44	176	3	D	2	    Bacteria
+246	 97.74	173	8	P	1224	      Proteobacteria
+246	 93.22	165	8	C	1236	        Gammaproteobacteria
+246	 88.70	157	17	O	91347	          Enterobacterales
+246	 79.10	140	25	F	543	            Enterobacteriaceae
+246	 59.32	105	30	G	544	              Citrobacter
+246	 35.59	63	14	G1	2644389	                unclassified Citrobacter
+246	  3.95	7	7	S	2742647	                  Citrobacter sp. RHBSTW-00424
+246	  3.39	6	6	S	2546350	                  Citrobacter sp. LY-1
+246	  2.82	5	5	S	184912	                  Citrobacter sp. TSA-1
+246	  2.26	4	4	S	2742670	                  Citrobacter sp. RHBSTW-00903
+246	  2.26	4	4	S	2742648	                  Citrobacter sp. RHBSTW-00446
+246	  1.69	3	3	S	2742668	                  Citrobacter sp. RHBSTW-00887
+246	  1.69	3	3	S	2742653	                  Citrobacter sp. RHBSTW-00524
+246	  1.69	3	3	S	2742678	                  Citrobacter sp. RHBSTW-01044
+246	  1.13	2	2	S	2562449	                  Citrobacter sp. SNU WT2
+246	  1.13	2	2	S	2742675	                  Citrobacter sp. RHBSTW-00986
+246	  1.13	2	2	S	2683822	                  Citrobacter sp. 172116965
+246	  1.13	2	2	S	2742667	                  Citrobacter sp. RHBSTW-00881
+246	  1.13	2	2	S	2742627	                  Citrobacter sp. RHB36-C18
+246	  0.56	1	1	S	2742638	                  Citrobacter sp. RHBSTW-00137
+246	  0.56	1	1	S	2742655	                  Citrobacter sp. RHBSTW-00570
+246	  0.56	1	1	S	2742661	                  Citrobacter sp. RHBSTW-00678
+246	  0.56	1	1	S	2742624	                  Citrobacter sp. RHB25-C09
+246	  6.78	12	0	G1	1344959	                Citrobacter freundii complex
+246	  4.52	8	8	S	546	                  Citrobacter freundii
+246	  0.56	1	1	S	57706	                  Citrobacter braakii
+246	  0.56	1	1	S	67827	                  Citrobacter werkmanii
+246	  0.56	1	1	S	1639133	                  Citrobacter portucalensis
+246	  0.56	1	1	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
+246	  3.95	7	1	G	570	              Klebsiella
+246	  0.56	1	1	S	571	                Klebsiella oxytoca
+246	  0.56	1	1	S	573	                Klebsiella pneumoniae
+246	  0.56	1	0	S	1134687	                Klebsiella michiganensis
+246	  0.56	1	1	S1	1191061	                  Klebsiella michiganensis E718
+246	  0.56	1	1	S	1463165	                Klebsiella quasipneumoniae
+246	  0.56	1	1	S	2153354	                Klebsiella huaxiensis
+246	  0.56	1	0	G1	2608929	                unclassified Klebsiella
+246	  0.56	1	1	S	1905288	                  Klebsiella sp. LTGPAF-6F
+246	  1.13	2	0	G	547	              Enterobacter
+246	  1.13	2	0	G1	354276	                Enterobacter cloacae complex
+246	  0.56	1	0	S	158836	                  Enterobacter hormaechei
+246	  0.56	1	1	S1	1812934	                    Enterobacter hormaechei subsp. hoffmannii
+246	  0.56	1	1	S	208224	                  Enterobacter kobei
+246	  0.56	1	0	G	590	              Salmonella
+246	  0.56	1	1	S	28901	                Salmonella enterica
 250	  0.93	1	1	U	0	unclassified
 250	 99.07	106	0	R	1	root
 250	 99.07	106	0	R1	131567	  cellular organisms
@@ -1996,119 +2007,92 @@ name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
 251	  0.50	1	0	F	84642	            Aeromonadaceae
 251	  0.50	1	0	G	642	              Aeromonas
 251	  0.50	1	1	S	1636609	                Aeromonas sp. ASNIH4
-255	  0.50	1	1	U	0	unclassified
-255	 99.50	199	8	R	1	root
-255	 95.50	191	0	R1	131567	  cellular organisms
-255	 94.50	189	1	D	2	    Bacteria
-255	 94.00	188	0	P	1224	      Proteobacteria
-255	 94.00	188	3	C	1236	        Gammaproteobacteria
-255	 92.50	185	12	O	91347	          Enterobacterales
-255	 86.50	173	25	F	543	            Enterobacteriaceae
-255	 64.00	128	4	G	544	              Citrobacter
-255	 62.00	124	14	G1	1344959	                Citrobacter freundii complex
-255	 51.50	103	102	S	546	                  Citrobacter freundii
+255	  1.50	3	3	U	0	unclassified
+255	 98.50	197	0	R	1	root
+255	 98.50	197	0	R1	131567	  cellular organisms
+255	 98.50	197	4	D	2	    Bacteria
+255	 96.50	193	1	P	1224	      Proteobacteria
+255	 96.00	192	7	C	1236	        Gammaproteobacteria
+255	 92.50	185	9	O	91347	          Enterobacterales
+255	 88.00	176	21	F	543	            Enterobacteriaceae
+255	 67.00	134	14	G	544	              Citrobacter
+255	 58.50	117	0	G1	1344959	                Citrobacter freundii complex
+255	 58.00	116	108	S	546	                  Citrobacter freundii
+255	  3.50	7	7	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
 255	  0.50	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
-255	  1.50	3	3	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-255	  1.00	2	2	S	67827	                  Citrobacter werkmanii
 255	  0.50	1	1	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-255	  0.50	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
-255	  4.00	8	1	G	570	              Klebsiella
-255	  2.00	4	4	S	571	                Klebsiella oxytoca
-255	  1.00	2	2	S	573	                Klebsiella pneumoniae
-255	  0.50	1	1	S	2026240	                Klebsiella quasivariicola
-255	  3.00	6	0	G	561	              Escherichia
-255	  3.00	6	4	S	562	                Escherichia coli
-255	  0.50	1	1	S1	316401	                  Escherichia coli ETEC H10407
-255	  0.50	1	1	S1	1446746	                  Escherichia coli O6:H16
-255	  1.50	3	0	G	547	              Enterobacter
-255	  1.50	3	1	G1	354276	                Enterobacter cloacae complex
-255	  0.50	1	1	S	550	                  Enterobacter cloacae
-255	  0.50	1	1	S	61645	                  Enterobacter asburiae
-255	  1.50	3	0	G	590	              Salmonella
-255	  1.50	3	0	S	28901	                Salmonella enterica
-255	  1.50	3	0	S1	59201	                  Salmonella enterica subsp. enterica
-255	  1.00	2	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
-255	  1.00	2	2	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+255	  1.00	2	0	G1	2644389	                unclassified Citrobacter
+255	  0.50	1	1	S	2546350	                  Citrobacter sp. LY-1
+255	  0.50	1	1	S	2566012	                  Citrobacter sp. CF971
+255	  0.50	1	1	S	35703	                Citrobacter amalonaticus
+255	  4.00	8	0	G	570	              Klebsiella
+255	  2.50	5	5	S	573	                Klebsiella pneumoniae
+255	  0.50	1	1	S	1463165	                Klebsiella quasipneumoniae
+255	  0.50	1	1	S	2153354	                Klebsiella huaxiensis
+255	  0.50	1	0	G1	2608929	                unclassified Klebsiella
+255	  0.50	1	1	S	1905288	                  Klebsiella sp. LTGPAF-6F
+255	  3.50	7	0	G	547	              Enterobacter
+255	  3.50	7	1	G1	354276	                Enterobacter cloacae complex
+255	  1.50	3	3	S	550	                  Enterobacter cloacae
+255	  1.00	2	2	S	1812935	                  Enterobacter roggenkampii
+255	  0.50	1	1	S	208224	                  Enterobacter kobei
+255	  2.00	4	1	G	561	              Escherichia
+255	  1.50	3	2	S	562	                Escherichia coli
+255	  0.50	1	1	S1	2773705	                  Escherichia coli O18ac:H14
+255	  1.00	2	0	G	590	              Salmonella
+255	  1.00	2	1	S	28901	                Salmonella enterica
+255	  0.50	1	0	S1	59201	                  Salmonella enterica subsp. enterica
 255	  0.50	1	0	S2	913076	                    Salmonella enterica subsp. enterica serovar Johannesburg
 255	  0.50	1	1	S3	1242101	                      Salmonella enterica subsp. enterica serovar Johannesburg str. ST203
-255	  1.00	2	0	D	2759	    Eukaryota
-255	  1.00	2	0	D1	33154	      Opisthokonta
-255	  1.00	2	0	K	33208	        Metazoa
-255	  1.00	2	0	K1	6072	          Eumetazoa
-255	  1.00	2	0	K2	33213	            Bilateria
-255	  1.00	2	0	K3	33511	              Deuterostomia
-255	  1.00	2	0	P	7711	                Chordata
-255	  1.00	2	0	P1	89593	                  Craniata
-255	  1.00	2	0	P2	7742	                    Vertebrata
-255	  1.00	2	0	P3	7776	                      Gnathostomata
-255	  1.00	2	0	P4	117570	                        Teleostomi
-255	  1.00	2	0	P5	117571	                          Euteleostomi
-255	  1.00	2	0	P6	8287	                            Sarcopterygii
-255	  1.00	2	0	P7	1338369	                              Dipnotetrapodomorpha
-255	  1.00	2	0	P8	32523	                                Tetrapoda
-255	  1.00	2	0	P9	32524	                                  Amniota
-255	  1.00	2	0	C	40674	                                    Mammalia
-255	  1.00	2	0	C1	32525	                                      Theria
-255	  1.00	2	0	C2	9347	                                        Eutheria
-255	  1.00	2	0	C3	1437010	                                          Boreoeutheria
-255	  1.00	2	0	C4	314146	                                            Euarchontoglires
-255	  1.00	2	0	O	9443	                                              Primates
-255	  1.00	2	0	O1	376913	                                                Haplorrhini
-255	  1.00	2	0	O2	314293	                                                  Simiiformes
-255	  1.00	2	0	O3	9526	                                                    Catarrhini
-255	  1.00	2	0	O4	314295	                                                      Hominoidea
-255	  1.00	2	0	F	9604	                                                        Hominidae
-255	  1.00	2	0	F1	207598	                                                          Homininae
-255	  1.00	2	0	G	9605	                                                            Homo
-255	  1.00	2	2	S	9606	                                                              Homo sapiens
 259	  0.54	1	1	U	0	unclassified
-259	 99.46	185	2	R	1	root
-259	 98.39	183	0	R1	131567	  cellular organisms
-259	 98.39	183	6	D	2	    Bacteria
-259	 95.16	177	1	P	1224	      Proteobacteria
-259	 94.62	176	4	C	1236	        Gammaproteobacteria
-259	 92.47	172	10	O	91347	          Enterobacterales
-259	 86.02	160	22	F	543	            Enterobacteriaceae
-259	 62.37	116	7	G	544	              Citrobacter
-259	 56.45	105	15	G1	1344959	                Citrobacter freundii complex
-259	 46.24	86	77	S	546	                  Citrobacter freundii
-259	  4.84	9	9	S1	1333848	                    Citrobacter freundii CFNIH1
-259	  1.61	3	3	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-259	  0.54	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
-259	  1.08	2	2	S	35703	                Citrobacter amalonaticus
-259	  1.08	2	2	S	1703250	                Citrobacter sp. CRE-46
-259	  3.23	6	2	G	570	              Klebsiella
-259	  1.61	3	3	S	573	                Klebsiella pneumoniae
+259	 99.46	185	0	R	1	root
+259	 99.46	185	0	R1	131567	  cellular organisms
+259	 99.46	185	5	D	2	    Bacteria
+259	 96.77	180	2	P	1224	      Proteobacteria
+259	 95.70	178	8	C	1236	        Gammaproteobacteria
+259	 91.40	170	4	O	91347	          Enterobacterales
+259	 88.71	165	27	F	543	            Enterobacteriaceae
+259	 59.14	110	20	G	544	              Citrobacter
+259	 45.16	84	1	G1	1344959	                Citrobacter freundii complex
+259	 44.09	82	68	S	546	                  Citrobacter freundii
+259	  4.84	9	9	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
+259	  2.69	5	5	S1	1333848	                    Citrobacter freundii CFNIH1
+259	  0.54	1	1	S	57706	                  Citrobacter braakii
+259	  1.61	3	2	S	35703	                Citrobacter amalonaticus
+259	  0.54	1	1	S1	1261127	                  Citrobacter amalonaticus Y19
+259	  1.61	3	0	G1	2644389	                unclassified Citrobacter
+259	  0.54	1	1	S	1920110	                  Citrobacter sp. CFNIH10
+259	  0.54	1	1	S	2742653	                  Citrobacter sp. RHBSTW-00524
+259	  0.54	1	1	S	2742670	                  Citrobacter sp. RHBSTW-00903
+259	  8.06	15	0	G	570	              Klebsiella
+259	  5.91	11	11	S	573	                Klebsiella pneumoniae
 259	  0.54	1	1	S	571	                Klebsiella oxytoca
-259	  2.69	5	0	G	561	              Escherichia
-259	  2.69	5	3	S	562	                Escherichia coli
-259	  0.54	1	1	S1	1358422	                  Escherichia coli PCN061
-259	  0.54	1	1	S1	585397	                  Escherichia coli ED1a
-259	  2.15	4	0	G	547	              Enterobacter
-259	  1.61	3	0	G1	354276	                Enterobacter cloacae complex
-259	  1.08	2	2	S	550	                  Enterobacter cloacae
-259	  0.54	1	0	S	158836	                  Enterobacter hormaechei
+259	  0.54	1	1	S	2058152	                Klebsiella grimontii
+259	  0.54	1	1	S	2153354	                Klebsiella huaxiensis
+259	  0.54	1	0	G1	2608929	                unclassified Klebsiella
+259	  0.54	1	1	S	1905288	                  Klebsiella sp. LTGPAF-6F
+259	  4.30	8	0	G	547	              Enterobacter
+259	  3.76	7	0	G1	354276	                Enterobacter cloacae complex
+259	  3.23	6	4	S	158836	                  Enterobacter hormaechei
+259	  0.54	1	1	S1	299766	                    Enterobacter hormaechei subsp. steigerwaltii
 259	  0.54	1	1	S1	1812934	                    Enterobacter hormaechei subsp. hoffmannii
-259	  0.54	1	1	S	1692238	                Enterobacter sp. FY-07
-259	  2.15	4	0	G	590	              Salmonella
-259	  2.15	4	0	S	28901	                Salmonella enterica
-259	  2.15	4	0	S1	59201	                  Salmonella enterica subsp. enterica
-259	  0.54	1	1	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+259	  0.54	1	1	S	1812935	                  Enterobacter roggenkampii
+259	  0.54	1	0	G1	2608935	                unclassified Enterobacter
+259	  0.54	1	1	S	2742639	                  Enterobacter sp. RHBSTW-00175
+259	  1.61	3	0	G	590	              Salmonella
+259	  1.61	3	1	S	28901	                Salmonella enterica
+259	  1.08	2	0	S1	59201	                  Salmonella enterica subsp. enterica
 259	  0.54	1	0	S2	82689	                    Salmonella enterica subsp. enterica serovar Muenster
 259	  0.54	1	1	S3	1124958	                      Salmonella enterica subsp. enterica serovar Muenster str. 0315
-259	  0.54	1	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
-259	  0.54	1	0	S2	1242079	                    Salmonella enterica subsp. enterica serovar Apapa
-259	  0.54	1	1	S3	1242088	                      Salmonella enterica subsp. enterica serovar Apapa str. SA20060561
-259	  1.08	2	0	G	160674	              Raoultella
-259	  1.08	2	2	S	54291	                Raoultella ornithinolytica
-259	  0.54	1	0	G	413496	              Cronobacter
-259	  0.54	1	1	S	28141	                Cronobacter sakazakii
+259	  0.54	1	0	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+259	  0.54	1	1	S3	1620419	                      Salmonella enterica subsp. enterica serovar Typhimurium var. 5-
+259	  0.54	1	0	G	561	              Escherichia
+259	  0.54	1	1	S	562	                Escherichia coli
+259	  0.54	1	0	G	160674	              Raoultella
+259	  0.54	1	1	S	1259973	                Raoultella electrica
 259	  0.54	1	0	F	1903410	            Pectobacteriaceae
 259	  0.54	1	0	G	122277	              Pectobacterium
 259	  0.54	1	1	S	29471	                Pectobacterium atrosepticum
-259	  0.54	1	0	F	1903411	            Yersiniaceae
-259	  0.54	1	0	G	629	              Yersinia
-259	  0.54	1	1	S	419257	                Yersinia massiliensis
 278	 10.89	22	22	U	0	unclassified
 278	 89.11	180	4	R	1	root
 278	 87.13	176	0	R1	131567	  cellular organisms
@@ -2719,87 +2703,56 @@ name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
 674	  0.51	1	0	F1	207598	                                                          Homininae
 674	  0.51	1	0	G	9605	                                                            Homo
 674	  0.51	1	1	S	9606	                                                              Homo sapiens
-677	  0.58	1	1	U	0	unclassified
-677	 99.42	172	3	R	1	root
-677	 97.69	169	0	R1	131567	  cellular organisms
-677	 96.53	167	3	D	2	    Bacteria
-677	 94.80	164	4	P	1224	      Proteobacteria
-677	 92.49	160	11	C	1236	        Gammaproteobacteria
-677	 85.55	148	7	O	91347	          Enterobacterales
-677	 80.92	140	17	F	543	            Enterobacteriaceae
-677	 47.40	82	2	G	544	              Citrobacter
-677	 44.51	77	8	G1	1344959	                Citrobacter freundii complex
-677	 19.08	33	33	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-677	 13.87	24	24	S	57706	                  Citrobacter braakii
-677	  4.05	7	6	S	546	                  Citrobacter freundii
-677	  0.58	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
-677	  2.31	4	4	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-677	  0.58	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
-677	  1.16	2	2	S	67824	                Citrobacter farmeri
-677	  0.58	1	0	S	545	                Citrobacter koseri
-677	  0.58	1	1	S1	290338	                  Citrobacter koseri ATCC BAA-895
-677	 17.34	30	10	G	570	              Klebsiella
-677	  9.83	17	14	S	573	                Klebsiella pneumoniae
+677	  1.16	2	2	U	0	unclassified
+677	 98.84	171	0	R	1	root
+677	 98.84	171	0	R1	131567	  cellular organisms
+677	 98.84	171	5	D	2	    Bacteria
+677	 95.95	166	5	P	1224	      Proteobacteria
+677	 93.06	161	7	C	1236	        Gammaproteobacteria
+677	 88.44	153	5	O	91347	          Enterobacterales
+677	 85.55	148	28	F	543	            Enterobacteriaceae
+677	 47.40	82	15	G	544	              Citrobacter
+677	 32.95	57	2	G1	2644389	                unclassified Citrobacter
+677	 30.06	52	52	S	2742678	                  Citrobacter sp. RHBSTW-01044
+677	  0.58	1	1	S	2716879	                  Citrobacter sp. Y3
+677	  0.58	1	1	S	184912	                  Citrobacter sp. TSA-1
+677	  0.58	1	1	S	2742638	                  Citrobacter sp. RHBSTW-00137
+677	  5.20	9	0	G1	1344959	                Citrobacter freundii complex
+677	  4.62	8	8	S	546	                  Citrobacter freundii
+677	  0.58	1	1	S	1639133	                  Citrobacter portucalensis
+677	  0.58	1	0	S	35703	                Citrobacter amalonaticus
+677	  0.58	1	1	S1	1261127	                  Citrobacter amalonaticus Y19
+677	 15.03	26	5	G	570	              Klebsiella
+677	  8.67	15	13	S	573	                Klebsiella pneumoniae
 677	  1.16	2	2	S1	72407	                  Klebsiella pneumoniae subsp. pneumoniae
-677	  0.58	1	1	S1	507522	                  Klebsiella pneumoniae 342
-677	  1.16	2	2	S	571	                Klebsiella oxytoca
+677	  1.16	2	2	S	1134687	                Klebsiella michiganensis
 677	  0.58	1	1	S	244366	                Klebsiella variicola
-677	  2.31	4	0	G	590	              Salmonella
-677	  2.31	4	0	S	28901	                Salmonella enterica
-677	  1.16	2	0	S1	59201	                  Salmonella enterica subsp. enterica
-677	  0.58	1	1	S2	192953	                    Salmonella enterica subsp. enterica serovar Stanley
-677	  0.58	1	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
-677	  0.58	1	1	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
-677	  1.16	2	0	S1	59203	                  Salmonella enterica subsp. arizonae
-677	  1.16	2	2	S2	41514	                    Salmonella enterica subsp. arizonae serovar 62:z4,z23:-
-677	  1.73	3	0	G	547	              Enterobacter
-677	  1.73	3	0	G1	354276	                Enterobacter cloacae complex
-677	  1.16	2	2	S	1915310	                  Enterobacter cloacae complex sp. ECNIH7
-677	  0.58	1	1	S	550	                  Enterobacter cloacae
-677	  1.73	3	0	G	561	              Escherichia
-677	  1.73	3	1	S	562	                Escherichia coli
-677	  0.58	1	0	S1	498388	                  Escherichia coli C
-677	  0.58	1	1	S2	481805	                    Escherichia coli ATCC 8739
-677	  0.58	1	1	S1	1358422	                  Escherichia coli PCN061
-677	  0.58	1	0	G	620	              Shigella
-677	  0.58	1	0	S	622	                Shigella dysenteriae
-677	  0.58	1	1	S1	300267	                  Shigella dysenteriae Sd197
-677	  0.58	1	0	F	1903412	            Hafniaceae
-677	  0.58	1	0	G	635	              Edwardsiella
-677	  0.58	1	1	S	1263550	                Edwardsiella piscicida
-677	  0.58	1	0	O	72274	          Pseudomonadales
-677	  0.58	1	0	F	135621	            Pseudomonadaceae
-677	  0.58	1	1	G	286	              Pseudomonas
-677	  1.16	2	0	D	2759	    Eukaryota
-677	  1.16	2	0	D1	33154	      Opisthokonta
-677	  1.16	2	0	K	33208	        Metazoa
-677	  1.16	2	0	K1	6072	          Eumetazoa
-677	  1.16	2	0	K2	33213	            Bilateria
-677	  1.16	2	0	K3	33511	              Deuterostomia
-677	  1.16	2	0	P	7711	                Chordata
-677	  1.16	2	0	P1	89593	                  Craniata
-677	  1.16	2	0	P2	7742	                    Vertebrata
-677	  1.16	2	0	P3	7776	                      Gnathostomata
-677	  1.16	2	0	P4	117570	                        Teleostomi
-677	  1.16	2	0	P5	117571	                          Euteleostomi
-677	  1.16	2	0	P6	8287	                            Sarcopterygii
-677	  1.16	2	0	P7	1338369	                              Dipnotetrapodomorpha
-677	  1.16	2	0	P8	32523	                                Tetrapoda
-677	  1.16	2	0	P9	32524	                                  Amniota
-677	  1.16	2	0	C	40674	                                    Mammalia
-677	  1.16	2	0	C1	32525	                                      Theria
-677	  1.16	2	0	C2	9347	                                        Eutheria
-677	  1.16	2	0	C3	1437010	                                          Boreoeutheria
-677	  1.16	2	0	C4	314146	                                            Euarchontoglires
-677	  1.16	2	0	O	9443	                                              Primates
-677	  1.16	2	0	O1	376913	                                                Haplorrhini
-677	  1.16	2	0	O2	314293	                                                  Simiiformes
-677	  1.16	2	0	O3	9526	                                                    Catarrhini
-677	  1.16	2	0	O4	314295	                                                      Hominoidea
-677	  1.16	2	0	F	9604	                                                        Hominidae
-677	  1.16	2	0	F1	207598	                                                          Homininae
-677	  1.16	2	0	G	9605	                                                            Homo
-677	  1.16	2	2	S	9606	                                                              Homo sapiens
+677	  0.58	1	1	S	1463165	                Klebsiella quasipneumoniae
+677	  0.58	1	1	S	2058152	                Klebsiella grimontii
+677	  0.58	1	1	S	2153354	                Klebsiella huaxiensis
+677	  2.89	5	0	G	547	              Enterobacter
+677	  2.31	4	0	G1	354276	                Enterobacter cloacae complex
+677	  1.16	2	2	S	158836	                  Enterobacter hormaechei
+677	  0.58	1	1	S	208224	                  Enterobacter kobei
+677	  0.58	1	0	G2	2757714	                  unclassified Enterobacter cloacae complex
+677	  0.58	1	1	S	1915310	                    Enterobacter cloacae complex sp. ECNIH7
+677	  0.58	1	0	G1	2608935	                unclassified Enterobacter
+677	  0.58	1	1	S	2596949	                  Enterobacter sp. E76
+677	  2.31	4	0	G	561	              Escherichia
+677	  2.31	4	4	S	562	                Escherichia coli
+677	  1.16	2	0	G	590	              Salmonella
+677	  1.16	2	1	S	28901	                Salmonella enterica
+677	  0.58	1	0	S1	59203	                  Salmonella enterica subsp. arizonae
+677	  0.58	1	1	S2	41514	                    Salmonella enterica subsp. arizonae serovar 62:z4,z23:-
+677	  0.58	1	0	F1	191675	              Enterobacteriaceae incertae sedis
+677	  0.58	1	0	F2	84563	                ant, tsetse, mealybug, aphid, etc. endosymbionts
+677	  0.58	1	0	F3	146507	                  aphid secondary symbionts
+677	  0.58	1	0	G	568987	                    Candidatus Hamiltonella
+677	  0.58	1	1	S	138072	                      Candidatus Hamiltonella defensa
+677	  0.58	1	0	O	135624	          Aeromonadales
+677	  0.58	1	0	F	84642	            Aeromonadaceae
+677	  0.58	1	0	G	642	              Aeromonas
+677	  0.58	1	1	S	648	                Aeromonas caviae
 678	 53.57	240	240	U	0	unclassified
 678	 46.43	208	8	R	1	root
 678	 44.64	200	0	R1	131567	  cellular organisms
@@ -3401,7 +3354,8 @@ CP024881	100.00	1	0	O	91347	          Enterobacterales
 CP024881	100.00	1	0	F	543	            Enterobacteriaceae
 CP024881	100.00	1	0	G	544	              Citrobacter
 CP024881	100.00	1	0	G1	1344959	                Citrobacter freundii complex
-CP024881	100.00	1	1	S	546	                  Citrobacter freundii
+CP024881	100.00	1	0	S	546	                  Citrobacter freundii
+CP024881	100.00	1	1	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
 CP024898	100.00	1	0	R	1	root
 CP024898	100.00	1	0	R1	131567	  cellular organisms
 CP024898	100.00	1	0	D	2	    Bacteria
@@ -3517,7 +3471,7 @@ CP042517	100.00	1	0	F	543	            Enterobacteriaceae
 CP042517	100.00	1	0	G	544	              Citrobacter
 CP042517	100.00	1	0	G1	1344959	                Citrobacter freundii complex
 CP042517	100.00	1	0	S	546	                  Citrobacter freundii
-CP042517	100.00	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
+CP042517	100.00	1	1	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
 CP042524	100.00	1	0	R	1	root
 CP042524	100.00	1	0	R1	131567	  cellular organisms
 CP042524	100.00	1	0	D	2	    Bacteria
@@ -3528,7 +3482,7 @@ CP042524	100.00	1	0	F	543	            Enterobacteriaceae
 CP042524	100.00	1	0	G	544	              Citrobacter
 CP042524	100.00	1	0	G1	1344959	                Citrobacter freundii complex
 CP042524	100.00	1	0	S	546	                  Citrobacter freundii
-CP042524	100.00	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
+CP042524	100.00	1	1	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
 CP042534	100.00	1	0	R	1	root
 CP042534	100.00	1	0	R1	131567	  cellular organisms
 CP042534	100.00	1	0	D	2	    Bacteria
@@ -4335,6 +4289,139 @@ DB_5_F12	  0.31	1	0	F	9604	                                                     
 DB_5_F12	  0.31	1	0	F1	207598	                                                          Homininae
 DB_5_F12	  0.31	1	0	G	9605	                                                            Homo
 DB_5_F12	  0.31	1	1	S	9606	                                                              Homo sapiens
+GCF_014332835	100.00	64	0	R	1	root
+GCF_014332835	100.00	64	0	R1	131567	  cellular organisms
+GCF_014332835	100.00	64	0	D	2	    Bacteria
+GCF_014332835	100.00	64	0	P	1224	      Proteobacteria
+GCF_014332835	100.00	64	0	C	1236	        Gammaproteobacteria
+GCF_014332835	100.00	64	0	O	91347	          Enterobacterales
+GCF_014332835	 98.44	63	2	F	543	            Enterobacteriaceae
+GCF_014332835	 53.12	34	4	G	544	              Citrobacter
+GCF_014332835	 42.19	27	0	G1	1344959	                Citrobacter freundii complex
+GCF_014332835	 39.06	25	7	S	546	                  Citrobacter freundii
+GCF_014332835	 20.31	13	13	S1	1333848	                    Citrobacter freundii CFNIH1
+GCF_014332835	  7.81	5	5	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
+GCF_014332835	  1.56	1	1	S	133448	                  Citrobacter youngae
+GCF_014332835	  1.56	1	1	S	2066049	                  Citrobacter freundii complex sp. CFNIH2
+GCF_014332835	  4.69	3	0	G1	2644389	                unclassified Citrobacter
+GCF_014332835	  3.12	2	2	S	184912	                  Citrobacter sp. TSA-1
+GCF_014332835	  1.56	1	1	S	1703250	                  Citrobacter sp. CRE-46
+GCF_014332835	 25.00	16	0	G	590	              Salmonella
+GCF_014332835	 25.00	16	1	S	28901	                Salmonella enterica
+GCF_014332835	 23.44	15	0	S1	59201	                  Salmonella enterica subsp. enterica
+GCF_014332835	  7.81	5	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+GCF_014332835	  7.81	5	5	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+GCF_014332835	  4.69	3	3	S2	46626	                    Salmonella enterica subsp. enterica serovar Give
+GCF_014332835	  4.69	3	0	S2	1243583	                    Salmonella enterica subsp. enterica serovar Onderstepoort
+GCF_014332835	  4.69	3	3	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+GCF_014332835	  1.56	1	1	S2	70803	                    Salmonella enterica subsp. enterica serovar Minnesota
+GCF_014332835	  1.56	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+GCF_014332835	  1.56	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+GCF_014332835	  1.56	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+GCF_014332835	  1.56	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+GCF_014332835	  1.56	1	0	S2	598	                    Salmonella enterica subsp. enterica serovar Rubislaw
+GCF_014332835	  1.56	1	1	S3	938143	                      Salmonella enterica subsp. enterica serovar Rubislaw str. ATCC 10717
+GCF_014332835	  7.81	5	1	G	570	              Klebsiella
+GCF_014332835	  3.12	2	1	S	573	                Klebsiella pneumoniae
+GCF_014332835	  1.56	1	0	S1	39831	                  Klebsiella pneumoniae subsp. rhinoscleromatis
+GCF_014332835	  1.56	1	1	S2	861365	                    Klebsiella pneumoniae subsp. rhinoscleromatis SB3432
+GCF_014332835	  3.12	2	2	S	244366	                Klebsiella variicola
+GCF_014332835	  4.69	3	0	G	547	              Enterobacter
+GCF_014332835	  4.69	3	0	G1	354276	                Enterobacter cloacae complex
+GCF_014332835	  3.12	2	2	S	550	                  Enterobacter cloacae
+GCF_014332835	  1.56	1	1	S	61645	                  Enterobacter asburiae
+GCF_014332835	  1.56	1	0	G	561	              Escherichia
+GCF_014332835	  1.56	1	1	S	562	                Escherichia coli
+GCF_014332835	  1.56	1	0	G	1335483	              Shimwellia
+GCF_014332835	  1.56	1	1	S	563	                Shimwellia blattae
+GCF_014332835	  1.56	1	0	G	1330547	              Kosakonia
+GCF_014332835	  1.56	1	1	S	208223	                Kosakonia cowanii
+GCF_014332835	  1.56	1	0	F	1903410	            Pectobacteriaceae
+GCF_014332835	  1.56	1	0	G	204037	              Dickeya
+GCF_014332835	  1.56	1	1	S	204038	                Dickeya dadantii
+GCF_014332855	  2.00	1	1	U	0	unclassified
+GCF_014332855	 98.00	49	0	R	1	root
+GCF_014332855	 98.00	49	0	R1	131567	  cellular organisms
+GCF_014332855	 98.00	49	0	D	2	    Bacteria
+GCF_014332855	 98.00	49	0	P	1224	      Proteobacteria
+GCF_014332855	 98.00	49	0	C	1236	        Gammaproteobacteria
+GCF_014332855	 98.00	49	0	O	91347	          Enterobacterales
+GCF_014332855	 96.00	48	0	F	543	            Enterobacteriaceae
+GCF_014332855	 52.00	26	1	G	544	              Citrobacter
+GCF_014332855	 48.00	24	0	G1	1344959	                Citrobacter freundii complex
+GCF_014332855	 46.00	23	4	S	546	                  Citrobacter freundii
+GCF_014332855	 38.00	19	19	S1	1333848	                    Citrobacter freundii CFNIH1
+GCF_014332855	  2.00	1	1	S	2066049	                  Citrobacter freundii complex sp. CFNIH2
+GCF_014332855	  2.00	1	1	S	1702170	                Citrobacter sp. FDAARGOS_156
+GCF_014332855	 26.00	13	0	G	590	              Salmonella
+GCF_014332855	 26.00	13	3	S	28901	                Salmonella enterica
+GCF_014332855	 20.00	10	0	S1	59201	                  Salmonella enterica subsp. enterica
+GCF_014332855	  6.00	3	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+GCF_014332855	  6.00	3	3	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+GCF_014332855	  6.00	3	3	S2	46626	                    Salmonella enterica subsp. enterica serovar Give
+GCF_014332855	  4.00	2	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+GCF_014332855	  4.00	2	2	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+GCF_014332855	  2.00	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+GCF_014332855	  2.00	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+GCF_014332855	  2.00	1	0	S2	598	                    Salmonella enterica subsp. enterica serovar Rubislaw
+GCF_014332855	  2.00	1	1	S3	938143	                      Salmonella enterica subsp. enterica serovar Rubislaw str. ATCC 10717
+GCF_014332855	 10.00	5	2	G	570	              Klebsiella
+GCF_014332855	  2.00	1	1	S	571	                Klebsiella oxytoca
+GCF_014332855	  2.00	1	1	S	573	                Klebsiella pneumoniae
+GCF_014332855	  2.00	1	0	S	1463165	                Klebsiella quasipneumoniae
+GCF_014332855	  2.00	1	1	S1	1667327	                  Klebsiella quasipneumoniae subsp. quasipneumoniae
+GCF_014332855	  2.00	1	0	G	547	              Enterobacter
+GCF_014332855	  2.00	1	0	G1	354276	                Enterobacter cloacae complex
+GCF_014332855	  2.00	1	1	S	550	                  Enterobacter cloacae
+GCF_014332855	  2.00	1	0	G	561	              Escherichia
+GCF_014332855	  2.00	1	1	S	562	                Escherichia coli
+GCF_014332855	  2.00	1	0	G	1335483	              Shimwellia
+GCF_014332855	  2.00	1	0	S	563	                Shimwellia blattae
+GCF_014332855	  2.00	1	1	S1	630626	                  Shimwellia blattae DSM 4481 = NBRC 105725
+GCF_014332855	  2.00	1	0	G	1330546	              Pluralibacter
+GCF_014332855	  2.00	1	1	S	1334193	                [Enterobacter] lignolyticus
+GCF_014332855	  2.00	1	0	F	1903410	            Pectobacteriaceae
+GCF_014332855	  2.00	1	0	G	204037	              Dickeya
+GCF_014332855	  2.00	1	0	S	204038	                Dickeya dadantii
+GCF_014332855	  2.00	1	1	S1	198628	                  Dickeya dadantii 3937
+GCF_014332945	 35.56	16	16	U	0	unclassified
+GCF_014332945	 64.44	29	0	R	1	root
+GCF_014332945	 64.44	29	0	R1	131567	  cellular organisms
+GCF_014332945	 64.44	29	0	D	2	    Bacteria
+GCF_014332945	 64.44	29	0	P	1224	      Proteobacteria
+GCF_014332945	 64.44	29	0	C	1236	        Gammaproteobacteria
+GCF_014332945	 64.44	29	0	O	91347	          Enterobacterales
+GCF_014332945	 57.78	26	1	F	543	            Enterobacteriaceae
+GCF_014332945	 40.00	18	1	G	544	              Citrobacter
+GCF_014332945	 35.56	16	0	G1	1344959	                Citrobacter freundii complex
+GCF_014332945	 33.33	15	5	S	546	                  Citrobacter freundii
+GCF_014332945	 22.22	10	10	S1	1333848	                    Citrobacter freundii CFNIH1
+GCF_014332945	  2.22	1	1	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
+GCF_014332945	  2.22	1	1	S	1702170	                Citrobacter sp. FDAARGOS_156
+GCF_014332945	 11.11	5	0	G	590	              Salmonella
+GCF_014332945	 11.11	5	1	S	28901	                Salmonella enterica
+GCF_014332945	  8.89	4	0	S1	59201	                  Salmonella enterica subsp. enterica
+GCF_014332945	  2.22	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+GCF_014332945	  2.22	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+GCF_014332945	  2.22	1	0	S2	913074	                    Salmonella enterica subsp. enterica serovar Inverness
+GCF_014332945	  2.22	1	1	S3	941187	                      Salmonella enterica subsp. enterica serovar Inverness str. ATCC 10720
+GCF_014332945	  2.22	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+GCF_014332945	  2.22	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+GCF_014332945	  2.22	1	1	S2	46626	                    Salmonella enterica subsp. enterica serovar Give
+GCF_014332945	  2.22	1	0	G	561	              Escherichia
+GCF_014332945	  2.22	1	0	S	562	                Escherichia coli
+GCF_014332945	  2.22	1	1	S1	941323	                  Escherichia coli VR50
+GCF_014332945	  2.22	1	1	G	570	              Klebsiella
+GCF_014332945	  2.22	1	0	F	1903409	            Erwiniaceae
+GCF_014332945	  2.22	1	0	G	53335	              Pantoea
+GCF_014332945	  2.22	1	1	S	1484158	                Pantoea sp. PSNIH1
+GCF_014332945	  2.22	1	0	F	1903410	            Pectobacteriaceae
+GCF_014332945	  2.22	1	0	G	204037	              Dickeya
+GCF_014332945	  2.22	1	0	S	556	                Dickeya chrysanthemi
+GCF_014332945	  2.22	1	1	S1	1223569	                  Dickeya chrysanthemi NCPPB 402
+GCF_014332945	  2.22	1	0	F	1903411	            Yersiniaceae
+GCF_014332945	  2.22	1	0	G	613	              Serratia
+GCF_014332945	  2.22	1	1	S	47917	                Serratia fonticola
 JAACNV01	  3.12	2	2	U	0	unclassified
 JAACNV01	 96.88	62	0	R	1	root
 JAACNV01	 96.88	62	0	R1	131567	  cellular organisms
@@ -4617,66 +4704,72 @@ NZ_LR699006	100.00	1	0	G	544	              Citrobacter
 NZ_LR699006	100.00	1	0	G1	1344959	                Citrobacter freundii complex
 NZ_LR699006	100.00	1	0	S	546	                  Citrobacter freundii
 NZ_LR699006	100.00	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
-NZ_LR890181	  1.70	78	78	U	0	unclassified
-NZ_LR890181	 98.30	4519	1	R	1	root
-NZ_LR890181	 98.28	4518	0	R1	131567	  cellular organisms
-NZ_LR890181	 98.28	4518	0	D	2	    Bacteria
-NZ_LR890181	 98.28	4518	0	P	1224	      Proteobacteria
-NZ_LR890181	 98.28	4518	0	C	1236	        Gammaproteobacteria
-NZ_LR890181	 98.28	4518	7	O	91347	          Enterobacterales
-NZ_LR890181	 98.04	4507	47	F	543	            Enterobacteriaceae
-NZ_LR890181	 96.02	4414	57	G	544	              Citrobacter
-NZ_LR890181	 94.74	4355	802	G1	1344959	                Citrobacter freundii complex
-NZ_LR890181	 76.46	3515	3507	S	546	                  Citrobacter freundii
-NZ_LR890181	  0.17	8	8	S1	1333848	                    Citrobacter freundii CFNIH1
-NZ_LR890181	  0.26	12	12	S	67827	                  Citrobacter werkmanii
-NZ_LR890181	  0.26	12	12	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
-NZ_LR890181	  0.11	5	5	S	57706	                  Citrobacter braakii
-NZ_LR890181	  0.09	4	4	S	133448	                  Citrobacter youngae
-NZ_LR890181	  0.09	4	4	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-NZ_LR890181	  0.02	1	1	S	2066049	                  Citrobacter freundii complex sp. CFNIH2
-NZ_LR890181	  0.04	2	2	S	1702170	                Citrobacter sp. FDAARGOS_156
-NZ_LR890181	  0.41	19	0	G	561	              Escherichia
-NZ_LR890181	  0.41	19	12	S	562	                Escherichia coli
-NZ_LR890181	  0.15	7	7	S1	585056	                  Escherichia coli UMN026
-NZ_LR890181	  0.30	14	0	G	590	              Salmonella
-NZ_LR890181	  0.30	14	4	S	28901	                Salmonella enterica
-NZ_LR890181	  0.22	10	2	S1	59201	                  Salmonella enterica subsp. enterica
-NZ_LR890181	  0.04	2	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
-NZ_LR890181	  0.02	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
-NZ_LR890181	  0.04	2	0	S2	1242080	                    Salmonella enterica subsp. enterica serovar Djakarta
-NZ_LR890181	  0.04	2	2	S3	1242091	                      Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+NZ_LR890181	  0.41	19	19	U	0	unclassified
+NZ_LR890181	 99.59	4578	0	R	1	root
+NZ_LR890181	 99.59	4578	0	R1	131567	  cellular organisms
+NZ_LR890181	 99.59	4578	0	D	2	    Bacteria
+NZ_LR890181	 99.59	4578	0	P	1224	      Proteobacteria
+NZ_LR890181	 99.59	4578	0	C	1236	        Gammaproteobacteria
+NZ_LR890181	 99.59	4578	0	O	91347	          Enterobacterales
+NZ_LR890181	 99.56	4577	56	F	543	            Enterobacteriaceae
+NZ_LR890181	 97.59	4486	1286	G	544	              Citrobacter
+NZ_LR890181	 68.57	3152	339	G1	1344959	                Citrobacter freundii complex
+NZ_LR890181	 60.67	2789	2780	S	546	                  Citrobacter freundii
+NZ_LR890181	  0.20	9	9	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
+NZ_LR890181	  0.20	9	9	S	1639133	                  Citrobacter portucalensis
+NZ_LR890181	  0.17	8	8	S	67827	                  Citrobacter werkmanii
+NZ_LR890181	  0.07	3	3	S	133448	                  Citrobacter youngae
+NZ_LR890181	  0.04	2	2	S	57706	                  Citrobacter braakii
+NZ_LR890181	  0.02	1	1	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
+NZ_LR890181	  0.02	1	1	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
+NZ_LR890181	  0.98	45	7	G1	2644389	                unclassified Citrobacter
+NZ_LR890181	  0.33	15	15	S	2546350	                  Citrobacter sp. LY-1
+NZ_LR890181	  0.17	8	8	S	2742657	                  Citrobacter sp. RHBSTW-00599
+NZ_LR890181	  0.09	4	4	S	2566012	                  Citrobacter sp. CF971
+NZ_LR890181	  0.09	4	4	S	2742668	                  Citrobacter sp. RHBSTW-00887
+NZ_LR890181	  0.02	1	1	S	2742624	                  Citrobacter sp. RHB25-C09
+NZ_LR890181	  0.02	1	1	S	2742677	                  Citrobacter sp. RHBSTW-01013
+NZ_LR890181	  0.02	1	1	S	184912	                  Citrobacter sp. TSA-1
+NZ_LR890181	  0.02	1	1	S	2562449	                  Citrobacter sp. SNU WT2
+NZ_LR890181	  0.02	1	1	S	2742653	                  Citrobacter sp. RHBSTW-00524
+NZ_LR890181	  0.02	1	1	S	2742655	                  Citrobacter sp. RHBSTW-00570
+NZ_LR890181	  0.02	1	1	S	2742667	                  Citrobacter sp. RHBSTW-00881
+NZ_LR890181	  0.02	1	1	S	545	                Citrobacter koseri
+NZ_LR890181	  0.02	1	0	S	67825	                Citrobacter rodentium
+NZ_LR890181	  0.02	1	1	S1	637910	                  Citrobacter rodentium ICC168
+NZ_LR890181	  0.02	1	1	S	1563222	                Citrobacter pasteurii
+NZ_LR890181	  0.30	14	1	G	547	              Enterobacter
+NZ_LR890181	  0.22	10	1	G1	354276	                Enterobacter cloacae complex
+NZ_LR890181	  0.15	7	6	S	158836	                  Enterobacter hormaechei
+NZ_LR890181	  0.02	1	1	S1	299766	                    Enterobacter hormaechei subsp. steigerwaltii
+NZ_LR890181	  0.02	1	1	S	61645	                  Enterobacter asburiae
+NZ_LR890181	  0.02	1	1	S	1812935	                  Enterobacter roggenkampii
+NZ_LR890181	  0.04	2	0	G1	2608935	                unclassified Enterobacter
+NZ_LR890181	  0.04	2	2	S	2742639	                  Enterobacter sp. RHBSTW-00175
+NZ_LR890181	  0.02	1	1	S	539813	                Enterobacter mori
+NZ_LR890181	  0.22	10	0	G	590	              Salmonella
+NZ_LR890181	  0.22	10	2	S	28901	                Salmonella enterica
+NZ_LR890181	  0.17	8	0	S1	59201	                  Salmonella enterica subsp. enterica
+NZ_LR890181	  0.07	3	3	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
 NZ_LR890181	  0.02	1	0	S2	913076	                    Salmonella enterica subsp. enterica serovar Johannesburg
 NZ_LR890181	  0.02	1	1	S3	1242101	                      Salmonella enterica subsp. enterica serovar Johannesburg str. ST203
-NZ_LR890181	  0.02	1	1	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
-NZ_LR890181	  0.02	1	1	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
-NZ_LR890181	  0.02	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
-NZ_LR890181	  0.02	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
-NZ_LR890181	  0.22	10	0	G	547	              Enterobacter
-NZ_LR890181	  0.22	10	4	G1	354276	                Enterobacter cloacae complex
-NZ_LR890181	  0.07	3	1	S	158836	                  Enterobacter hormaechei
-NZ_LR890181	  0.02	1	1	S1	301102	                    Enterobacter hormaechei subsp. oharae
-NZ_LR890181	  0.02	1	1	S1	1296536	                    Enterobacter hormaechei subsp. xiangfangensis
-NZ_LR890181	  0.04	2	2	S	550	                  Enterobacter cloacae
-NZ_LR890181	  0.02	1	1	S	208224	                  Enterobacter kobei
-NZ_LR890181	  0.02	1	0	F1	191675	              unclassified Enterobacteriaceae
-NZ_LR890181	  0.02	1	1	F2	36866	                unclassified Enterobacteriaceae (miscellaneous)
-NZ_LR890181	  0.02	1	0	G	579	              Kluyvera
-NZ_LR890181	  0.02	1	1	S	61648	                Kluyvera intermedia
+NZ_LR890181	  0.02	1	0	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+NZ_LR890181	  0.02	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+NZ_LR890181	  0.02	1	1	S2	57741	                    Salmonella enterica subsp. enterica serovar Blockley
+NZ_LR890181	  0.02	1	0	S2	1242080	                    Salmonella enterica subsp. enterica serovar Djakarta
+NZ_LR890181	  0.02	1	1	S3	1242091	                      Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+NZ_LR890181	  0.02	1	1	S2	28150	                    Salmonella enterica subsp. enterica serovar Senftenberg
+NZ_LR890181	  0.13	6	0	G	561	              Escherichia
+NZ_LR890181	  0.13	6	1	S	562	                Escherichia coli
+NZ_LR890181	  0.11	5	5	S1	585056	                  Escherichia coli UMN026
+NZ_LR890181	  0.09	4	1	G	83654	              Leclercia
+NZ_LR890181	  0.04	2	2	S	83655	                Leclercia adecarboxylata
+NZ_LR890181	  0.02	1	1	G1	2627398	                unclassified Leclercia
 NZ_LR890181	  0.02	1	0	G	570	              Klebsiella
-NZ_LR890181	  0.02	1	0	S	573	                Klebsiella pneumoniae
-NZ_LR890181	  0.02	1	0	S1	72407	                  Klebsiella pneumoniae subsp. pneumoniae
-NZ_LR890181	  0.02	1	1	S2	1328324	                    Klebsiella pneumoniae subsp. pneumoniae KPNIH27
-NZ_LR890181	  0.04	2	0	F	1903412	            Hafniaceae
-NZ_LR890181	  0.04	2	0	G	82982	              Obesumbacterium
-NZ_LR890181	  0.04	2	2	S	82983	                Obesumbacterium proteus
-NZ_LR890181	  0.02	1	0	F	1903409	            Erwiniaceae
-NZ_LR890181	  0.02	1	0	G	53335	              Pantoea
-NZ_LR890181	  0.02	1	1	S	1484157	                Pantoea sp. PSNIH2
-NZ_LR890181	  0.02	1	0	F	1903410	            Pectobacteriaceae
-NZ_LR890181	  0.02	1	0	G	204037	              Dickeya
-NZ_LR890181	  0.02	1	0	S	204042	                Dickeya zeae
-NZ_LR890181	  0.02	1	1	S1	1224147	                  Dickeya zeae NCPPB 3532
+NZ_LR890181	  0.02	1	1	S	573	                Klebsiella pneumoniae
+NZ_LR890181	  0.02	1	0	F	1903412	            Hafniaceae
+NZ_LR890181	  0.02	1	0	G	635	              Edwardsiella
+NZ_LR890181	  0.02	1	1	S	67780	                Edwardsiella ictaluri
 SD_10_G6	  2.86	1	1	U	0	unclassified
 SD_10_G6	 97.14	34	0	R	1	root
 SD_10_G6	 97.14	34	0	R1	131567	  cellular organisms
@@ -4778,16 +4871,21 @@ SD_5_D4	  8.89	4	0	F1	1977138	        unassigned Inoviridae
 SD_5_D4	  8.89	4	0	S	1977411	          Escherichia virus If1
 SD_5_D4	  8.89	4	4	S1	10868	            Enterobacteria phage If1
 SD_9_A7	  2.78	1	1	U	0	unclassified
-SD_9_A7	 97.22	35	1	R	1	root
-SD_9_A7	 94.44	34	0	R1	131567	  cellular organisms
-SD_9_A7	 94.44	34	0	D	2	    Bacteria
-SD_9_A7	 94.44	34	0	P	1224	      Proteobacteria
-SD_9_A7	 94.44	34	0	C	1236	        Gammaproteobacteria
-SD_9_A7	 94.44	34	5	O	91347	          Enterobacterales
+SD_9_A7	 97.22	35	0	R	1	root
+SD_9_A7	 97.22	35	0	R1	131567	  cellular organisms
+SD_9_A7	 97.22	35	0	D	2	    Bacteria
+SD_9_A7	 97.22	35	0	P	1224	      Proteobacteria
+SD_9_A7	 97.22	35	0	C	1236	        Gammaproteobacteria
+SD_9_A7	 97.22	35	6	O	91347	          Enterobacterales
 SD_9_A7	 80.56	29	6	F	543	            Enterobacteriaceae
-SD_9_A7	 63.89	23	5	G	544	              Citrobacter
-SD_9_A7	 47.22	17	17	S	1702170	                Citrobacter sp. FDAARGOS_156
-SD_9_A7	  2.78	1	1	G1	1344959	                Citrobacter freundii complex
+SD_9_A7	 63.89	23	6	G	544	              Citrobacter
+SD_9_A7	 30.56	11	0	G1	1344959	                Citrobacter freundii complex
+SD_9_A7	 22.22	8	8	S	133448	                  Citrobacter youngae
+SD_9_A7	  8.33	3	1	S	546	                  Citrobacter freundii
+SD_9_A7	  2.78	1	1	S1	1006003	                    Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681
+SD_9_A7	  2.78	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
+SD_9_A7	 16.67	6	0	G1	2644389	                unclassified Citrobacter
+SD_9_A7	 16.67	6	6	S	1702170	                  Citrobacter sp. FDAARGOS_156
 SD_9_B7	100.00	32	0	R	1	root
 SD_9_B7	100.00	32	0	R1	131567	  cellular organisms
 SD_9_B7	100.00	32	0	D	2	    Bacteria
@@ -5061,25 +5159,20 @@ Seagull_18_229_S54	  1.61	1	0	G	590	              Salmonella
 Seagull_18_229_S54	  1.61	1	0	S	28901	                Salmonella enterica
 Seagull_18_229_S54	  1.61	1	0	S1	59201	                  Salmonella enterica subsp. enterica
 Seagull_18_229_S54	  1.61	1	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
-Seagull_18_265_S115	  3.51	2	2	U	0	unclassified
-Seagull_18_265_S115	 96.49	55	0	R	1	root
-Seagull_18_265_S115	 96.49	55	0	R1	131567	  cellular organisms
-Seagull_18_265_S115	 96.49	55	0	D	2	    Bacteria
-Seagull_18_265_S115	 96.49	55	0	P	1224	      Proteobacteria
-Seagull_18_265_S115	 96.49	55	0	C	1236	        Gammaproteobacteria
-Seagull_18_265_S115	 96.49	55	1	O	91347	          Enterobacterales
-Seagull_18_265_S115	 94.74	54	2	F	543	            Enterobacteriaceae
-Seagull_18_265_S115	 87.72	50	1	G	544	              Citrobacter
-Seagull_18_265_S115	 85.96	49	1	G1	1344959	                Citrobacter freundii complex
-Seagull_18_265_S115	 82.46	47	47	S	67827	                  Citrobacter werkmanii
-Seagull_18_265_S115	  1.75	1	1	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
-Seagull_18_265_S115	  1.75	1	0	G	547	              Enterobacter
-Seagull_18_265_S115	  1.75	1	0	G1	354276	                Enterobacter cloacae complex
-Seagull_18_265_S115	  1.75	1	0	S	158836	                  Enterobacter hormaechei
-Seagull_18_265_S115	  1.75	1	1	S1	301105	                    Enterobacter hormaechei subsp. hormaechei
-Seagull_18_265_S115	  1.75	1	0	G	570	              Klebsiella
-Seagull_18_265_S115	  1.75	1	0	S	1463165	                Klebsiella quasipneumoniae
-Seagull_18_265_S115	  1.75	1	1	S1	1667327	                  Klebsiella quasipneumoniae subsp. quasipneumoniae
+Seagull_18_265_S115	100.00	57	0	R	1	root
+Seagull_18_265_S115	100.00	57	0	R1	131567	  cellular organisms
+Seagull_18_265_S115	100.00	57	0	D	2	    Bacteria
+Seagull_18_265_S115	100.00	57	0	P	1224	      Proteobacteria
+Seagull_18_265_S115	100.00	57	0	C	1236	        Gammaproteobacteria
+Seagull_18_265_S115	100.00	57	1	O	91347	          Enterobacterales
+Seagull_18_265_S115	 98.25	56	1	F	543	            Enterobacteriaceae
+Seagull_18_265_S115	 94.74	54	1	G	544	              Citrobacter
+Seagull_18_265_S115	 92.98	53	8	G1	1344959	                Citrobacter freundii complex
+Seagull_18_265_S115	 40.35	23	22	S	546	                  Citrobacter freundii
+Seagull_18_265_S115	  1.75	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
+Seagull_18_265_S115	 36.84	21	21	S	67827	                  Citrobacter werkmanii
+Seagull_18_265_S115	  1.75	1	1	S	2066049	                  Citrobacter freundii complex sp. CFNIH2
+Seagull_18_265_S115	  1.75	1	1	G	570	              Klebsiella
 Seagull_18_42_S4	  8.11	3	3	U	0	unclassified
 Seagull_18_42_S4	 91.89	34	0	R	1	root
 Seagull_18_42_S4	 91.89	34	0	R1	131567	  cellular organisms
@@ -5116,22 +5209,56 @@ Seagull_18_94_S13	  2.04	1	1	U	0	unclassified
 Seagull_18_94_S13	 97.96	48	0	R	1	root
 Seagull_18_94_S13	 97.96	48	0	R1	131567	  cellular organisms
 Seagull_18_94_S13	 97.96	48	0	D	2	    Bacteria
-Seagull_18_94_S13	 97.96	48	0	P	1224	      Proteobacteria
-Seagull_18_94_S13	 97.96	48	0	C	1236	        Gammaproteobacteria
-Seagull_18_94_S13	 97.96	48	0	O	91347	          Enterobacterales
-Seagull_18_94_S13	 97.96	48	3	F	543	            Enterobacteriaceae
-Seagull_18_94_S13	 79.59	39	0	F1	191675	              unclassified Enterobacteriaceae
-Seagull_18_94_S13	 79.59	39	0	F2	36866	                unclassified Enterobacteriaceae (miscellaneous)
-Seagull_18_94_S13	 79.59	39	39	S	693444	                  Enterobacteriaceae bacterium strain FGI 57
-Seagull_18_94_S13	  4.08	2	0	G	561	              Escherichia
-Seagull_18_94_S13	  4.08	2	2	S	562	                Escherichia coli
-Seagull_18_94_S13	  2.04	1	0	G	547	              Enterobacter
-Seagull_18_94_S13	  2.04	1	1	S	1692238	                Enterobacter sp. FY-07
-Seagull_18_94_S13	  2.04	1	0	G	590	              Salmonella
-Seagull_18_94_S13	  2.04	1	1	S	28901	                Salmonella enterica
-Seagull_18_94_S13	  2.04	1	0	G	570	              Klebsiella
-Seagull_18_94_S13	  2.04	1	0	S	573	                Klebsiella pneumoniae
-Seagull_18_94_S13	  2.04	1	1	S1	72407	                  Klebsiella pneumoniae subsp. pneumoniae
-Seagull_18_94_S13	  2.04	1	0	G	544	              Citrobacter
-Seagull_18_94_S13	  2.04	1	0	G1	1344959	                Citrobacter freundii complex
-Seagull_18_94_S13	  2.04	1	1	S	546	                  Citrobacter freundii
+Seagull_18_94_S13	 95.92	47	0	P	1224	      Proteobacteria
+Seagull_18_94_S13	 95.92	47	0	C	1236	        Gammaproteobacteria
+Seagull_18_94_S13	 95.92	47	1	O	91347	          Enterobacterales
+Seagull_18_94_S13	 93.88	46	2	F	543	            Enterobacteriaceae
+Seagull_18_94_S13	 30.61	15	1	G	544	              Citrobacter
+Seagull_18_94_S13	 22.45	11	0	G1	1344959	                Citrobacter freundii complex
+Seagull_18_94_S13	 20.41	10	6	S	546	                  Citrobacter freundii
+Seagull_18_94_S13	  8.16	4	4	S1	1333848	                    Citrobacter freundii CFNIH1
+Seagull_18_94_S13	  2.04	1	1	S	1639133	                  Citrobacter portucalensis
+Seagull_18_94_S13	  2.04	1	0	S	35703	                Citrobacter amalonaticus
+Seagull_18_94_S13	  2.04	1	1	S1	1261127	                  Citrobacter amalonaticus Y19
+Seagull_18_94_S13	  2.04	1	0	S	67825	                Citrobacter rodentium
+Seagull_18_94_S13	  2.04	1	1	S1	637910	                  Citrobacter rodentium ICC168
+Seagull_18_94_S13	  2.04	1	0	G1	2644389	                unclassified Citrobacter
+Seagull_18_94_S13	  2.04	1	1	S	1920110	                  Citrobacter sp. CFNIH10
+Seagull_18_94_S13	 22.45	11	0	G	561	              Escherichia
+Seagull_18_94_S13	 20.41	10	4	S	562	                Escherichia coli
+Seagull_18_94_S13	  4.08	2	2	S1	2773707	                  Escherichia coli O19:H7
+Seagull_18_94_S13	  2.04	1	1	S1	409438	                  Escherichia coli SE11
+Seagull_18_94_S13	  2.04	1	1	S1	2778654	                  Escherichia coli O152:H23
+Seagull_18_94_S13	  2.04	1	1	S1	331112	                  Escherichia coli HS
+Seagull_18_94_S13	  2.04	1	1	S1	340186	                  Escherichia coli E110019
+Seagull_18_94_S13	  2.04	1	1	S	564	                Escherichia fergusonii
+Seagull_18_94_S13	 20.41	10	0	G	547	              Enterobacter
+Seagull_18_94_S13	 18.37	9	1	G1	354276	                Enterobacter cloacae complex
+Seagull_18_94_S13	 12.24	6	1	S	550	                  Enterobacter cloacae
+Seagull_18_94_S13	 10.20	5	0	S1	69219	                    Enterobacter cloacae subsp. dissolvens
+Seagull_18_94_S13	 10.20	5	5	S2	1104326	                      Enterobacter cloacae subsp. dissolvens SDM
+Seagull_18_94_S13	  4.08	2	0	S	158836	                  Enterobacter hormaechei
+Seagull_18_94_S13	  2.04	1	1	S1	299766	                    Enterobacter hormaechei subsp. steigerwaltii
+Seagull_18_94_S13	  2.04	1	1	S1	1296536	                    Enterobacter hormaechei subsp. xiangfangensis
+Seagull_18_94_S13	  2.04	1	0	G1	2608935	                unclassified Enterobacter
+Seagull_18_94_S13	  2.04	1	1	S	2742639	                  Enterobacter sp. RHBSTW-00175
+Seagull_18_94_S13	  6.12	3	0	G	1330546	              Pluralibacter
+Seagull_18_94_S13	  4.08	2	2	S	61647	                Pluralibacter gergoviae
+Seagull_18_94_S13	  2.04	1	1	S	1334193	                [Enterobacter] lignolyticus
+Seagull_18_94_S13	  4.08	2	1	G	570	              Klebsiella
+Seagull_18_94_S13	  2.04	1	0	G1	2608929	                unclassified Klebsiella
+Seagull_18_94_S13	  2.04	1	1	S	2675713	                  Klebsiella sp. WP4-W18-ESBL-05
+Seagull_18_94_S13	  2.04	1	0	G	1330547	              Kosakonia
+Seagull_18_94_S13	  2.04	1	1	S	1646340	                Kosakonia pseudosacchari
+Seagull_18_94_S13	  2.04	1	0	G	160674	              Raoultella
+Seagull_18_94_S13	  2.04	1	1	S	575	                Raoultella planticola
+Seagull_18_94_S13	  2.04	1	0	G	413496	              Cronobacter
+Seagull_18_94_S13	  2.04	1	0	S	1163710	                Cronobacter condimenti
+Seagull_18_94_S13	  2.04	1	1	S1	1073999	                  Cronobacter condimenti 1330
+Seagull_18_94_S13	  2.04	1	0	D1	1783272	      Terrabacteria group
+Seagull_18_94_S13	  2.04	1	0	P	1239	        Firmicutes
+Seagull_18_94_S13	  2.04	1	0	C	91061	          Bacilli
+Seagull_18_94_S13	  2.04	1	0	O	1385	            Bacillales
+Seagull_18_94_S13	  2.04	1	0	F	186817	              Bacillaceae
+Seagull_18_94_S13	  2.04	1	0	G	1386	                Bacillus
+Seagull_18_94_S13	  2.04	1	1	G1	86661	                  Bacillus cereus group

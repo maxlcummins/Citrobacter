@@ -1,0 +1,429 @@
+name	scientific_name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+241	Citrobacter freundii	546	S	104	35	139	0.45724
+241	Citrobacter amalonaticus	35703	S	7	-1	6	0.01974
+241	Enterobacter cloacae	550	S	5	29	34	0.11184
+241	Salmonella enterica	28901	S	15	102	117	0.38487
+241	Klebsiella pneumoniae	573	S	9	-5	4	0.01316
+241	Escherichia coli	562	S	6	-5	1	0.00329
+SD_9_A7	Citrobacter youngae	133448	S	8	13	21	0.6
+SD_9_A7	Citrobacter sp. FDAARGOS_156	1702170	S	6	7	13	0.37143
+Seagull_18_229_S54	Citrobacter sp. FDAARGOS_156	1702170	S	27	3	30	0.52632
+Seagull_18_229_S54	Citrobacter freundii	546	S	7	-3	4	0.07018
+Seagull_18_229_S54	Citrobacter werkmanii	67827	S	7	-1	6	0.10526
+Seagull_18_229_S54	Citrobacter freundii complex sp. CFNIH3	2077147	S	4	11	15	0.26316
+Seagull_18_138_2_S33	Citrobacter sp. FDAARGOS_156	1702170	S	18	11	29	1.0
+LR699006	Citrobacter freundii	546	S	1	0	1	1.0
+224	Citrobacter freundii complex sp. CFNIH3	2077147	S	87	93	180	0.94241
+224	Escherichia coli	562	S	5	-3	2	0.01047
+224	Salmonella enterica	28901	S	4	3	7	0.03665
+SD_10_G6	Enterobacter cloacae	550	S	14	20	34	1.0
+233	Citrobacter freundii	546	S	63	20	83	0.54967
+233	Citrobacter freundii complex sp. CFNIH4	2077148	S	4	42	46	0.30464
+233	Escherichia coli	562	S	6	14	20	0.13245
+CP024672	Citrobacter freundii	546	S	1	0	1	1.0
+156	Citrobacter freundii	546	S	107	18	125	0.63776
+156	Citrobacter freundii complex sp. CFNIH4	2077148	S	5	42	47	0.2398
+156	Escherichia coli	562	S	5	17	22	0.11224
+CP024819	Citrobacter freundii	546	S	1	0	1	1.0
+46	Citrobacter freundii	546	S	195	290	485	0.62824
+46	Salmonella enterica	28901	S	5	282	287	0.37176
+DB_3_C11	Citrobacter freundii	546	S	86	1	87	0.33333
+DB_3_C11	Citrobacter freundii complex sp. CFNIH4	2077148	S	9	66	75	0.28736
+DB_3_C11	Citrobacter sp. CFNIH10	1920110	S	4	2	6	0.02299
+DB_3_C11	Escherichia coli	562	S	19	29	48	0.18391
+DB_3_C11	Klebsiella pneumoniae	573	S	6	0	6	0.02299
+DB_3_C11	Salmonella enterica	28901	S	8	28	36	0.13793
+183	Citrobacter freundii	546	S	57	26	83	0.22554
+183	Citrobacter freundii complex sp. CFNIH9	2077149	S	10	21	31	0.08424
+183	Citrobacter youngae	133448	S	9	6	15	0.04076
+183	Salmonella enterica	28901	S	54	8	62	0.16848
+183	Escherichia coli	562	S	14	110	124	0.33696
+183	Klebsiella pneumoniae	573	S	13	-5	8	0.02174
+183	Raoultella ornithinolytica	54291	S	6	0	6	0.0163
+183	Proteus mirabilis	584	S	30	0	30	0.08152
+183	Serratia marcescens	615	S	5	-1	4	0.01087
+NZ_LR890181	Citrobacter freundii	546	S	2789	1642	4431	0.96789
+NZ_LR890181	Citrobacter portucalensis	1639133	S	9	16	25	0.00546
+NZ_LR890181	Citrobacter werkmanii	67827	S	8	-2	6	0.00131
+NZ_LR890181	Citrobacter sp. LY-1	2546350	S	15	-10	5	0.00109
+NZ_LR890181	Citrobacter sp. RHBSTW-00599	2742657	S	8	15	23	0.00502
+NZ_LR890181	Citrobacter sp. CF971	2566012	S	4	13	17	0.00371
+NZ_LR890181	Citrobacter sp. RHBSTW-00887	2742668	S	4	5	9	0.00197
+NZ_LR890181	Enterobacter hormaechei	158836	S	7	-1	6	0.00131
+NZ_LR890181	Salmonella enterica	28901	S	10	3	13	0.00284
+NZ_LR890181	Escherichia coli	562	S	6	33	39	0.00852
+Seagull_18_127_S28	Citrobacter sp. FDAARGOS_156	1702170	S	341	29	370	0.85648
+Seagull_18_127_S28	Citrobacter freundii	546	S	25	-9	16	0.03704
+Seagull_18_127_S28	Lelliottia sp. WB101	2153385	S	35	5	40	0.09259
+Seagull_18_127_S28	Enterobacter cloacae	550	S	4	0	4	0.00926
+169	Citrobacter freundii complex sp. CFNIH3	2077147	S	26	37	63	0.61765
+169	Citrobacter braakii	57706	S	21	-2	19	0.18627
+169	Citrobacter freundii	546	S	4	-4	0	0.0
+169	Salmonella enterica	28901	S	8	7	15	0.14706
+169	Escherichia coli	562	S	5	-3	2	0.01961
+227	Citrobacter freundii	546	S	86	85	171	0.91935
+227	Klebsiella pneumoniae	573	S	8	6	14	0.07527
+572	Citrobacter braakii	57706	S	20	5	25	0.15337
+572	Citrobacter freundii complex sp. CFNIH3	2077147	S	19	67	86	0.52761
+572	Citrobacter freundii	546	S	9	-2	7	0.04294
+572	Citrobacter werkmanii	67827	S	4	-2	2	0.01227
+572	Klebsiella oxytoca	571	S	4	4	8	0.04908
+572	Salmonella enterica	28901	S	7	20	27	0.16564
+572	Escherichia coli	562	S	6	-1	5	0.03067
+SD_9_H6	Citrobacter youngae	133448	S	13	9	22	0.51163
+SD_9_H6	Citrobacter freundii	546	S	4	5	9	0.2093
+SD_9_H6	Citrobacter sp. FDAARGOS_156	1702170	S	7	4	11	0.25581
+CP022049	Citrobacter braakii	57706	S	1	0	1	1.0
+222	Citrobacter freundii complex sp. CFNIH9	2077149	S	101	72	173	0.70902
+222	Citrobacter freundii	546	S	5	-2	3	0.0123
+222	Citrobacter freundii complex sp. CFNIH4	2077148	S	5	22	27	0.11066
+222	Citrobacter sp. FDAARGOS_156	1702170	S	4	-1	3	0.0123
+222	Escherichia coli	562	S	18	1	19	0.07787
+222	Enterobacter cloacae	550	S	6	1	7	0.02869
+222	Klebsiella pneumoniae	573	S	4	6	10	0.04098
+BX950851	Pectobacterium atrosepticum	29471	S	1	0	1	1.0
+162	Citrobacter freundii complex sp. CFNIH3	2077147	S	87	94	181	0.93299
+162	Salmonella enterica	28901	S	5	8	13	0.06701
+JAACON01	Citrobacter freundii	546	S	15	6	21	0.72414
+JAACON01	Salmonella enterica	28901	S	5	2	7	0.24138
+CP026235	Citrobacter freundii complex sp. CFNIH3	2077147	S	1	0	1	1.0
+NZ_CP042534	Citrobacter freundii	546	S	1	0	1	1.0
+225	Citrobacter freundii	546	S	55	7	62	0.45926
+225	Citrobacter freundii complex sp. CFNIH4	2077148	S	5	40	45	0.33333
+225	Salmonella enterica	28901	S	5	22	27	0.2
+250	Citrobacter freundii	546	S	76	29	105	1.0
+CP042534	Citrobacter freundii	546	S	1	0	1	1.0
+683	Klebsiella pneumoniae	573	S	202	38	240	0.46784
+683	Klebsiella sp. WP4-W18-ESBL-05	2675713	S	9	36	45	0.08772
+683	Citrobacter freundii	546	S	87	33	120	0.23392
+683	Citrobacter sp. RHBSTW-00524	2742653	S	8	7	15	0.02924
+683	Enterobacter hormaechei	158836	S	40	51	91	0.17739
+CP007557	Citrobacter freundii	546	S	1	0	1	1.0
+DB_5_F12	Citrobacter freundii	546	S	103	81	184	0.57321
+DB_5_F12	Klebsiella pneumoniae	573	S	19	21	40	0.12461
+DB_5_F12	Klebsiella michiganensis	1134687	S	8	4	12	0.03738
+DB_5_F12	Escherichia coli	562	S	24	47	71	0.22118
+DB_5_F12	Enterobacter hormaechei	158836	S	5	7	12	0.03738
+Seagull_18_42_S4	Citrobacter sp. FDAARGOS_156	1702170	S	20	13	33	1.0
+216	Citrobacter sp. RHBSTW-00424	2742647	S	7	125	132	0.77647
+216	Citrobacter sp. RHBSTW-00881	2742667	S	5	-1	4	0.02353
+216	Citrobacter sp. RHBSTW-00570	2742655	S	4	2	6	0.03529
+216	Citrobacter sp. TSA-1	184912	S	4	-1	3	0.01765
+216	Citrobacter sp. RHBSTW-00903	2742670	S	4	16	20	0.11765
+216	Citrobacter freundii	546	S	9	-7	2	0.01176
+CP020448	Citrobacter braakii	57706	S	1	0	1	1.0
+CP024680	Citrobacter freundii	546	S	1	0	1	1.0
+672	Citrobacter freundii complex sp. CFNIH3	2077147	S	38	84	122	0.64211
+672	Citrobacter braakii	57706	S	26	2	28	0.14737
+672	Citrobacter freundii	546	S	7	-5	2	0.01053
+672	Klebsiella pneumoniae	573	S	15	10	25	0.13158
+672	Salmonella enterica	28901	S	5	5	10	0.05263
+JAACOI01	Citrobacter freundii	546	S	23	5	28	0.59574
+JAACOI01	Salmonella enterica	28901	S	13	6	19	0.40426
+175	Citrobacter freundii	546	S	112	35	147	0.50515
+175	Klebsiella pneumoniae	573	S	11	4	15	0.05155
+175	Klebsiella grimontii	2058152	S	8	5	13	0.04467
+175	Klebsiella michiganensis	1134687	S	4	23	27	0.09278
+175	Enterobacter hormaechei	158836	S	6	4	10	0.03436
+175	Enterobacter kobei	208224	S	5	3	8	0.02749
+175	Salmonella enterica	28901	S	8	26	34	0.11684
+175	Escherichia coli	562	S	7	8	15	0.05155
+175	Yersinia pestis	632	S	5	0	5	0.01718
+175	Aeromonas sp. WP2-W18-CRE-05	2675707	S	8	3	11	0.0378
+NZ_LR699006	Citrobacter freundii	546	S	1	0	1	1.0
+SD_5_A12	Citrobacter braakii	57706	S	178	-12	166	0.53035
+SD_5_A12	Citrobacter freundii complex sp. CFNIH3	2077147	S	109	37	146	0.46645
+SD_5_A12	Citrobacter freundii	546	S	8	-8	0	0.0
+43	Citrobacter freundii	546	S	61	38	99	1.0
+DB_3_D1	Citrobacter freundii	546	S	283	58	341	0.50369
+DB_3_D1	Citrobacter freundii complex sp. CFNIH4	2077148	S	12	119	131	0.1935
+DB_3_D1	Citrobacter sp. CFNIH10	1920110	S	4	2	6	0.00886
+DB_3_D1	Escherichia coli	562	S	54	39	93	0.13737
+DB_3_D1	Klebsiella pneumoniae	573	S	33	1	34	0.05022
+DB_3_D1	Salmonella enterica	28901	S	12	52	64	0.09453
+DB_3_D1	Aeromonas sp. ASNIH2	1636607	S	4	2	6	0.00886
+DB_3_D2	Citrobacter freundii	546	S	91	7	98	0.34028
+DB_3_D2	Citrobacter freundii complex sp. CFNIH4	2077148	S	6	45	51	0.17708
+DB_3_D2	Citrobacter sp. CFNIH10	1920110	S	4	2	6	0.02083
+DB_3_D2	Escherichia coli	562	S	18	26	44	0.15278
+DB_3_D2	Enterobacter cloacae complex sp. ECNIH7	1915310	S	4	5	9	0.03125
+DB_3_D2	Klebsiella pneumoniae	573	S	7	4	11	0.03819
+DB_3_D2	Salmonella enterica	28901	S	7	18	25	0.08681
+DB_3_D2	Acinetobacter sp. WCHAc010034	1879049	S	9	0	9	0.03125
+DB_3_D2	Acinetobacter baumannii	470	S	4	27	31	0.10764
+682	Citrobacter freundii	546	S	78	61	139	0.74731
+682	Klebsiella pneumoniae	573	S	6	18	24	0.12903
+682	Enterobacter hormaechei	158836	S	5	9	14	0.07527
+682	Salmonella enterica	28901	S	4	3	7	0.03763
+678	Citrobacter freundii	546	S	59	5	64	0.32161
+678	Citrobacter freundii complex sp. CFNIH4	2077148	S	7	62	69	0.34673
+678	Escherichia coli	562	S	10	10	20	0.1005
+678	Raoultella ornithinolytica	54291	S	9	2	11	0.05528
+678	Salmonella enterica	28901	S	7	25	32	0.1608
+NZ_CP042478	Citrobacter freundii	546	S	1	0	1	1.0
+JYFZ02000001	Citrobacter freundii	546	S	1	0	1	1.0
+DB_3_C9	Citrobacter freundii	546	S	74	25	99	0.36131
+DB_3_C9	Citrobacter freundii complex sp. CFNIH4	2077148	S	5	57	62	0.22628
+DB_3_C9	Salmonella enterica	28901	S	6	3	9	0.03285
+DB_3_C9	Escherichia coli	562	S	4	2	6	0.0219
+DB_3_C9	Acinetobacter sp. ACNIH2	1758189	S	74	13	87	0.31752
+DB_3_C9	Acinetobacter sp. WCHAc010034	1879049	S	4	0	4	0.0146
+DB_3_C9	Acinetobacter bereziniae	106648	S	4	0	4	0.0146
+213	Citrobacter freundii complex sp. CFNIH3	2077147	S	78	127	205	0.91111
+213	Citrobacter braakii	57706	S	4	-2	2	0.00889
+213	Citrobacter amalonaticus	35703	S	5	-1	4	0.01778
+213	Escherichia coli	562	S	8	-6	2	0.00889
+213	Salmonella enterica	28901	S	5	5	10	0.04444
+Seagull_18_138_1_S32	Citrobacter sp. FDAARGOS_156	1702170	S	19	8	27	0.84375
+Seagull_18_138_1_S32	Citrobacter werkmanii	67827	S	4	0	4	0.125
+DB_3_F10	Citrobacter freundii	546	S	339	101	440	0.72131
+DB_3_F10	Citrobacter freundii complex sp. CFNIH4	2077148	S	6	51	57	0.09344
+DB_3_F10	Citrobacter farmeri	67824	S	5	-2	3	0.00492
+DB_3_F10	Salmonella enterica	28901	S	13	93	106	0.17377
+DB_3_F10	Escherichia coli	562	S	7	-6	1	0.00164
+DB_3_F10	Klebsiella pneumoniae	573	S	5	-4	1	0.00164
+166	Citrobacter freundii complex sp. CFNIH3	2077147	S	93	220	313	0.83245
+166	Escherichia coli	562	S	54	-7	47	0.125
+166	Salmonella enterica	28901	S	9	6	15	0.03989
+CP024679	Citrobacter freundii	546	S	1	0	1	1.0
+DB_3_C10	Acinetobacter sp. ACNIH2	1758189	S	322	28	350	0.25326
+DB_3_C10	Acinetobacter sp. WCHA55	2004646	S	4	0	4	0.00289
+DB_3_C10	Acinetobacter tandoii	202954	S	76	3	79	0.05716
+DB_3_C10	Acinetobacter baumannii	470	S	13	11	24	0.01737
+DB_3_C10	Acinetobacter wuhouensis	1879050	S	9	0	9	0.00651
+DB_3_C10	Acinetobacter indicus	756892	S	7	0	7	0.00507
+DB_3_C10	Acinetobacter johnsonii	40214	S	6	1	7	0.00507
+DB_3_C10	Acinetobacter venetianus	52133	S	5	2	7	0.00507
+DB_3_C10	Acinetobacter bereziniae	106648	S	5	0	5	0.00362
+DB_3_C10	Pseudomonas alcaligenes	43263	S	281	23	304	0.21997
+DB_3_C10	Pseudomonas aeruginosa	287	S	12	9	21	0.0152
+DB_3_C10	Pseudomonas stutzeri	316	S	4	0	4	0.00289
+DB_3_C10	Enterobacter roggenkampii	1812935	S	210	74	284	0.2055
+DB_3_C10	Citrobacter freundii	546	S	137	93	230	0.16643
+DB_3_C10	Klebsiella pneumoniae	573	S	9	9	18	0.01302
+DB_3_C10	Klebsiella michiganensis	1134687	S	4	1	5	0.00362
+DB_3_C10	Escherichia coli	562	S	13	2	15	0.01085
+CP026045	Citrobacter freundii	546	S	1	0	1	1.0
+Seagull_18_116_S20	Citrobacter sp. FDAARGOS_156	1702170	S	452	28	480	0.86957
+Seagull_18_116_S20	Citrobacter freundii	546	S	28	-15	13	0.02355
+Seagull_18_116_S20	Citrobacter werkmanii	67827	S	5	-3	2	0.00362
+Seagull_18_116_S20	Citrobacter freundii complex sp. CFNIH4	2077148	S	4	8	12	0.02174
+Seagull_18_116_S20	Citrobacter sp. CRE-46	1703250	S	5	1	6	0.01087
+Seagull_18_116_S20	Enterobacter cloacae	550	S	8	1	9	0.0163
+Seagull_18_116_S20	Hafnia alvei	569	S	28	1	29	0.05254
+SD_9_B7	Citrobacter braakii	57706	S	17	1	18	0.5625
+SD_9_B7	Citrobacter freundii complex sp. CFNIH3	2077147	S	10	3	13	0.40625
+CP016952	Citrobacter freundii	546	S	1	0	1	1.0
+Seagull_18_94_S13	Citrobacter freundii	546	S	10	3	13	0.27083
+Seagull_18_94_S13	Escherichia coli	562	S	10	16	26	0.54167
+Seagull_18_94_S13	Enterobacter cloacae	550	S	6	1	7	0.14583
+230	Citrobacter freundii	546	S	43	22	65	0.75581
+230	Escherichia coli	562	S	10	5	15	0.17442
+230	Klebsiella pneumoniae	573	S	4	2	6	0.06977
+Seagull_18_100_2_S18	Citrobacter sp. FDAARGOS_156	1702170	S	22	14	36	1.0
+200	Citrobacter freundii	546	S	87	-1	86	0.58108
+200	Citrobacter freundii complex sp. CFNIH4	2077148	S	8	45	53	0.35811
+200	Escherichia coli	562	S	9	-1	8	0.05405
+160	Citrobacter freundii complex sp. CFNIH9	2077149	S	103	66	169	0.56522
+160	Citrobacter freundii	546	S	51	-17	34	0.11371
+160	Citrobacter sp. FDAARGOS_156	1702170	S	4	-1	3	0.01003
+160	Escherichia coli	562	S	19	64	83	0.27759
+160	Klebsiella pneumoniae	573	S	7	0	7	0.02341
+JYFY02000001	Citrobacter freundii	546	S	1	0	1	1.0
+217	Citrobacter freundii complex sp. CFNIH3	2077147	S	83	83	166	0.9881
+217	Escherichia coli	562	S	6	-4	2	0.0119
+CP042517	Citrobacter freundii	546	S	1	0	1	1.0
+CP026056	Citrobacter freundii	546	S	1	0	1	1.0
+186	Citrobacter freundii complex sp. CFNIH4	2077148	S	43	68	111	0.84091
+186	Citrobacter freundii	546	S	24	-14	10	0.07576
+186	Enterobacter cloacae	550	S	6	3	9	0.06818
+681	Citrobacter freundii	546	S	79	21	100	0.26525
+681	Citrobacter sp. RHBSTW-00986	2742675	S	75	87	162	0.42971
+681	Klebsiella pneumoniae	573	S	75	30	105	0.27851
+681	Enterobacter hormaechei	158836	S	4	3	7	0.01857
+155	Citrobacter freundii complex sp. CFNIH3	2077147	S	84	102	186	0.93
+155	Citrobacter braakii	57706	S	4	-2	2	0.01
+155	Escherichia coli	562	S	7	5	12	0.06
+671	Citrobacter freundii complex sp. CFNIH3	2077147	S	78	194	272	0.62963
+671	Escherichia coli	562	S	7	127	134	0.31019
+671	Providencia sp. WCHPr000369	2027290	S	8	17	25	0.05787
+671	Homo sapiens	9606	S	4	-4	0	0.0
+NZ_CP042524	Citrobacter freundii	546	S	1	0	1	1.0
+44	Citrobacter freundii complex sp. CFNIH9	2077149	S	142	64	206	0.8692
+44	Citrobacter freundii	546	S	9	-7	2	0.00844
+44	Citrobacter freundii complex sp. CFNIH4	2077148	S	5	17	22	0.09283
+44	Enterobacter cloacae	550	S	4	1	5	0.0211
+CABIZU01	Citrobacter freundii	546	S	12	8	20	1.0
+CP024683	Citrobacter freundii	546	S	1	0	1	1.0
+CP042478	Citrobacter freundii	546	S	1	0	1	1.0
+674	Citrobacter sp. RHBSTW-01044	2742678	S	52	50	102	0.52577
+674	Citrobacter freundii	546	S	10	-2	8	0.04124
+674	Klebsiella pneumoniae	573	S	12	25	37	0.19072
+674	Escherichia coli	562	S	5	33	38	0.19588
+674	Salmonella enterica	28901	S	5	1	6	0.03093
+CACD01	Citrobacter freundii complex sp. CFNIH3	2077147	S	63	142	205	0.60651
+CACD01	Citrobacter braakii	57706	S	61	5	66	0.19527
+CACD01	Citrobacter freundii	546	S	24	-12	12	0.0355
+CACD01	Escherichia coli	562	S	36	-6	30	0.08876
+CACD01	Legionella pneumophila	446	S	23	0	23	0.06805
+278	Citrobacter freundii	546	S	101	31	132	0.75429
+278	Klebsiella oxytoca	571	S	11	1	12	0.06857
+278	Escherichia coli	562	S	4	-1	3	0.01714
+278	Salmonella enterica	28901	S	4	22	26	0.14857
+SD_2_G2	Citrobacter amalonaticus	35703	S	45	40	85	0.50595
+SD_2_G2	Citrobacter sp. CFNIH10	1920110	S	28	54	82	0.4881
+NZ_CP016952	Citrobacter freundii	546	S	1	0	1	1.0
+211	Citrobacter freundii complex sp. CFNIH3	2077147	S	78	103	181	0.91878
+211	Citrobacter braakii	57706	S	4	-2	2	0.01015
+211	Klebsiella pneumoniae	573	S	5	-1	4	0.0203
+211	Salmonella enterica	28901	S	4	4	8	0.04061
+SD_5_D4	Citrobacter freundii	546	S	18	21	39	1.0
+SD_5_D4	Escherichia virus If1	1977411	S	4	-4	0	0.0
+251	Citrobacter sp. RHBSTW-00903	2742670	S	9	46	55	0.27638
+251	Citrobacter sp. RHBSTW-00424	2742647	S	5	109	114	0.57286
+251	Citrobacter sp. RHBSTW-00524	2742653	S	4	0	4	0.0201
+251	Citrobacter sp. TSA-1	184912	S	4	0	4	0.0201
+251	Citrobacter sp. RHBSTW-00696	2742662	S	4	10	14	0.07035
+251	Citrobacter sp. LY-1	2546350	S	4	-4	0	0.0
+251	Citrobacter freundii	546	S	9	-7	2	0.01005
+251	Klebsiella pneumoniae	573	S	4	-1	3	0.01508
+CP036435	Citrobacter freundii	546	S	1	0	1	1.0
+GCF_014332835	Citrobacter freundii	546	S	25	14	39	0.60938
+GCF_014332835	Salmonella enterica	28901	S	16	8	24	0.375
+LRPR01	Citrobacter freundii	546	S	35	8	43	1.0
+CP026238	Citrobacter freundii complex sp. CFNIH9	2077149	S	1	0	1	1.0
+Seagull_18_227_S53	Citrobacter sp. FDAARGOS_156	1702170	S	22	15	37	1.0
+CP024677	Citrobacter freundii	546	S	1	0	1	1.0
+CP011657	Citrobacter freundii	546	S	1	0	1	1.0
+255	Citrobacter freundii	546	S	116	73	189	0.96429
+255	Klebsiella pneumoniae	573	S	5	2	7	0.03571
+JRHL01000001	Citrobacter sp. RHBSTW-01044	2742678	S	1	0	1	1.0
+689	Citrobacter freundii	546	S	61	2	63	0.34426
+689	Citrobacter freundii complex sp. CFNIH4	2077148	S	8	63	71	0.38798
+689	Klebsiella pneumoniae	573	S	4	6	10	0.05464
+689	Salmonella enterica	28901	S	5	19	24	0.13115
+689	Escherichia coli	562	S	4	8	12	0.06557
+189	Citrobacter freundii	546	S	103	56	159	0.9521
+189	Klebsiella pneumoniae	573	S	5	2	7	0.04192
+192	Citrobacter freundii complex sp. CFNIH9	2077149	S	87	35	122	0.46743
+192	Citrobacter freundii complex sp. CFNIH4	2077148	S	7	17	24	0.09195
+192	Citrobacter freundii	546	S	6	-5	1	0.00383
+192	Citrobacter sp. FDAARGOS_156	1702170	S	5	-1	4	0.01533
+192	Escherichia coli	562	S	17	83	100	0.38314
+192	Enterobacter cloacae	550	S	4	-2	2	0.00766
+192	Klebsiella pneumoniae	573	S	5	0	5	0.01916
+199	Citrobacter sp. RHBSTW-00881	2742667	S	6	4	10	0.03356
+199	Citrobacter sp. TSA-1	184912	S	5	2	7	0.02349
+199	Citrobacter sp. RHBSTW-00696	2742662	S	5	24	29	0.09732
+199	Citrobacter sp. RHBSTW-00424	2742647	S	4	172	176	0.5906
+199	Citrobacter sp. RHBSTW-00524	2742653	S	4	2	6	0.02013
+199	Citrobacter sp. RHBSTW-00887	2742668	S	4	2	6	0.02013
+199	Citrobacter freundii	546	S	13	-7	6	0.02013
+199	Escherichia coli	562	S	36	14	50	0.16779
+199	Klebsiella pneumoniae	573	S	6	-2	4	0.01342
+159	Citrobacter sp. RHBSTW-00424	2742647	S	7	165	172	0.86432
+159	Citrobacter sp. RHBSTW-00881	2742667	S	6	0	6	0.03015
+159	Citrobacter sp. RHB36-C18	2742627	S	4	0	4	0.0201
+159	Citrobacter sp. RHBSTW-00570	2742655	S	4	3	7	0.03518
+159	Citrobacter sp. LY-1	2546350	S	4	-4	0	0.0
+159	Citrobacter sp. TSA-1	184912	S	4	0	4	0.0201
+159	Citrobacter freundii	546	S	9	-6	3	0.01508
+CP011612	Citrobacter freundii	546	S	1	0	1	1.0
+CP024881	Citrobacter freundii	546	S	1	0	1	1.0
+CP026231	Citrobacter freundii complex sp. CFNIH4	2077148	S	1	0	1	1.0
+CP042524	Citrobacter freundii	546	S	1	0	1	1.0
+243	Citrobacter freundii	546	S	115	62	177	0.6996
+243	Klebsiella pneumoniae	573	S	8	40	48	0.18972
+243	Salmonella enterica	28901	S	4	23	27	0.10672
+Seagull_18_223_S110	Citrobacter sp. FDAARGOS_156	1702170	S	21	10	31	1.0
+JAACNV01	Citrobacter freundii	546	S	25	7	32	0.54237
+JAACNV01	Salmonella enterica	28901	S	19	8	27	0.45763
+310	Citrobacter freundii	546	S	131	46	177	0.84286
+310	Klebsiella pneumoniae	573	S	16	2	18	0.08571
+310	Escherichia coli	562	S	6	7	13	0.0619
+GCF_014332855	Citrobacter freundii	546	S	25	7	32	0.64
+GCF_014332855	Salmonella enterica	28901	S	12	5	17	0.34
+259	Citrobacter freundii	546	S	82	70	152	0.82162
+259	Klebsiella pneumoniae	573	S	11	5	16	0.08649
+259	Enterobacter hormaechei	158836	S	6	10	16	0.08649
+Seagull_18_8_S1	Citrobacter freundii	546	S	15	2	17	0.44737
+Seagull_18_8_S1	Citrobacter werkmanii	67827	S	14	6	20	0.52632
+GCF_014332945	Citrobacter freundii	546	S	15	6	21	0.72414
+GCF_014332945	Salmonella enterica	28901	S	5	2	7	0.24138
+CP027849	Citrobacter freundii	546	S	1	0	1	1.0
+Seagull_18_109_2_S19	Citrobacter sp. FDAARGOS_156	1702170	S	21	15	36	1.0
+45	Citrobacter freundii	546	S	53	39	92	1.0
+685	Citrobacter freundii	546	S	61	2	63	0.34239
+685	Citrobacter freundii complex sp. CFNIH4	2077148	S	8	65	73	0.39674
+685	Salmonella enterica	28901	S	6	29	35	0.19022
+685	Escherichia coli	562	S	4	8	12	0.06522
+JRST01	Citrobacter freundii	546	S	39	8	47	1.0
+165	Citrobacter freundii complex sp. CFNIH3	2077147	S	91	93	184	0.92
+165	Citrobacter freundii	546	S	10	-7	3	0.015
+165	Klebsiella pneumoniae	573	S	4	-3	1	0.005
+165	Salmonella enterica	28901	S	4	7	11	0.055
+NZ_CP042517	Citrobacter freundii	546	S	1	0	1	1.0
+DB_3_C12	Escherichia coli	562	S	689	130	819	0.43891
+DB_3_C12	Citrobacter freundii	546	S	102	-7	95	0.05091
+DB_3_C12	Citrobacter freundii complex sp. CFNIH4	2077148	S	9	53	62	0.03323
+DB_3_C12	Citrobacter sp. CFNIH10	1920110	S	4	1	5	0.00268
+DB_3_C12	Klebsiella pneumoniae	573	S	7	3	10	0.00536
+DB_3_C12	Salmonella enterica	28901	S	7	15	22	0.01179
+DB_3_C12	Acinetobacter baumannii	470	S	15	31	46	0.02465
+DB_3_C12	Acinetobacter pittii	48296	S	9	4	13	0.00697
+DB_3_C12	Acinetobacter nosocomialis	106654	S	4	-1	3	0.00161
+DB_3_C12	Acinetobacter sp. WCHAc010034	1879049	S	23	0	23	0.01233
+DB_3_C12	Acinetobacter johnsonii	40214	S	21	28	49	0.02626
+DB_3_C12	Acinetobacter sp. NCu2D-2	1608473	S	21	0	21	0.01125
+DB_3_C12	Acinetobacter sp. ACNIH2	1758189	S	14	0	14	0.0075
+DB_3_C12	Acinetobacter equi	1324350	S	12	0	12	0.00643
+DB_3_C12	Acinetobacter sp. LoGeW2-3	1808001	S	12	0	12	0.00643
+DB_3_C12	Acinetobacter lwoffii	28090	S	11	4	15	0.00804
+DB_3_C12	Acinetobacter sp. ACNIH1	1636603	S	11	3	14	0.0075
+DB_3_C12	Acinetobacter schindleri	108981	S	9	0	9	0.00482
+DB_3_C12	Acinetobacter wuhouensis	1879050	S	8	0	8	0.00429
+DB_3_C12	Acinetobacter sp. SWBY1	2079596	S	8	2	10	0.00536
+DB_3_C12	Acinetobacter sp. TTH0-4	1646498	S	6	-1	5	0.00268
+DB_3_C12	Acinetobacter bereziniae	106648	S	4	-1	3	0.00161
+DB_3_C12	Acinetobacter defluvii	1871111	S	4	0	4	0.00214
+DB_3_C12	Aliiarcobacter skirrowii	28200	S	255	27	282	0.15113
+DB_3_C12	Aliiarcobacter trophiarum	708186	S	210	7	217	0.11629
+DB_3_C12	Aliiarcobacter butzleri	28197	S	56	6	62	0.03323
+DB_3_C12	Pseudoarcobacter ellisii	913109	S	12	0	12	0.00643
+DB_3_C12	Pseudoarcobacter suis	1278212	S	8	0	8	0.00429
+DB_3_C12	Arcobacter sp. L	944547	S	6	-6	0	0.0
+172	Citrobacter freundii	546	S	38	26	64	0.512
+172	Citrobacter portucalensis	1639133	S	6	12	18	0.144
+172	Klebsiella pneumoniae	573	S	4	1	5	0.04
+172	Salmonella enterica	28901	S	4	27	31	0.248
+172	Pseudomonas aeruginosa	287	S	4	0	4	0.032
+246	Citrobacter sp. RHBSTW-00424	2742647	S	7	78	85	0.48295
+246	Citrobacter sp. LY-1	2546350	S	6	-5	1	0.00568
+246	Citrobacter sp. TSA-1	184912	S	5	-2	3	0.01705
+246	Citrobacter sp. RHBSTW-00903	2742670	S	4	10	14	0.07955
+246	Citrobacter sp. RHBSTW-00446	2742648	S	4	65	69	0.39205
+246	Citrobacter freundii	546	S	8	-6	2	0.01136
+212	Citrobacter freundii	546	S	86	67	153	1.0
+Seagull_18_265_S115	Citrobacter freundii	546	S	23	4	27	0.47368
+Seagull_18_265_S115	Citrobacter werkmanii	67827	S	21	8	29	0.50877
+SD_9_C7	Citrobacter freundii	546	S	29	18	47	1.0
+154	Citrobacter freundii	546	S	93	37	130	0.53061
+154	Citrobacter freundii complex sp. CFNIH4	2077148	S	4	46	50	0.20408
+154	Escherichia coli	562	S	7	0	7	0.02857
+154	Salmonella enterica	28901	S	5	52	57	0.23265
+152	Citrobacter freundii	546	S	98	51	149	0.5539
+152	Citrobacter freundii complex sp. CFNIH4	2077148	S	4	58	62	0.23048
+152	Escherichia coli	562	S	7	2	9	0.03346
+152	Salmonella enterica	28901	S	4	44	48	0.17844
+161	Citrobacter freundii	546	S	32	23	55	1.0
+CP024673	Citrobacter freundii	546	S	1	0	1	1.0
+677	Citrobacter sp. RHBSTW-01044	2742678	S	52	58	110	0.64706
+677	Citrobacter freundii	546	S	8	-1	7	0.04118
+677	Klebsiella pneumoniae	573	S	15	30	45	0.26471
+677	Escherichia coli	562	S	4	3	7	0.04118
+CP024898	Citrobacter freundii	546	S	1	0	1	1.0
+CP026677	Citrobacter freundii	546	S	1	0	1	1.0
+Seagull_18_124_2_S27	Citrobacter sp. FDAARGOS_156	1702170	S	252	40	292	0.63203
+Seagull_18_124_2_S27	Citrobacter freundii	546	S	17	-6	11	0.02381
+Seagull_18_124_2_S27	Citrobacter werkmanii	67827	S	6	-1	5	0.01082
+Seagull_18_124_2_S27	Salmonella enterica	28901	S	118	33	151	0.32684

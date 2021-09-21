@@ -1,0 +1,206 @@
+name	perc_frags	num_frags	num_frags_direct	rank	ncbi_taxon_id	scientific_name
+GCF_902387635	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_005406305	100.00	1	1	S	2576406	                  Citrobacter sp. TBCP-5362
+GCF_003665655	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_003665635	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_003665615	100.00	3	2	S	546	                  Citrobacter freundii
+GCF_003665595	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_003665535	100.00	2	1	S	546	                  Citrobacter freundii
+GCF_003255895	100.00	1	1	S	133448	                  Citrobacter youngae
+GCF_003019835	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_002947035	100.00	3	2	S	545	                Citrobacter koseri
+GCF_002946635	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_002934505	100.00	4	4	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
+GCF_002903305	100.00	5	5	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
+GCF_002903215	100.00	3	3	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
+GCF_002796505	100.00	2	1	S	546	                  Citrobacter freundii
+GCF_002796485	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_002208845	100.00	1	1	S	57706	                  Citrobacter braakii
+GCF_002073755	100.00	1	1	S	57706	                  Citrobacter braakii
+GCF_001718055	100.00	3	2	S	546	                  Citrobacter freundii
+GCF_001559075	100.00	1	0	S	35703	                Citrobacter amalonaticus
+GCF_001558935	100.00	2	1	S	35703	                Citrobacter amalonaticus
+GCF_001471655	100.00	1	0	S	35703	                Citrobacter amalonaticus
+GCF_001281005	100.00	1	1	S	1639133	                  Citrobacter portucalensis
+GCF_000981805	100.00	2	0	S	35703	                Citrobacter amalonaticus
+GCF_000783995	100.00	1	0	S	546	                  Citrobacter freundii
+GCF_000783755	100.00	3	2	S	546	                  Citrobacter freundii
+GCF_000783445	100.00	1	0	S	545	                Citrobacter koseri
+GCF_000521965	100.00	2	1	S	546	                  Citrobacter freundii
+GCF_000521945	100.00	4	4	S	1639133	                  Citrobacter portucalensis
+GCF_000158355	100.00	9	3	S	546	                  Citrobacter freundii
+GCF_000734905	 92.25	119	4	S	546	                  Citrobacter freundii
+GCF_001022155	 90.00	9	8	S	546	                  Citrobacter freundii
+GCF_000982845	 89.47	17	13	S	546	                  Citrobacter freundii
+GCF_000764735	 87.10	27	27	S	67824	                Citrobacter farmeri
+GCF_001022275	 85.71	6	5	S	546	                  Citrobacter freundii
+GCF_000238735	 81.82	9	9	S	1639133	                  Citrobacter portucalensis
+GCF_000582615	 80.88	55	3	S	546	                  Citrobacter freundii
+GCF_000835925	 80.33	290	0	S	67825	                Citrobacter rodentium
+GCF_002185305	 79.49	31	31	S	67827	                  Citrobacter werkmanii
+GCF_005281125	 79.31	23	23	S	67827	                  Citrobacter werkmanii
+GCF_002918505	 78.79	26	26	S	2546350	                  Citrobacter sp. LY-1
+GCF_003175795	 78.57	77	70	S	546	                  Citrobacter freundii
+GCF_005281195	 77.78	70	67	S	546	                  Citrobacter freundii
+GCF_001546285	 75.00	18	12	S	546	                  Citrobacter freundii
+GCF_005281255	 74.42	32	32	S	67827	                  Citrobacter werkmanii
+GCF_002843195	 73.47	36	27	S	546	                  Citrobacter freundii
+GCF_001546305	 73.02	46	44	S	545	                Citrobacter koseri
+ERQ0250	 72.90	78	72	S	546	                  Citrobacter freundii
+GCF_002042885	 72.50	29	19	S	546	                  Citrobacter freundii
+GCF_900080005	 67.92	36	26	S	546	                  Citrobacter freundii
+GCF_008931505	 66.67	2	1	S	546	                  Citrobacter freundii
+GCF_008931485	 66.67	2	1	S	546	                  Citrobacter freundii
+GCF_000018045	 66.67	2	1	S	545	                Citrobacter koseri
+GCF_002863965	 65.62	21	20	S	545	                Citrobacter koseri
+GCF_002939255	 64.89	61	61	S	2683822	                  Citrobacter sp. 172116965
+GCF_002871775	 64.71	22	12	S	546	                  Citrobacter freundii
+GCF_000342325	 64.52	20	3	S	546	                  Citrobacter freundii
+GCF_005280935	 64.44	58	48	S	546	                  Citrobacter freundii
+GCF_001552875	 64.44	29	27	S	545	                Citrobacter koseri
+GCF_005281055	 63.86	53	53	S	67827	                  Citrobacter werkmanii
+GCF_005281355	 63.54	61	61	S	67827	                  Citrobacter werkmanii
+ERQ0043	 63.37	64	55	S	546	                  Citrobacter freundii
+GCF_003015305	 63.33	19	5	S	546	                  Citrobacter freundii
+GCF_005281115	 62.82	49	49	S	67827	                  Citrobacter werkmanii
+GCF_005280955	 62.50	35	35	S	67827	                  Citrobacter werkmanii
+ERQ0189	 60.95	103	95	S	546	                  Citrobacter freundii
+GCF_000826205	 60.71	34	14	S	546	                  Citrobacter freundii
+ERQ0230	 60.00	54	48	S	546	                  Citrobacter freundii
+ERQ0200	 59.48	91	61	S	546	                  Citrobacter freundii
+ERQ0186	 58.82	80	73	S	546	                  Citrobacter freundii
+ERQ0255	 58.00	116	108	S	546	                  Citrobacter freundii
+ERQ0156	 57.21	119	111	S	546	                  Citrobacter freundii
+ERQ0310	 57.14	132	124	S	546	                  Citrobacter freundii
+GCF_005280825	 56.91	70	67	S	546	                  Citrobacter freundii
+ERQ0045	 56.25	54	47	S	546	                  Citrobacter freundii
+DB_3_F10	 56.13	348	313	S	546	                  Citrobacter freundii
+GCF_002919825	 56.00	70	61	S	546	                  Citrobacter freundii
+GCF_900079995	 55.56	20	10	S	546	                  Citrobacter freundii
+ERQ0044	 55.33	135	135	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
+ERQ0212	 54.43	86	73	S	546	                  Citrobacter freundii
+SD_9_C7	 54.00	27	21	S	546	                  Citrobacter freundii
+ERQ0278	 53.96	109	101	S	546	                  Citrobacter freundii
+GCF_000388155	 53.16	42	37	S	546	                  Citrobacter freundii
+GCF_005281015	 53.15	76	58	S	546	                  Citrobacter freundii
+GCF_002918875	 50.72	70	66	S	546	                  Citrobacter freundii
+GCF_002919795	 50.62	81	81	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
+SG18_229_S54	 50.00	31	15	S	546	                  Citrobacter freundii
+GCF_014332855	 50.00	25	7	S	546	                  Citrobacter freundii
+GCF_008931685	 50.00	3	2	S	546	                  Citrobacter freundii
+GCF_002947675	 50.00	1	1	S	573	                Klebsiella pneumoniae
+GCF_002918555	 50.00	8	8	S	2742624	                  Citrobacter sp. RHB25-C09
+GCF_002880615	 50.00	1	1	S	573	                Klebsiella pneumoniae
+GCF_002786865	 50.00	1	1	S	573	                Klebsiella pneumoniae
+GCF_002208985	 50.00	1	1	S	573	                Klebsiella pneumoniae
+GCF_000155975	 50.00	5	5	S	67827	                  Citrobacter werkmanii
+GCF_005280815	 47.28	148	49	S	1358	                  Lactococcus lactis
+ERQ0233	 46.20	73	49	S	546	                  Citrobacter freundii
+ERQ0173	 46.07	88	81	S	546	                  Citrobacter freundii
+GCF_005280875	 45.95	17	17	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_000731055	 45.45	50	21	S	35703	                Citrobacter amalonaticus
+ERQ0227	 45.26	86	64	S	546	                  Citrobacter freundii
+GCF_005281025	 45.13	51	51	S	67827	                  Citrobacter werkmanii
+ERQ0243	 44.40	115	106	S	546	                  Citrobacter freundii
+ERQ0225	 44.22	65	53	S	546	                  Citrobacter freundii
+ERQ0259	 44.09	82	68	S	546	                  Citrobacter freundii
+ERQ0161	 43.86	25	19	S	546	                  Citrobacter freundii
+ERQ0241	 43.61	140	135	S	546	                  Citrobacter freundii
+DB_3_D1	 43.39	302	285	S	546	                  Citrobacter freundii
+GCF_005281175	 43.18	19	19	S	1563222	                Citrobacter pasteurii
+ERQ0154	 42.64	113	103	S	546	                  Citrobacter freundii
+GCF_002918865	 42.50	17	13	S	546	                  Citrobacter freundii
+SG18_223_S110	 41.94	13	13	S	1563222	                Citrobacter pasteurii
+ERQ0682	 41.71	78	68	S	546	                  Citrobacter freundii
+GCF_005280855	 41.18	35	35	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_001276125	 41.03	16	5	S	35703	                Citrobacter amalonaticus
+GCF_014333035	 40.74	44	20	S	35703	                Citrobacter amalonaticus
+GCF_001276105	 40.43	19	6	S	35703	                Citrobacter amalonaticus
+ERQ0152	 40.41	118	108	S	546	                  Citrobacter freundii
+SG18_265_S115	 40.35	23	22	S	546	                  Citrobacter freundii
+GCF_002864025	 40.00	28	24	S	546	                  Citrobacter freundii
+SG18_8_S1	 39.47	15	14	S	546	                  Citrobacter freundii
+GCF_014332835	 39.06	25	7	S	546	                  Citrobacter freundii
+GCF_002918855	 38.98	46	46	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
+GCF_000692115	 38.89	7	4	S	546	                  Citrobacter freundii
+ERQ0175	 38.10	112	101	S	546	                  Citrobacter freundii
+ERQ0685	 37.95	74	64	S	546	                  Citrobacter freundii
+SG18_227_S53	 37.84	14	14	S	1702170	                  Citrobacter sp. FDAARGOS_156
+SD_5_D4	 37.78	17	12	S	546	                  Citrobacter freundii
+SD_9_B7	 37.50	12	12	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_000937455	 37.50	6	4	S	546	                  Citrobacter freundii
+ERQ0689	 37.38	77	68	S	546	                  Citrobacter freundii
+ERQ0222	 36.96	95	95	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
+GCF_002114305	 34.88	15	15	S	67827	                  Citrobacter werkmanii
+DB_3_C11	 34.39	98	82	S	546	                  Citrobacter freundii
+SG18_138_1_S32	 34.38	11	11	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_002863945	 34.22	64	64	S	133448	                  Citrobacter youngae
+GCF_003195445	 34.18	27	27	S	573	                Klebsiella pneumoniae
+ERQ0683	 33.72	202	202	S	573	                Klebsiella pneumoniae
+GCF_001317135	 33.59	264	249	S	546	                  Citrobacter freundii
+SD_2_G2	 33.33	59	27	S	35703	                Citrobacter amalonaticus
+GCF_008931625	 33.33	2	1	S	546	                  Citrobacter freundii
+GCF_004322975	 33.33	1	1	S	575	                Raoultella planticola
+GCF_005281345	 32.48	38	16	S	546	                  Citrobacter freundii
+DB_5_F12	 31.79	103	87	S	546	                  Citrobacter freundii
+ERQ0160	 31.11	98	98	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
+SG18_138_2_S33	 31.03	9	9	S	1702170	                  Citrobacter sp. FDAARGOS_156
+DB_3_D2	 30.70	101	84	S	546	                  Citrobacter freundii
+SG18_109_2_S19	 30.56	11	11	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_002918835	 30.16	38	38	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
+ERQ0677	 30.06	52	52	S	2742678	                  Citrobacter sp. RHBSTW-01044
+ERQ0172	 29.92	38	32	S	546	                  Citrobacter freundii
+SD_9_H6	 29.55	13	13	S	133448	                  Citrobacter youngae
+GCF_014332945	 28.89	13	2	S	546	                  Citrobacter freundii
+ERQ0572	 28.89	52	52	S	2742653	                  Citrobacter sp. RHBSTW-00524
+ERQ0672	 28.43	56	56	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_002919495	 28.00	7	7	S	2742624	                  Citrobacter sp. RHB25-C09
+SG18_100_2_S18	 27.78	10	10	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_005281245	 27.27	18	18	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_002918535	 27.27	6	6	S	2742624	                  Citrobacter sp. RHB25-C09
+ERQ0192	 26.77	83	83	S	2077149	                  Citrobacter freundii complex sp. CFNIH9
+ERQ0674	 26.53	52	52	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_005281165	 25.76	17	17	S	2742678	                  Citrobacter sp. RHBSTW-01044
+ERQ0678	 25.22	113	113	S	2742675	                  Citrobacter sp. RHBSTW-00986
+GCF_000786265	 25.00	16	16	S	2742657	                  Citrobacter sp. RHBSTW-00599
+SG18_42_S4	 24.32	9	9	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_005280975	 24.14	14	14	S	1702170	                  Citrobacter sp. FDAARGOS_156
+GCF_005281325	 23.94	17	17	S	2683822	                  Citrobacter sp. 172116965
+GCF_002918935	 23.53	8	8	S	2742624	                  Citrobacter sp. RHB25-C09
+GCF_000786275	 23.53	4	4	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_002919425	 23.33	7	7	S	28901	                Salmonella enterica
+GCF_005280915	 22.83	21	21	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_005281155	 22.32	25	25	S	2742678	                  Citrobacter sp. RHBSTW-01044
+SD_9_A7	 22.22	8	8	S	133448	                  Citrobacter youngae
+GCF_000937505	 21.05	4	3	S	546	                  Citrobacter freundii
+ERQ0046	 21.04	199	154	S	546	                  Citrobacter freundii
+GCF_002919455	 20.83	5	5	S	57706	                  Citrobacter braakii
+ERQ0681	 20.79	79	69	S	546	                  Citrobacter freundii
+ERQ0183	 20.63	105	95	S	546	                  Citrobacter freundii
+GCF_002918575	 20.00	3	3	S	2742667	                  Citrobacter sp. RHBSTW-00881
+GCF_002151695	 20.00	1	1	S	562	                Escherichia coli
+GCF_003226155	 18.18	2	2	S	575	                Raoultella planticola
+SD_5_A12	 16.98	54	54	S	2742678	                  Citrobacter sp. RHBSTW-01044
+GCF_000972645	 16.79	23	23	S	2742657	                  Citrobacter sp. RHBSTW-00599
+GCF_002923765	 16.67	3	3	S	2742627	                  Citrobacter sp. RHB36-C18
+GCF_005280805	 16.63	226	221	S	546	                  Citrobacter freundii
+ERQ0169	 16.22	18	18	S	2742668	                  Citrobacter sp. RHBSTW-00887
+GCF_003184045	 13.46	7	6	S	545	                Citrobacter koseri
+GCF_002918455	 13.04	3	3	S	2742667	                  Citrobacter sp. RHBSTW-00881
+ERQ0199	 12.04	36	36	S	562	                Escherichia coli
+GCF_002918495	 12.00	3	3	S	57706	                  Citrobacter braakii
+GCF_002919485	 10.00	2	2	S	57706	                  Citrobacter braakii
+GCF_002918465	  9.52	2	2	S	2742668	                  Citrobacter sp. RHBSTW-00887
+ERQ0213	  9.17	21	21	S	546	                  Citrobacter freundii
+ERQ0217	  9.09	17	17	S	546	                  Citrobacter freundii
+ERQ0211	  7.35	15	15	S	546	                  Citrobacter freundii
+ERQ0166	  7.25	48	48	S	562	                Escherichia coli
+ERQ0224	  6.53	13	13	S	546	                  Citrobacter freundii
+ERQ0162	  6.00	12	12	S	546	                  Citrobacter freundii
+ERQ0165	  5.63	13	13	S	546	                  Citrobacter freundii
+ERQ0216	  5.20	9	9	S	546	                  Citrobacter freundii
+ERQ0155	  4.63	10	10	S	546	                  Citrobacter freundii
+ERQ0246	  4.52	8	8	S	546	                  Citrobacter freundii
+ERQ0251	  4.48	9	9	S	546	                  Citrobacter freundii
+ERQ0159	  4.43	9	9	S	546	                  Citrobacter freundii
+ERQ0671	  3.13	16	0	S	158836	                  Enterobacter hormaechei

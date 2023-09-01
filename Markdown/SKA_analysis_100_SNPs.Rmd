@@ -1,0 +1,503 @@
+---
+title: "SKA analysis 100 SNPs"
+author: "Max Cummins"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse, quietly = TRUE)
+library(ggtree)
+library(ape)
+library(phangorn)
+library(phytools)
+library(readxl)
+library(ggpubr)
+```
+
+# Outline
+
+Here I will document the processing of SKA-borne SNP data for the investigation of relatedness between Citrobacter samples.
+
+First lets read in our datasets:
+
+```{r cars}
+
+#Read in SNP distances
+dists <- read_delim("results/ska_fastq_distance_100_snps/Citrobacter_April_100_SNPs.distances.tsv", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE, show_col_types = FALSE)
+
+#Read in SNP Clusters
+clusts <- read_delim("results/ska_fastq_distance_100_snps/Citrobacter_April_100_SNPs.clusters.tsv", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE, show_col_types = FALSE)
+
+#Read in MLST data
+mlst <- read_delim(
+    "results/summaries/mlst.txt",
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE,
+    show_col_types = FALSE
+)
+
+#Read in the list of genomes which passed QC
+QC_pass <- read_csv("2022/delims/QC_pass.txt", col_names = "name", show_col_types = FALSE)
+
+#Read in our metadata
+metadata <- read_excel("Metadata_public_genomes.xlsx", 
+    sheet = "metadata_only")
+
+#Read in our species IDs
+species_ids <- read_csv("2022/bacsort/Species_ids.csv")
+```
+
+## Editing of MLSTs
+
+Next we need to process our MLST data so that novel STs are not treated as the
+same but rather as different sequence types depending on their allelic profiles.
+
+We will make some placeholder names in the mean time and change them later pre-
+publication.
+
+```{r }
+#Filter out samples which didnt pass QC
+mlst <- mlst %>% filter(name %in% QC_pass$name)
+
+#Prefix our STs with the letters ST
+mlst <- mlst %>% mutate(ST = str_replace(ST, "^", "ST"))
+
+#Produce placeholder STs
+placeholder_STs <- mlst %>% select(-name,-scheme) %>% unique() %>% filter(ST == "ST-") %>% select(-ST) %>%
+       # filter(
+       #         !grepl("-", allele1),
+       #         !grepl("-", allele2),
+       #         !grepl("-", allele3),
+       #         !grepl("-", allele4),
+       #         !grepl("-", allele5),
+       #         !grepl("-", allele6),
+       #         !grepl("-", allele7)) %>% 
+mutate(ST_new = paste0("placeholder_ST",as.character(1:nrow(.)))) %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% select(ST_new, allele_cat)
+
+#Trim ST names for placeholders
+placeholder_STs$ST_new <- gsub("placeholder_ST(.*)", "ST\\1^^", placeholder_STs$ST_new)
+
+#Produce a list of the mlsts within the collection
+ST_list <- mlst %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% left_join(placeholder_STs, by = "allele_cat") %>% select(-allele_cat) %>% mutate(ST_new = if_else(is.na(ST_new), ST, ST_new))
+```
+
+```{r}
+#Read in our novel ST designations
+
+mlst_pubmlst <- read_delim("pubMLST/mlst.txt", delim = "\t")
+
+mlst_pubmlst <- mlst_pubmlst %>% rename("name" = isolate)
+
+inner_join(ST_list, mlst_pubmlst, by = "name")
+```
+
+Now we will assign sources based on our sample names
+
+```{r }
+#Create a new column for our collection_names
+species_ids <- species_ids %>%
+        mutate(collection = case_when(grepl("GCF", name) ~ "RefSeq",
+                                      grepl("SD", name) ~ "Gull",
+                                      grepl("SG", name) ~ "Gull",
+                                      grepl("ERQ", name) ~ "Wastewater",
+                                      grepl("DB", name) ~ "Wastewater"))
+                                      
+
+
+#Create our metadata sheet (we will expand on this later with extra data)
+metadata <- left_join(species_ids, metadata)
+
+#Fix the source column for internal isolates
+metadata <- metadata %>% mutate(Source = if_else(collection == "RefSeq", Source, collection)) %>% rename("ID" = name)
+
+#Fix the source column for internal isolates
+metadata <- metadata %>% mutate(Source = if_else(Source == "NA", "Unknown", Source))
+
+#Fix the source column for internal isolates
+metadata <- metadata %>% mutate(Source = if_else(Source == "Environmental facility", "Environment", Source))
+
+#Fix the source column for internal isolates
+metadata <- metadata %>% mutate(Source = if_else(Source == "environment", "Environment", Source))
+
+#Combine our metadata and our clusters for use in microreact
+data_microreact <- left_join(clusts, metadata, by = "ID")
+
+#Combine our ST data and metadata/clusters for use in microreact
+data_microreact <- ST_list %>% select(name, ST_new) %>% rename("ID" = name) %>% right_join(data_microreact)
+
+#Write this to file
+write_delim(x = data_microreact, file = "results/ska_fastq_distance_100_snps/Citrobacter_April_100_SNPs.clusters_w_metadata.tsv", delim = "\t")
+
+
+
+data_microreact1 <- data_microreact %>% rename("Sample 1" = "ID") %>% rev()
+
+data_microreact2 <- data_microreact %>% rename("Sample 2" = "ID")
+
+dists2 <- inner_join(data_microreact1, dists, by = "Sample 1")
+
+dists2 <- inner_join(dists2, data_microreact2, by = "Sample 2")
+
+
+dists3 <- dists2 %>% filter(SNPs < 1000) %>% drop_na(ST_new.x, ST_new.y) %>% filter(grepl("SD|ERQ|SG", `Sample 1`) | grepl("SD|ERQ|SG", `Sample 2`))
+
+
+```
+
+```{r}
+library(ggalluvial)
+library(viridis)
+
+data_microreact
+
+#group data 
+supp_table_x <- data_microreact %>%
+        filter(ID %in% QC_pass$name) %>%
+        mutate(Date = if_else(Date == "NA", NA, Date)) %>%
+        mutate(Country = if_else(Country == "unknown" | Country == "not applicable" | Country == "NA" | is.na(Country), "Unknown", Country)) %>%
+        mutate(Source = if_else(is.na(Source), "Unknown", Source)) %>%
+        mutate(Date = if_else(Date == "unknown", NA, Date)) %>%
+        #mutate(Country = if_else(Country == "unknown", NA, Date)) %>%
+        mutate(Year_bin = case_when(Date >= 1983 & Date <= 2010 ~ '1983-2010', 
+                                    Date >= 2011 & Date <= 2015 ~ '2011-2015', 
+                                    Date >= 2016 & Date <= 2020 ~ '2016-2020', 
+                                    Date == "Unknown" | is.na(Date) ~ 'Unknown')) %>%
+        mutate(Source_simple = case_when(Source %in% c('Insect', 'Annelid', 'Mollusc') ~ 'Invertebrate',
+                                         Source %in% c('Rodent', 'Mammalian', 'Canine', 'Camel') ~ 'Mammal (other)',
+                                         Source %in% c('Swine', 'Bovine') ~ 'Swine/Bovine',
+                                         Source %in% c('Fish', 'Reptile') ~ 'Fish/Reptile',
+                                         Source == "Unknown" | is.na(Source) ~ 'Unknown',
+                                         .default = as.character(Source))) %>%
+        mutate(Year_bin = factor(Year_bin, levels = c("1983-2010",
+                                                      "2011-2015",
+                                                      "2016-2020",
+                                                      "Unknown"
+                                                      )))
+
+write_delim(supp_table_x, "2022/delims/Supplementary_table_1.txt")
+
+d1 <- supp_table_x %>% filter(collection == "RefSeq") %>%group_by(Source_simple, Country, Year_bin) %>% 
+        dplyr::summarise(count = n())
+
+
+library(countrycode)
+
+d1$Continent <- countrycode(sourcevar = d1$"Country",
+                            origin = "country.name",
+                            destination = "continent")
+
+d1 <- d1 %>% select(-Country) %>% rename('Source' = Source_simple) %>% rename('Year' = Year_bin)
+
+
+#to save as pdf 
+pdf(file = "2022/figures/Alluvial_plot_NCBI_Citros.pdf", width = 25, height = 15, useDingbats = FALSE)
+
+#plot 
+ggplot(data = d1,
+       aes(axis1 = Source, axis2 = Continent, axis3 = Year, y = count)) + #change the order to change the graph order 
+        scale_x_discrete(limits = c("Source", "Continent", "Year"), expand = c(.05, .05)) +
+        geom_alluvium(aes(fill = Source), width = 1/9, show.legend = FALSE ) + #change width to alter thickness of axes 
+       # scale_fill_manual(values = Col) + #what ever colours you like 
+        geom_stratum(width = 1/9) + #if you change width above remember to change it here 
+        geom_text(stat = "stratum", size = 4, aes(label = after_stat(stratum))) +
+        #geom_label(stat = "stratum", size = 4, aes(label = after_stat(stratum))) + #i've no idea what this bit does but its important  
+        theme_minimal() #+ coord_flip()
+
+dev.off()
+```
+
+
+```{r}
+#Set the path for the gull overlap tree
+ww_overlap_tree_path <- "results/summaries/trees/mashtree_citro_ww_overlap.tree"
+
+#Read in our tree
+ww_tree <- read.tree(ww_overlap_tree_path)
+
+#Midpoint root our tree
+ww_tree <- midpoint.root(ww_tree)
+
+dists2 %>% filter(`Sample 1` %in% ww_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label) %>% View()
+
+
+species_cols <- c(#Red
+"#e6194B",
+#Green
+"#3cb44b",
+##Yellow
+#"#ffe119",
+#Blue
+"#4363d8",
+#Orange
+"#f58231",
+#Purple
+"#911eb4",
+#Cyan
+"#42d4f4",
+#Magenta
+"#f032e6",
+#Lime
+"#bfef45",
+#Pink
+"#fabed4",
+#Teal
+"#469990",
+#Brown
+"#9A6324",
+##Beige
+#"#fffac8",
+#Maroon
+"#800000",
+#Mint
+"#aaffc3",
+#Olive
+"#808000",
+#Apricot
+"#ffd8b1",
+#Navy
+"#000075",
+#Grey
+"#a9a9a9",
+##White
+#"#ffffff",
+#Black
+"#000000",
+##Lavender
+"#dcbeff")
+
+#Make a list of our species names
+species_names <- metadata %>%
+        pull(bacsort_species) %>%
+        unique() %>%
+        sort()
+
+#Reduce the number of species colours
+species_cols <- species_cols[1:length(species_names)]
+
+#Bind them to the colours
+names(species_cols) <- species_names
+
+x_order_ww <- dists2 %>% filter(`Sample 1` %in% ww_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label) %>% filter(ST_new.x == ST_new.y) %>% filter(Int_Ext.x != Int_Ext.y) %>% arrange(bacsort_species.x, ST_new.x) %>% pull(ST_new.x) %>% unique()
+
+ww_snp_dists <- dists2 %>% filter(`Sample 1` %in% ww_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label) %>% filter(ST_new.x == ST_new.y) %>% filter(Int_Ext.x != Int_Ext.y) %>% ggplot(aes(x = ST_new.x, y = SNPs, fill = bacsort_species.x)) + geom_boxplot() + geom_jitter(aes(alpha = 0.5), size = 0.5) + scale_y_continuous(name = "Pairwise SNP distance", limits = c(0, 6750), breaks = c(seq(from = 0, to = 6750, by = 250))) + scale_fill_manual(values = species_cols) + scale_x_discrete(name = "Sequence Type",limits=x_order_ww) + geom_hline(yintercept = 100, color = "red", linetype = "dashed")
+```
+
+
+```{r}
+
+#Set the path for the gull overlap tree
+gull_overlap_tree_path <- "results/summaries/trees/mashtree_citro_gull_overlap.tree"
+
+#Read in our tree
+gull_tree <- read.tree(gull_overlap_tree_path)
+
+#Midpoint root our tree
+gull_tree <- midpoint.root(gull_tree)
+
+#Check for gull matches
+dists2 %>% filter(`Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% gull_tree$tip.label) %>% View()
+
+x_order_gull <- dists2 %>% filter(`Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% gull_tree$tip.label) %>% filter(ST_new.x == ST_new.y) %>% filter(Int_Ext.x != Int_Ext.y) %>% arrange(bacsort_species.x, ST_new.x) %>% pull(ST_new.x) %>% unique()
+
+gull_snp_dists <- dists2 %>% filter(`Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% gull_tree$tip.label) %>% filter(ST_new.x == ST_new.y) %>% filter(Int_Ext.x != Int_Ext.y) %>% ggplot(aes(x = ST_new.x, y = SNPs, fill = bacsort_species.x)) + geom_boxplot() + geom_jitter(aes(alpha = 0.5), size = 0.5) + scale_y_continuous(name = "Pairwise SNP distance", limits = c(0, 6750), breaks = c(seq(from = 0, to = 6750, by = 250))) + scale_fill_manual(values = species_cols) + scale_x_discrete(name = "Sequence Type",limits=x_order_gull) + geom_hline(yintercept = 100, color = "red", linetype = "dashed")
+```
+
+
+```{r}
+library(paletteer)
+
+
+dists4 <- dists2 %>% rowwise() %>%
+        mutate(col1 = pmin(Source.x, Source.y), col2 = pmax(Source.x, Source.y) , source_combo = paste(col1, "vs",col2)) %>% select(-col1, -col2)
+
+both_trees_dists <- dists4 %>% filter(`Sample 1` %in% ww_tree$tip.label | `Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label | `Sample 2` %in% gull_tree$tip.label) %>% filter(Int_Ext.x != Int_Ext.y) %>% filter(ST_new.x == ST_new.y) 
+
+source_combos_names <- both_trees_dists%>% pull(source_combo) %>% unique() %>% sort()
+
+source_combo_cols <- paletteer_d("ggthemes::Tableau_10")[1:length(source_combos_names)]
+
+names(source_combo_cols) <- source_combos_names
+
+ww_dists <- dists4 %>% filter(`Sample 1` %in% ww_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label) %>% filter(Int_Ext.x != Int_Ext.y) %>% filter(ST_new.x == ST_new.y)
+
+ww_dist_plot <- ww_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 6750),
+                           breaks = c(seq(from = 0,
+                                          to = 6750,
+                                          by = 250))) +
+        ggtitle("Full collection wastewater-pair SNP distances") +
+        scale_color_manual(values = source_combo_cols) +
+        scale_x_discrete(name = "Sequence Type", limits=x_order_ww) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed") +
+        theme_minimal() +
+        theme(axis.text.x = element_text(size = 8))
+
+
+gull_dists <- dists4 %>% filter(`Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% gull_tree$tip.label) %>% filter(Int_Ext.x != Int_Ext.y) %>% filter(ST_new.x == ST_new.y)
+
+gull_dist_plot <- gull_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 6750),
+                           breaks = c(seq(from = 0,
+                                          to = 6750,
+                                          by = 250))) +
+        ggtitle("Full collection gull-pair SNP distances") +
+        scale_color_manual(values = source_combo_cols) +
+        scale_x_discrete(name = "Sequence Type",limits=x_order_gull) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed") +
+        theme_minimal() +
+        theme(axis.text.x = element_text(size = 8))
+```
+
+```{r}
+
+both_trees_plot <- both_trees_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 6750),
+                           breaks = c(seq(from = 0,
+                                          to = 6750,
+                                          by = 250))) +
+        ggtitle("Full collection wastewater-pair SNP distances") +
+        scale_color_manual(name = "Source Combinations",
+                           values = source_combo_cols) +
+        scale_x_discrete(name = "Sequence Type",limits=x_order_ww) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed") +
+        theme(legend.position = "bottom") +
+        guides(colour = guide_legend(override.aes = list(size=6)))
+
+
+legend_mixed <- get_legend(both_trees_plot, position = "bottom") 
+```
+
+
+
+```{r}
+
+
+mixed_plots <- ggarrange(gull_dist_plot, ww_dist_plot, ncol=2, nrow=1, legend="none")
+
+plot_w_legend <- ggarrange(mixed_plots, legend_mixed, ncol=1, nrow=2, heights = c(8, 2))
+
+ggsave(plot_w_legend, filename = "/Users/131785/Dropbox/PostDoc/Manuscripts/2021/Citrobacter/Citrobacter_analysis/2022/images/SKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
+```
+
+```{r}
+source_combo_cols <- paletteer_d("ggthemes::Tableau_10") 
+
+int_ww_dists <- dists4 %>% filter(`Sample 1` %in% ww_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label) %>% filter(Int_Ext.x == Int_Ext.y) %>% filter(Int_Ext.x == "Int") %>% filter(ST_new.x == ST_new.y)
+
+x_order_int_ww <- int_ww_dists %>% arrange(bacsort_species.x, ST_new.x) %>% pull(ST_new.x) %>% unique()
+
+int_ww_dist_plot <- int_ww_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 4250),
+                           breaks = c(seq(from = 0,
+                                          to = 4250,
+                                          by = 250))) +
+        ggtitle("Internal collection wastewater-pair SNP distances") +
+        scale_color_manual(values = source_combo_cols) +
+        scale_x_discrete(name = "Sequence Type", limits=x_order_int_ww) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed") +
+        theme_minimal() +
+        theme(axis.text.x = element_text(size = 8))+
+        guides(colour = guide_legend(override.aes = list(size=6)))
+
+
+int_gull_dists <- dists4 %>% filter(`Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% gull_tree$tip.label) %>% filter(Int_Ext.x == Int_Ext.y) %>% filter(Int_Ext.x == "Int") %>% filter(ST_new.x == ST_new.y)
+
+x_order_int_gull <- int_gull_dists %>% arrange(bacsort_species.x, ST_new.x) %>% pull(ST_new.x) %>% unique()
+
+int_gull_dist_plot <- int_gull_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 4250),
+                           breaks = c(seq(from = 0,
+                                          to = 4250,
+                                          by = 250))) +
+        ggtitle("Internal collection gull-pair SNP distances") +
+        scale_color_manual(values = source_combo_cols) +
+        scale_x_discrete(name = "Sequence Type",limits=x_order_int_gull) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed") +
+        theme_minimal() +
+        theme(axis.text.x = element_text(size = 8))+
+        guides(colour = guide_legend(override.aes = list(size=6)))
+
+int_plots <- ggarrange(int_gull_dist_plot, int_ww_dist_plot, ncol=2, nrow=1, legend="bottom", common.legend = TRUE)
+
+ggsave(int_plots, filename = "/Users/131785/Dropbox/PostDoc/Manuscripts/2021/Citrobacter/Citrobacter_analysis/2022/images/internal_SKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
+```
+
+
+```{r}
+
+source_combo_cols <- paletteer_d("ggthemes::Tableau_10")
+
+
+ext_ww_dists <- dists4 %>% filter(`Sample 1` %in% ww_tree$tip.label) %>% filter(`Sample 2` %in% ww_tree$tip.label) %>% filter(Int_Ext.x == Int_Ext.y) %>% filter(Int_Ext.x == "Ext") %>% filter(ST_new.x == ST_new.y)
+
+x_order_ext_ww <- ext_ww_dists %>% arrange(bacsort_species.x, ST_new.x) %>% pull(ST_new.x) %>% unique()
+
+ext_ww_dist_plot <- ext_ww_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 4500),
+                           breaks = c(seq(from = 0,
+                                          to = 4500,
+                                          by = 250))) +
+        ggtitle("External collection wastewater SNP distances") +
+        scale_color_manual(values = source_combo_cols) +
+        scale_x_discrete(name = "Sequence Type",limits=x_order_ext_ww) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed")+
+        guides(colour = guide_legend(override.aes = list(size=6)))
+
+
+ext_gull_dists <- dists4 %>% filter(`Sample 1` %in% gull_tree$tip.label) %>% filter(`Sample 2` %in% gull_tree$tip.label) %>% filter(Int_Ext.x == Int_Ext.y) %>% filter(Int_Ext.x == "Ext") %>% filter(ST_new.x == ST_new.y)
+
+x_order_ext_gull <- ext_gull_dists %>% arrange(bacsort_species.x, ST_new.x) %>% pull(ST_new.x) %>% unique()
+
+ext_gull_dist_plot <- ext_gull_dists %>%
+        ggplot(aes(x = ST_new.x, y = SNPs)) +
+        geom_boxplot() +
+        geom_jitter(aes(color = source_combo), size = 0.5) +
+        scale_y_continuous(name = "Pairwise SNP distance",
+                           limits = c(0, 4500),
+                           breaks = c(seq(from = 0,
+                                          to = 4500,
+                                          by = 250))) +
+        scale_color_manual(values = source_combo_cols) +
+        ggtitle("External collection gull SNP distances") +
+        scale_x_discrete(name = "Sequence Type",limits=x_order_ext_gull) +
+        geom_hline(yintercept = 100, color = "red", linetype = "dashed")+
+        guides(colour = guide_legend(override.aes = list(size=6)))
+
+ext_plots <- ggarrange(ext_gull_dist_plot, ext_ww_dist_plot, ncol=2, nrow=1, legend="none")
+
+#plotly::ggplotly(ext_plots)
+
+ggsave(ext_plots, filename = "/Users/131785/Dropbox/PostDoc/Manuscripts/2021/Citrobacter/Citrobacter_analysis/2022/images/externalSKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
+```

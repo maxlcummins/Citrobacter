@@ -1,0 +1,1239 @@
+name	Metal	Biocide	Heat	Virulence	Acid
+GCF_014901875	arsA,arsD,arsR,merR,merT	qacEdelta1			
+GCF_001281005	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_905218895		qacEdelta1			
+GCF_902166445	arsA,arsD,arsR		hsp20		
+GCF_016500615	merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016905765	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_014856055	arsA,arsD,arsR	qacE,qacEdelta1		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016501665	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013801705	arsA,arsD,arsR				
+GCF_019660505	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_010590395	ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016905675	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_013925725	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_901456235	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_018439045	arsA,arsD,arsH,arsR,merC,merD,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_008931625	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1,qacG2			
+GCF_013724985	arsR				
+GCF_020809005	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_902498925	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_018919595	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silC,silF,silR,silS				
+GCF_014855955		qacE,qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_905338045	merD,merE,merF,merP,merR,merT				
+GCF_016500575	arsA,arsD,arsR	qacEdelta1			
+GCF_002151755	arsA,arsD,arsR,ncrA,ncrB,ncrC,ncrY,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013836145	arsC				
+ERQ0166	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016892575	arsA,arsD,arsR				
+GCF_013899385	arsA,arsD,arsR				
+GCF_013725595	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_005281355	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016504815	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR	qacG2		ybtP,ybtQ	
+GCF_016859905	pcoS,terD,terW,terZ	qacEdelta1,qacL			
+GCF_000521965	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_004004805	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoD,pcoR,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014803105	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ				
+GCF_013749535	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001037585	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_001721255	merA,merD,merE,merP,merR,merT,pcoE,terB,terC,terD,terE	qacE			
+GCF_008931685	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacG2			
+GCF_900079795	arsA,arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014803115	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_900461055	merC,merP,merR,merT	qacEdelta1		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_018066565	arsA,arsD,arsR,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE			
+GCF_005281175	arsA,arsD,arsR				
+GCF_003990165	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002051555	arsA,arsD,arsR	qacEdelta1			
+GCF_016905775	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_016505335	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001022155	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002192675	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS				
+GCF_014101295	arsA,arsD,arsR				
+GCF_005281025	arsA,arsD,arsR				
+ERQ0156	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_015965555				espA,espK,nleB,nleC,tir	
+GCF_014679775				iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_000937505	arsA,arsD,arsR,pcoA,pcoR,silA,silP,silR,terD,terW,terZ				
+GCF_001880955	arsA,arsD,arsR	qacEdelta1			
+GCF_018441285	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_019270335					
+DB_3_C11	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacG2			
+SD_5_A12					
+GCF_014802805	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terB,terC,terD	qacEdelta1		ybtP,ybtQ	
+GCF_008370125	arsA,arsD,arsR,terD,terW,terZ				
+GCF_002903215	arsA,arsD,arsR	qacEdelta1			
+ERQ0165	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_013792365	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_002863945	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1			
+GCF_003400395	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacH			
+GCF_015731115	pcoE,pcoS	qacEdelta1			
+GCF_018421715	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_002386385	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_019584005	arsA,arsD,arsR				
+GCF_014333315				iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_002918575					
+GCF_004801125	arsA,arsD,arsR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2	iroN	
+GCF_016500865					
+GCF_016503635					
+GCF_000783445				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_000018045				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_004005255	arsA,arsD,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016500885	arsA,arsD,arsR				
+GCF_005281165	arsA,arsD,arsR				
+GCF_015670485				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016502045	arsA,arsD,arsR,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_005281155					
+GCF_009876795	arsA,arsD,arsR				
+GCF_003015305	merC,merR,merT	qacEdelta1			
+GCF_002417525	arsD,arsR,pcoA,pcoR,silA,silP,silR				
+GCF_011602505	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terB,terC,terD,terE				
+GCF_015230995					
+GCF_000277565	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016500585	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_004801105	ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_005960425	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_004023995	arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_004801115	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_010319905	arsA,arsD,arsR,merR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE			
+GCF_002939255	silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_021417205	arsA,arsD,arsR,merD,merP,merR,merT				
+GCF_016509215	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_014855625	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,ncrY,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_014803025	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+ERQ0683	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016503845	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_000158355	arsA,arsD,arsR,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_016502215	arsA,arsD,arsR				
+GCF_013745755	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+ERQ0172	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_001055315	arsA,arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		shsP,trxLHR,yfdX1,yfdX2		
+GCF_016504035	arsD,arsR				
+GCF_016500875	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+SD_2_G2	arsA,arsD,arsR				
+GCF_900446905	arsA,arsD,arsR				
+ERQ0682	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_905219065	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013786145	ncrA,ncrB,ncrC,ncrY,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002918495					
+GCF_013798355	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_010119415	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terB,terC,terD,terE	qacEdelta1			
+ERQ0044	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ				
+GCF_016501465				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_014803275	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002918465					
+GCF_018443005	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacE			
+GCF_018441725	merA,merD,merE,merP,merR,merT				
+GCF_015730635	arsA,arsD,arsR				
+GCF_014931625	terD,terW,terZ	qacEdelta1			
+GCF_015234875				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013815045					
+GCF_019656375				ybtP,ybtQ	
+GCF_014103655	arsA,arsD,arsR,terD,terW,terZ				
+GCF_003471655					
+GCF_005217825	arsA,arsD,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016503915				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001317155	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013797615					
+GCF_013826265	arsA,arsD,arsR	qacEdelta1			
+GCF_014803265	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_016501025				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002918555	arsR				
+GCF_021373375	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016500795				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016505625					
+GCF_014855915	arsA,arsD,arsR	qacE,qacEdelta1		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_015674715					
+GCF_018342065	arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_021533375				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_900449345	arsA,arsD,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016505395					
+GCF_016505485	arsA,arsD,arsR,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_020099335	arsA,arsD,arsR,merA,merB,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR,terD,terW,terZ				
+ERQ0243	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_014103475	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_015230755	arsD,arsR,merC,merP,merR,merT,pcoA,pcoR,silA,silP,silR,terD,terW,terZ	qacEdelta1			
+GCF_016504865	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018106225	merA,merD,merE,merR,merT	qacE			
+GCF_016859695	terD,terW,terZ	qacEdelta1			
+GCF_001482575	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacE			
+GCF_001297795	arsA,arsD,arsR				
+GCF_009876695	arsA,arsD,arsR				
+GCF_009664045	merC,merP,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_016504115	arsA,arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013612875	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018423095	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS				
+GCF_003255895	arsA,arsD,arsR				
+GCF_001034485					
+GCF_015674155					
+GCF_016504735					
+GCF_016502055	arsA,arsD,arsR,chrA,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+SG18_265_S115					
+GCF_013741395	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_000027085				espA,espF,espK,nleB,nleC,tir	
+GCF_008364715	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_014902035	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_902381795	arsA,arsD,arsR				
+GCF_013890155	arsA,arsD,arsR				
+GCF_016893745					
+GCF_901456255		qacEdelta1,qacL			
+GCF_016504365				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_018106145	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_015231155	arsD,arsR,merC,merP,merR,merT,pcoA,pcoR,silA,silP,silR,terD,terW,terZ	qacEdelta1			
+GCF_014104005	merA,merD,merE,merR,merT	qacEdelta1,qacG2			
+GCF_900446875				ybtP,ybtQ	
+GCF_902373845					
+GCF_004353845	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_013746155	merA,merD,merE,merR,merT				
+GCF_001880845	arsA,arsD,arsR	qacEdelta1			
+GCF_002919455					
+GCF_014855525	ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1	hsp20		
+GCF_013816515	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016502265	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_001922445				ybtP,ybtQ	
+GCF_013784645	arsA,arsD,arsR,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+SD_9_H6					
+GCF_016859715	terD,terW,terZ				
+GCF_015558715	arsD,arsR				
+GCF_001034465	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013899325	arsA,arsD,arsR				
+GCF_002947675				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001413195	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_014230155	arsA,arsD,arsR	qacEdelta1			
+GCF_001057215	arsA,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		shsP,trxLHR,yfdX1,yfdX2		
+ERQ0222	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013725165	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001880775	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_017151575		qacEdelta1			
+GCF_013390245	merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016501745				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013794885	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_900638065			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_018420455	arsA,arsD,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE			
+GCF_016502165	terB,terC,terD,terE			ybtP,ybtQ	
+GCF_001413255	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_902387635				ybtP,ybtQ	
+GCF_013747755	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_902807235	arsA,arsD,arsR	qacEdelta1			
+GCF_019502645	arsD,arsR,merC,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_000783755	arsA,arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+ERQ0233	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016894085	arsA,arsD,arsR				
+GCF_019800295	arsA,arsD,arsR,merA,merD,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	smr			
+GCF_014104235	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_013741155	arsA,arsD,arsR,merA,merD,merE,merR,merT		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_900460975					
+GCF_015230675	arsD,arsR,merC,merP,merR,merT,pcoA,pcoR,silA,silR,terD,terW,terZ	qacE			
+GCF_005280845	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014803045	arsA,arsD,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_902387995	arsD,arsR,merA,merC,merD,merE,merR,merT,pcoS	qacEdelta1			
+GCF_009876815	arsA,arsD,arsR				
+GCF_015549445	arsD,arsR				
+GCF_018447685	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014803335	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_905329885	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_019448455	arsA,arsD,arsR				
+GCF_020889125	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_000759815				espA,espK,nleB,nleC,tir	
+GCF_001558935	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016939615	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016505125	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_005281265	arsA,arsD,arsR				
+GCF_002151735	pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_018446835	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_021729115	arsA,arsD,arsR				
+GCF_001413095	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_014855535	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_005280945	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+ERQ0689	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018422455		qacE		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001880865	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE			
+GCF_001034475	merA,merC,merD,merE,merP,merR,merT,terD,terW,terZ				
+GCF_016504515	arsA,arsD,arsR				
+GCF_016905875	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_013618825	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_014104375	arsA,arsD,arsR				
+GCF_001412825	arsA,arsD,arsR				
+GCF_001559235					
+GCF_004152635	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_013882995	arsA,arsD,arsR				
+GCF_011077325	arsA,arsD,arsR,fieF,merC,merP,merR,merT	qacEdelta1			
+GCF_014230185	arsA,arsD,arsR	qacEdelta1			
+GCF_016504085				iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_018138525			kefB-GI,psi-GI,trxLHR		
+GCF_000648515	arsA,arsD,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+ERQ0227	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_010279875	arsA,arsD,arsR,terD,terW,terZ	qacE			
+GCF_013816335	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014104775	arsA,arsD,arsR				
+GCF_016504825				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_012524235					
+GCF_013925325	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014104155	merA,merD,merE,merR,merT				
+GCF_016504605				ybtP,ybtQ	
+GCF_002042885	arsA,arsD,arsR				
+GCF_002215385	arsA,arsD,arsR,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004331585	arsA,arsD,arsR,merA,merE,merT				
+GCF_018438605	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,silA,silB,silC,silF,silP,silR,silS,terD,terW,terZ	qacE			
+ERQ0671	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_001559075	arsA,arsD,arsR				
+GCF_016504345				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_015230695	arsD,arsR,merC,merP,merR,merT,pcoA,pcoR,silA,silP,silR,terD,terW,terZ	qacEdelta1			
+GCF_016503495	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_019660135	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_016501755					
+GCF_000759735	arsA,arsD,arsR				
+GCF_004024405	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoS,terD,terW,terZ	qacE			
+GCF_005281305					
+GCF_014803285	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_001065805	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004145665	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_016501405					
+GCF_005280805	arsA,arsD,arsR				
+GCF_016503985	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_015137095	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_900112055	arsA,arsD,arsR				
+GCF_016501985	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_000388155	arsA,arsD,arsR,pcoA,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014803075	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_018066535	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_005281325			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_018423075	arsA,arsD,arsR,merA,merB,merD,merG,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016428845					
+GCF_005281215					
+GCF_013728095	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_018421575	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE			
+GCF_013821695	arsA,arsD,arsR				
+GCF_016504485	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_019270375					
+GCF_016507855					
+GCF_001463265	arsA,arsD,arsR,merR	qacE			
+DB_3_D2	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacG2			
+GCF_014802905	arsA,arsD,arsR,merA,merD,merE,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_902506695	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_014333035	arsA,arsD,arsR				
+GCF_014189375	arsA,arsD,arsR,merA,merB,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002189125	merA,merD,merE,merR,merT,terD,terW,terZ	qacE,qacEdelta1,qacL			
+GCF_019399955	arsA,arsD,arsR				
+GCF_019270355					
+ERQ0183	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_000764735	arsD,arsR				
+GCF_016501935	arsA,arsD,arsR,terD,terW,terZ		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016501295					
+ERQ0213	arsA,arsD,arsR,merA,merD,merE,merR,merT		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_009721345	arsA,arsD,arsR				
+GCF_005281255					
+GCF_009856875	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016503935	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_013425705	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016501785				ybtP,ybtQ	
+GCF_001412735	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_003812325	arsA,arsD,arsR				
+GCF_018423215	arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1		iucA,iucB,iucC,iucD,iutA	
+GCF_014337295	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_003363295	arsR,merB,merD,merR				
+GCF_016501115	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014902055	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_009821555	terD,terW,terZ	qacE			
+GCF_001059745	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+ERQ0678	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013337015	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_001411885	arsA,arsD,arsR	qacEdelta1			
+GCF_019270215					
+GCF_019270575					
+GCF_002850715	arsA,arsD,arsR			astA	
+ERQ0045	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_016501905				ybtP,ybtQ	
+GCF_009821375	arsA,arsD,arsR,terD,terW,terZ	qacEdelta1			
+ERQ0154	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_004167485	arsA,arsD,arsR				
+GCF_016507545				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_018502305				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016505605	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013085885	arsA,arsD,arsR				
+GCF_001055295	arsA,arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		shsP,trxLHR,yfdX1,yfdX2		
+GCF_001867255	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoE,pcoS	qacEdelta1			
+GCF_008370135	arsA,arsD,arsR,merB,merC,merD,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_016500505	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016504495	ncrA,ncrB,ncrC				
+GCF_019281555	arsA,arsD,arsR,pcoA,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_018442145	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoR,silA,silR	qacEdelta1			
+GCF_019047765	arsR				
+GCF_016501865	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001880905	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_016500805				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002880615					
+GCF_019659905	arsA,arsD,arsR,pcoE,pcoS	qacE			
+GCF_016905625	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_013266895	arsA,arsD,arsR				
+GCF_016505445	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018420365	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_013724765	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018420675	arsA,arsD,arsR				
+GCF_016461655	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_020034515	arsA,arsD,arsR				
+GCF_013791065	arsD,arsR,merA,merD,merE,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoR,silA,silP,silR				
+GCF_019660345	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_002863965	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+ERQ0250	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR				
+GCF_001412795	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_020215855	arsA,arsD,arsR				
+GCF_014803315	merC,merP,merR,merT,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB	qacEdelta1			
+GCF_019270315	arsA,arsD,arsR				
+GCF_018446045	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_009876755	arsA,arsD,arsR				
+GCF_016502005				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_014596835					
+GCF_005280825	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_004331535	arsA,arsD,arsR,merA,merD,merE,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016859065	arsA,arsD,arsR				
+ERQ0173	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013746415	merA,merD,merE,merR,merT				
+GCF_001546285					
+GCF_009876705	arsA,arsD,arsR				
+GCF_900446975	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_009648935	arsA,arsD,arsR				
+GCF_900520335	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_900080005	arsB,arsH,arsR			ybtP,ybtQ	
+GCF_016503385	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002918855	arsA,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014903125	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoR,pcoS,silA,silP,silR	qacEdelta1			
+SG18_138_1_S32					
+ERQ0685	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_009857035	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR	qacEdelta1			
+GCF_004801555	arsA,arsD,arsR				
+GCF_005280855					
+GCF_016504105					
+GCF_014926275	merB,merD,merR,pcoS,terD,terW,terZ				
+GCF_000759835					
+GCF_019265345					
+GCF_003938205	arsD,arsR				
+GCF_016501325	merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016500905				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_005281045	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002215605	arsA,arsD,arsR				
+GCF_014189285	arsA,arsD,arsR,merA,merB,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_013899425	arsA,arsD,arsR				
+GCF_016503645	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_018919505	arsA,arsD,arsR				
+GCF_003429605	arsA,arsD,arsR				
+GCF_013168955	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002796505	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016505385	arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoR,silA,silP,silR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_009730355	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR	qacG2			
+GCF_003401455	arsD,arsR,ncrA,ncrB,ncrC,silA,silP,silR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		ymgB
+GCF_001413215	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_000342325			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+ERQ0212	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_000692135	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1,qacF			
+GCF_001412725	arsA,arsD,arsR				
+GCF_001471775				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016894105					
+GCF_013816795	arsA,arsD,arsR				
+GCF_003665575	arsR				
+GCF_005280915	pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016502105					
+ERQ0216	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_016939655	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE,qacEdelta1			
+GCF_016505225	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+ERQ0255	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_018442185	arsD,arsR,merC,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE			
+GCF_021417265	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013782845	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_016504635				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+ERQ0175	arsA,arsD,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_001586845	arsA,arsD,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013784225	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013614655	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1		ybtP,ybtQ	
+GCF_001412715	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016503565	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016508125	arsA,arsD,arsR				
+GCF_013792125	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016505465					
+GCF_018106165	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016128275				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016500725					
+GCF_013874155	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_013889875	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016503625	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_901456285	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1,qacL	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014332945	arsA,arsD,arsR				
+GCF_009905315			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_905335685	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_904425445	arsA,arsD,arsR,pcoD,pcoR,pcoS,silE,terD,terW,terZ				
+ERQ0246	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_002208845	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013738635	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004331565	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016502115	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR		hsp20		
+GCF_018421475	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_020559475	arsA,arsD,arsR			ybtP,ybtQ	
+GCF_014230105	arsA,arsD,arsR	qacEdelta1			
+ERQ0200	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016505245	arsA,arsD,arsR	qacEdelta1			
+GCF_902160855	arsA,arsD,arsR				
+GCF_019660715	merC,merP,merR,merT	qacEdelta1			
+ERQ0043	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_004795555	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_013739375	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+ERQ0160	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_019584605	arsA,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_018439245	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004181995				iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_018446035	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE			
+GCF_010588075				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_014855945	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_013336915	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoR,silA,silP,silR	qacEdelta1			
+GCF_018421175	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_009664065	merA,merC,merD,merE,merP,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_016501555				iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_005281115	arsA,arsD,arsR				
+GCF_002151785	arsA,arsB,arsC,arsD,arsR,merR,merT				
+GCF_015666935	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_001037505	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+ERQ0186	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018422995	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_014803055	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_014169975	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoR,silA,silP,silR	qacEdelta1			
+GCF_014596845	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014859035	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014802995	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_016906145	arsA,arsD,arsR				
+GCF_013730455	arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014802945	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_009295665	arsA,arsD,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_008693945				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_014596855					
+GCF_018439745	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_016505085	merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_019661085	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_008693645	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR	qacG2			
+GCF_000692115	arsA,arsD,arsR,merP,merR,merT,ncrB,ncrC,ncrY,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1		ybtP,ybtQ	
+GCF_003362775	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1			
+GCF_001413125	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016894025					
+GCF_020889185	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silC,silE,silP,silR,silS	qacEdelta1,qacL			
+GCF_016504015					
+GCF_018444505	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013726215	arsA,arsD,arsR				
+GCF_020593155	arsA,arsD,arsR			ybtP,ybtQ	
+GCF_000982845	arsA,arsD,arsR				
+GCF_009647535					
+GCF_019731375	arsA,arsD,arsR,merC,merP,merR,merT,silA,silC,silE,silF,silR				
+GCF_001022685	arsR,merA,merD,merE,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_003665675	arsD,arsR,pcoA,pcoR,silA,silP,silR				
+GCF_009910785	arsA,arsD,arsR				
+GCF_004331635	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_009881155	arsA,arsD,arsR				
+GCF_014802845	arsA,arsD,arsR,merC,merP,merR,merT,ncrA,ncrB,ncrC,ncrY,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terB,terC,terD,terE	qacEdelta1	hsp20		
+GCF_016504005	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004305705	arsA,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,silA,silC,silE,silR,terD,terW,terZ				
+GCF_016502965	ncrA,ncrB,ncrC		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013747275	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_015134935	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002114305		qacEdelta1			
+GCF_905232395		qacEdelta1			
+GCF_019270235					
+GCF_016500765	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,trxLHR,yfdX1,yfdX2		
+GCF_016507635	arsA,arsD,arsR				
+GCF_016406035	arsA,arsD,arsR				
+GCF_016503265	ncrA,ncrB,ncrC,ncrY,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_900079785	arsA,arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004153245	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS				
+GCF_016505295				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016500825				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016133805	merC,merP,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_005281015	arsR				
+GCF_902506715	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_016505645					
+GCF_004004705	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terW,terZ	qacEdelta1			
+GCF_905335675	arsA,arsD,arsR	qacEdelta1			
+GCF_900169625		qacEdelta1			
+GCF_018423195	merA,merD,merE,merR,merT,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_014855935	ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1	hsp20		
+GCF_001413035	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_000582615	arsA,arsD,arsR				
+GCF_009876715	arsA,arsD,arsR				
+GCF_013604545	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_015135215	arsA,arsD,arsR,merC,merP,merR,merT				
+GCF_021440745	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016501285	arsR			ybtP,ybtQ	
+GCF_010365585	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_010597685	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_003204265	arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terB,terC,terD,terE	qacE		ybtP,ybtQ	
+GCF_001037495	arsR			iroB,iroC,iroN	
+GCF_013724425	merA,merD,merE,merR,merT				
+GCF_905232515	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_020341495					
+GCF_017151475	merD	qacEdelta1			
+GCF_009876765	arsA,arsD,arsR				
+GCF_018445825	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terB,terC,terD,terE	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2	iucA,iucB,iucC,iutA,rmpA,rmpA2,rmpC,rmpD	
+GCF_016505025					
+GCF_905232555	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_002417535					
+GCF_016503115					
+GCF_018446995	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT	qacEdelta1			
+GCF_003687835	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+ERQ0152	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_902160945	arsA,arsD,arsR				
+GCF_014103735	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_002252065	arsA,arsD,arsR,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016503575	arsA,arsD,arsR				
+GCF_016502085					
+GCF_002042945					
+GCF_008373795					
+GCF_018442425	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_019764095	pcoS,terD,terW,terZ	qacEdelta1		ybtP,ybtQ	
+GCF_002843195	arsA,arsD,arsR				
+GCF_002239605	arsA,arsD,arsR	qacE,qacL			
+GCF_013170055	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001702455	pcoS,terD,terW,terZ	qacEdelta1,qacG2			
+GCF_015668675	arsA,arsD,arsR				
+GCF_014802955	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_016503685	arsA,arsD,arsR				
+GCF_013705425	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_013170035	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silC,silE,silP,silR,silS	qacEdelta1			
+GCF_013797345					
+GCF_013590555	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_003665595	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_019802365	merC,merD,merE,merF,merP,merR,merT	qacEdelta1			
+GCF_018438555	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1,smr			
+GCF_018447695	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_018446095	arsA,arsD,arsR,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_013796805	merA,merD,merE,merR,merT				
+GCF_013371705					
+GCF_003070705	merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacG2	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001413155	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_003665615	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR				
+GCF_021228875	arsR				
+SD_9_B7	arsA,arsD,arsR				
+GCF_010590925	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002919795	arsA,arsD,arsR	qacEdelta1			
+GCF_018446195	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_009881185	arsA,arsD,arsR				
+GCF_013368465	merA,merB,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_016905635	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_002923765					
+GCF_016504805				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_003195445					
+GCF_902807305	arsA,arsD,arsR	qacEdelta1			
+GCF_004005165	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_001952715	arsA,arsD,arsR,terD,terW,terZ	qacEdelta1			
+GCF_013729795	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_015673475					
+GCF_020695525	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_014104295	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_902165615	arsA,arsD,arsR				
+GCF_014855735	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ	qacE,qacEdelta1			
+GCF_018420725	merD,merE,merP,merR,merT	qacE			
+GCF_018441905	arsD,arsR,merC,merP,merR,merT,pcoA,pcoR,silA,silP,silR	qacEdelta1		ybtP,ybtQ	
+GCF_005280875					
+GCF_003665555	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004327735	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_005280975					
+GCF_012952665	arsA,arsD,arsR,merB,merD,merR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_015674675					
+GCF_017963565					
+GCF_003665635	ncrA,ncrB,ncrC				
+GCF_014337315	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_900446885	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_015138175	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013899035	arsA,arsD,arsR				
+GCF_001413045	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_902506645	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_001413295	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_013303045	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE		ybtP	
+GCF_013738135	pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_003665655					
+GCF_016503245	merD,merE,merP,merR,merT		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016504895	arsA,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016893685	arsA,arsD,arsR				
+GCF_004146135	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_902388105	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016505505	arsR			iroB,iroC,iroN	
+GCF_002208985				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_017114565	arsA,arsD,arsR,merC,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_016893705					
+GCF_009939625					
+GCF_008364635					
+GCF_016504545	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016760555	arsA,arsD,arsR			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_905337845				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016502145	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014218795					
+GCF_014803235	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002871775	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013790835	merA,merD,merE,merR,merT				
+GCF_018323885	arsA,arsD,arsR,merA,merB,merD,merE,merR,merT,pcoA,pcoR,silA,silR,terD,terW,terZ				
+GCF_014803225	merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_014803175	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_016501505				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_014712635	merC,merP,merR,merT,terD,terW,terZ	qacE			
+GCF_021417225	arsA,arsD,arsR,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_013706575	pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_019382615	arsD,arsR				
+GCF_014856075	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_001880795	arsA,arsD,arsR	qacE			
+GCF_002918835	arsA,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013336895	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_005281125	arsA,arsD,arsR				
+GCF_001037485	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_015135075	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_009660335	arsA,arsD,arsR				
+GCF_018445725	arsD,arsR,merC,merP,merR,merT	qacEdelta1,qacL	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+ERQ0161	ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS				
+DB_3_F10	arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoR,pcoS,silA,silP,silR	qacE			
+GCF_019270195					
+GCF_011077955	arsA,arsD,arsR,fieF,merC,merP,merR,merT	qacEdelta1			
+GCF_019800135	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+DB_5_F12	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoE,silA,silB,silC,silE,silF,silR,silS	qacE,qacG2			
+GCF_000313895	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001413075	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_014855635	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE,qacEdelta1			
+GCF_016502245	arsA,arsD,arsR				
+ERQ0310	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacF			
+ERQ0230	arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoR,silA,silP,silR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013458095	arsA,arsD,arsR	qacEdelta1			
+GCF_013727235	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_018440275	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_016501915	merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_016505565				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_004004895	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_018128425	arsA,arsB,arsC,arsD,arsH,arsR,merR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_904859905					
+ERQ0159	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_019270455					
+GCF_001880835	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016501085	arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoC,pcoR,silA,silP,silR	qacE			
+GCF_001373155	arsA,arsD,arsR				
+GCF_014903525	merC,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019731875	pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001037515	arsA,arsD,arsR				
+GCF_016939595	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE,qacEdelta1			
+GCF_014803195	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silR,silS				
+GCF_002918505					
+ERQ0225	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_000398865			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_017164125	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacL			
+GCF_019443705				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016906165					
+GCF_017151495		qacEdelta1			
+GCF_013899405	arsA,arsD,arsR				
+GCF_016503485	arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014901845	arsR,terD,terW,terZ			ybtP,ybtQ	
+GCF_902160715	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016501525				ybtP,ybtQ	
+GCF_016501815	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_003350185	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002151815					
+GCF_004024365	arsB,arsC,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_017151545		qacEdelta1			
+GCF_013785085	arsA,arsD,arsR				
+GCF_000981805	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_008180565	arsD,arsR,merR,merT				
+GCF_902506735	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+SD_5_D4					
+GCF_004005235	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_004004715	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_014230205	arsA,arsD,arsR				
+GCF_900461175	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2	iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_004322975	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002289385					
+GCF_016503835	arsA,arsD,arsR				
+GCF_013743055	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_019382495					
+GCF_001471655	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_019270255					
+GCF_013786345	arsA,arsD,arsR,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016501885				ybtP,ybtQ	
+GCF_013337065	arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoR,silA,silP,silR	qacEdelta1		ybtP,ybtQ	
+ERQ0189	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_002918535	arsR				
+GCF_905232605	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_019448475	arsA,arsD,arsR				
+SG18_100_2_S18					
+ERQ0224	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016504055	arsA,arsD,arsR			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_018441215	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_016507865				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013733095	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_000714305					
+GCF_013826505	arsA,arsD,arsR				
+GCF_004331575					
+GCF_900446895	arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_019731005	arsA,arsD,arsR				
+GCF_009363175	arsA,arsD,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+ERQ0278	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_019270295					
+GCF_000835925				espA,espF,espK,nleB,nleC,tir	
+GCF_019584545	arsA,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019048065	arsD,arsR				
+GCF_011064845	arsA,arsD,arsR				
+GCF_017151535		qacEdelta1			
+GCF_001022275	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+SG18_223_S110					
+GCF_013395115	arsA,arsD,arsR,ncrA,ncrB,ncrC,ncrY,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_015669215	arsD,arsR				
+GCF_016501265	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001689745	arsA,arsD,arsR				
+GCF_004331545					
+GCF_016500895					
+GCF_013168975	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,ncrY,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE			
+GCF_014337275	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_004344985	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_005281055	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013798115	arsA,arsD,arsR,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			ybtP,ybtQ	
+GCF_016500445				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_004327825	arsA,arsD,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016894305	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_019655555	arsA,arsD,arsR	qacEdelta1			
+GCF_003812345	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_905232695	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_016501625	arsA,arsD,arsR,ncrA,ncrB,ncrC				
+GCF_016504665	arsA,arsD,arsR			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_016905745	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_016503785				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_003175795	merA,merD,merE,merR,merT				
+GCF_014103235	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_020710145	arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoR,silA,silP,silR	qacEdelta1			
+ERQ0674	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silP,silR,silS	qacEdelta1			
+GCF_916618775	arsR			iroB,iroC,iroN	
+GCF_004181935	arsA,arsD,arsR,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_016501425	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_018919545					
+GCF_016894145					
+ERQ0259	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016500465	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_009649895	arsA,arsD,arsR	qacEdelta1		capU	
+GCF_016503805					
+GCF_018422965	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016502995				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013589875	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_900520375	merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_901456225		qacEdelta1,qacL	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016505165	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016505285	arsA,arsD,arsR,merB,merD,merR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_016905585	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE			
+GCF_013890595	arsA,arsD,arsR				
+GCF_002393245				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002934505	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014596895	arsA,arsD,arsR				
+GCF_001412755	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_018443215		qacEdelta1		ybtP,ybtQ	
+GCF_016507955					
+GCF_002252025	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoE,pcoS,terD,terW,terZ	qacE			
+GCF_014189355	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_013883595	arsA,arsD,arsR				
+GCF_002151775	arsD,arsR,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoR,silA,silP,silR	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_003184045	arsA,arsD,arsR,merC,merP,merR,merT			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_018067665	merR,merT,ncrA,ncrB,ncrC,ncrY				
+SD_9_A7					
+GCF_016679915	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ	qacEdelta1,qacL			
+GCF_018107715	merA,merD,merE,merR,merT,pcoS,terD,terW,terZ	qacEdelta1,smr			
+GCF_018441745	arsA,arsD,arsR	qacE			
+GCF_016502025	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_020271725		qacEdelta1			
+GCF_016500775				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_015137255	arsA,arsD,arsR,merC,merP,merR,merT				
+GCF_001413235	arsA,arsD,arsR				
+GCF_019802385	merD,merE,merF,merP,merR,merT	qacEdelta1			
+GCF_012843215	arsA,arsD,arsR				
+GCF_001552875				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_900451665				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016507605				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_009881195	arsA,arsD,arsR				
+GCF_001413275	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+ERQ0217	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_016503745				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_003818115			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014903475	arsR				
+GCF_018439105	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013337685	arsA,arsD,arsR				
+GCF_001057775				iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_013816655	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016505255	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS				
+ERQ0155	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_008086465	arsA,arsD,arsR	qacEdelta1			
+GCF_902387665	arsA,arsD,arsR,merC,merP,merR,merT			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_018439185	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+SG18_229_S54					
+GCF_016505055	arsA,arsD,arsR				
+GCF_020559425	arsA,arsD,arsR			ybtP,ybtQ	
+SG18_8_S1					
+GCF_014802885	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_004005035	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ				
+GCF_016894045					
+GCF_021440245	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+ERQ0681	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002918455					
+GCF_016500385				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016504885	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR				
+GCF_020215765	arsA,arsD,arsR				
+GCF_000826205	arsR				
+GCF_015668205					
+GCF_902377535					
+GCF_018441765	arsA,arsD,arsR	qacEdelta1			
+GCF_013786025	arsA,arsD,arsR				
+GCF_902807175	arsA,arsD,arsR				
+GCF_016503095					
+GCF_020215805	arsA,arsD,arsR				
+GCF_016503305	arsA,arsD,arsR				
+GCF_013786565	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS				
+GCF_017151595	arsA,arsD,arsR,pcoE,terD,terW,terZ	qacE			
+GCF_004005615	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_019660585	arsA,arsD,arsR,ncrA,ncrB,ncrC,ncrY,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002919485					
+GCF_016507625	arsR,pcoA,pcoB,pcoC,pcoD,pcoR,silA,silB,silC,silE,silF,silP,silR,silS			iroB,iroC,iroN	
+GCF_004181905				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_009881175	arsA,arsD,arsR				
+GCF_005281195	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014170055	merA,merD,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_011603985	arsA,arsD,arsR				
+GCF_002075345					
+GCF_017151515		qacEdelta1			
+GCF_016504785					
+GCF_014855595	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_014855645	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_016893985					
+GCF_018449455	arsA,arsD,arsR,merA,merD,merE,merR,merT,terD,terW,terZ				
+GCF_013169475	arsA,arsD,arsR	qacEdelta1			
+GCF_019660945	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_001273815		qacEdelta1			
+GCF_014903115	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019645955	arsA,arsD,arsR				
+GCF_016500495	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+ERQ0211	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013726615	arsA,arsR,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014855715	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_014802855	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1		ybtP,ybtQ	
+GCF_016501315				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001546305				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016504585					
+GCF_014856005	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_000936345	arsA,arsD,arsR				
+GCF_013336865	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_009648235					
+GCF_016505095	arsA,arsD,arsR,merA,merD,merE,merP,merR,pcoA,pcoR,silA,silP,silR				
+GCF_009721615	arsA,arsD,arsR				
+GCF_003665535	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR				
+GCF_009821535	arsA,arsD,arsR,merA,merD,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013748235	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018066625	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_019048045					
+GCF_016504145				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_905330765	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_013707835	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_000809165	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_018441785	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_000783995				ybtP,ybtQ	
+GCF_018422725					
+GCF_016503885	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001718055	arsA,arsD,arsR,merA,merB,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_018883525	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016501955		qacEdelta1		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001413115	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_004004645	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_014103715	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_000208765			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013336955	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_014103885	arsA,arsD,arsR				
+GCF_018066575	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_013814485	arsA,arsD,arsR				
+GCF_002786865				ybtP,ybtQ	
+GCF_019382635					
+GCF_015674725					
+ERQ0677	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silR,silS	qacEdelta1			
+GCF_002934585	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018439765	arsA,arsD,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE			
+GCF_016114665				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013739755	arsA,arsD,arsR				
+GCF_016507745	arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoR,silA,silR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_003938795	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_000786265	arsD,arsR				
+ERQ0046	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hsp20		
+GCF_013785525	arsR				
+ERQ0192	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+ERQ0241	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_013738915	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_011030295	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_002903305	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_001058675	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_004005085	arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_000734905	arsA,arsD,arsR				
+GCF_013783065	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silC,silE,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001482545	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_021440705	arsA,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016504155				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001412815	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016504355	arsA,arsD,arsR				
+GCF_019659965	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_016501455	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_006965505	arsA,arsD,arsR	qacE			
+GCF_002252125	arsA,arsD,arsR,merA,merE,merP,merR,merT,pcoE,pcoS,terD,terW,terZ	qacE			
+GCF_016502155					
+GCF_001880915	merA,merD,merE,merR,merT,terD,terW,terZ	qacEdelta1			
+GCF_013336965	merA,merC,merD,merE,merP,merR,merT		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_002151695	arsA,arsD,arsR				
+GCF_007004285	arsA,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016502205	arsA,arsD,arsR				
+GCF_004684345	arsA,arsD,arsR				
+GCF_021417185	arsA,arsD,arsR				
+GCF_016505545					
+GCF_020639355	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_013728515	merA,merD,merE,merR,merT				
+GCF_014101305					
+GCF_018035235	arsA,arsD,arsR				
+GCF_019800325	arsA,arsD,arsR,merB,merD,merR				
+GCF_003795375				ybtP,ybtQ	
+GCF_008931505	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacG2			
+GCF_019660705	merC,merP,merR,merT	qacEdelta1			
+GCF_900446835			hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013889015	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016894065	arsA,arsD,arsR				
+GCF_901456305	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_901456265	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+GCF_016504165				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_013791465	arsA,arsD,arsR				
+GCF_009664025	merA,merC,merD,merE,merP,merR,merT,pcoS,terD,terW,terZ	qacEdelta1			
+GCF_018438625	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ	qacE			
+GCF_016503905	ncrA,ncrB,ncrC		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013791615	ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_000312465	arsA,arsD,arsR				
+GCF_004792475	arsA,arsD,arsR				
+GCF_000739675	arsR			iroB,iroC,iroN	
+GCF_004331445	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silS				
+GCF_003938785	merA,merD,merE,merR,merT	qacEdelta1		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016500695	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,trxLHR,yfdX1,yfdX2		
+GCF_015356495	arsA,arsR,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_014725915	arsA,arsD,arsR,merA,merB,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_018446915	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_005281345					
+GCF_006937845	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014103415	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_015965415				espA,espK,nleB,nleC,tir	
+GCF_900446955				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_020889405	arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1,qacL			
+GCF_013732395	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_013336855	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_003812405				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002864025	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_013336845	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoC,pcoD,pcoE,pcoR,pcoS	qacEdelta1			
+GCF_016507845	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_018252635	arsD,arsR				
+GCF_004146055	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_018257795					
+GCF_001306025	arsA,arsD,arsR	qacEdelta1			
+GCF_014856085	arsA,arsD,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_013784065	arsA,arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_013899365					
+GCF_016859885	pcoS,terD,terW,terZ	qacEdelta1,qacL			
+GCF_014596815	arsA,arsD,arsR,pcoR,pcoS,silE,terD,terW,terZ				
+GCF_018107785	arsA,arsD,arsR,merA,merB,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_005280955	arsA,arsD,arsR				
+GCF_015668035	pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_014104105	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_900460985				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_015208815	arsD,arsR,merC,merP,merR,merT,ncrA,ncrB,ncrC	qacEdelta1		ybtP,ybtQ	
+GCF_900079995				ybtP,ybtQ	
+GCF_012955585				iucA,iucB,iucC,iutA,senB,ybtQ	
+GCF_002947035	merA,merD,merE,merR,merT	qacEdelta1		iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_015353115	arsA,arsD,arsR				
+GCF_013748855	arsA,arsD,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_003937345	arsA,arsD,arsR,merA,merD,merE,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_012952645	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016503955	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_001276125	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+ERQ0162	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016504225	arsD,arsR,pcoA,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_008802955	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_014802925	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_900169695		qacEdelta1			
+GCF_005280935					
+GCF_021503935		qacEdelta1			
+GCF_018443315	arsA,arsD,arsR	qacE			
+GCF_018279205	arsA,arsD,arsR				
+GCF_016504905	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			iucA,iucB,iucC,iutA,ybtP,ybtQ	
+GCF_016500715	arsA,arsD,arsR				
+GCF_004103775	arsR,merA,merC,merD,merE,merP,merR,merT	qacEdelta1			
+GCF_016893845	arsR				
+GCF_013360255	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_902363265					
+GCF_013389635	merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,ncrY,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+SG18_227_S53					
+GCF_002073755				ybtP,ybtQ	
+SG18_138_2_S33					
+GCF_015672735	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_015667445	arsA,arsD,arsR,merD,merE,merP,merR,merT				
+GCF_004005575	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silR,terD,terW,terZ	qacEdelta1			
+GCF_013781945	arsA,arsD,arsR				
+GCF_003019835	arsD,arsR,pcoA,silA,silR				
+GCF_003571565	arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1			
+GCF_001586835	arsR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001058505	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014104015	merA,merD,merE,merR,merT		hdeD-GI,kefB-GI,psi-GI,trxLHR		
+GCF_016500665	arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_009856695	arsA,arsD,arsR	qacEdelta1			
+GCF_002918865	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_003114935	merC,merP,merR,merT	qacE			
+GCF_006385635	merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013727455	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013740875	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_002918875	merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,ncrY,pcoA,pcoR,silA,silP,silR				
+GCF_017151445	arsA,arsD,arsR	qacEdelta1			
+GCF_016505325	arsA,arsD,arsR,ncrA,ncrB,ncrC,ncrY,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_005406305				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001413335	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_017353275	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001316675	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrC,nirA,nirB,nirD,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE,qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_016505585	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_021441345					
+GCF_003226155		qacEdelta1		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_905337805				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016505195	arsA,arsD,arsR				
+GCF_000521945	arsA,arsD,arsR				
+GCF_015910405	arsA,arsR,merA,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_002919825	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1			
+GCF_018917665					
+GCF_009832525				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_018106185	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_011030065	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacEdelta1,qacL			
+GCF_021417245	merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2	ybtP,ybtQ	
+GCF_017086505					
+GCF_002249995	arsD,arsR,merA,merC,merD,merE,merR,merT,pcoS	qacEdelta1			
+GCF_014332835	arsA,arsD,arsR				
+GCF_016505495				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016811995	arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016501445				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_900461045	arsR			iucA,iucB,iucC,iutA	
+GCF_021440885	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_000786275					
+GCF_000972645	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013267145	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1		ybtP,ybtQ	
+GCF_009876825	arsA,arsD,arsR				
+GCF_001413165	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_002918935	arsR				
+GCF_013729995	arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001067775	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_014803145	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_900636015	arsA,arsD,arsR				
+GCF_014103835	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001858105				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_009907085	merC,merD,merP,merR,merT	qacEdelta1			
+GCF_001546325				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_016503505	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_012102405					
+GCF_902160995	arsA,arsD,arsR				
+GCF_019270275					
+GCF_014855985	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_016505035	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_002919425					
+GCF_016503225	arsD,arsR,ncrA,ncrB,ncrC,pcoA,pcoR,silA,silP,silR		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013615435	arsA,arsD,arsR,merD,merE,merF,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_018421745		qacE		iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_008931485	arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacG2			
+GCF_910573735				espA,espF,espK,nleB,nleC,tir	
+GCF_016504925					
+GCF_013786205	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_002738435	arsA,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_013781985	arsA,arsD,arsR				
+GCF_019655655	merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1,qacL			
+ERQ0572	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_018441435	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_005281245					
+GCF_001276105	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_019803045	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacEdelta1			
+GCF_012955545					
+GCF_014103585	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+ERQ0251	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+GCF_013781965	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_014856095	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+ERQ0672	arsA,arsD,arsR,merA,merD,merE,merF,merP,merR,merT,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silR,silS	qacEdelta1			
+GCF_011030315	merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE		ybtP,ybtQ	
+GCF_002211705	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_000937455	arsA,arsD,arsR,merA,merD,merE,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS,terD,terW,terZ				
+ERQ0169	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+SD_9_C7	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_016505185				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_014105665	arsD,arsR,pcoA,pcoR,silA,silP,silR				
+GCF_000398825					
+GCF_000155975					
+GCF_019265365					
+GCF_016504725					
+GCF_005280815					
+DB_3_D1	arsA,arsD,arsR,merA,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacG2			
+GCF_013737455	arsA,arsD,arsR,merA,merD,merE,merR,merT				
+SG18_109_2_S19					
+GCF_000238735	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR	qacG2			
+GCF_018439905	arsD,merD,merE,merP,merR,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS	qacE			
+GCF_016503695	merD,merE,merP,merR,merT		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_001034445	merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019659885	merA,merD,merE,merR,merT	qacE			
+GCF_013345705	arsA,arsD,arsR				
+GCF_013751895	arsA,arsD,arsR,pcoA,pcoR,silA,silP,silR				
+GCF_008364645	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_011392435	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019048805					
+GCF_017154235	arsD,arsR				
+GCF_001412855	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_004327835	arsA,arsD,merA,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_014856035	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE,qacEdelta1			
+GCF_011022025	arsA,arsD,arsR,merD,merE,merP,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_015356435					
+ERQ0199	arsA,arsD,arsR,merA,merD,merE,merR,merT	qacEdelta1			
+GCF_016501105				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_018423015	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001412875	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_016501565					
+GCF_014337335	arsA,arsD,arsR,merA,merD,merE,merR,merT,ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_004569315				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001880825	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacE			
+GCF_001317135	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_016501545					
+GCF_014802965	arsA,arsD,arsR,merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_010231475	arsA,arsD,arsR,merB,merC,merD,merP,merT				
+GCF_014332855	arsA,arsD,arsR				
+GCF_902706235	fieF,terD,terW,terZ				
+GCF_016503825	arsA,arsD,arsR,pcoA,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019656355				ybtP,ybtQ	
+GCF_008364725	arsA,arsD,arsR				
+GCF_008364895	arsA,arsD,arsR,pcoR,pcoS,silE,terD,terW,terZ				
+GCF_009649935	arsA,arsD,arsR	qacEdelta1		capU	
+GCF_016504745	arsA,arsD,arsR			iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_021496985	arsA,arsD,arsR,merC,merP,merR,merT	qacEdelta1			
+GCF_019585185	merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_016502285					
+GCF_008502135	merA,merD,merE,merR,merT	qacEdelta1			
+GCF_004004965	arsA,arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terW	qacEdelta1			
+GCF_016893885					
+GCF_016500565				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_008693605	arsA,arsD,arsR				
+GCF_016503735	arsA,arsD,arsR	qacEdelta1			
+GCF_902160915	arsA,arsD,arsR				
+GCF_010592375	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_021278985				espA,espF,espK,nleB,nleC,tir	
+GCF_019731585	arsA,arsD,arsR,merC,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_002025225	arsA,arsD,arsR				
+GCF_000398845	arsA,arsD,arsR,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS		hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_008364705	arsA,arsD,arsR,chrA,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ				
+GCF_016501675				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_001413315	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silF,silP,silR,silS				
+GCF_013336945	merA,merC,merD,merE,merP,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacE			
+GCF_015167655					
+SG18_42_S4					
+GCF_013336995	arsA,arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_019655495	arsA,arsD,arsR	qacEdelta1			
+GCF_001880945	arsA,arsR,merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS	qacEdelta1			
+GCF_014803165	arsA,arsD,arsR,merA,merD,merE,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silR,silS	qacEdelta1			
+GCF_002185305	pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_013751655	arsD,arsR,merA,merD,merE,merR,merT,pcoA,pcoR,silA,silP,silR				
+GCF_013790265	arsA,arsD,arsR,merD,merE,merP,merR,merT,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS			ybtP,ybtQ	
+GCF_001062165					
+GCF_013828645	arsA,arsD,arsR				
+GCF_002919495	arsR				
+GCF_018444815	ncrA,ncrB,ncrC,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS,terD,terW,terZ	qacE	hdeD-GI,hsp20,kefB-GI,psi-GI,shsP,trxLHR,yfdX1,yfdX2		
+GCF_013731955					
+GCF_016503295				iucA,iucB,iucC,iutA,senB,ybtP,ybtQ	
+GCF_000731055	arsA,arsD,arsR				
+GCF_001059255	arsR,pcoA,pcoB,pcoC,pcoD,pcoE,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_001037575	merA,merD,merE,merR,merT,pcoA,pcoB,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				
+GCF_015554155	arsD,arsR,pcoA,pcoC,pcoD,pcoR,pcoS,silA,silB,silC,silE,silF,silP,silR,silS				

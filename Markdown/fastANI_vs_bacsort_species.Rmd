@@ -1,0 +1,359 @@
+---
+title: "Internal Citrobacter Tree w-refs"
+author: "Max Cummins"
+date: "17/05/2022"
+output:
+    html_document:
+        theme: spacelab
+        toc: true
+        toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Read in our packages
+library(tidyverse)
+library(abricateR)
+library(dplyr)
+library(ggplot2)
+library(ggtree)
+library(pheatmap)
+library(ComplexHeatmap)
+library(phytools)
+#library(plotly)
+library(readr)
+library(readxl)
+#library(paletteer)
+library(grid)
+library(gridExtra)
+library(hrbrthemes)
+library(cowplot)
+#library(plasmidmapR)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
+
+```
+
+## Outline
+
+
+## File summary
+
+A GitHub repository available at *https://github.com/maxlcummins/*
+contains all scripts and files required to rerun analysis detailed in this
+document.
+
+Below are the files associated with this research project and report.
+
+```
+File tree
+```
+
+```{r echo=FALSE}
+#Load paths to files needed for the script
+abricate_path <- "results/summaries/genotype.txt"
+pMLST_path <- "results/summaries/pMLST.txt"
+mlst_path <- "results/summaries/mlst.txt"
+tree_path <- "results/summaries/trees/internal_wref_qcpass.tree"
+
+species_ids_path <- "2022/bacsort/Species_ids.csv"
+
+#Provide output names
+output_name <- "Citrobacter"
+
+#Provide output directory name
+output_dir <- "2022/output"
+
+#Create an output directory
+dir.create(file.path(getwd(), "output"), showWarnings = FALSE)
+```
+
+
+
+```{r read_in_public_metadata, echo=FALSE, include=FALSE}
+metadata <- read_excel("Metadata_public_genomes.xlsx", 
+    sheet = "metadata_only")
+
+```
+
+
+```{r quiet_abricate, echo=FALSE,include=FALSE}
+#Run AbricateR to summarise genomic data
+abricateR::abricateR(
+        abricate_in = abricate_path,
+        output = output_name,
+        output_directory = output_dir,
+        identity = 90,
+        length = 90,
+        writecsv = FALSE,
+        #pMLST_data = pMLST_path
+)
+
+#Read in our species IDs
+species_ids <- read_csv("2022/bacsort/Species_ids.csv")
+
+#Create a new column for our collection_names
+species_ids <- species_ids %>%
+        mutate(collection = case_when(grepl("GCF", name) ~ "RefSeq",
+                                      grepl("SD", name) ~ "Gull",
+                                      grepl("SG", name) ~ "Gull",
+                                      grepl("ERQ", name) ~ "Wastewater",
+                                      grepl("DB", name) ~ "Wastewater"))
+                                      
+
+#Create our metadata sheet (we will expand on this later with extra data)
+metadata <- left_join(species_ids, metadata)
+
+#Fix the source column for internal isolates
+metadata <- metadata %>% mutate(Source = if_else(collection == "RefSeq", Source, collection))
+
+#Read in the list of genomes which passed QC
+QC_pass <- read_csv("2022/delims/QC_pass.txt", col_names = "name", show_col_types = FALSE)
+
+```
+
+
+```{r MLST_placeholders, echo=FALSE}
+#Read in MLST data
+mlst <- read_delim(
+    mlst_path,
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE,
+    show_col_types = FALSE
+)
+
+#Filter out samples which didnt pass QC
+mlst <- mlst %>% filter(name %in% QC_pass$name)
+
+#Produce placeholder STs
+placeholder_STs <- mlst %>% select(-name,-scheme) %>% unique() %>% filter(ST == "-") %>% select(-ST) %>%
+       # filter(
+       #         !grepl("-", allele1),
+       #         !grepl("-", allele2),
+       #         !grepl("-", allele3),
+       #         !grepl("-", allele4),
+       #         !grepl("-", allele5),
+       #         !grepl("-", allele6),
+       #         !grepl("-", allele7)) %>% 
+mutate(ST_new = paste0("placeholder_ST",as.character(1:nrow(.)))) %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% select(ST_new, allele_cat)
+
+#Produce a list of the mlsts within the collection
+ST_list <- mlst %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% left_join(placeholder_STs, by = "allele_cat") %>% select(-allele_cat) %>% mutate(ST_new = if_else(is.na(ST_new), ST, ST_new))
+
+
+#Set our seed for reproducibility
+set.seed(2)
+
+#Generate a random sample (n=1) of strains grouped by species
+sample_for_tree <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+#Generate a second random sample (n=1) of strains grouped by species
+#Note we remove strains with the same STs as we picked previously
+sample_for_tree_2 <- species_ids  %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+#Bind the list of the genomes selected by sample one and two
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_2)
+
+#Same again for another 3 iterations...
+sample_for_tree_3 <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_3)
+
+sample_for_tree_4 <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_4)
+
+sample_for_tree_5 <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_5)
+
+#Write our list of samples to file
+#write_delim(sample_for_tree, "2022/delims/sample_of_reference_genomes.txt", delim = "\t")
+
+#Bind the metadata and the new ST placeholder names
+metadata <- metadata %>% right_join(ST_list, by = "name")
+
+```
+
+
+```{r make_tree, include=FALSE, echo=FALSE}
+
+#Read in our tree
+tree <- read.tree(tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#Define our colours list for our species names
+#species_cols <- c('blue', 'cyan', 'green', '#AAAA00', 'red', 'purple', 'black') #AAAA00 = olive
+
+
+#species_cols <- c(#Red
+#"#e6194B",
+##Green
+#"#3cb44b",
+###Yellow
+##"#ffe119",
+##Blue
+#"#4363d8",
+##Orange
+#"#f58231",
+##Purple
+#"#911eb4",
+##Cyan
+#"#42d4f4",
+##Magenta
+#"#f032e6",
+##Lime
+#"#bfef45",
+##Pink
+#"#fabed4",
+##Teal
+#"#469990",
+###Lavender
+##"#dcbeff",
+##Brown
+#"#9A6324",
+###Beige
+##"#fffac8",
+##Maroon
+#"#800000",
+##Mint
+#"#aaffc3",
+##Olive
+#"#808000",
+##Apricot
+#"#ffd8b1",
+##Navy
+#"#000075",
+##Grey
+#"#a9a9a9",
+###White
+##"#ffffff",
+##Black
+#"#000000")
+
+##Make a list of our species names
+#species_names <- species_ids %>%
+#        filter(name %in% tree$tip.label) %>%
+#        pull(bacsort_species) %>%
+#        unique() %>%
+#        sort()
+#
+##Reduce the number of species colours
+#species_cols <- species_cols[1:length(species_names)]
+#
+##Bind them to the colours
+#names(species_cols) <- species_names
+
+species_cols <- c("Citrobacter amalonaticus" =  "#e6194B",
+"Citrobacter arsenatis" =     "#3cb44b",
+"Citrobacter braakii" =       "#4363d8",
+"Citrobacter cronae" =        "#f58231",
+"Citrobacter europaeus" =     "#911eb4",
+"Citrobacter farmeri" =       "#42d4f4",
+"Citrobacter freundii" =      "#f032e6",
+"Citrobacter gillenii" =      "#bfef45",
+"Citrobacter koseri" =        "#fabed4",
+"Citrobacter murliniae" =     "#469990",
+"Citrobacter pasteurii" =     "#9A6324",
+"Citrobacter portucalensis" = "#800000",
+"Citrobacter rodentium" =     "#aaffc3",
+"Citrobacter sedlakii" =      "#808000",
+"Citrobacter telavivensis" =  "#ffd8b1",
+"Citrobacter tructae" =       "#000075",
+"Citrobacter unknown" =       "#a9a9a9",
+"Citrobacter werkmanii" =     "#000000",
+"Citrobacter youngae" =       "#dcbeff")
+
+#Define our colours list for our collection names
+collection_cols <- c("lightblue", "black", "darkred")
+        
+#Make a list of our species names
+collection_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(collection) %>%
+        unique() %>%
+        sort()
+
+#Bind them to the colours
+names(collection_cols) <- collection_names
+
+#Filter our metadata
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Remove unwanted species colours from the legend
+species_cols <- species_cols[names(species_cols) %in% metadata$bacsort_species]
+
+#Plot our tree
+p <- ggtree(tree) %<+%
+        metadata +
+        geom_tiplab(size = 1.5,
+                align = TRUE,
+                linesize = 0.15,
+                aes(color = bacsort_species)
+                ) + theme(legend.position = "none")+
+        geom_tippoint(size = 1.5,
+                aes(colour = collection)
+                ) + scale_fill_manual(
+        aesthetics = c("colour", "fill"),
+        values = c(species_cols, collection_cols),
+        na.value = 'grey'
+        )
+
+species_coord <- fortify(p$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, bacsort_species, y) %>%
+        arrange(y) %>%
+        group_by(bacsort_species) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+
+ANI_dists <- read_delim("results/ANI_dists", 
+                        delim = "\t", escape_double = FALSE, 
+                        trim_ws = TRUE, col_names = FALSE)
+
+ANI_dists %>% mutate(X1 = str_replace(X1, ".*\\/(.*)\\.fasta", "\\1"))  %>% mutate(X2 = str_replace(X2, ".*\\/(.*)\\.fasta", "\\1")) %>% rename(name = "X1") %>% inner_join(metadata) %>% rename("name1" = name) %>% rename("name" = X2) %>% inner_join(metadata, by = 'name') %>% rename("name2" = "name") %>% mutate(same_species = if_else(bacsort_species.x == bacsort_species.y, "Yes", "No")) %>% select(name1, name2, matches("bacsort_species"), same_species, X3) %>% rename("ANI" = X3) %>% filter(same_species == "No" ) %>% ggplot() + geom_boxplot(aes(x = same_species, y = ANI)) + geom_jitter(aes(x = same_species, y = ANI)) + geom_hline(yintercept = 95, color = "red", linetype = "dashed")
+
+
+ANI_dists_wide <- ANI_dists %>% mutate(X1 = str_replace(X1, ".*\\/(.*)\\.fasta", "\\1"))  %>% mutate(X2 = str_replace(X2, ".*\\/(.*)\\.fasta", "\\1"))  %>% select(-X4, -X5) %>% pivot_wider(values_from = X3, names_from = X2) %>% rename("name" = X1)
+
+#colnems <- ANI_dists_wide %>% select(-name) %>% colnames()
+
+order_from_tree <- p$data %>% filter(isTip == TRUE) %>% arrange(desc(y)) %>% select(label) %>% rename('name' = label)
+
+ANI_not_100<- ANI_dists_wide %>%
+        arrange(match(name, order_from_tree$name))
+
+ANI_not_100 <- ANI_not_100 %>%
+    select(name, all_of(order_from_tree$name)) %>% 
+    column_to_rownames('name')
+        #mutate(across(everything(), ~ if_else(.x >= 95, .x, 0))) %>%
+
+
+gheatmap(
+        p = p,
+        data = ANI_not_100,
+        colnames_offset_y = 0.5,
+        font.size = 1.5,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.034,
+        width = 5,
+        color = rgb(120, 120, 120, max = 255, alpha = 50)
+        )+
+        scale_color_manual(
+                values = c(species_cols, collection_cols, plasmidfindercolors),
+                na.value = 'grey'
+                ) +
+        scale_fill_gradient2(midpoint = 95, low = "white", high = "black") + ylim(c(NA,150))
+```

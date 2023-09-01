@@ -1,3 +1,0 @@
-name	Mutation	Nucleotide change	Amino acid change	Resistance	PMID
-GCF_005281025	23S r.2032A>T	A -> T	RNA mutations	Linezolid	-
-GCF_005281115	23S r.2032A>T	A -> T	RNA mutations	Linezolid	-

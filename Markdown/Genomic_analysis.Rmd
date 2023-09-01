@@ -1,0 +1,189 @@
+---
+title: "Citrobacter Genomic Analysis"
+author: "Max Cummins"
+date: "21/04/2022"
+output:
+    html_document:
+        theme: spacelab
+        toc: true
+        toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Read in our packages
+library(tidyverse)
+library(abricateR)
+library(dplyr)
+library(ggplot2)
+library(ggtree)
+library(pheatmap)
+library(phytools)
+library(plotly)
+library(readr)
+library(readxl)
+library(paletteer)
+library(grid)
+library(gridExtra)
+library(hrbrthemes)
+library(cowplot)
+library(plasmidmapR)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
+
+```
+
+## Outline
+
+
+## File summary
+
+A GitHub repository available at *https://github.com/maxlcummins/*
+contains all scripts and files required to rerun analysis detailed in this
+document.
+
+Below are the files associated with this research project and report.
+
+```
+File tree
+```
+
+```{r echo=FALSE}
+#Load paths to files needed for the script
+abricate_path <- file.path(getwd(), "results/summaries/genotype.txt")
+pMLST_path <- file.path(getwd(), "results/summaries/pMLST.txt")
+mlst_path <- file.path(getwd(), "results/summaries/mlst.txt")
+species_ids_path <- file.path(getwd(), "bacsort/Species_ids.csv")
+
+#Provide output names
+output_name <- "Citrobacter"
+
+#Provide output directory name
+output_dir <- "output"
+
+#Create an output directory
+dir.create(file.path(getwd(), "output"), showWarnings = FALSE)
+```
+
+
+```{r quiet_abricate, echo=FALSE,include=FALSE}
+#Run AbricateR to summarise genomic data
+abricateR::abricateR(
+        abricate_in = abricate_path,
+        output = output_name,
+        output_directory = output_dir,
+        identity = 90,
+        length = 90,
+        writecsv = FALSE,
+        pMLST_data = pMLST_path
+)
+
+#Read in our species IDs
+species_ids <- read_csv("bacsort/Species_ids.csv")
+
+#Combine our abricate and species IDs
+genodata <- full_join(Citrobacter_simple_summary_N90L90, species_ids, by = "name")
+
+#Reorder columns
+genodata <- genodata %>% select(name, bacsort_species, everything())
+
+#Create a collection column
+genodata <- genodata %>% mutate(Collection = case_when(grepl("DB", name) ~ "Wastewater",
+                                                       grepl("ERQ", name) ~ "Wastewater",
+                                                       grepl("SD", name) ~ "Seagull",
+                                                       grepl("SG", name) ~ "Seagull",
+                                                       grepl("GCF", name) ~ "NCBI",
+                                                       )) %>% 
+        select(name, Collection, bacsort_species, everything())
+
+
+#Read in out metadata
+metadata <- jsonlite::fromJSON("metadata_NCBI.json")
+
+#Convert it to something useful
+metadata <- bind_rows(metadata, .id='Name')
+
+#Read in out metadata
+biosample_metadata <- jsonlite::fromJSON("biosample_metadata.json")
+
+#Convert it to something useful
+biosample_metadata <- bind_rows(biosample_metadata, .id='Name')
+
+#Extract biosample id
+accession_biosample <- cbind(metadata$Name, metadata$assemblies$assembly$biosample_accession)
+
+#add colnames
+colnames(accession_biosample) <- c("name", "biosample")
+
+#Convert to dataframe
+accession_biosample <- as.data.frame(accession_biosample)
+
+#Write to CSV
+write_csv(accession_biosample, file = "assembly_accesion_to_biosamples.csv")
+
+#Join biosample metadata, accession and biosample linkage and genodata
+genometa <- left_join(accession_biosample, biosample_metadata, by = "biosample") %>% full_join(genodata, by = "name") 
+
+#genometa %>% group_by(bacsort_species, host) %>% summarise(counts = n())
+
+#Write to CSV
+write_delim(genometa, file = "genometa.tsv", delim = "\t")
+
+#Read in our species IDs
+mlst <- read_delim(mlst_path, delim = "\t", show_col_types = FALSE)
+
+#Combine our abricate and species IDs
+genodata <- full_join(genodata, mlst, by = "name")
+
+#Extract braakii metadata
+#genometa %>% filter(species.y == "Citrobacter braakii") %>% mutate(host = if_else(is.na(host), title, host)) %>% #select(name, host)
+
+#Filter out our strains which passed QC
+QC_pass <- genodata %>% filter(!is.na(bacsort_species))
+
+#Create a table of Species by collection
+species_by_collection <- QC_pass %>% group_by(Collection, bacsort_species) %>% summarise(Count = n()) %>% arrange(desc(Count)) %>% dcast(bacsort_species ~ Collection) %>% rename(Species = bacsort_species)
+
+#Replace NAs with zeroes
+species_by_collection[is.na(species_by_collection)] <- 0
+
+#Add a total count column
+species_by_collection$Total <- rowSums(species_by_collection[,2:ncol(species_by_collection)])
+
+#Sort by total count column
+species_by_collection <- species_by_collection %>% arrange(desc(Total))
+```
+
+We identified six Citrobacter species in seagulls (C. freundii, C. braakii, C. amalonaticus, C. youngae, C. gillenii and C. pasteurii) and three Citrobacter species in wastewater (C. freundii, C. braakii and C. portucalensis).
+
+```{r Table_1, echo=FALSE}
+knitr::kable(species_by_collection, align = 'c')
+```
+
+```{r ST_overlap, echo=FALSE}
+#Create a table of Species by collection
+ST_by_collection <- QC_pass %>% filter(!grepl("GCF",name)) %>% group_by(bacsort_species, Collection, ST) %>% summarise(Count = n()) %>% arrange(desc(Count)) %>% dcast(bacsort_species + ST ~ Collection) %>% rename(ST = ST)
+
+#Replace NAs with zeroes
+ST_by_collection[is.na(ST_by_collection)] <- 0
+
+#Add a total count column
+ST_by_collection$Total <- rowSums(ST_by_collection[,3:ncol(ST_by_collection)])
+
+#Sort by total count column
+ST_by_collection <- ST_by_collection %>% arrange(desc(Total))
+```
+
+
+
+```{r Table_2, echo=FALSE}
+knitr::kable(ST_by_collection, align = 'c')
+```
+
+
+```{r}
+genometa %>% group_by(host, isolation_source) %>% tally(sort = TRUE) %>% write_delim('./2022/genome_by_host_by_isolation_source.txt', delim = "\t")
+```
+

@@ -1,0 +1,387 @@
+---
+title: "Citrobacter QC"
+author: "Max Cummins"
+date: "27/04/2022"
+output:
+    html_document:
+        theme: spacelab
+        toc: true
+        toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Read in our packages
+library(tidyverse)
+library(abricateR)
+library(dplyr)
+library(ggplot2)
+library(ggtree)
+library(pheatmap)
+library(phytools)
+library(plotly)
+library(readr)
+library(readxl)
+library(paletteer)
+library(grid)
+library(gridExtra)
+library(hrbrthemes)
+library(cowplot)
+library(plasmidmapR)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
+
+```
+
+## Outline
+
+This is a workflow for the QC of Citrobacter genomic data
+
+## File summary
+
+A GitHub repository available at *https://github.com/maxlcummins/*
+contains all scripts and files required to rerun analysis detailed in this
+document.
+
+Below are the files associated with this research project and report.
+
+```
+File tree
+```
+
+```{r, file_paths, echo=FALSE}
+
+assembly_stats_path <- '2022/QC_summari2022/assembly_stats.txt'
+checkm_qa_path <- '2022/QC_summari2022/checkm_qa.txt'
+gunc_report_path <- '2022/QC_summari2022/gunc_report.txt'
+
+
+#Load paths to files needed for the script
+#A list of taxonomic IDs and their respective scientific names
+tax_id_converter_path  <-
+        file.path(getwd(), "2022/delims/taxid_to_scientific_name.txt")
+#A list of expected genome sizes.
+genome_sizes_path  <-
+        file.path(getwd(), "2022/delims/species_genome_size.txt")
+```
+
+```{r echo=FALSE}
+#Load paths to files needed for the script
+#Assembly stats file
+assembly_stats_path <-
+        file.path(getwd(), "results/summaries/assembly_stats.txt")
+#A list of taxonomic IDs and their respective scientific names
+tax_id_converter_path  <-
+        file.path(getwd(), "2022/delims/taxid_to_scientific_name.txt")
+#A list of expected genome sizes.
+genome_sizes_path  <-
+        file.path(getwd(), "2022/delims/species_genome_size.txt")
+
+abricate_path <- file.path(getwd(), "results/summaries/genotype.txt")
+pointfinder_path <- file.path(getwd(), "results/summaries/pointfinder.txt")
+pMLST_data <- file.path(getwd(), "results/summaries/pMLST.txt")
+mlst_path <- file.path(getwd(), "results/summaries/mlst.txt")
+bacsort_path <- file.path(getwd(), "2022/bacsort/Species_ids.csv")
+SPI_path <- file.path(getwd(), "results/summaries/spi_report.txt")
+checkm_path <- file.path(getwd(), "results/summaries/checkm_qa.txt")
+
+#tree_path <- file.path(getwd(), "results/summaries/trees/Citrobacter_mash.tree")
+
+#Read in our tree
+#tree <- read.tree(tree_path)
+
+#Provide output names
+output_name <- "Citrobacter"
+
+#Read in bacsort data and identify top species per sample
+species_IDs <- read_delim(
+        bacsort_path,
+        ",",
+        escape_double = FALSE,
+        trim_ws = TRUE,
+        show_col_types = FALSE
+)
+
+#Create a top genus column
+species_IDs$genus <- gsub(" .*", "", species_IDs$bacsort_species)
+
+#Read in our assembly stats data
+assembly_stats <- read_delim(
+        assembly_stats_path,
+        "\t",
+        escape_double = FALSE,
+        trim_ws = TRUE,
+        show_col_types = FALSE
+)
+
+#Read in data from NCBI with taxID/scientific name conversions
+taxid_names <- read_delim(
+        tax_id_converter_path,
+        "|",
+        escape_double = FALSE,
+        trim_ws = TRUE,
+        show_col_types = FALSE
+)
+
+#Read in data from NCBI with expected species genome sizes
+genome_size <- read_delim(
+        genome_sizes_path,
+        "\t",
+        escape_double = FALSE,
+        trim_ws = TRUE,
+        show_col_types = FALSE
+)
+
+#Rename the column to simplify it and remove illegal character
+genome_size <- genome_size %>% rename('taxid' = '#species_taxid')
+
+#Join our two NCBI tables
+expected_genome_size <-
+        inner_join(genome_size, taxid_names, by = "taxid")
+
+#rename our column to facilitate a join later on
+expected_genome_size <-
+        expected_genome_size %>% rename('bacsort_species' = 'taxname')
+
+
+#Remove anything with the word "Virus" which breaks our size ranges later
+expected_genome_size <- expected_genome_size %>% filter(!grepl("virus", bacsort_species))
+
+#Remove unwanted brackets in species name
+expected_genome_size$bacsort_species <-
+        gsub("\\[", "", expected_genome_size$bacsort_species)
+expected_genome_size$bacsort_species <-
+        gsub("\\]", "", expected_genome_size$bacsort_species)
+
+#Create a top genus column
+expected_genome_size$genus <-
+        gsub(" .*", "", expected_genome_size$bacsort_species)
+
+#Create a df of expected genus genome sizes (rather than species)
+expected_genus_size <-
+        expected_genome_size %>% group_by(genus) %>% summarise(
+                `Expected Max Genome Size (Genus)` = max(max_ungapped_length),
+                `Expected Min Genome Size (Genus)` = min(min_ungapped_length)
+        )
+
+#Bind this new df bcak to our expected genome sizes table
+expected_genome_size <-
+        inner_join(expected_genome_size, expected_genus_size, by = "genus")
+
+#Separate out the genus related data
+expected_genome_size_genus <- expected_genome_size %>% select(genus, `Expected Min Genome Size (Genus)`, `Expected Max Genome Size (Genus)`)
+
+#Remove genus/genus lengths columns - dont need them anymore
+expected_genome_size <- expected_genome_size %>% select(-genus, -`Expected Min Genome Size (Genus)`, -`Expected Max Genome Size (Genus)`)
+
+#Join our assembly_stats data with our species ID lists
+df <- left_join(assembly_stats, species_IDs, by = "name")
+
+#Remove genera not present in those in our isolates
+expected_genome_size_genus <- expected_genome_size_genus %>% filter(genus %in% df$genus)
+
+#Join our expected genome size list (genus) to our assembly stats data
+df <-
+        left_join(df, expected_genome_size_genus, by = c("genus"))
+
+#Not sure why but we get duplicate rows... Lets remove them
+df <- unique(df)
+
+#Join our expected genome size list to our assembly stats data
+df <-
+        left_join(df, expected_genome_size, by = c("bacsort_species"))
+
+#Generate columns for passed or failed genome sizes
+df <-
+        df %>% mutate(
+                within_species_size = ifelse(
+                        total_length > min_ungapped_length &
+                                total_length < max_ungapped_length,
+                        TRUE,
+                        FALSE
+                ),
+                within_genus_size = ifelse(
+                        total_length > `Expected Min Genome Size (Genus)` &
+                                total_length < `Expected Max Genome Size (Genus)`,
+                        TRUE,
+                        FALSE
+                )
+        )
+```
+
+```{r assembly_stats_species_plot, echo=FALSE, fig.align="center", fig.width=8, fig.height=6, fig.cap="Figure  2: A boxplot visualising the relationship between genome size and species best match (determined BacSort). Error bars indicate the minimum and maximum expected genome sizes for a given species."}
+#### Fiji ####
+
+df1 <- df %>% rename("Genome Length (Mbp)" = total_length, "Species Best Match" = bacsort_species, "Expected Max Genome Size" =  max_ungapped_length, "Expected Min Genome Size" = min_ungapped_length)
+
+#Change the units to Mbp
+df1$`Genome Length (Mbp)` <- df1$`Genome Length (Mbp)`/1000000
+df1$`Expected Max Genome Size` <- df1$`Expected Max Genome Size`/1000000
+df1$`Expected Min Genome Size` <- df1$`Expected Min Genome Size`/1000000
+
+g <- ggplot(df1, mapping = aes(x = `Species Best Match`, y = `Genome Length (Mbp)`, label=`Species Best Match`, label2=`Genome Length (Mbp)`))
+
+p <- g + geom_boxplot(varwidth=T, fill="#DD8D29") + 
+        labs(title="Assembly sizes by species", 
+             x="Species",
+             y="Genome size (Mbp)") +
+        theme(axis.text.x = element_text(angle=90), legend.position = "none") +
+        geom_errorbar(aes(ymin = `Expected Min Genome Size`, ymax = `Expected Max Genome Size`,
+                          width = 0.2,
+                          color = "#bebeda",
+                          alpha = 0.3))
+
+
+p <- ggplotly(p)
+
+p
+```
+___
+
+The following table summarises instances where a genome size outside of the range
+expected for its species ID.
+___
+
+Note that many samples had a species best match which was not included in the
+RefSeq database and thus no expected range for its species' genome size. In such
+cases we check to see if they match the expected range for its genus' genome
+size.
+
+Anything outside of the genus range for its collection is probably therefore
+junk.
+
+___
+
+```{r assembly_stats_genus_plot, echo=FALSE, fig.align="center", fig.width=8, fig.height=6, fig.cap="Figure  3: A boxplot visualising the relationship between genome size and genus best match (determined using Bacsort). Error bars indicate the minimum and maximum expected genome sizes for a given genus, while the dotted line indicates the cut-off for genome sizes to be considered potentially contaminated."}
+#### Fiji ####
+
+#Rename our columns
+df2 <- df %>% rename("Genome Length (Mbp)" = total_length, "Genus Best Match" = genus)
+
+#Select the columns we need
+df2 <- df2 %>% select(`Genome Length (Mbp)`, `Genus Best Match`, `Expected Min Genome Size (Genus)`, `Expected Max Genome Size (Genus)`)
+
+#Change the units to Mbp
+df2$`Genome Length (Mbp)` <- df2$`Genome Length (Mbp)`/1000000
+df2$`Expected Max Genome Size (Genus)` <- df2$`Expected Max Genome Size (Genus)`/1000000
+df2$`Expected Min Genome Size (Genus)` <- df2$`Expected Min Genome Size (Genus)`/1000000
+
+g <- ggplot(df2, mapping = aes(x = `Genus Best Match`, y = `Genome Length (Mbp)`, label=`Genus Best Match`, label2=`Genome Length (Mbp)`))
+
+p <- g + geom_boxplot(varwidth=T, fill="#DD8D29") + 
+        labs(title="Assembly sizes by genus", 
+             x="Genus",
+             y="Genome size (Mbp)") +
+        theme(axis.text.x = element_text(angle=90), legend.position = "none") +
+        geom_errorbar(aes(ymin = `Expected Min Genome Size (Genus)`, ymax = `Expected Max Genome Size (Genus)`,
+                          width = 0.2,
+                          color = "#bebeda",
+                          alpha = 0.5))
+
+
+p <- ggplotly(p)
+
+p
+```
+___
+
+The following table summarises instances where a genome size outside of the range
+expected for its species ID.
+
+___
+
+```{r species_size_table, echo=FALSE}
+species_size_fails <- df %>% filter(within_species_size != TRUE) 
+species_size_fails_table <-  species_size_fails %>% group_by(bacsort_species, within_species_size) %>% summarise("Count" = n(), .groups="keep") %>% arrange(within_species_size, bacsort_species) %>% rename("Species Best Match" = bacsort_species, "Within expected size range (Species)" = within_species_size) 
+
+knitr::kable(species_size_fails_table, align = 'c')
+```
+___
+
+```{r genus_size_table, echo=FALSE, include=FALSE}
+genus_size_fails <- df %>% filter(within_genus_size != TRUE | is.na(within_genus_size)) 
+
+genus_size_fails_table <- genus_size_fails %>% group_by(genus, within_genus_size) %>% summarise("Count" = n(), .groups="keep") %>% arrange(within_genus_size, genus)  %>% rename("Genus Best Match" = genus, "Within expected size range (Genus)" = within_genus_size)
+
+genus_size_fails_table <- genus_size_fails_table %>% mutate(Group = ifelse(is.na(`Within expected size range (Genus)`), "B", "A"))
+
+knitr::kable(genus_size_fails_table, align = 'c')
+
+```
+
+
+### Final QC
+
+Now lets work out how many samples are:
+
+* Of a species ID other than *Citrobacter* other
+* Of an appropriate size for the species (Based on Assembly stats and Bacsort ID)
+* Sufficiently pure (<= 10% contamination from CheckM)
+* Sufficiently complete (>= 90% completeness from CheckM)
+
+```{r QC_pass_table, echo=FALSE}
+#Combine our assembly stats, genome sizes and other data
+checkm_qa <- read_delim(checkm_path, 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE, show_col_types = FALSE)
+
+#Rename our ID column
+checkm_qa <- checkm_qa %>% rename(name = `Bin Id`)
+
+#Read in our MLST data
+mlst <- read_delim(mlst_path, delim = "\t", 
+    escape_double = FALSE, trim_ws = TRUE, show_col_types = FALSE)
+
+#Combine our MLST data
+df_large <- left_join(df, mlst, by = "name")
+
+#Combine our CheckM data 
+df_large <- left_join(df_large, checkm_qa, by = "name")
+
+tablesss <- df_large %>% group_by(bacsort_species != "Citrobacter unknown", name %nin% species_size_fails$name, Contamination > 10, Completeness > 90) %>% summarise(counts = n(), .groups="keep")
+
+colnames(tablesss) <- c('Known Species Identified', 'Appropriate size', "Contaminated", "Complete", "Count")
+
+knitr::kable(tablesss, align = 'c')
+
+QC_pass <- df_large %>% filter(bacsort_species != "Citrobacter unknown", name %nin% species_size_fails$name, Contamination < 10, Completeness > 90, scheme == "cfreundii") %>% pull(name)
+
+QC_fail <- df_large %>% filter(name %nin% QC_pass) %>% pull(name)
+
+#Write to file which samples passed QC
+#write_delim(x = as.data.frame(QC_pass), file = "2022/delims/QC_pass.txt")
+
+```
+
+```{r filtered_assembly_stats_genus_plot, echo=FALSE, fig.align="center", fig.width=8, fig.height=6, fig.cap="Figure  3: A boxplot visualising the relationship between genome size and genus best match for genomes which passed QC. (determined using BacSort). Error bars indicate the minimum and maximum expected genome sizes for a given genus, while the dotted line indicates the cut-off for genome sizes to be considered potentially contaminated."}
+
+#Rename our columns
+df2 <- df %>% rename("Genome Length (Mbp)" = total_length, "Genus Best Match" = genus)
+
+#Select the columns we need
+df2 <- df2 %>% filter(name %in% QC_pass) %>% select(`Genome Length (Mbp)`, `Genus Best Match`, `Expected Min Genome Size (Genus)`, `Expected Max Genome Size (Genus)`)
+
+#Change the units to Mbp
+df2$`Genome Length (Mbp)` <- df2$`Genome Length (Mbp)`/1000000
+df2$`Expected Max Genome Size (Genus)` <- df2$`Expected Max Genome Size (Genus)`/1000000
+df2$`Expected Min Genome Size (Genus)` <- df2$`Expected Min Genome Size (Genus)`/1000000
+
+g <- ggplot(df2, mapping = aes(x = `Genus Best Match`, y = `Genome Length (Mbp)`, label=`Genus Best Match`, label2=`Genome Length (Mbp)`))
+
+p <- g + geom_boxplot(varwidth=T, fill="#DD8D29") + 
+        labs(title="Assembly sizes by genus", 
+             x="Genus",
+             y="Genome size (Mbp)") +
+        theme(axis.text.x = element_text(angle=90), legend.position = "none") +
+        geom_errorbar(aes(ymin = `Expected Min Genome Size (Genus)`, ymax = `Expected Max Genome Size (Genus)`,
+                          width = 0.2,
+                          color = "#bebeda",
+                          alpha = 0.5))
+
+
+p <- ggplotly(p)
+
+p
+```

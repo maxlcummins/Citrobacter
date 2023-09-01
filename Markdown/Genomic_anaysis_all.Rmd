@@ -1,0 +1,1881 @@
+---
+title: "Full Citrobacter Genomic Analysis"
+author: "Max Cummins"
+date: "17/05/2022"
+output:
+    html_document:
+        theme: spacelab
+        toc: true
+        toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Read in our packages
+library(tidyverse)
+library(abricateR)
+library(dplyr)
+library(ggplot2)
+library(ggtree)
+library(pheatmap)
+library(ComplexHeatmap)
+library(phytools)
+library(plotly)
+library(readr)
+library(readxl)
+library(paletteer)
+library(grid)
+library(gridExtra)
+library(hrbrthemes)
+library(cowplot)
+library(plasmidmapR)
+library(magick)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
+
+```
+
+## Outline
+
+
+## File summary
+
+A GitHub repository available at *https://github.com/maxlcummins/*
+contains all scripts and files required to rerun analysis detailed in this
+document.
+
+Below are the files associated with this research project and report.
+
+```
+File tree
+```
+
+```{r echo=FALSE}
+#Load paths to files needed for the script
+abricate_path <- "results/summaries/genotype.txt"
+pMLST_path <- "2022//results/summaries/pMLST.txt"
+mlst_path <- "2022//results/summaries/mlst.txt"
+tree_path <- "2022//results/summaries/trees/mashtree_100_BS_full_pass_QC.tree"
+
+species_ids_path <- "2022/bacsort/Species_ids.csv"
+
+#Provide output names
+output_name <- "Citrobacter"
+
+#Provide output directory name
+output_dir <- "output"
+
+#Create an output directory
+dir.create(file.path(getwd(), "output"), showWarnings = FALSE)
+```
+
+```{r read_in_public_metadata, echo=FALSE, include=FALSE}
+
+public_metadata_path <- "Metadata_public_genomes.xlsx"
+
+metadata <- read_excel(public_metadata_path, 
+    sheet = "metadata_only")
+
+metadata %>% group_by(Source) %>% summarise(counts = n())
+
+```
+
+
+```{r quiet_abricate, echo=FALSE,include=FALSE}
+#Run AbricateR to summarise genomic data
+abricateR::abricateR(
+        abricate_in = abricate_path,
+        output = output_name,
+        output_directory = output_dir,
+        identity = 90,
+        length = 90,
+        writecsv = FALSE,
+        #pMLST_data = pMLST_path
+)
+
+#Read in our species IDs
+species_ids <- read_csv("2022/bacsort/Species_ids.csv")
+
+#Create a new column for our collection_names
+species_ids <- species_ids %>%
+        mutate(collection = case_when(grepl("GCF", name) ~ "RefSeq",
+                                      grepl("SD", name) ~ "Gull",
+                                      grepl("SG", name) ~ "Gull",
+                                      grepl("ERQ", name) ~ "Wastewater",
+                                      grepl("DB", name) ~ "Wastewater"))
+                                      
+
+#Create our metadata sheet (we will expand on this later with extra data)
+metadata <- left_join(species_ids, metadata)
+
+#Fix the source column for internal isolates
+metadata <- metadata %>% mutate(Source = if_else(collection == "RefSeq", Source, collection))
+
+#Replace some of the source types in the metadata for consistency/simplicity
+
+#Read in the list of genomes which passed QC
+QC_pass <- read_csv("2022/delims/QC_pass.txt", col_names = "name", show_col_types = FALSE)
+
+```
+
+```{r MLST_process, include=FALSE, echo=FALSE}
+#Read in MLST data
+mlst <- read_delim(
+    mlst_path,
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE,
+    show_col_types = FALSE
+)
+
+#Filter out samples which didnt pass QC
+mlst <- mlst %>% filter(name %in% QC_pass$name)
+
+#Produce placeholder STs
+placeholder_STs <- mlst %>% select(-name,-scheme) %>% unique() %>% filter(ST == "-") %>% select(-ST) %>%
+       # filter(
+       #         !grepl("-", allele1),
+       #         !grepl("-", allele2),
+       #         !grepl("-", allele3),
+       #         !grepl("-", allele4),
+       #         !grepl("-", allele5),
+       #         !grepl("-", allele6),
+       #         !grepl("-", allele7)) %>% 
+mutate(ST_new = paste0("placeholder_ST",as.character(1:nrow(.)))) %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% select(ST_new, allele_cat)
+
+#Produce a list of the mlsts within the collection
+ST_list <- mlst %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% left_join(placeholder_STs, by = "allele_cat") %>% select(-allele_cat) %>% mutate(ST_new = if_else(is.na(ST_new), ST, ST_new))
+
+#Set our seed for reproducibility
+set.seed(2)
+
+#Generate a random sample (n=1) of strains grouped by species
+sample_for_tree <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+#Generate a second random sample (n=1) of strains grouped by species
+#Note we remove strains with the same STs as we picked previously
+sample_for_tree_2 <- species_ids  %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+#Bind the list of the genomes selected by sample one and two
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_2)
+
+#Same again for another 3 iterations...
+sample_for_tree_3 <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_3)
+
+sample_for_tree_4 <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_4)
+
+sample_for_tree_5 <- species_ids %>% inner_join(ST_list, by = "name") %>% filter(name %in% QC_pass$name) %>% filter(ST_new %nin% sample_for_tree$ST_new) %>% filter(grepl("GCF",name)) %>% group_by(bacsort_species) %>% slice_sample(n=1)
+
+sample_for_tree <- bind_rows(sample_for_tree, sample_for_tree_5)
+
+#Write our list of samples to file
+#write_delim(sample_for_tree, "../delims/sample_of_reference_genomes.txt", delim = "\t")
+
+```
+
+
+```{r make_tree, include=FALSE, echo=FALSE}
+
+#Read in our tree
+tree <- read.tree(tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#Define our colours list for our species names
+#species_cols <- c('blue', 'cyan', 'green', '#AAAA00', 'red', 'purple', 'black') #AAAA00 = olive
+
+
+species_cols <- c(#Red
+"#e6194B",
+#Green
+"#3cb44b",
+#Yellow
+"#ffe119",
+#Blue
+"#4363d8",
+#Orange
+"#f58231",
+#Purple
+"#911eb4",
+#Cyan
+"#42d4f4",
+#Magenta
+"#f032e6",
+#Lime
+"#bfef45",
+#Pink
+"#fabed4",
+#Teal
+"#469990",
+#Lavender
+"#dcbeff",
+#Brown
+"#9A6324",
+#Beige
+"#fffac8",
+#Maroon
+"#800000",
+#Mint
+"#aaffc3",
+#Olive
+"#808000",
+#Apricot
+"#ffd8b1",
+#Navy
+"#000075",
+#Grey
+"#a9a9a9",
+#White
+"#ffffff",
+#Black
+"#000000")
+
+#Make a list of our species names
+species_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(bacsort_species) %>%
+        unique() %>%
+        sort()
+
+#Reduce the number of species colours
+species_cols <- species_cols[1:length(species_names)]
+
+#Bind them to the colours
+names(species_cols) <- species_names
+
+#Define our colours list for our collection names
+collection_cols <- c("lightblue", "black", "darkred")
+        
+#Make a list of our species names
+collection_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(collection) %>%
+        unique() %>%
+        sort()
+
+#Bind them to the colours
+names(collection_cols) <- collection_names
+
+#Filter our metadata
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Plot our tree
+p <- ggtree(tree) %<+%
+        metadata +
+        geom_tiplab(size = 0.5,
+                align = TRUE,
+                linesize = 0.15,
+                aes(color = bacsort_species)
+                ) + theme(legend.position = "none")+
+        geom_tippoint(size = 0.5,
+                aes(colour = collection)
+                ) + scale_fill_manual(
+        aesthetics = c("colour", "fill"),
+        values = c(species_cols, collection_cols),
+        na.value = 'grey'
+        )
+
+species_coord <- fortify(p$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, bacsort_species, y) %>%
+        arrange(y) %>%
+        group_by(bacsort_species) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+#Bind our colours and names
+Species_cols_df <- suppressWarnings(cbind(species_cols, species_names)) %>% as.data.frame()
+
+#Rename our coloumns
+Species_cols_df <- Species_cols_df %>% rename(color = species_cols, bacsort_species = species_names)
+
+#Join our df of coordinates for our annotations with our colours for our annotations
+species_coord <- left_join(species_coord, Species_cols_df, by = "bacsort_species")
+
+strip_fontsize <- 3
+strip_offset <- 0.3
+strip_text_offset <- -0.01
+strip_barsize <- 2
+strip_text_hjust <- 1
+
+#Plot our core tree
+p2 <- p + geom_strip(
+                species_coord$firstocc[1],
+                species_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = species_coord$color[1],
+                label = species_coord$bacsort_species[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                species_coord$firstocc[2],
+                species_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = species_coord$color[2],
+                label = species_coord$bacsort_species[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[3],
+                species_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = species_coord$color[3],
+                label = species_coord$bacsort_species[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[4], 
+                species_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = species_coord$color[4],
+                label = species_coord$bacsort_species[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[5],
+                species_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = species_coord$color[5],
+                label = species_coord$bacsort_species[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[6],
+                species_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = species_coord$color[6],
+                label = species_coord$bacsort_species[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[7],
+                species_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = species_coord$color[7],
+                label = species_coord$bacsort_species[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) + scale_x_continuous(limits = c(NA, 0.5))
+
+```
+
+## Resistance gene carriage
+
+```{r card_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+card <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- card$name
+
+#Select our columns of interest
+card <- card %>% select(starts_with("card")) 
+
+#Change multiple counts for a given gene to a single count
+card[card > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+cardcolsums <- colSums(card)
+
+#Remove columns which have colsums under 1 (no hits)
+card <- card[, cardcolsums > 0]
+
+#Save a copy of our dataframe
+card_binary <- card
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+cardcolsums <- colSums(card)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+card[card == 1] <- "Resistance gene present"
+card[card == 0] <- "Resistance gene absent"
+
+#Create a dataframe from our column names
+card_colnames <- colnames(card) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+card_colnames_percs <- paste0(colnames(card),
+                                     " ",
+                                     cardcolsums,
+                                     "/",
+                                     nrow(card),
+                                     " (",
+                                     scales::percent(
+                                             cardcolsums/nrow(card),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+card_colnames_percs$join_colnames <- gsub(" .*", "", card_colnames_percs$long_name)
+#Create a new column of names to join by
+card_colnames_percs$long_name <- gsub("card_", "", card_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(card_colnames, card_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(card) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(card) <- internal_rownames
+
+#Define our colors for card genes
+cardgenotype_vars <- c("Resistance gene present", "Resistance gene absent")
+cardcolors <- c("#bebeda", "white")
+names(cardcolors) <- cardgenotype_vars
+
+#Plot our heatmap of card genes
+card_heatmap <- gheatmap(
+        p = p,
+        data = card,
+        colnames_offset_y = 0.5,
+        font.size = 3,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.014,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, cardcolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, cardcolors),
+                na.value = 'grey',
+                guide = "none"
+                ) #+ ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r card_plot, echo=FALSE, fig.width=12, fig.height=8}
+card_heatmap
+```
+
+```{r, calculate_res_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of AMR genes per sample
+amr_gene_count <- card_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+amr_gene_count$name <- rownames(card)
+
+#Restructure our table
+amr_gene_count <- amr_gene_count %>% rename(AMR_gene_count = ".") %>% select(name, AMR_gene_count)
+
+#Bind in our species column
+amr_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(amr_gene_count, by = "name")
+
+#Group by species and average the AMR gene counts
+AMR_genes_source_species <- amr_gene_count %>% group_by(bacsort_species, collection) %>% summarise("AMR gene count (mean)" = mean(AMR_gene_count), .groups = "keep") %>% mutate(`AMR gene count (mean)` = round(`AMR gene count (mean)`, digits = 1)) %>% arrange(desc(`AMR gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+AMR_genes_source_species_simple <- AMR_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r AMR_gene_source_species_table, echo=FALSE}
+knitr::kable(AMR_genes_source_species_simple, align = 'c')
+```
+
+## Virulence gene carriage
+
+```{r vfdb_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+vfdb <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- vfdb$name
+
+#Select our columns of interest
+vfdb <- vfdb %>% select(starts_with("vfdb")) 
+
+#Change multiple counts for a given gene to a single count
+vfdb[vfdb > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+vfdbcolsums <- colSums(vfdb)
+
+#Remove columns which have colsums under 1 (no hits)
+vfdb <- vfdb[, vfdbcolsums > 0]
+
+#Save a copy of our dataframe
+vfdb_binary <- vfdb
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+vfdbcolsums <- colSums(vfdb)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+vfdb[vfdb == 1] <- "Virulence gene present"
+vfdb[vfdb == 0] <- "Virulence gene absent"
+
+#Create a dataframe from our column names
+vfdb_colnames <- colnames(vfdb) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+vfdb_colnames_percs <- paste0(colnames(vfdb),
+                                     " ",
+                                     vfdbcolsums,
+                                     "/",
+                                     nrow(vfdb),
+                                     " (",
+                                     scales::percent(
+                                             vfdbcolsums/nrow(vfdb),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+vfdb_colnames_percs$join_colnames <- gsub(" .*", "", vfdb_colnames_percs$long_name)
+#Create a new column of names to join by
+vfdb_colnames_percs$long_name <- gsub("vfdb_", "", vfdb_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(vfdb_colnames, vfdb_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(vfdb) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(vfdb) <- internal_rownames
+
+#Define our colors for vfdb genes
+vfdbgenotype_vars <- c("Virulence gene present", "Virulence gene absent")
+vfdbcolors <- c("#fb8072", "white")
+names(vfdbcolors) <- vfdbgenotype_vars
+
+#Plot our heatmap of vfdb genes
+vfdb_heatmap <- gheatmap(
+        p = p,
+        data = vfdb,
+        colnames_offset_y = 0.5,
+        font.size = 5,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.0125,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, vfdbcolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, vfdbcolors),
+                na.value = 'grey',
+                guide = "none"
+                ) #+ ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r vfdb_plot, echo=FALSE, fig.width=12, fig.height=8}
+vfdb_heatmap
+```
+
+```{r, calculate_vag_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of VAG genes per sample
+VAG_gene_count <- vfdb_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+VAG_gene_count$name <- rownames(vfdb)
+
+#Restructure our table
+VAG_gene_count <- VAG_gene_count %>% rename(VAG_gene_count = ".") %>% select(name, VAG_gene_count)
+
+#Bind in our species column
+VAG_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(VAG_gene_count, by = "name")
+
+#Group by species and average the VAG gene counts
+VAG_genes_source_species <- VAG_gene_count %>% group_by(bacsort_species, collection) %>% summarise("VAG gene count (mean)" = mean(VAG_gene_count), .groups = "keep") %>% mutate(`VAG gene count (mean)` = round(`VAG gene count (mean)`, digits = 1)) %>% arrange(desc(`VAG gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+VAG_genes_source_species_simple <- VAG_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r VAG_gene_source_species_table, echo=FALSE}
+knitr::kable(VAG_genes_source_species_simple, align = 'c')
+```
+
+
+
+## IS carriage
+
+```{r ISfinder_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+ISfinder <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- ISfinder$name
+
+#Select our columns of interest
+ISfinder <- ISfinder %>% select(starts_with("ISfinder")) 
+
+#Change multiple counts for a given gene to a single count
+ISfinder[ISfinder > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+ISfindercolsums <- colSums(ISfinder)
+
+#Remove columns which have colsums under 1 (no hits)
+ISfinder <- ISfinder[, ISfindercolsums > 0]
+
+#Save a copy of our dataframe
+ISfinder_binary <- ISfinder
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+ISfindercolsums <- colSums(ISfinder)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+ISfinder[ISfinder == 1] <- "IS element present"
+ISfinder[ISfinder == 0] <- "IS element absent"
+
+#Create a dataframe from our column names
+ISfinder_colnames <- colnames(ISfinder) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+ISfinder_colnames_percs <- paste0(colnames(ISfinder),
+                                     " ",
+                                     ISfindercolsums,
+                                     "/",
+                                     nrow(ISfinder),
+                                     " (",
+                                     scales::percent(
+                                             ISfindercolsums/nrow(ISfinder),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+ISfinder_colnames_percs$join_colnames <- gsub(" .*", "", ISfinder_colnames_percs$long_name)
+#Create a new column of names to join by
+ISfinder_colnames_percs$long_name <- gsub("ISfinder_Feb_2020_", "", ISfinder_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(ISfinder_colnames, ISfinder_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(ISfinder) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(ISfinder) <- internal_rownames
+
+#Define our colors for ISfinder genes
+ISfindergenotype_vars <- c("IS element present", "IS element absent")
+ISfindercolors <- c("#8dd3c7", "white")
+names(ISfindercolors) <- ISfindergenotype_vars
+
+#Plot our heatmap of ISfinder genes
+ISfinder_heatmap <- gheatmap(
+        p = p,
+        data = ISfinder,
+        colnames_offset_y = 0.5,
+        font.size = 2,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.014,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, ISfindercolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, ISfindercolors),
+                na.value = 'grey',
+                guide = "none"
+                ) #+ ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r ISfinder_plot, echo=FALSE, fig.width=12, fig.height=8}
+ISfinder_heatmap
+```
+
+```{r, calculate_IS_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of IS genes per sample
+IS_gene_count <- ISfinder_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+IS_gene_count$name <- rownames(ISfinder)
+
+#Restructure our table
+IS_gene_count <- IS_gene_count %>% rename(IS_gene_count = ".") %>% select(name, IS_gene_count)
+
+#Bind in our species column
+IS_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(IS_gene_count, by = "name")
+
+#Group by species and average the IS gene counts
+IS_genes_source_species <- IS_gene_count %>% group_by(bacsort_species, collection) %>% summarise("IS gene count (mean)" = mean(IS_gene_count), .groups = "keep") %>% mutate(`IS gene count (mean)` = round(`IS gene count (mean)`, digits = 1)) %>% arrange(desc(`IS gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+IS_genes_source_species_simple <- IS_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r IS_gene_source_species_table, echo=FALSE}
+knitr::kable(IS_genes_source_species_simple, align = 'c')
+```
+
+
+## Plasmid gene carriage
+
+```{r plasmidfinder_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+plasmidfinder <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- plasmidfinder$name
+
+#Select our columns of interest
+plasmidfinder <- plasmidfinder %>% select(starts_with("plasmidfinder")) 
+
+#Change multiple counts for a given gene to a single count
+plasmidfinder[plasmidfinder > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+plasmidfindercolsums <- colSums(plasmidfinder)
+
+#Remove columns which have colsums under 1 (no hits)
+plasmidfinder <- plasmidfinder[, plasmidfindercolsums > 0]
+
+#Save a copy of our dataframe
+plasmidfinder_binary <- plasmidfinder
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+plasmidfindercolsums <- colSums(plasmidfinder)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+plasmidfinder[plasmidfinder == 1] <- "Plasmid replicon present"
+plasmidfinder[plasmidfinder == 0] <- "Plasmid replicon absent"
+
+#Create a dataframe from our column names
+plasmidfinder_colnames <- colnames(plasmidfinder) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+plasmidfinder_colnames_percs <- paste0(colnames(plasmidfinder),
+                                     " ",
+                                     plasmidfindercolsums,
+                                     "/",
+                                     nrow(plasmidfinder),
+                                     " (",
+                                     scales::percent(
+                                             plasmidfindercolsums/nrow(plasmidfinder),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+plasmidfinder_colnames_percs$join_colnames <- gsub(" .*", "", plasmidfinder_colnames_percs$long_name)
+#Create a new column of names to join by
+plasmidfinder_colnames_percs$long_name <- gsub("plasmidfinder_", "", plasmidfinder_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(plasmidfinder_colnames, plasmidfinder_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(plasmidfinder) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(plasmidfinder) <- internal_rownames
+
+#Define our colors for plasmidfinder genes
+plasmidfindergenotype_vars <- c("Plasmid replicon present", "Plasmid replicon absent")
+plasmidfindercolors <- c("#80b1d3", "white")
+names(plasmidfindercolors) <- plasmidfindergenotype_vars
+
+#Plot our heatmap of plasmidfinder genes
+plasmidfinder_heatmap <- gheatmap(
+        p = p,
+        data = plasmidfinder,
+        colnames_offset_y = 0.5,
+        font.size = 2,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.014,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, plasmidfindercolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, plasmidfindercolors),
+                na.value = 'grey',
+                guide = "none"
+                ) #+ ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r plasmidfinder_plot, echo=FALSE, fig.width=12, fig.height=8}
+plasmidfinder_heatmap
+```
+
+```{r, calculate_plasmid_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of plasmid genes per sample
+plasmid_gene_count <- plasmidfinder_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+plasmid_gene_count$name <- rownames(plasmidfinder)
+
+#Restructure our table
+plasmid_gene_count <- plasmid_gene_count %>% rename(plasmid_gene_count = ".") %>% select(name, plasmid_gene_count)
+
+#Bind in our species column
+plasmid_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(plasmid_gene_count, by = "name")
+
+#Group by species and average the plasmid gene counts
+plasmid_genes_source_species <- plasmid_gene_count %>% group_by(bacsort_species, collection) %>% summarise("plasmid gene count (mean)" = mean(plasmid_gene_count), .groups = "keep") %>% mutate(`plasmid gene count (mean)` = round(`plasmid gene count (mean)`, digits = 1)) %>% arrange(desc(`plasmid gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+plasmid_genes_source_species_simple <- plasmid_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r plasmid_gene_source_species_table, echo=FALSE}
+knitr::kable(plasmid_genes_source_species_simple, align = 'c')
+```
+
+## One Health Linkages
+
+```{r, include=FALSE, echo=FALSE}
+metadata <- ST_list %>% right_join(metadata, by = "name")
+
+internal_species_STs <- metadata %>% filter(!grepl("GCF", name)) %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% pull(species_ST_new)
+
+STs_by_source <- metadata %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% filter(species_ST_new %in% internal_species_STs)  %>% group_by(Source, species_ST_new) %>% summarise(counts = n(), .groups = "keep") %>% dcast(species_ST_new ~ Source) %>% arrange(species_ST_new)
+
+STs_by_source <- STs_by_source %>% arrange(species_ST_new)
+
+STs_by_source_rownames <- STs_by_source$species_ST_new
+
+STs_by_source <- STs_by_source %>% select(-species_ST_new) %>% replace(is.na(.), 0)
+
+STs_by_source[STs_by_source > 0] <- 1
+
+rownames(STs_by_source) <- gsub("STplaceholder", "placeholder", STs_by_source_rownames)
+
+STs_by_source <- STs_by_source %>% filter(rowSums(STs_by_source) > 1)
+
+pheatmap(STs_by_source, cluster_rows = FALSE)
+
+STs_by_country <- metadata %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% group_by(Country, species_ST_new) %>% summarise(counts = n()) %>% dcast(species_ST_new ~ Country) %>% filter(species_ST_new %in% internal_species_STs) %>% arrange(species_ST_new)
+
+STs_by_country <- STs_by_country %>% arrange(species_ST_new)
+
+STs_by_country_rownames <- STs_by_country$species_ST_new
+
+STs_by_country <- STs_by_country %>% select(-species_ST_new) %>% replace(is.na(.), 0) 
+
+STs_by_country[STs_by_country > 0] <- 1
+
+rownames(STs_by_country) <- gsub("STplaceholder", "placeholder", STs_by_country_rownames)
+
+STs_by_country <- STs_by_country %>% filter(rowSums(STs_by_country) > 1)
+
+pheatmap(STs_by_country, cluster_rows = FALSE)
+```
+
+```{r write_ST_overlap_lists, echo=FALSE}
+internal_gull_species_STs <- metadata %>% filter(!grepl("GCF", name), Source == "Gull") %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% pull(species_ST_new)
+
+gull_ST_overlap <- metadata %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% filter(species_ST_new %in% internal_gull_species_STs) %>% select(name)
+
+write_delim(gull_ST_overlap, "../delims/gull_ST_overlap", delim = "\t")
+
+internal_ww_species_STs <- metadata %>% filter(!grepl("GCF", name), Source == "Wastewater") %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% pull(species_ST_new)
+
+ww_ST_overlap <- metadata %>% mutate(species_ST_new = paste0(bacsort_species, "_ST", ST_new)) %>% filter(species_ST_new %in% internal_ww_species_STs) %>% select(name)
+
+write_delim(ww_ST_overlap, "../delims/ww_ST_overlap", delim = "\t")
+
+```
+
+```{r metadata_icons, echo=FALSE, include=FALSE}
+
+
+
+#### Adding in of URLs for icons ####
+#Generate a new column called Flag within which we will give URLs based on
+#countries of origin, used by ggimage to render flags in our image.
+metadata$Flag <- metadata$Country
+metadata$Flag <-
+        gsub(
+                "Australia",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Australia.jpg",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Denmark",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Denmark.jpg",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "United States|USA",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/USA.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "^Ireland$",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Ireland.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Vietnam",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Vietnam.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "United Kingdom",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/United_Kindgom.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Mexico",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Mexico.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Ghana",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Ghana.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "United Arab Emirates",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/UAE.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Scotland",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Scotland.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Germany",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Germany.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Northern Ireland",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/Northern_Ireland.jpg",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Japan",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/japan.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Sweden",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/sweden.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Norway",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/norway.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "China",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/china.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Nepal",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/nepal.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Saudi Arabia",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/saudi-arabia.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Netherlands",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/netherlands.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "New Zealand",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/new-zealand.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Hungary",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/hungary.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "France",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/france.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Singapore",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/singapore.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Croatia",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/croatia.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Sri Lanka",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/sri-lanka.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Finland",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/finland.png",
+                metadata$Flag
+        )
+
+metadata$Flag <-
+        gsub(
+                "Poland",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/poland.png",
+                metadata$Flag
+        )
+
+metadata$Flag <-
+        gsub(
+                "Canada",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/canada.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "India",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/india.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Italy",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/italy.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Colombia",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/colombia.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Estonia",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/estonia.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Malaysia",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/malaysia.jpg",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Sierra Leone",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/sierra_leone.png",
+                metadata$Flag
+        )
+metadata$Flag <-
+        gsub(
+                "Spain",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Flags/spain.png",
+                metadata$Flag
+        )
+#replace countries of origin that are unknown with a URL for a question mark
+metadata$Flag[is.na(metadata$Flag)] <-
+        "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/question.png"
+metadata$Flag <-
+        gsub(
+                "^NA$",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/question.png",
+                metadata$Flag
+        )
+
+
+#Same as above for source data
+metadata$Source_img <- metadata$Source
+metadata$Source_img <-
+        gsub(
+                "Canine",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/dog.png",
+                metadata$Source_img
+        )
+metadata$Source_img <-
+        gsub(
+                "Gull|Seagull",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/gull.png",
+                metadata$Source_img
+        )
+metadata$Source_img <-
+        gsub(
+                "Poultry",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/poultry.png",
+                metadata$Source_img
+        )
+metadata$Source_img <-
+        gsub(
+                "Human",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/human.png",
+                metadata$Source_img
+        )
+metadata$Source_img <-
+        gsub(
+                "Bovine",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/cow.png",
+                metadata$Source_img
+        )
+metadata$Source_img <-
+        gsub(
+                "Environment.*|Wastewater.*",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/wastewater.png",
+                metadata$Source_img
+        )
+metadata$Source_img <-
+        gsub(
+                "Other",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/other.png",
+                metadata$Source_img
+        )
+metadata$Source_img[is.na(metadata$Source_img)] <-
+        "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/question.png"
+metadata$Source_img <-
+        gsub(
+                "^NA$",
+                "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/question.png",
+                metadata$Source_img
+        )
+
+
+```
+
+### Gull Tree
+```{r gull_overlap_tree, echo=FALSE}
+
+#Set the path for the gull overlap tree
+gull_overlap_tree_path <- "../results/summaries/trees/mashtree_citro_gull_overlap.tree"
+
+#Read in our tree
+tree <- read.tree(gull_overlap_tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#Define our colours list for our species names
+#species_cols <- c('blue', 'cyan', 'green', '#AAAA00', 'red', 'purple', 'black') #AAAA00 = olive
+
+#Define our colours list for our collection names
+collection_cols <- c("lightblue", "black", "darkred")
+        
+#Make a list of our species names
+collection_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(collection) %>%
+        unique() %>%
+        sort()
+
+#Bind them to the colours
+names(collection_cols) <- collection_names
+
+#Backup our metadata
+metadata_bk <- metadata
+
+#Filter our metadata
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Replace metadata placeholder names - they are too long and ugly
+metadata$ST_new_short <- gsub("^", "ST", metadata$ST_new)
+metadata$ST_new_short <- gsub("STplaceholder_ST(.*)", "ST\\1^^", metadata$ST_new_short)
+
+#Replace NA years with "-"
+metadata$Date <- gsub("NA", "-", metadata$Date)
+
+#Plot our tree
+p <- ggtree(tree) %<+%
+        metadata +
+        geom_tiplab(size = 2.5,
+                align = TRUE,
+                linesize = 0.15,
+                aes(color = bacsort_species)
+                ) +
+    geom_tiplab(aes(label = ST_new_short),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.011,
+                size = 2.5) +
+        geom_tiplab(
+                aes(image = Flag),
+                geom = "image",
+                size = 0.02,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.016
+        )+
+        geom_tiplab(
+                aes(image = Source_img),
+                geom = "image",
+                size = 0.02,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.020
+        ) +
+    geom_tiplab(aes(label = Date),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.024,
+                size = 2.5) +
+        geom_tippoint(size = 2,
+                aes(colour = collection)
+                ) + scale_fill_manual(
+        aesthetics = c("colour", "fill"),
+        values = c(species_cols, collection_cols),
+        na.value = 'grey'
+        ) + 
+    theme(legend.position = "none")
+
+species_coord <- fortify(p$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, bacsort_species, y) %>%
+        arrange(y) %>%
+        group_by(bacsort_species) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+#Bind our colours and names
+Species_cols_df <- suppressWarnings(cbind(species_cols, species_names)) %>% as.data.frame()
+
+#Rename our coloumns
+Species_cols_df <- Species_cols_df %>% rename(color = species_cols, bacsort_species = species_names)
+
+#Join our df of coordinates for our annotations with our colours for our annotations
+species_coord <- left_join(species_coord, Species_cols_df, by = "bacsort_species")
+
+strip_fontsize <- 4
+strip_offset <- 0.0275
+strip_text_offset <- 0.001
+strip_barsize <- 2.5
+strip_text_hjust <- 0
+
+#Plot our core tree
+gull_p2 <- p + geom_strip(
+                species_coord$firstocc[1],
+                species_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = species_coord$color[1],
+                label = species_coord$bacsort_species[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                species_coord$firstocc[2],
+                species_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = species_coord$color[2],
+                label = species_coord$bacsort_species[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[3],
+                species_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = species_coord$color[3],
+                label = species_coord$bacsort_species[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[4], 
+                species_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = species_coord$color[4],
+                label = species_coord$bacsort_species[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[5],
+                species_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = species_coord$color[5],
+                label = species_coord$bacsort_species[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[6],
+                species_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = species_coord$color[6],
+                label = species_coord$bacsort_species[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[7],
+                species_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = species_coord$color[7],
+                label = species_coord$bacsort_species[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                )
+```
+
+```{r print_gull_overlap_tree, echo=FALSE}
+gull_p2 + scale_x_continuous(limits = c(NA, 0.125))
+```
+
+### WW Tree
+```{r WW_overlap_tree, echo=FALSE}
+
+
+#Backup our 
+metadata <- metadata_bk
+
+#Set the path for the gull overlap tree
+ww_overlap_tree_path <- "../results/summaries/trees/mashtree_citro_ww_overlap.tree"
+
+#Read in our tree
+tree <- read.tree(ww_overlap_tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#Define our colours list for our species names
+#species_cols <- c('blue', 'cyan', 'green', '#AAAA00', 'red', 'purple', 'black') #AAAA00 = olive
+
+#Define our colours list for our collection names
+collection_cols <- c("lightblue", "black", "darkred")
+        
+#Make a list of our species names
+collection_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(collection) %>%
+        unique() %>%
+        sort()
+
+#Bind them to the colours
+names(collection_cols) <- collection_names
+
+#Filter our metadata
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Replace metadata placeholder names - they are too long and ugly
+metadata$ST_new_short <- gsub("^", "ST", metadata$ST_new)
+metadata$ST_new_short <- gsub("STplaceholder_ST(.*)", "ST\\1^^", metadata$ST_new_short)
+
+#Replace NA years with "-"
+metadata$Date <- gsub("NA", "-", metadata$Date)
+
+#Plot our tree
+p <- ggtree(tree) %<+%
+        metadata +
+        geom_tiplab(size = 1,
+                align = TRUE,
+                linesize = 0.15,
+                aes(color = bacsort_species)
+                ) +
+    geom_tiplab(aes(label = ST_new_short),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.011,
+                size = 1) +
+        geom_tiplab(
+                aes(image = Flag),
+                geom = "image",
+                size = 0.006,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.016
+        )+
+        geom_tiplab(
+                aes(image = Source_img),
+                geom = "image",
+                size = 0.006,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.020
+        ) +
+    geom_tiplab(aes(label = Date),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.024,
+                size = 1) +
+        geom_tippoint(size = 2,
+                aes(colour = collection)
+                ) + scale_fill_manual(
+        aesthetics = c("colour", "fill"),
+        values = c(species_cols, collection_cols),
+        na.value = 'grey'
+        ) + 
+    theme(legend.position = "none")
+
+species_coord <- fortify(p$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, bacsort_species, y) %>%
+        arrange(y) %>%
+        group_by(bacsort_species) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+#Bind our colours and names
+Species_cols_df <- suppressWarnings(cbind(species_cols, species_names)) %>% as.data.frame()
+
+#Rename our coloumns
+Species_cols_df <- Species_cols_df %>% rename(color = species_cols, bacsort_species = species_names)
+
+#Join our df of coordinates for our annotations with our colours for our annotations
+species_coord <- left_join(species_coord, Species_cols_df, by = "bacsort_species")
+
+strip_fontsize <- 4
+strip_offset <- 0.0275
+strip_text_offset <- 0.001
+strip_barsize <- 2.5
+strip_text_hjust <- 0
+
+#Plot our core tree
+ww_p2 <- p + geom_strip(
+                species_coord$firstocc[1],
+                species_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = species_coord$color[1],
+                label = species_coord$bacsort_species[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                species_coord$firstocc[2],
+                species_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = species_coord$color[2],
+                label = species_coord$bacsort_species[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[3],
+                species_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = species_coord$color[3],
+                label = species_coord$bacsort_species[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[4], 
+                species_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = species_coord$color[4],
+                label = species_coord$bacsort_species[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[5],
+                species_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = species_coord$color[5],
+                label = species_coord$bacsort_species[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[6],
+                species_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = species_coord$color[6],
+                label = species_coord$bacsort_species[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[7],
+                species_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = species_coord$color[7],
+                label = species_coord$bacsort_species[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "none")
+
+```
+
+```{r print_ww_overlap_tree, echo=FALSE}
+ww_p2 + scale_x_continuous(limits = c(NA, 0.085))
+```
+
+
+### WW Tree
+```{r WW_overlap_tree_circular, echo=FALSE}
+
+
+#Backup our 
+metadata <- metadata_bk
+
+#Set the path for the gull overlap tree
+ww_overlap_tree_path <- "../results/summaries/trees/mashtree_citro_ww_overlap.tree"
+
+#Read in our tree
+tree <- read.tree(ww_overlap_tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#Define our colours list for our species names
+#species_cols <- c('blue', 'cyan', 'green', '#AAAA00', 'red', 'purple', 'black') #AAAA00 = olive
+
+#Define our colours list for our collection names
+collection_cols <- c("lightblue", "black", "darkred")
+        
+#Make a list of our species names
+collection_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(collection) %>%
+        unique() %>%
+        sort()
+
+#Bind them to the colours
+names(collection_cols) <- collection_names
+
+#Filter our metadata
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Replace metadata placeholder names - they are too long and ugly
+metadata$ST_new_short <- gsub("^", "ST", metadata$ST_new)
+metadata$ST_new_short <- gsub("STplaceholder_ST(.*)", "ST\\1^^", metadata$ST_new_short)
+
+#Replace NA years with "-"
+metadata$Date <- gsub("NA", "-", metadata$Date)
+
+#Plot our tree
+p <- ggtree(tree, layout = "circular", open.angle = 0) %<+%
+        metadata +
+        geom_tiplab2(size = 1,
+                align = TRUE,
+                linesize = 0.15,
+                aes(color = bacsort_species)
+                ) +
+    geom_tiplab2(aes(label = ST_new_short),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.011,
+                size = 1) +
+        geom_tiplab2(
+                aes(image = Flag),
+                geom = "image",
+                size = 0.008,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.016
+        )+
+        geom_tiplab2(
+                aes(image = Source_img),
+                geom = "image",
+                size = 0.008,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.020
+        ) +
+    geom_tiplab2(aes(label = Date),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.024,
+                size = 1) +
+        geom_tippoint(size = 2,
+                aes(colour = collection)
+                ) + scale_fill_manual(
+        aesthetics = c("colour", "fill"),
+        values = c(species_cols, collection_cols),
+        na.value = 'grey'
+        ) + 
+    theme(legend.position = "none")
+
+species_coord <- fortify(p$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, bacsort_species, y) %>%
+        arrange(y) %>%
+        group_by(bacsort_species) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+#Bind our colours and names
+Species_cols_df <- suppressWarnings(cbind(species_cols, species_names)) %>% as.data.frame()
+
+#Rename our coloumns
+Species_cols_df <- Species_cols_df %>% rename(color = species_cols, bacsort_species = species_names)
+
+#Join our df of coordinates for our annotations with our colours for our annotations
+species_coord <- left_join(species_coord, Species_cols_df, by = "bacsort_species")
+
+strip_fontsize <- 4
+strip_offset <- 0.0275
+strip_text_offset <- 0.001
+strip_barsize <- 2.5
+strip_text_hjust <- 0
+
+#Plot our core tree
+ww_p2 <- p + geom_strip(
+                species_coord$firstocc[1],
+                species_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = species_coord$color[1],
+                label = species_coord$bacsort_species[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                species_coord$firstocc[2],
+                species_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = species_coord$color[2],
+                label = species_coord$bacsort_species[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = 1
+        ) +
+        geom_strip(
+                species_coord$firstocc[3],
+                species_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = species_coord$color[3],
+                label = species_coord$bacsort_species[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[4], 
+                species_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = species_coord$color[4],
+                label = species_coord$bacsort_species[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[5],
+                species_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = species_coord$color[5],
+                label = species_coord$bacsort_species[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[6],
+                species_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = species_coord$color[6],
+                label = species_coord$bacsort_species[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[7],
+                species_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = species_coord$color[7],
+                label = species_coord$bacsort_species[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "none")
+
+```
+
+```{r print_ww_overlap_tree_circular, echo=FALSE}
+ww_p2 + scale_x_continuous(limits = c(NA, 0.085))
+```
+
+
+```{r}
+metadata_bk %>% right_join(Citrobacter_simple_summary_N90L90, by = "name") %>% write_delim("2022/delims/geno_metadata_QC_pass.txt", delim = "\t")
+                                                                                                        
+metadata_bk %>% right_join(Citrobacter_simple_summary_N90L90, by = "name") %>% filter(collection != "RefSeq") %>% write_delim("2022/delims/internal_geno_metadata_QC_pass.txt", delim = "\t")
+```
+
+
+```{r libraries_for_circle_plot, echo=FALSE}
+# Libraries
+#library(ggraph)
+#library(igraph)
+#library(tidyverse)
+#library(RColorBrewer)
+```
+

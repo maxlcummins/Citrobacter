@@ -1,0 +1,1239 @@
+ID	ST_new	Cluster__autocolour	bacsort_species	match	collection	Int_Ext	biosample	Source	Country	Date	strain
+GCF_014901875	18	1	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001281005	252	2	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN03996567	Human	China	2013	P10159
+GCF_905218895	placeholder_ST1	3	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA7853238	"NA"	"NA"	"NA"	"NA"
+GCF_902166445	307	4	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA104567751	"NA"	"NA"	"NA"	"NA"
+GCF_016500615	placeholder_ST2	5	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN16340034	Human	USA	2019	CB00199
+GCF_016905765	65	6	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933267	Human	Czech Republic	2018	CF47299
+GCF_013801705	placeholder_ST3	9	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148428	Bovine	United Kingdom	2017	RHB41-C16
+GCF_019660505	22	10	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN20568179	Human	China	2015	CF-15-61
+GCF_010590395	95	11	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12250780	Human	USA	2015	AS012461
+GCF_016905675	placeholder_ST4	12	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933274	Human	Czech Republic	2019	CF48658
+GCF_013925725	placeholder_ST5	13	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_901456235	21	14	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMEA5578856	"NA"	"NA"	"NA"	"NA"
+GCF_018439045	22	15	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371840	Human	Germany	2017	NRZ-38954
+GCF_008931625	95	16	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013724985	placeholder_ST6	17	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148754	Environment	United Kingdom	2017	RHBSTW-00968
+GCF_020809005	22	18	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN21601121	Human	China	2020	DY2010
+GCF_902498925	placeholder_ST7	19	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA5956034	"NA"	"NA"	"NA"	"NA"
+GCF_018919595	placeholder_ST8	20	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN19645714	Human	"NA"	2016	S44_ASV_140
+GCF_014855955	placeholder_ST9	21	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220000	Other	Germany	2014	CF14650
+GCF_905338045	placeholder_ST10	22	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA8158485	"NA"	"NA"	"NA"	"NA"
+GCF_016500575	307	23	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340032	Human	USA	2019	CB00197
+GCF_002151755	placeholder_ST11	24	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+ERQ0166	110	26	Citrobacter braakii	99.68%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016892575	placeholder_ST12	27	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17321484	Plant	USA	2020	RIT 805
+GCF_013899385	placeholder_ST13	28	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148084	Bovine	United Kingdom	2017	RHB12-C18
+GCF_013725595	placeholder_ST14	29	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148747	Environment	United Kingdom	2017	RHBSTW-00935
+GCF_005281355	placeholder_ST15	30	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11369619	"NA"	Poland	"NA"	wls615
+GCF_016504815	placeholder_ST16	31	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN10435596	Human	USA	2017	CB00053
+GCF_016859905	placeholder_ST17	32	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_000521965	98	33	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_004004805	98	34	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014803105	22	35	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205296	Human	France	2018	169B1
+GCF_013749535	481	36	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148611	Environment	United Kingdom	2017	RHBSTW-00435
+GCF_001037585	328	37	Citrobacter portucalensis	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001721255	placeholder_ST18	38	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN05213497	Human	Pakistan	2013	CFSAN044567
+GCF_008931685	95	39	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_900079795	placeholder_ST19	40	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA3932380	"NA"	"NA"	"NA"	"NA"
+GCF_014803115	22	41	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205293	Human	France	2018	164F1
+GCF_018066565	22	43	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN18511096	Human	USA	2020	2021EL-00125
+GCF_005281175	placeholder_ST20	44	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN11369620	"NA"	Poland	"NA"	wls617
+GCF_003990165	170	45	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN10613770	Reptile	China	2017	CQ-CP1
+GCF_002051555	129	46	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN06603405	Avian	Bangladesh	2015	NR-12
+GCF_016905775	65	47	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933268	Human	Czech Republic	2018	CF47462
+GCF_016505335	183	48	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10435568	Human	USA	2017	CB00024
+GCF_001022155	22	49	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03733741	Human	USA	2010	CAV1321
+GCF_002192675	22	50	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06009454	Environment	USA	2011	DPB_2
+GCF_014101295	placeholder_ST21	51	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148586	Environment	United Kingdom	2017	RHBSTW-00344
+GCF_005281025	placeholder_ST22	52	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11369632	"NA"	Poland	"NA"	wls714
+ERQ0156	150	53	Citrobacter freundii	99.45%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_000937505	23	56	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03316840	Human	USA	2012	MRSN 12115
+GCF_001880955	18	57	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05447752	Human	Spain	2014	CF_14_ST_18
+GCF_018441285	19	58	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372138	Human	Germany	2019	Survcare247
+GCF_019270335	356	59	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824624	Other	Thailand	"NA"	Colony312
+DB_3_C11	placeholder_ST23	60	Citrobacter freundii	99.47%	Wastewater	Int	"NA"	Wastewater	Australia	2020	"NA"
+SD_5_A12	367	61	Citrobacter braakii	99.10%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_014802805	22	62	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205309	Human	France	2019	195J10
+GCF_008370125	63	63	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN09976800	Reptile	Brazil	2017	ECTV13
+GCF_002903215	110	64	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03455982	"NA"	USA	2014	CFNIH3
+ERQ0165	110	65	Citrobacter braakii	99.74%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013792365	98	66	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148495	Environment	United Kingdom	2017	RHBSTW-00119
+GCF_002863945	placeholder_ST24	67	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN07974441	Human	USA	"NA"	YDC691
+GCF_003400395	30	68	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN08623837	Human	USA	2016	CRE89
+GCF_015731115	501	69	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16274500	Bovine	China	2019	SC4R
+GCF_018421715	91	70	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373064	Human	Germany	2019	Survcare396
+GCF_002386385	placeholder_ST25	71	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN07312408	Human	USA	2014	FDAARGOS_364
+GCF_019584005	placeholder_ST26	72	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11855594	Environment	Nigeria	2017	EC_71
+GCF_002918575	placeholder_ST27	74	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395889	Plant	"NA"	"NA"	S649
+GCF_004801125	placeholder_ST28	75	Citrobacter murliniae	100.00%	RefSeq	Ext	SAMN09204092	Human	United Kingdom	2016	P080C CL
+GCF_016500865	placeholder_ST29	76	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340017	Human	USA	2019	CB00179
+GCF_016503635	placeholder_ST30	77	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12220318	Human	USA	2018	CB00113
+GCF_004005255	62	80	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644698	Environmental facility	France	2017	109A3
+GCF_016500885	placeholder_ST31	81	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340015	Human	USA	2019	CB00177
+GCF_005281165	placeholder_ST32	82	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369624	"NA"	Poland	"NA"	wls621
+GCF_016502045	22	84	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13621915	Human	USA	2018	CB00131
+GCF_005281155	placeholder_ST33	85	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369621	"NA"	Poland	"NA"	wls618
+GCF_009876795	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945276	Human	USA	2015	BIOML-A5
+GCF_003015305	placeholder_ST35	87	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN08426773	Mammalian	Germany	2017	236-17-2
+GCF_002417525	placeholder_ST36	88	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06106877	Human	South Africa	2013	CF003
+GCF_011602505	placeholder_ST19	89	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN14352213	Environment	China	2015	Y3
+GCF_015230995	placeholder_ST37	90	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN14347827	Environment	South Africa	2019	19RL1-4
+GCF_000277565	169	91	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02471426	Environment	Malaysia	"NA"	A1
+GCF_016500585	114	92	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340030	Human	USA	2019	CB00195
+GCF_004801105	311	93	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09204089	Human	United Kingdom	2016	P079F I
+GCF_005960425	263	94	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_004023995	8	95	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09289757	Environment	USA	2017	GEO_48_Eff_C
+GCF_004801115	95	96	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09204104	Human	United Kingdom	2016	P106E PI
+GCF_010319905	placeholder_ST38	97	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00201481	"NA"	"NA"	"NA"	"NA"
+GCF_002939255	placeholder_ST39	98	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN06234158	Plant	Bolivia	2013	CA-26
+GCF_021417205	85	99	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN21237503	Human	China	2018	16G70
+GCF_016509215	31	100	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10435565	Human	USA	2017	CB00021
+GCF_014855625	placeholder_ST40	101	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN12219571	Human	Germany	2014	CA13304
+GCF_014803025	22	102	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205299	Human	France	2018	179H4
+ERQ0683	116	103	Citrobacter freundii	99.45%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016503845	91	104	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220309	Human	USA	2018	CB00104
+GCF_000158355	placeholder_ST41	105	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN02463699	Human	"NA"	"NA"	30_2
+GCF_016502215	240	106	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10435574	Other	USA	2017	CB00030
+GCF_013745755	placeholder_ST42	107	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148688	Environment	United Kingdom	2017	RHBSTW-00714
+ERQ0172	264	108	Citrobacter portucalensis	98.47%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_001055315	341	109	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03197734	Human	USA	"NA"	538_CKOS
+SD_2_G2	placeholder_ST43	112	Citrobacter amalonaticus	99.25%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_900446905	184	113	Citrobacter youngae	100.00%	RefSeq	Ext	SAMEA3714888	"NA"	"NA"	"NA"	"NA"
+ERQ0682	116	114	Citrobacter freundii	99.46%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_905219065	8	115	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA7853256	"NA"	"NA"	"NA"	"NA"
+GCF_013786145	185	116	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148568	Environment	United Kingdom	2017	RHBSTW-00310
+GCF_002918495	placeholder_ST44	117	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395895	Plant	"NA"	"NA"	S1278
+GCF_013798355	placeholder_ST42	118	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148447	Environment	United Kingdom	2017	RHBSTW-00006
+GCF_010119415	420	119	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN13927060	Environment	Ireland	2017	UL-CPE-01
+ERQ0044	placeholder_ST45	120	Citrobacter portucalensis	99.34%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_014803275	22	122	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205284	Human	France	2017	137i2
+GCF_002918465	placeholder_ST44	117	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395900	Plant	"NA"	"NA"	S1283
+GCF_018443005	22	123	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372014	Human	Germany	2018	Survcare092
+GCF_018441725	placeholder_ST46	124	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372075	Human	Germany	2018	Survcare163
+GCF_015730635	109	125	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16274524	Bovine	China	2019	SZ6R
+GCF_013815045	placeholder_ST47	128	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148363	Bovine	United Kingdom	2017	RHB36-C06
+GCF_019656375	497	129	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMD00323045	"NA"	"NA"	"NA"	"NA"
+GCF_014103655	347	130	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN15148559	Environment	United Kingdom	2017	RHBSTW-00271
+GCF_003471655	232	131	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN09734850	Human	China	2013	AM17-37
+GCF_005217825	98	132	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10976864	Human	USA	2016	2016WA-REV
+GCF_001317155	63	134	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN04011453	Human	South Africa	"NA"	953086287
+GCF_013797615	placeholder_ST48	135	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148454	Environment	United Kingdom	2017	RHBSTW-00017
+GCF_013826265	328	136	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148289	Bovine	United Kingdom	2017	RHB30-C04
+GCF_014803265	22	137	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205287	Human	France	2017	149i8
+GCF_016505625	241	142	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435547	Human	USA	2017	CB00002
+GCF_015674715	placeholder_ST35	143	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16304137	Swine	Canada	2017	Res13-Lact-EC02-01
+GCF_900449345	placeholder_ST49	146	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA3376910	"NA"	"NA"	"NA"	"NA"
+GCF_016505395	244	147	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435566	Human	USA	2017	CB00022
+GCF_016505485	150	148	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435562	Human	USA	2017	CB00018
+GCF_020099335	placeholder_ST50	149	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN21218845	"NA"	Germany	"NA"	FDAARGOS_1489
+ERQ0243	150	150	Citrobacter freundii	99.43%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_014103475	placeholder_ST5	151	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015230755	placeholder_ST51	152	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14257460	Environment	South Africa	2018	8E1-5
+GCF_016504865	64	153	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435599	Human	USA	2017	CB00056
+GCF_018106225	placeholder_ST18	154	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11513638	Human	Malaysia	2015	CRE1173
+GCF_016859695	placeholder_ST52	155	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13156549	Environment	Portugal	2015	RWM.4
+GCF_001482575	22	156	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04124438	Human	Denmark	2015	AMA 948
+GCF_001297795	placeholder_ST53	157	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03945393	Insect	Mexico	2011	CtB7.12
+GCF_009876695	placeholder_ST34	158	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945282	Human	USA	2015	BIOML-A11
+GCF_009664045	169	159	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016504115	485	160	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11284929	Human	USA	2018	CB00086
+GCF_013612875	placeholder_ST54	161	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148600	Environment	United Kingdom	2017	RHBSTW-00398
+GCF_018423095	488	162	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372999	Human	Germany	2019	Survcare314
+GCF_003255895	198	163	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN07206908	Human	South Korea	2016	L6
+GCF_001034485	placeholder_ST55	164	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03280164	Human	"NA"	2014	MGH104
+GCF_015674155	placeholder_ST39	165	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16304168	Insect	Canada	2017	Res13-Lact-LER2-35-b
+GCF_016504735	placeholder_ST56	166	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435602	Human	USA	2017	CB00059
+GCF_016502055	placeholder_ST57	167	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13621917	Human	USA	2018	CB00133
+SG18_265_S115	placeholder_ST25	168	Citrobacter gillenii	99.49%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_013741395	185	169	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148595	Environment	United Kingdom	2017	RHBSTW-00370
+GCF_014902035	112	171	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_902381795	155	172	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMEA5851209	"NA"	"NA"	"NA"	"NA"
+GCF_013890155	placeholder_ST58	173	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN15148181	Bovine	United Kingdom	2017	RHB20-C16
+GCF_016893745	31	174	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824641	Other	Thailand	"NA"	Colony506
+GCF_901456255	62	175	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA5578852	"NA"	"NA"	"NA"	"NA"
+GCF_015231155	placeholder_ST51	152	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14389310	Avian	South Africa	2018	9RL2-14
+GCF_014104005	323	178	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148504	Environment	United Kingdom	2017	RHBSTW-00132
+GCF_900446875	placeholder_ST59	179	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA4552893	"NA"	"NA"	"NA"	"NA"
+GCF_004353845	placeholder_ST60	181	Citrobacter arsenatis	100.00%	RefSeq	Ext	SAMN11080768	Environment	China	2018	LY-1
+GCF_013746155	placeholder_ST48	182	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001880845	91	183	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05441416	Human	Spain	2012	CF7_ST91
+GCF_002919455	placeholder_ST44	117	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395896	Plant	"NA"	"NA"	S1279
+GCF_014855525	488	184	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12219576	Human	Germany	2014	CF13014
+GCF_013816515	placeholder_ST61	185	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148356	Bovine	United Kingdom	2017	RHB35-C21
+GCF_016502265	242	186	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10435548	Human	USA	2017	CB00003
+GCF_001922445	placeholder_ST62	187	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN06158407	Insect	China	2015	BD
+GCF_013784645	19	188	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148638	Environment	United Kingdom	2017	RHBSTW-00502
+SD_9_H6	placeholder_ST63	189	Citrobacter youngae	98.91%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_016859715	placeholder_ST52	190	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13156551	Environment	Portugal	2015	RWM.8
+GCF_001034465	187	192	Citrobacter youngae	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013899325	placeholder_ST64	193	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148086	Bovine	United Kingdom	2017	RHB12-C20
+GCF_001413195	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872775	"NA"	USA	2011	RU2 LB35
+GCF_001057215	341	109	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03197753	Human	USA	"NA"	554_CKOS
+ERQ0222	166	197	Citrobacter portucalensis	99.31%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013725165	167	198	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001880775	328	199	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN05441395	Human	Spain	2010	CF4_ST90
+GCF_017151575	388	200	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15659131	Environment	China	2019	W1R
+GCF_013390245	111	201	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013794885	placeholder_ST5	203	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_900638065	placeholder_ST65	204	Citrobacter youngae	100.00%	RefSeq	Ext	SAMEA103980411	"NA"	"NA"	"NA"	"NA"
+GCF_018420455	98	205	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373131	Human	Germany	2018	ur18060060
+GCF_001413255	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872793	"NA"	USA	2013	RU2 BHI17
+GCF_902387635	placeholder_ST66	207	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMEA5852000	"NA"	"NA"	"NA"	"NA"
+GCF_013747755	placeholder_ST67	208	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148646	Environment	United Kingdom	2017	RHBSTW-00524
+GCF_902807235	328	209	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMEA6574534	"NA"	"NA"	"NA"	"NA"
+GCF_019502645	placeholder_ST68	210	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_000783755	98	211	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+ERQ0233	placeholder_ST69	212	Citrobacter freundii	98.84%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016894085	108	213	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824635	Other	Thailand	"NA"	Colony309
+GCF_019800295	placeholder_ST70	214	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN12349704	Human	Germany	"NA"	KE3510
+GCF_014104235	placeholder_ST71	215	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013741155	110	216	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148608	Environment	United Kingdom	2017	RHBSTW-00424
+GCF_900460975	placeholder_ST72	217	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA4364224	"NA"	"NA"	"NA"	"NA"
+GCF_015230675	placeholder_ST51	152	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14257462	Environment	South Africa	2018	9E1-3
+GCF_014803045	22	219	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205298	Human	France	2018	178H10
+GCF_009876815	placeholder_ST34	221	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945278	Human	USA	2015	BIOML-A7
+GCF_018447685	396	223	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372063	Human	Germany	2018	Survcare150
+GCF_014803335	placeholder_ST73	224	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205286	Human	France	2017	137i7
+GCF_905329885	22	225	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA8065677	"NA"	"NA"	"NA"	"NA"
+GCF_019448455	284	226	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20477951	Avian	China	2020	SC2-6
+GCF_020889125	placeholder_ST74	227	Citrobacter freundii	100.00%	RefSeq	Ext	SAMD00412808	"NA"	"NA"	"NA"	"NA"
+GCF_001558935	placeholder_ST50	228	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03996309	Human	USA	2014	FDAARGOS_165
+GCF_016939615	8	229	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933282	Human	Czech Republic	2019	CF49969
+GCF_016505125	placeholder_ST75	230	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10435582	Human	USA	2017	CB00038
+GCF_005281265	placeholder_ST32	231	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369631	"NA"	Poland	"NA"	wls713
+GCF_002151735	216	232	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04521891	Human	USA	2015	MGH142
+GCF_018446835	19	233	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372133	Human	Germany	2019	Survcare242
+GCF_021729115	129	234	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN24386560	Fish	China	2019	GC01
+GCF_001413095	placeholder_ST76	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872770	"NA"	USA	2011	RU2 LB30
+GCF_014855535	278	235	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12219575	Human	Germany	2014	CF12908
+GCF_005280945	placeholder_ST77	236	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11369636	"NA"	Poland	"NA"	wls718
+ERQ0689	116	237	Citrobacter freundii	99.44%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_001880865	125	239	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05447748	Human	Spain	2013	CF_12_ST_92
+GCF_001034475	111	240	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03280163	Human	"NA"	2014	MGH103
+GCF_016504515	393	241	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435614	Human	USA	2018	CB00072
+GCF_016905875	placeholder_ST4	242	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933260	Human	Czech Republic	2018	CF46338
+GCF_014104375	placeholder_ST78	244	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148451	Environment	United Kingdom	2017	RHBSTW-00013
+GCF_001412825	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872796	"NA"	USA	2013	RU2 BHI20
+GCF_001559235	placeholder_ST79	245	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN03996300	Human	USA	2014	FDAARGOS_155
+GCF_004152635	22	246	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644685	Human	France	2017	11600
+GCF_013882995	placeholder_ST80	247	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148223	Bovine	United Kingdom	2017	RHB24-C05
+GCF_018138525	placeholder_ST81	250	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN18437201	Human	Russia	2019	SCPM-O-B-9249 (F24-1Cb/19)
+ERQ0227	placeholder_ST69	252	Citrobacter freundii	98.80%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_010279875	placeholder_ST82	253	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10171331	Environment	Portugal	2018	CR16
+GCF_013816335	placeholder_ST83	254	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148357	Bovine	United Kingdom	2017	RHB35-C22
+GCF_014104775	placeholder_ST84	255	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148340	Bovine	United Kingdom	2017	RHB34-C11
+GCF_012524235	placeholder_ST85	257	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN14563051	Environmental facility	USA	2019	TSA-1
+GCF_013925325	placeholder_ST86	258	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148727	Environment	United Kingdom	2017	RHBSTW-00880
+GCF_014104155	placeholder_ST48	259	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016504605	389	260	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435607	Human	USA	2017	CB00064
+GCF_002042885	placeholder_ST87	261	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN06214708	"NA"	Portugal	2008	A60
+GCF_002215385	257	262	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07280739	Environment	China	2015	18-1
+GCF_004331585	81	263	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_018438605	placeholder_ST88	264	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371862	Human	Germany	2017	sc17238571
+ERQ0671	110	265	Citrobacter braakii	99.62%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_001559075	placeholder_ST89	266	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03996265	Human	USA	2013	FDAARGOS_122
+GCF_015230695	placeholder_ST51	152	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14257459	Environment	South Africa	2018	8E1-2
+GCF_016503495	placeholder_ST90	268	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220321	Human	USA	2018	CB00116
+GCF_019660135	22	269	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN20568193	Human	China	2015	CF-15-2-29
+GCF_016501755	placeholder_ST91	270	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16339991	Human	USA	2019	CB00149
+GCF_000759735	placeholder_ST92	271	Citrobacter freundii	100.00%	RefSeq	Ext	SAMD00018684	"NA"	"NA"	"NA"	"NA"
+GCF_004024405	placeholder_ST93	272	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN09289737	Environment	USA	2017	GEO_16_Eff_A
+GCF_005281305	placeholder_ST94	273	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11369625	"NA"	Poland	"NA"	wls706
+GCF_014803285	22	274	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205283	Human	France	2016	124G3
+GCF_001065805	placeholder_ST95	275	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03197842	Human	USA	"NA"	641_SENT
+GCF_004145665	19	276	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10840491	Human	France	2017	071G10
+GCF_016501405	placeholder_ST96	277	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16340005	Human	USA	2019	CB00163
+GCF_005280805	placeholder_ST97	278	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11369645	"NA"	Poland	"NA"	TBCS-14
+GCF_016503985	91	104	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220301	Human	USA	2018	CB00094
+GCF_015137095	placeholder_ST98	279	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00195946	"NA"	"NA"	"NA"	"NA"
+GCF_900112055	placeholder_ST99	280	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN05216502	"NA"	"NA"	"NA"	NLAE-zl-C269
+GCF_000388155	169	282	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02469849	"NA"	"NA"	"NA"	GTC 09629
+GCF_014803075	22	283	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205297	Human	France	2018	169J8
+GCF_018066535	22	43	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN18511097	Human	USA	2020	2021EL-00126
+GCF_005281325	placeholder_ST100	284	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369623	"NA"	Poland	"NA"	wls620
+GCF_018423075	placeholder_ST101	285	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372996	Human	Germany	2019	Survcare311
+GCF_016428845	placeholder_ST102	286	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17004939	Plant	USA	2019	ASV29
+GCF_005281215	placeholder_ST103	287	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369644	"NA"	Poland	"NA"	wls831
+GCF_013728095	placeholder_ST52	288	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_018421575	111	289	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373073	Human	Germany	2019	Survcare405
+GCF_013821695	placeholder_ST104	290	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148307	Bovine	United Kingdom	2017	RHB31-C16
+GCF_016504485	98	291	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435612	Human	USA	2018	CB00070
+GCF_019270375	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824623	Other	Thailand	"NA"	Colony409
+DB_3_D2	placeholder_ST23	295	Citrobacter freundii	99.43%	Wastewater	Int	"NA"	Wastewater	Australia	2020	"NA"
+GCF_014802905	22	296	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205306	Human	France	2018	179I4
+GCF_902506695	placeholder_ST7	19	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA6098293	"NA"	"NA"	"NA"	"NA"
+GCF_014333035	placeholder_ST106	297	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN13884683	Avian	Australia	2017	966a
+GCF_014189375	22	298	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11506036	Human	Canada	2018	N18-04085
+GCF_002189125	placeholder_ST107	299	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06649984	Swine	China	2014	D36-1
+GCF_019270355	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824622	Other	Thailand	"NA"	Colony372
+ERQ0183	placeholder_ST108	301	Citrobacter portucalensis	98.79%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016501935	placeholder_ST109	303	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN16339981	Human	USA	2018	CB00138
+GCF_016501295	placeholder_ST110	304	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16340006	Human	USA	2019	CB00164
+ERQ0213	110	305	Citrobacter braakii	99.69%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_009721345	362	306	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12911129	environment	USA	2016	JL976
+GCF_005281255	placeholder_ST111	307	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11369627	"NA"	Poland	"NA"	wls708
+GCF_009856875	108	308	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN13623934	Environmental facility	France	2016	BOX-5
+GCF_016503935	22	309	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220304	Human	USA	2018	CB00098
+GCF_013425705	95	310	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15514059	Human	"NA"	2016	AMC0703
+GCF_016501785	placeholder_ST112	311	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN16339987	Human	USA	2018	CB00144
+GCF_001412735	100	312	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872769	"NA"	USA	2011	RU2 LB29
+GCF_003812325	307	313	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10163243	Human	"NA"	"NA"	FDAARGOS_550
+GCF_018423215	408	314	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17372993	Human	Germany	2019	Survcare308
+GCF_014337295	placeholder_ST113	315	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08148336	Human	USA	"NA"	MGH283
+GCF_003363295	265	316	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09736005	Reptile	Brazil	2016	TV1575CF
+GCF_016501115	20	317	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN16340012	Human	USA	2019	CB00171
+GCF_014902055	placeholder_ST114	318	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08148190	Human	USA	"NA"	UCICRE-142
+GCF_009821555	109	319	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11928073	Avian	"NA"	"NA"	SC96
+GCF_001059745	placeholder_ST115	320	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03198210	Human	USA	"NA"	989_CKOS
+ERQ0678	116	321	Citrobacter freundii	99.44%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013337015	185	322	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082847	Human	USA	2013	YDC608
+GCF_001411885	18	323	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04088747	Other	China	2014	ST2
+GCF_019270215	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824630	Other	Thailand	"NA"	Colony360
+GCF_019270575	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824620	Other	Thailand	"NA"	Colony368
+GCF_002850715	placeholder_ST116	324	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN06820452	Environment	China	2015	L55
+ERQ0045	95	325	Citrobacter freundii	99.69%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016501905	placeholder_ST112	311	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN16339984	Human	USA	2018	CB00141
+GCF_009821375	79	326	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11928082	Avian	"NA"	"NA"	SC105
+ERQ0154	150	327	Citrobacter freundii	99.46%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_004167485	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10239581	Human	USA	2015	ca_0067
+GCF_013085885	19	331	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13978991	Human	Brazil	2015	CitB
+GCF_001055295	341	109	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03197733	Human	USA	"NA"	537_CKOS
+GCF_001867255	placeholder_ST117	332	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN05440239	Human	Spain	2009	CF1_ST89
+GCF_008370135	placeholder_ST118	333	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN09981726	Reptile	Brazil	2017	TV06
+GCF_016500505	98	334	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340035	Human	USA	2019	CB00200
+GCF_016504495	placeholder_ST119	335	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435609	Human	USA	2018	CB00067
+GCF_019281555	placeholder_ST120	336	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN19607876	Human	USA	2019	PIECR3
+GCF_018442145	placeholder_ST121	337	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372053	Human	Germany	2018	Survcare137
+GCF_019047765	placeholder_ST122	338	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN16357566	"NA"	Germany	"NA"	FDAARGOS 1424
+GCF_016501865	95	339	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16339986	Human	USA	2019	CB00143
+GCF_001880905	112	340	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05447751	Human	Spain	2013	CF_13_ST_93
+GCF_002880615	placeholder_ST40	342	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03455929	"NA"	USA	2014	CFNIH2
+GCF_019659905	18	343	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN20568206	Human	China	2016	CF-16-17
+GCF_016905625	placeholder_ST4	344	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933281	Human	Czech Republic	2019	CF49942
+GCF_013266895	placeholder_ST39	345	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN14531572	Camel	India	2018	CRN 21
+GCF_016505445	356	346	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435561	Human	USA	2017	CB00017
+GCF_018420365	18	347	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373134	Human	Germany	2019	ur19075683
+GCF_013724765	placeholder_ST123	348	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148753	Environment	United Kingdom	2017	RHBSTW-00965
+GCF_018420675	placeholder_ST124	349	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17373120	Human	Germany	2019	Survcare462
+GCF_016461655	placeholder_ST125	350	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17173735	Bovine	USA	2018	Bacteria
+GCF_020034515	placeholder_ST126	351	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN20990854	Other	Brazil	2019	A3
+GCF_013791065	396	352	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148506	Environment	United Kingdom	2017	RHBSTW-00135
+GCF_019660345	22	353	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN20568216	Human	China	2016	CF-16-61
+ERQ0250	placeholder_ST127	355	Citrobacter freundii	99.73%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_001412795	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872790	"NA"	USA	2013	RU2 BHI14
+GCF_020215855	284	226	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20477955	Avian	China	2020	XM10F302-7
+GCF_019270315	placeholder_ST128	357	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824625	Other	Thailand	"NA"	Colony313
+GCF_018446045	18	358	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371888	Human	Germany	2018	sc18412584
+GCF_009876755	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945279	Human	USA	2015	BIOML-A8
+GCF_014596835	placeholder_ST129	360	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN15963935	Other	Germany	2015	C6_1
+GCF_005280825	placeholder_ST130	361	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11369642	"NA"	Poland	"NA"	wls829
+GCF_004331535	79	362	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016859065	placeholder_ST131	363	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17766521	Bovine	Turkey	2019	HMKU-VET
+ERQ0173	270	364	Citrobacter freundii	99.41%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013746415	placeholder_ST48	365	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001546285	placeholder_ST132	366	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03842472	Human	"NA"	"NA"	GED7749C
+GCF_009876705	placeholder_ST34	367	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945281	Human	USA	2015	BIOML-A10
+GCF_009648935	placeholder_ST133	369	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10574724	Plant	USA	2014	MiY-A
+GCF_900520335	22	370	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA4830817	"NA"	"NA"	"NA"	"NA"
+GCF_900080005	placeholder_ST134	371	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMEA3935941	"NA"	"NA"	"NA"	"NA"
+GCF_002918855	167	373	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03455997	"NA"	USA	2015	CFNIH7
+GCF_014903125	108	374	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN08148252	Human	USA	"NA"	MGH213
+SG18_138_1_S32	183	375	Citrobacter youngae	99.67%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+ERQ0685	116	376	Citrobacter freundii	99.44%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_009857035	396	377	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13282750	Human	China	2018	L75
+GCF_004801555	placeholder_ST135	378	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN11268905	Human	United Kingdom	2016	Effluent_1
+GCF_016504105	486	380	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11284931	Human	USA	2018	CB00088
+GCF_014926275	117	381	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13908065	Human	Brazil	2016	C156
+GCF_019265345	placeholder_ST136	383	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17843177	Other	Thailand	"NA"	Colony275
+GCF_016501325	95	385	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340007	Human	USA	2019	CB00165
+GCF_005281045	507	387	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11369630	"NA"	Poland	"NA"	wls712
+GCF_002215605	155	172	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN07196160	Human	Pakistan	2016	30_2
+GCF_014189285	22	388	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11506077	Human	Canada	2018	N18-04128
+GCF_013899425	placeholder_ST137	389	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148080	Bovine	United Kingdom	2017	RHB12-C05
+GCF_016503645	placeholder_ST138	390	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220317	Human	USA	2018	CB00112
+GCF_018919505	placeholder_ST139	391	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN19645718	Human	"NA"	2016	S55_ASV_140
+GCF_003429605	placeholder_ST140	392	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN09791470	Plant	Germany	2015	MBT-C3
+GCF_013168955	22	393	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11394775	Human	Colombia	2013	C2-03
+GCF_002796505	98	394	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04014863	"NA"	"NA"	"NA"	AR_0022
+GCF_016505385	114	395	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435567	Human	USA	2017	CB00023
+GCF_009730355	placeholder_ST141	396	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN11056453	Human	USA	"NA"	FDAARGOS_738
+GCF_003401455	114	397	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN08623795	Human	USA	2014	CRE20
+GCF_001413215	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872789	"NA"	USA	2013	RU2 BHI13
+GCF_000342325	placeholder_ST142	398	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02469850	Human	Japan	1983	GTC 09479
+ERQ0212	150	399	Citrobacter freundii	99.32%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_000692135	placeholder_ST143	400	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN02581387	Human	USA	2013	MGH 55
+GCF_001412725	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872766	"NA"	USA	2011	RU2 LB26
+GCF_016894105	placeholder_ST144	402	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824634	Other	Thailand	"NA"	Colony303
+GCF_013816795	placeholder_ST145	403	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN15148354	Bovine	United Kingdom	2017	RHB35-C17
+GCF_003665575	128	404	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN07729549	Human	USA	2013	UMH17
+GCF_005280915	placeholder_ST33	405	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369638	"NA"	Poland	"NA"	wls758
+GCF_016502105	placeholder_ST146	406	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13621908	Human	USA	2018	CB00124
+ERQ0216	110	407	Citrobacter braakii	99.84%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016939655	65	408	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+ERQ0255	150	410	Citrobacter freundii	99.43%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_018442185	19	411	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372051	Human	Germany	2018	Survcare132
+GCF_021417265	150	412	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN21237501	Human	China	2018	18F621
+GCF_013782845	placeholder_ST82	413	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+ERQ0175	placeholder_ST147	415	Citrobacter freundii	99.23%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_001586845	415	416	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03455928	Human	USA	2014	AATXR
+GCF_013784225	placeholder_ST148	417	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148658	Environment	United Kingdom	2017	RHBSTW-00589
+GCF_013614655	placeholder_ST149	418	Citrobacter europaeus	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001412715	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872722	Human	USA	2010	RU2
+GCF_016508125	243	420	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10435549	Human	USA	2017	CB00004
+GCF_013792125	placeholder_ST150	421	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148496	Environment	United Kingdom	2017	RHBSTW-00120
+GCF_016505465	225	422	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435563	Human	USA	2017	CB00019
+GCF_018106165	placeholder_ST18	423	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11513637	Human	Malaysia	2016	CRE1470
+GCF_016500725	placeholder_ST151	424	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340026	Human	USA	2019	CB00191
+GCF_013874155	95	425	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016503625	95	427	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220319	Human	USA	2018	CB00114
+GCF_901456285	62	175	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA5578841	"NA"	"NA"	"NA"	"NA"
+GCF_009905315	540	429	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13818261	Plant	Tanzania	2018	LUTT5
+GCF_905335685	22	430	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA8158487	"NA"	"NA"	"NA"	"NA"
+GCF_904425445	placeholder_ST152	431	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA7313125	"NA"	"NA"	"NA"	"NA"
+ERQ0246	110	432	Citrobacter braakii	99.85%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_002208845	placeholder_ST153	433	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN06173303	Human	USA	2014	FDAARGOS_290
+GCF_013738635	270	434	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_004331565	112	435	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016502115	11	436	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13621907	Human	USA	2018	CB00123
+GCF_018421475	19	437	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373078	Human	Germany	2019	Survcare410
+GCF_020559475	525	438	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN22167495	Human	USA	"NA"	DFI.7.7
+GCF_014230105	370	196	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15770406	Mammalian	China	2018	FF423
+ERQ0200	placeholder_ST125	439	Citrobacter freundii	99.22%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016505245	91	440	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435577	Human	USA	2017	CB00033
+GCF_902160855	placeholder_ST154	441	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA104567598	"NA"	"NA"	"NA"	"NA"
+GCF_019660715	17	442	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20568174	Human	China	2015	CF-15-43
+ERQ0043	95	325	Citrobacter freundii	99.69%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_004795555	22	443	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11366429	Human	Malaysia	2015	MGF016
+GCF_013739375	22	444	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148674	Environment	United Kingdom	2017	RHBSTW-00658
+ERQ0160	166	445	Citrobacter portucalensis	99.30%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_019584605	placeholder_ST155	446	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN11855570	Environment	Nigeria	2017	EC_47
+GCF_018439245	placeholder_ST156	447	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371829	Human	Germany	2017	NRZ-37119
+GCF_018446035	placeholder_ST157	449	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17371889	Human	Germany	2018	sc18412783
+GCF_014855945	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12220001	Plant	Germany	2014	CF14655
+GCF_018421175	22	453	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373092	Human	Germany	2019	Survcare429
+GCF_009664065	169	159	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_005281115	placeholder_ST158	455	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11369628	"NA"	Poland	"NA"	wls710
+GCF_002151785	12	456	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04521895	Human	USA	2015	MGH146
+GCF_015666935	98	457	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15533202	Human	USA	2017	D43t1_170807_C10
+GCF_001037505	64	458	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03280167	Human	"NA"	2014	MGH109
+ERQ0186	270	459	Citrobacter freundii	99.49%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_018422995	19	460	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373000	Human	Germany	2019	Survcare315
+GCF_014803055	22	461	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205295	Human	France	2018	164F5
+GCF_014169975	125	462	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15086848	Human	USA	2019	IDR1900015725-01-02
+GCF_014859035	placeholder_ST159	463	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN16367710	Human	USA	"NA"	CJ25
+GCF_014802995	22	464	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205300	Human	France	2018	179H5
+GCF_016906145	placeholder_ST160	465	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN17843180	Other	Thailand	"NA"	Colony470
+GCF_013730455	17	466	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148717	Environment	United Kingdom	2017	RHBSTW-00857
+GCF_014802945	22	467	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205302	Human	France	2018	179H9
+GCF_014596855	placeholder_ST129	360	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN15963936	Other	Germany	2015	C6_2
+GCF_018439745	22	470	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371803	Human	Germany	2017	NRZ-31836
+GCF_016505085	62	471	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435584	Human	USA	2017	CB00040
+GCF_019661085	328	472	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20568150	Human	China	2013	CF-13-34
+GCF_008693645	placeholder_ST161	473	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11056331	Human	USA	"NA"	FDAARGOS_616
+GCF_000692115	placeholder_ST162	474	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN02581388	Human	USA	2013	MGH 56
+GCF_003362775	314	475	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09694014	Human	USA	2017	1-RC-17-03941
+GCF_001413125	placeholder_ST76	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872771	"NA"	USA	2011	RU2 LB31
+GCF_016894025	31	476	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824639	Other	Thailand	"NA"	Colony510
+GCF_020889185	placeholder_ST143	477	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMD00412811	"NA"	"NA"	"NA"	"NA"
+GCF_016504015	184	478	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN12220300	Human	USA	2018	CB00093
+GCF_018444505	8	479	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371962	Human	Germany	2017	Survcare050
+GCF_013726215	placeholder_ST163	480	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148744	Environment	United Kingdom	2017	RHBSTW-00923
+GCF_020593155	525	438	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN22167555	Human	USA	"NA"	DFI.7.5
+GCF_000982845	150	481	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03325972	Environmental facility	United Kingdom	2009	SA79
+GCF_009647535	placeholder_ST164	482	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13064487	Canine	China	2018	MY49
+GCF_019731375	20	483	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN14389579	Human	China	2020	K54_2
+GCF_001022685	placeholder_ST165	484	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03732718	Human	USA	2007	GN02600
+GCF_003665675	placeholder_ST166	485	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07729548	Human	USA	2014	UMH16
+GCF_009910785	placeholder_ST167	486	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12096240	Environment	South Korea	2018	HK1
+GCF_004331635	88	487	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10437854	Other	Canada	2010	HH9
+GCF_009881155	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945274	Human	USA	2015	BIOML-A3
+GCF_014802845	22	488	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205307	Human	France	2018	179I5
+GCF_016504005	156	489	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220297	Human	USA	2018	CB00090
+GCF_004305705	placeholder_ST168	490	Citrobacter freundii	100.00%	RefSeq	Ext	SAMD00143536	"NA"	"NA"	"NA"	"NA"
+GCF_016502965	98	491	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16339990	Human	USA	2019	CB00148
+GCF_013747275	placeholder_ST78	492	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148649	Environment	United Kingdom	2017	RHBSTW-00535
+GCF_015134935	placeholder_ST98	493	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00195867	"NA"	"NA"	"NA"	"NA"
+GCF_002114305	104	494	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN06660612	Human	India	2014	AK-8
+GCF_905232395	placeholder_ST169	495	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA7962729	"NA"	"NA"	"NA"	"NA"
+GCF_019270235	225	496	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824629	Other	Thailand	"NA"	Colony270
+GCF_016507635	392	498	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435613	Human	USA	2018	CB00071
+GCF_016406035	placeholder_ST170	499	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17050479	Environment	China	2019	Sb-2
+GCF_016503265	162	500	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_900079785	placeholder_ST19	501	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA3932379	"NA"	"NA"	"NA"	"NA"
+GCF_004153245	22	502	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644682	Human	France	2017	109A10
+GCF_016133805	165	505	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN10600579	Human	China	2015	NJGLYY3839-CR
+GCF_005281015	placeholder_ST122	506	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN11369633	"NA"	Poland	"NA"	wls715
+GCF_902506715	placeholder_ST7	19	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA6098290	"NA"	"NA"	"NA"	"NA"
+GCF_016505645	238	507	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10435546	Human	USA	2017	CB00001
+GCF_004004705	22	508	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644708	Environmental facility	France	2017	064B9
+GCF_905335675	placeholder_ST171	509	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA8158486	"NA"	"NA"	"NA"	"NA"
+GCF_900169625	placeholder_ST78	510	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA103915302	"NA"	"NA"	"NA"	"NA"
+GCF_018423195	107	511	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372992	Human	Germany	2019	Survcare306
+GCF_014855935	488	184	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220002	Environmental facility	Germany	2014	CF16178
+GCF_001413035	placeholder_ST76	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872765	"NA"	USA	2011	RU2 LB25
+GCF_000582615	placeholder_ST92	271	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02951916	"NA"	"NA"	"NA"	RLS1
+GCF_009876715	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945283	Human	USA	2015	BIOML-A12
+GCF_013604545	150	512	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015135215	143	513	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00195870	"NA"	"NA"	"NA"	"NA"
+GCF_021440745	placeholder_ST172	514	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN24245036	Mollusc	Portugal	2019	INSAq485
+GCF_016501285	409	515	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN16340010	Human	USA	2019	CB00169
+GCF_010365585	placeholder_ST173	516	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13951913	Environment	Switzerland	2019	62
+GCF_010597685	187	517	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN12250649	Human	USA	2014	AS012330
+GCF_003204265	placeholder_ST174	518	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN04014998	"NA"	"NA"	"NA"	AR_0157
+GCF_001037495	placeholder_ST175	519	Citrobacter murliniae	100.00%	RefSeq	Ext	SAMN03280166	Human	"NA"	2014	MGH106
+GCF_013724425	placeholder_ST48	520	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_905232515	22	521	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA7962742	"NA"	"NA"	"NA"	"NA"
+GCF_020341495	placeholder_ST94	522	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN21402691	"NA"	Germany	"NA"	FDAARGOS_1524
+GCF_009876765	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945280	Human	USA	2015	BIOML-A9
+GCF_018445825	540	523	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371900	Human	Germany	2019	sc19444294-1
+GCF_016505025	185	524	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435589	Human	USA	2017	CB00045
+GCF_905232555	18	525	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_002417535	156	526	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06106878	Human	South Africa	2013	CF004
+GCF_016503115	placeholder_ST176	527	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13621914	Human	USA	2018	CB00130
+GCF_018446995	96	528	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17372126	Human	Germany	2019	Survcare235
+GCF_003687835	22	529	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10252246	"NA"	Germany	2017	1019002
+ERQ0152	150	327	Citrobacter freundii	99.46%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_902160945	placeholder_ST154	441	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA104567599	"NA"	"NA"	"NA"	"NA"
+GCF_014103735	166	530	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148551	Environment	United Kingdom	2017	RHBSTW-00228
+GCF_002252065	257	262	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06820763	Environment	China	2016	181
+GCF_016503575	415	531	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220324	Human	USA	2018	CB00119
+GCF_016502085	placeholder_ST177	532	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13621911	Human	USA	2018	CB00127
+GCF_002042945	placeholder_ST178	533	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN06214716	"NA"	Portugal	2008	A316
+GCF_008373795	placeholder_ST179	534	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN09744871	Mollusc	Portugal	2017	BA18
+GCF_018442425	18	535	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372039	Human	Germany	2018	Survcare120
+GCF_019764095	placeholder_ST180	536	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN12349728	Human	Germany	"NA"	KE3526
+GCF_002843195	45	537	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08148594	Plant	Nigeria	2017	MBTC-1222
+GCF_002239605	placeholder_ST181	538	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN06820760	Environment	China	2016	C1710
+GCF_013170055	169	539	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07291393	Human	Colombia	2015	C2-135
+GCF_001702455	415	540	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015668675	placeholder_ST182	541	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15533019	Human	USA	2017	1001311H_170123_E11
+GCF_014802955	22	542	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205301	Human	France	2018	179H7
+GCF_016503685	placeholder_ST183	543	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN12220316	Human	USA	2018	CB00111
+GCF_013705425	placeholder_ST184	544	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148632	Environment	United Kingdom	2017	RHBSTW-00488
+GCF_013170035	placeholder_ST185	545	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07291392	Human	Colombia	2015	C2-132
+GCF_013797345	placeholder_ST48	546	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148456	Environment	United Kingdom	2017	RHBSTW-00021
+GCF_013590555	150	512	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_003665595	307	547	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07729547	Human	USA	2014	UMH15
+GCF_019802365	104	548	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11855544	Environment	Nigeria	2017	EC_21
+GCF_018438555	22	549	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371866	Human	Germany	2017	sc17286987
+GCF_018447695	415	550	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372077	Human	Germany	2018	Survcare165
+GCF_018446095	232	551	Citrobacter portucalensis	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013796805	110	552	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013371705	19	553	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13737474	Human	China	2018	ZY198
+GCF_003070705	62	554	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN08942770	Human	Argentina	2017	164
+GCF_001413155	placeholder_ST186	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872773	"NA"	USA	2011	RU2 LB33
+GCF_003665615	212	555	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07729546	Human	USA	2014	UMH14
+GCF_021228875	170	556	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN23799674	Human	China	2017	K218
+SD_9_B7	295	557	Citrobacter braakii	99.60%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_010590925	placeholder_ST187	558	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12250749	Human	USA	2016	AS012430
+GCF_002919795	110	64	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03455988	"NA"	USA	2014	CFNIH5
+GCF_018446195	18	559	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371879	Human	Germany	2018	sc18364826
+GCF_009881185	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945275	Human	USA	2015	BIOML-A4
+GCF_013368465	116	560	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082848	Human	USA	2014	YDC638-3
+GCF_016905635	98	561	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_002923765	362	562	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN07318042	Other	Canada	2009	HH1
+GCF_003195445	144	564	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09266862	Human	USA	2017	WUSM_CF_61
+GCF_902807305	328	565	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMEA6574546	"NA"	"NA"	"NA"	"NA"
+GCF_004005165	22	566	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644707	Environmental facility	France	2017	064B8
+GCF_001952715	79	326	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN06215934	Avian	China	2015	SCC4
+GCF_013729795	placeholder_ST5	567	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015673475	placeholder_ST35	143	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16304213	Swine	Canada	2017	Res13-Lact-PEC03-10
+GCF_020695525	95	425	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014104295	128	568	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN15148458	Environment	United Kingdom	2017	RHBSTW-00029
+GCF_014855735	placeholder_ST71	570	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12219629	Environment	Germany	2017	CB13459-7
+GCF_018420725	327	571	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373116	Human	Germany	2019	Survcare457
+GCF_018441905	placeholder_ST188	572	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN17372066	Human	Germany	2018	Survcare154
+GCF_005280875	placeholder_ST189	573	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN11369640	"NA"	Poland	"NA"	wls827
+GCF_003665555	placeholder_ST190	574	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN07729550	Human	USA	2013	UMH18
+GCF_004327735	22	575	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10794296	"NA"	USA	2015	ACFMW
+GCF_005280975	placeholder_ST191	576	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN11369634	"NA"	Poland	"NA"	wls716
+GCF_012952665	307	577	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015674675	placeholder_ST35	143	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16304139	Swine	Canada	2017	Res13-Lact-EC05-13
+GCF_017963565	placeholder_ST192	578	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17012028	Environment	Pakistan	2018	AN-PRR1
+GCF_003665635	98	579	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07729545	Human	USA	2014	UMH13
+GCF_014337315	placeholder_ST113	315	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08148334	Human	USA	"NA"	MGH281C
+GCF_900446885	100	580	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA26392918	"NA"	"NA"	"NA"	"NA"
+GCF_015138175	143	581	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00195990	"NA"	"NA"	"NA"	"NA"
+GCF_013899035	placeholder_ST193	582	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148109	Bovine	United Kingdom	2017	RHB14-C12
+GCF_001413045	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872767	"NA"	USA	2011	RU2 LB27
+GCF_902506645	placeholder_ST7	19	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA6098292	"NA"	"NA"	"NA"	"NA"
+GCF_001413295	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872795	"NA"	USA	2013	RU2 BHI19
+GCF_013738135	placeholder_ST194	584	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148590	Environment	United Kingdom	2017	RHBSTW-00355
+GCF_003665655	placeholder_ST132	585	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07729552	Human	USA	2012	HM38
+GCF_016503245	62	586	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13621916	Human	USA	2018	CB00132
+GCF_016504895	266	587	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435595	Human	USA	2017	CB00052
+GCF_016893685	placeholder_ST195	588	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824657	Other	Thailand	"NA"	Colony478
+GCF_902388105	placeholder_ST25	71	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMEA5852040	"NA"	"NA"	"NA"	"NA"
+GCF_016505505	246	590	Citrobacter murliniae	100.00%	RefSeq	Ext	SAMN10435556	Human	USA	2017	CB00011
+GCF_017114565	98	592	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016893705	placeholder_ST196	593	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824656	Other	Thailand	"NA"	Colony267
+GCF_009939625	placeholder_ST197	594	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10613361	Avian	South Korea	2013	S169
+GCF_008364635	88	595	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12560195	Plant	Germany	2015	C8
+GCF_016504545	391	596	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435610	Human	USA	2018	CB00068
+GCF_016502145	405	599	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN13621906	Human	USA	2018	CB00122
+GCF_014218795	placeholder_ST198	600	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15746328	Human	China	2018	CF1
+GCF_014803235	22	601	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205288	Human	France	2017	149i9
+GCF_002871775	placeholder_ST199	602	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07511396	Human	USA	2015	UMB1094
+GCF_013790835	placeholder_ST48	603	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_018323885	placeholder_ST50	149	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMD00294600	"NA"	"NA"	"NA"	"NA"
+GCF_014803225	22	604	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205289	Human	France	2017	149j4
+GCF_014803175	22	605	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205291	Human	France	2017	149j6
+GCF_014712635	109	319	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16177497	Avian	China	2016	CC1
+GCF_021417225	18	607	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013706575	placeholder_ST194	608	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148558	Environment	United Kingdom	2017	RHBSTW-00269
+GCF_019382615	placeholder_ST200	609	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17843181	Other	Thailand	"NA"	Colony322
+GCF_014856075	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12219996	Human	Germany	2014	CF13069
+GCF_001880795	18	610	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_002918835	167	611	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04286973	"NA"	USA	2015	CFNIH6
+GCF_013336895	116	612	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082855	Human	USA	2019	YDC876
+GCF_005281125	32	613	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11369626	"NA"	Poland	"NA"	wls707
+GCF_001037485	placeholder_ST113	315	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN03280165	Human	"NA"	2014	MGH105
+GCF_015135075	143	614	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00195868	"NA"	"NA"	"NA"	"NA"
+GCF_009660335	placeholder_ST201	615	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN08043190	Environment	Netherlands	2014	soB4
+GCF_018445725	396	616	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371903	Human	Germany	2019	sc19446287
+ERQ0161	22	617	Citrobacter freundii	99.62%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+DB_3_F10	placeholder_ST202	618	Citrobacter freundii	98.77%	Wastewater	Int	"NA"	Wastewater	Australia	2020	"NA"
+GCF_019270195	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824631	Other	Thailand	"NA"	Colony363
+GCF_019800135	415	619	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12349711	Human	Germany	"NA"	KE4473
+DB_5_F12	placeholder_ST23	620	Citrobacter freundii	99.44%	Wastewater	Int	"NA"	Wastewater	Australia	2020	"NA"
+GCF_000313895	169	91	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02471429	Environment	Malaysia	2004	L17
+GCF_001413075	100	621	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872768	"NA"	USA	2011	RU2 LB28
+GCF_014855635	22	622	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12219572	Human	Germany	2013	CF08698
+GCF_016502245	240	106	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10435559	Other	USA	2017	CB00015
+ERQ0310	150	623	Citrobacter freundii	99.47%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+ERQ0230	114	624	Citrobacter freundii	99.84%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013458095	171	625	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN13520946	Human	China	2017	172116965
+GCF_013727235	110	626	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148737	Environment	United Kingdom	2017	RHBSTW-00903
+GCF_018440275	18	627	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371780	Human	Germany	2018	bk18035705
+GCF_016501915	116	628	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16339982	Human	USA	2018	CB00139
+GCF_004004895	91	630	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644693	Human	France	2017	122000000000
+GCF_904859905	8	632	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA3357462	"NA"	"NA"	"NA"	"NA"
+ERQ0159	110	633	Citrobacter braakii	99.85%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_019270455	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824621	Other	Thailand	"NA"	Colony370
+GCF_001880835	11	634	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05447746	Human	Spain	2013	CF10_ST11
+GCF_016501085	412	635	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340011	Human	USA	2019	CB00170
+GCF_014903525	128	637	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN08148234	Human	USA	"NA"	MGH195
+GCF_019731875	216	638	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12349708	Human	Germany	"NA"	KE4387
+GCF_001037515	placeholder_ST203	639	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN03280168	Human	"NA"	2014	MGH110
+GCF_016939595	65	408	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014803195	placeholder_ST204	640	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205290	Human	France	2017	149j5
+ERQ0225	116	642	Citrobacter freundii	99.44%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_000398865	225	643	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN00847668	"NA"	"NA"	"NA"	KTE32
+GCF_017151495	388	200	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15659127	Avian	China	2019	F2R
+GCF_013899405	placeholder_ST205	647	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148082	Bovine	United Kingdom	2017	RHB12-C12
+GCF_014901845	423	649	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN08148200	Human	USA	"NA"	UCI152
+GCF_902160715	95	650	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA104567567	"NA"	"NA"	"NA"	"NA"
+GCF_016501525	placeholder_ST112	311	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN16339999	Human	USA	2019	CB00157
+GCF_016501815	20	651	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN16339988	Human	USA	2019	CB00146
+GCF_002151815	187	653	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN04521901	Human	USA	2015	MGH152
+GCF_004024365	11	654	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09289739	Environment	USA	2017	GEO_21_Eff_A
+GCF_017151545	388	200	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15659130	Avian	China	2019	F6
+GCF_013785085	placeholder_ST206	655	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148628	Environment	United Kingdom	2017	RHBSTW-00477
+GCF_008180565	114	657	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12628157	Human	USA	2019	KCJ3K347
+GCF_902506735	placeholder_ST7	19	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA6098291	"NA"	"NA"	"NA"	"NA"
+SD_5_D4	341	658	Citrobacter freundii	99.61%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_004005235	22	659	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644700	Environmental facility	France	2017	109A5
+GCF_004004715	22	660	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644706	Environmental facility	France	2017	064B7
+GCF_014230205	350	661	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN15770403	Mammalian	China	2018	FF141
+GCF_004322975	22	575	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03456000	"NA"	USA	2015	ABFQG
+GCF_002289385	placeholder_ST85	257	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN07441838	Insect	USA	2013	TSA-1
+GCF_016503835	59	663	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN12220310	Human	USA	2018	CB00105
+GCF_013743055	150	664	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001471655	placeholder_ST207	666	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03996310	Human	USA	2014	FDAARGOS_166
+GCF_019270255	placeholder_ST208	667	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824628	Other	Thailand	"NA"	Colony217
+GCF_013786345	placeholder_ST209	668	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148552	Environment	United Kingdom	2017	RHBSTW-00229
+GCF_016501885	placeholder_ST112	311	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN16339985	Human	USA	2019	CB00142
+GCF_013337065	11	669	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082844	Human	USA	2018	RS77
+ERQ0189	150	670	Citrobacter freundii	99.47%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_905232605	18	671	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_019448475	284	226	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20477952	Avian	China	2020	LHC3
+SG18_100_2_S18	183	672	Citrobacter youngae	99.77%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+ERQ0224	110	673	Citrobacter braakii	99.67%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_018441215	22	675	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372143	Human	Germany	2019	Survcare252
+GCF_013733095	placeholder_ST71	677	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_000714305	139	678	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02680232	Human	Tanzania	2009	5-172-05_S1_C1
+GCF_013826505	placeholder_ST210	679	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148288	Bovine	United Kingdom	2017	RHB30-C03
+GCF_004331575	placeholder_ST211	680	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10437850	Other	Canada	2009	HH5
+GCF_019731005	placeholder_ST212	682	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14389597	Human	China	2020	Y03
+ERQ0278	150	670	Citrobacter freundii	99.49%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_019270295	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824626	Other	Thailand	"NA"	Colony364
+GCF_019584545	placeholder_ST155	446	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN11855572	Environment	Nigeria	2017	EC_49
+GCF_011064845	placeholder_ST92	271	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14128751	"NA"	"NA"	2018	ATCC 8090
+GCF_017151535	388	200	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15659129	Avian	China	2019	F4
+GCF_001022275	22	684	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03733754	Human	USA	2012	CAV1741
+SG18_223_S110	187	685	Citrobacter youngae	99.77%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_013395115	214	686	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15425030	Environment	Bangladesh	2019	SRS1
+GCF_001689745	placeholder_ST213	689	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN04246388	Environment	Canada	2006	A47
+GCF_004331545	362	562	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10437852	Other	Canada	2009	HH7
+GCF_016500895	8	690	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340018	Human	USA	2019	CB00180
+GCF_013168975	placeholder_ST214	691	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11394728	Human	Colombia	2015	C1-185
+GCF_014337275	placeholder_ST113	315	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08148341	Human	USA	"NA"	MGH279
+GCF_004344985	22	692	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_005281055	placeholder_ST25	693	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11369629	"NA"	Poland	"NA"	wls711
+GCF_013798115	placeholder_ST215	694	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN15148449	Environment	United Kingdom	2017	RHBSTW-00011
+GCF_004327825	98	696	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016894305	134	697	Citrobacter portucalensis	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_019655555	placeholder_ST216	698	Citrobacter freundii	100.00%	RefSeq	Ext	SAMD00298537	"NA"	"NA"	"NA"	"NA"
+GCF_003812345	212	699	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10163242	Human	"NA"	"NA"	FDAARGOS_549
+GCF_905232695	18	700	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016501625	125	701	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16339998	Human	USA	2019	CB00156
+GCF_016905745	65	703	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933271	Human	Czech Republic	2018	CF48294
+GCF_003175795	396	705	Citrobacter freundii	100.00%	RefSeq	Ext	SAMD00115687	"NA"	"NA"	"NA"	"NA"
+GCF_014103235	placeholder_ST5	706	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_020710145	placeholder_ST217	707	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN22377415	Human	Czech Republic	2019	50714CZ
+ERQ0674	placeholder_ST218	708	Citrobacter braakii	99.22%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_916618775	placeholder_ST219	709	Citrobacter murliniae	100.00%	RefSeq	Ext	SAMEA9543695	"NA"	"NA"	"NA"	"NA"
+GCF_004181935	22	710	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10847461	Human	France	2016	ICR003203
+GCF_016501425	95	711	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340004	Human	USA	2019	CB00162
+GCF_018919545	placeholder_ST220	712	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN19645715	Human	"NA"	2016	S46_ASV_140
+GCF_016894145	placeholder_ST221	713	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824632	Other	Thailand	"NA"	Colony488
+ERQ0259	placeholder_ST147	714	Citrobacter freundii	99.32%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_016500465	307	715	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340039	Human	USA	2019	CB00205
+GCF_009649895	placeholder_ST222	716	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN13135737	Plant	China	2017	H12-3-2
+GCF_016503805	91	717	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220308	Human	USA	2018	CB00103
+GCF_018422965	19	718	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373001	Human	Germany	2018	Survcare316
+GCF_013589875	150	720	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_900520375	116	721	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA4830818	"NA"	"NA"	"NA"	"NA"
+GCF_901456225	62	175	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA5578849	"NA"	"NA"	"NA"	"NA"
+GCF_016505165	98	722	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435580	Human	USA	2017	CB00036
+GCF_016505285	307	577	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016905585	65	723	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16933288	Human	Czech Republic	2019	CF51238
+GCF_013890595	placeholder_ST58	173	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN15148180	Bovine	United Kingdom	2017	RHB20-C15
+GCF_002934505	167	373	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014596895	placeholder_ST140	725	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15963933	Other	Germany	2015	C1
+GCF_001412755	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872776	"NA"	USA	2011	RU2 LB36
+GCF_018443215	97	726	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN17372004	Human	Germany	2016	Survcare083-1
+GCF_016507955	244	727	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435554	Human	USA	2017	CB00009
+GCF_002252025	415	728	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06820765	Environment	China	2016	C191
+GCF_014189355	22	729	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11506022	Human	Canada	2018	N18-04078
+GCF_013883595	placeholder_ST80	247	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148221	Bovine	United Kingdom	2017	RHB24-C03
+GCF_002151775	114	730	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04521890	Human	USA	2015	MGH141
+GCF_018067665	placeholder_ST223	732	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN18511072	Human	USA	2020	2020EL-00099
+SD_9_A7	placeholder_ST63	189	Citrobacter youngae	98.91%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_016679915	placeholder_ST224	733	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN17292532	Avian	China	2019	RW4-8
+GCF_018107715	507	734	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11513635	Human	Malaysia	2013	CRE414
+GCF_018441745	18	735	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372073	Human	Germany	2018	Survcare161
+GCF_016502025	placeholder_ST225	736	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13621918	Human	USA	2018	CB00134
+GCF_020271725	placeholder_ST226	737	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN20477956	Avian	China	2020	LHC5-1
+GCF_015137255	143	738	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMD00195955	"NA"	"NA"	"NA"	"NA"
+GCF_001413235	100	739	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872791	"NA"	USA	2013	RU2 BHI15
+GCF_019802385	104	740	Citrobacter cronae	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_012843215	placeholder_ST167	486	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN14556206	Environment	South Korea	2018	DNRA3
+GCF_009881195	placeholder_ST34	744	Citrobacter amalonaticus	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001413275	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872794	"NA"	USA	2013	RU2 BHI18
+ERQ0217	110	745	Citrobacter braakii	99.64%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_003818115	placeholder_ST65	747	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10440282	Other	USA	"NA"	CCUG 30791
+GCF_014903475	540	748	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN08148314	Human	USA	"NA"	MGH196
+GCF_018439105	114	749	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371837	Human	Germany	2017	NRZ-38718
+GCF_013337685	placeholder_ST227	750	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11479447	"NA"	Portugal	2013	UMG736
+GCF_013816655	placeholder_ST83	254	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148355	Bovine	United Kingdom	2017	RHB35-C18
+GCF_016505255	22	752	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435575	Human	USA	2017	CB00031
+ERQ0155	110	753	Citrobacter braakii	99.71%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_008086465	17	754	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08027248	Human	China	2014	WCHCP085039
+GCF_018439185	22	755	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371833	Human	Germany	2017	NRZ-37969
+SG18_229_S54	347	756	Citrobacter pasteurii	99.26%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_020559425	525	438	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN22167496	Human	USA	"NA"	DFI.7.8
+SG18_8_S1	placeholder_ST25	758	Citrobacter gillenii	99.54%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_014802885	22	759	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205304	Human	France	2018	179I1
+GCF_004005035	22	760	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644678	Human	France	2017	106F1
+GCF_016894045	placeholder_ST228	761	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824638	Other	Thailand	"NA"	Colony473
+GCF_021440245	85	762	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN24245010	Fish	Portugal	2019	INSAq234
+ERQ0681	116	763	Citrobacter freundii	99.44%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_002918455	placeholder_ST44	117	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395897	Plant	"NA"	"NA"	S1280
+GCF_016504885	388	765	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10435597	Human	USA	2017	CB00054
+GCF_020215765	284	226	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20477954	Avian	China	2020	XMY1F802-7
+GCF_000826205	placeholder_ST122	338	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMEA3099656	"NA"	"NA"	"NA"	"NA"
+GCF_015668205	placeholder_ST229	766	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15533161	Human	USA	2016	1001302B_160321_C4
+GCF_018441765	18	767	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372074	Human	Germany	2018	Survcare162
+GCF_013786025	placeholder_ST42	768	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148581	Environment	United Kingdom	2017	RHBSTW-00334
+GCF_902807175	placeholder_ST230	769	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA6574524	"NA"	"NA"	"NA"	"NA"
+GCF_016503095	placeholder_ST231	770	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN13621921	Human	USA	2018	CB00137
+GCF_020215805	284	226	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20477953	Avian	China	2020	LHC31-1
+GCF_016503305	415	531	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13621910	Human	USA	2018	CB00126
+GCF_013786565	22	771	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_017151595	placeholder_ST232	772	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15659132	Avian	China	2019	F3R
+GCF_004005615	22	773	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644671	Human	France	2017	12200000
+GCF_019660585	placeholder_ST233	774	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN20568180	Human	China	2015	CF-15-33
+GCF_002919485	placeholder_ST44	117	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395898	Plant	"NA"	"NA"	S1281
+GCF_016507625	482	775	Citrobacter murliniae	100.00%	RefSeq	Ext	SAMN11284921	Human	USA	2018	CB00078
+GCF_009881175	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945273	Human	USA	2015	BIOML-A2
+GCF_005281195	placeholder_ST234	777	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11369618	"NA"	Poland	"NA"	wls613
+GCF_014170055	placeholder_ST235	778	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15086845	Human	USA	2018	IDR1800045912-01-00
+GCF_011603985	placeholder_ST236	779	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN14218527	Annelid	Denmark	2019	MM2020_5
+GCF_002075345	placeholder_ST237	780	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN06219870	Other	France	"NA"	ATCC 51113
+GCF_017151515	388	200	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15659128	Avian	China	2019	F5
+GCF_016504785	placeholder_ST40	781	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10435601	Human	USA	2017	CB00058
+GCF_014855595	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12219574	Human	Germany	2014	CF12637
+GCF_014855645	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12219573	Human	Germany	2014	CF11993
+GCF_016893985	31	174	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824636	Other	Thailand	2019	Colony226
+GCF_018449455	placeholder_ST71	782	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN19182481	Environmental facility	Peru	2017	CF248
+GCF_013169475	328	783	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN07291424	Human	Colombia	2014	C1-154
+GCF_019660945	22	784	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN20568165	Human	China	2014	CF-14-50
+GCF_001273815	88	785	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03975633	Environmental facility	China	2015	WCHCF65
+GCF_014903115	8	786	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN08148253	Human	USA	"NA"	MGH214
+GCF_019645955	placeholder_ST238	787	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN20585126	Rodent	United Kingdom	2020	C3H
+ERQ0211	110	789	Citrobacter braakii	99.64%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013726615	341	790	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148742	Environment	United Kingdom	2017	RHBSTW-00915
+GCF_014855715	111	791	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12219630	Environment	Germany	2017	CF13461
+GCF_014802855	22	792	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205308	Human	France	2019	195G4
+GCF_016504585	390	795	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10435608	Human	USA	2017	CB00065
+GCF_014856005	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12219999	Human	Germany	2014	CF13479
+GCF_000936345	placeholder_ST239	796	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA3217999	"NA"	"NA"	"NA"	"NA"
+GCF_013336865	placeholder_ST240	797	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082854	Human	USA	2018	YDC849-1
+GCF_009648235	placeholder_ST241	798	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN13064481	Canine	China	2018	MF19
+GCF_016505095	placeholder_ST242	799	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_009721615	placeholder_ST243	800	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12911130	environment	USA	2016	JL978
+GCF_003665535	11	801	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07729551	Human	USA	2013	UMH19
+GCF_009821535	placeholder_ST244	802	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11928074	Avian	"NA"	"NA"	JS97
+GCF_013748235	150	720	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148631	Environment	United Kingdom	2017	RHBSTW-00486
+GCF_018066625	placeholder_ST245	803	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN18511094	Human	USA	2018	2021EL-00123
+GCF_019048045	placeholder_ST72	217	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16357564	"NA"	Germany	"NA"	FDAARGOS 1422
+GCF_905330765	112	805	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013707835	95	806	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148518	Environment	United Kingdom	2017	RHBSTW-00153
+GCF_000809165	placeholder_ST183	807	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03273575	Human	Singapore	2013	JT3
+GCF_018441785	22	808	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372072	Human	Germany	2018	Survcare160
+GCF_000783995	placeholder_ST66	207	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN02934510	Human	USA	2013	FDAARGOS_61
+GCF_018422725	placeholder_ST105	809	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17373017	Human	Germany	2019	Survcare336
+GCF_016503885	22	810	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_001718055	150	811	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05570461	Human	Sierra Leone	2013	SL151
+GCF_018883525	187	812	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN18437209	Environment	India	2019	IITK SM2
+GCF_001413115	placeholder_ST76	814	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872772	"NA"	USA	2011	RU2 LB32
+GCF_004004645	22	815	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644710	Environmental facility	France	2017	064C1
+GCF_014103715	placeholder_ST246	816	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148553	Environment	United Kingdom	2017	RHBSTW-00231
+GCF_000208765	placeholder_ST33	817	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA2272125	"NA"	"NA"	"NA"	"NA"
+GCF_013336955	9	818	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN14082849	Human	USA	2013	YDC645
+GCF_014103885	91	819	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148535	Environment	United Kingdom	2017	RHBSTW-00199
+GCF_018066575	22	820	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN18511095	Human	USA	2019	2021EL-00124
+GCF_013814485	placeholder_ST247	821	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148369	Bovine	United Kingdom	2017	RHB36-C18
+GCF_002786865	427	822	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN07944242	Human	South Korea	2015	CRCB-101
+GCF_019382635	218	823	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN17843179	Other	Thailand	2019	Colony219
+GCF_015674725	placeholder_ST35	143	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16304138	Swine	Canada	2017	Res13-Lact-EC05-01
+ERQ0677	placeholder_ST218	824	Citrobacter braakii	99.25%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_002934585	placeholder_ST248	825	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN06040393	"NA"	USA	2016	CFNIH10
+GCF_018439765	98	826	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371802	Human	Germany	2016	NRZ-31131
+GCF_013739755	placeholder_ST165	828	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148654	Environment	United Kingdom	2017	RHBSTW-00570
+GCF_016507745	114	829	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435611	Human	USA	2018	CB00069
+GCF_003938795	placeholder_ST249	830	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10163198	Human	USA	2014	FDAARGOS_490
+GCF_000786265	296	831	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03025290	Bovine	Canada	2013	GTA-CB01
+ERQ0046	placeholder_ST250	832	Citrobacter freundii	99.40%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013785525	placeholder_ST251	833	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148603	Environment	United Kingdom	2017	RHBSTW-00408
+ERQ0192	166	834	Citrobacter portucalensis	99.31%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+ERQ0241	481	835	Citrobacter freundii	99.30%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013738915	110	836	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_011030295	91	837	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14120186	Human	Lebanon	2018	CFM_67
+GCF_002903305	166	838	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN04287052	"NA"	USA	2015	CFNIH9
+GCF_001058675	placeholder_ST233	839	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03198081	Human	USA	"NA"	874_CKOS
+GCF_004005085	62	840	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644675	Human	France	2017	102B9
+GCF_000734905	placeholder_ST92	271	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02742758	Environment	Netherlands	"NA"	ATCC 8090
+GCF_013783065	placeholder_ST252	841	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148762	Environment	United Kingdom	2017	RHBSTW-00986
+GCF_001482545	65	842	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_021440705	64	843	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN24244975	Fish	Portugal	2018	INSAq43
+GCF_001412815	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872792	"NA"	USA	2013	RU2 BHI16
+GCF_016504355	19	845	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435617	Human	USA	2018	CB00075
+GCF_019659965	placeholder_ST253	846	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20568202	Human	China	2015	CF-15-2-165
+GCF_016501455	116	612	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16340003	Human	USA	2019	CB00161
+GCF_006965505	placeholder_ST254	847	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11653541	Human	Switzerland	2019	133355-SW-C4-Cam
+GCF_002252125	415	728	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06820767	Environment	China	2016	c196
+GCF_016502155	108	848	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10435587	Human	USA	2017	CB00043
+GCF_001880915	396	849	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05447777	Human	Spain	2014	CF_15_ST_94
+GCF_013336965	102	850	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN14082851	Human	USA	2014	YDC667-1
+GCF_002151695	placeholder_ST239	851	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN04521900	Human	USA	2015	MGH151
+GCF_007004285	87	852	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN12219522	Human	Portugal	2017	INSACf32145
+GCF_016502205	240	106	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10435573	Other	USA	2017	CB00029
+GCF_021417185	placeholder_ST255	854	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN21237504	Human	China	2018	16F57
+GCF_016505545	245	855	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10435555	Human	USA	2017	CB00010
+GCF_020639355	22	18	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN21601015	Human	China	2020	DY2007
+GCF_013728515	placeholder_ST126	856	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014101305	placeholder_ST256	857	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148587	Environment	United Kingdom	2017	RHBSTW-00349
+GCF_019800325	295	858	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12349709	Human	Germany	"NA"	KE3367
+GCF_003795375	placeholder_ST66	859	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN08290423	Human	Bolivia	2016	67A
+GCF_008931505	8	860	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12289346	Environmental facility	Australia	2012	E33
+GCF_019660705	17	442	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN20568175	Human	China	2015	CF-15-2-98
+GCF_900446835	57	861	Citrobacter youngae	100.00%	RefSeq	Ext	SAMEA101161918	"NA"	"NA"	"NA"	"NA"
+GCF_016894065	placeholder_ST257	862	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824637	Other	Thailand	"NA"	Colony458
+GCF_901456305	62	175	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA5578845	"NA"	"NA"	"NA"	"NA"
+GCF_901456265	21	863	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMEA5578862	"NA"	"NA"	"NA"	"NA"
+GCF_013791465	placeholder_ST78	865	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148501	Environment	United Kingdom	2017	RHBSTW-00127
+GCF_009664025	169	159	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_018438625	18	866	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371858	Human	Germany	2018	NRZ-45233
+GCF_016503905	98	867	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220303	Human	USA	2018	CB00096
+GCF_013791615	111	868	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148500	Environment	United Kingdom	2017	RHBSTW-00126
+GCF_000312465	placeholder_ST92	271	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02469678	Environment	USA	"NA"	MTCC 1658
+GCF_004792475	placeholder_ST258	869	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN11268911	Environment	United Kingdom	2016	Upstream_1
+GCF_000739675	placeholder_ST259	870	Citrobacter murliniae	100.00%	RefSeq	Ext	SAMD00000559	"NA"	"NA"	"NA"	"NA"
+GCF_004331445	placeholder_ST260	871	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN10437855	Other	Canada	2010	HH10
+GCF_015356495	64	873	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16125009	Environment	"NA"	2019	CPE1
+GCF_014725915	22	729	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11505996	Human	Canada	2016	N16-03880
+GCF_018446915	112	874	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372130	Human	Germany	2019	Survcare239
+GCF_006937845	116	876	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11232674	Human	Estonia	2012	EELTKB284
+GCF_013732395	placeholder_ST5	879	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013336855	114	92	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082856	Human	USA	2019	YDC880
+GCF_002864025	185	322	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07974440	Human	USA	"NA"	YDC692-2
+GCF_013336845	placeholder_ST24	67	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN14082852	Human	USA	2015	YDC693
+GCF_016507845	placeholder_ST261	880	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10435558	Human	USA	2017	CB00013
+GCF_004146055	22	882	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10847473	Human	France	2016	ICR003215
+GCF_001306025	18	323	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04038590	Other	China	2014	ST1
+GCF_014856085	98	884	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12219997	Human	Germany	2014	CF13141
+GCF_013784065	88	885	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148660	Environment	United Kingdom	2017	RHBSTW-00599
+GCF_013899365	placeholder_ST262	886	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148085	Bovine	United Kingdom	2017	RHB12-C19
+GCF_016859885	placeholder_ST17	887	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014596815	placeholder_ST263	888	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15963937	Other	Germany	2015	C13
+GCF_018107785	22	889	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11513634	Human	Malaysia	2013	CRE530
+GCF_005280955	32	613	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11369635	"NA"	Poland	"NA"	wls717
+GCF_015668035	placeholder_ST264	890	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15532624	Human	USA	2017	1001311H_170123_F2
+GCF_014104105	placeholder_ST265	891	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148494	Environment	United Kingdom	2017	RHBSTW-00116
+GCF_015208815	placeholder_ST266	893	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12706440	Human	South Africa	2019	H2730R
+GCF_900079995	placeholder_ST267	894	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMEA3935942	"NA"	"NA"	"NA"	"NA"
+GCF_015353115	placeholder_ST58	897	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN16667806	Human	China	2013	CA71
+GCF_013748855	519	898	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148618	Environment	United Kingdom	2017	RHBSTW-00449
+GCF_003937345	placeholder_ST268	899	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN10249196	Environmental facility	Pakistan	2016	CF_324
+GCF_012952645	356	346	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN14265977	Human	USA	2017	CB00017
+GCF_016503955	91	104	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220302	Human	USA	2018	CB00095
+GCF_001276125	placeholder_ST239	900	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03982941	Fish	Malaysia	2014	YG8
+ERQ0162	110	673	Citrobacter braakii	99.68%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_014802925	22	903	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205305	Human	France	2018	179I3
+GCF_900169695	placeholder_ST78	510	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA103915301	"NA"	"NA"	"NA"	"NA"
+GCF_005280935	placeholder_ST269	904	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN11369637	"NA"	Poland	"NA"	wls757
+GCF_021503935	placeholder_ST270	905	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN22551378	Environmental facility	Switzerland	2020	MV-r1-SK3-O
+GCF_018443315	256	906	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372001	Human	Germany	2016	Survcare080
+GCF_018279205	placeholder_ST271	907	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN13907872	"NA"	South Korea	"NA"	PNUCL1
+GCF_016500715	placeholder_ST272	909	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN16340027	Human	USA	2019	CB00192
+GCF_004103775	412	910	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10754625	Environment	China	2017	R17
+GCF_016893845	placeholder_ST273	911	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824652	Other	Thailand	2019	Colony241
+GCF_013360255	150	912	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_902363265	placeholder_ST274	913	Citrobacter freundii	100.00%	RefSeq	Ext	SAMEA5849609	"NA"	"NA"	"NA"	"NA"
+GCF_013389635	placeholder_ST275	914	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+SG18_227_S53	placeholder_ST276	915	Citrobacter youngae	99.59%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_002073755	placeholder_ST277	916	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN04875579	Human	USA	2014	FDAARGOS_253
+SG18_138_2_S33	183	375	Citrobacter youngae	99.67%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_015667445	placeholder_ST145	918	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN15532554	Human	USA	2017	1001311H_170123_A7
+GCF_004005575	22	919	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644679	Human	France	2017	106F2
+GCF_013781945	placeholder_ST105	920	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148769	Environment	United Kingdom	2017	RHBSTW-01044
+GCF_003019835	11	921	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN08631944	Human	Malaysia	2014	B9-C2
+GCF_003571565	placeholder_ST278	922	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04014957	"NA"	"NA"	"NA"	"NA"
+GCF_001586835	519	923	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03455927	Human	USA	2014	AATXQ
+GCF_001058505	placeholder_ST279	924	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03198018	Human	USA	"NA"	804_CKOS
+GCF_014104015	placeholder_ST194	925	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148513	Environment	United Kingdom	2017	RHBSTW-00142
+GCF_016500665	placeholder_ST280	926	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN16340029	Human	USA	2019	CB00194
+GCF_009856695	placeholder_ST281	927	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN13669122	Plant	China	2015	LDL3-3
+GCF_002918865	22	575	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03455999	"NA"	USA	2015	CFNIH8
+GCF_003114935	109	928	Citrobacter braakii	100.00%	RefSeq	Ext	SAMD00112928	"NA"	"NA"	"NA"	"NA"
+GCF_006385635	162	929	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11388517	Human	China	2018	CF971
+GCF_013727455	placeholder_ST14	29	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148736	Environment	United Kingdom	2017	RHBSTW-00902
+GCF_013740875	placeholder_ST184	930	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148615	Environment	United Kingdom	2017	RHBSTW-00444
+GCF_002918875	11	931	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06040422	"NA"	USA	2016	CFNIH12
+GCF_017151445	64	932	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15659126	Environment	China	2018	TS3W
+GCF_016505325	98	933	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435570	Other	USA	2017	CB00026
+GCF_001413335	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872798	"NA"	USA	2013	RU2 BHI22
+GCF_017353275	64	934	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN18203675	"NA"	Denmark	2019	MM2021_8
+GCF_001316675	62	935	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN04011435	Human	South Africa	2013	ST62:944112508
+GCF_016505585	239	936	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435552	Human	USA	2017	CB00007
+GCF_021441345	169	937	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN24245011	Mollusc	Portugal	2019	INSAq237
+GCF_016505195	placeholder_ST282	940	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10435578	Human	USA	2017	CB00034
+GCF_000521945	3	941	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN02356612	Human	USA	"NA"	UCI 32
+GCF_015910405	placeholder_ST283	942	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN13747506	Human	Canada	2015	Cfr-13
+GCF_002919825	257	943	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN06040405	"NA"	USA	2016	CFNIH11
+GCF_018917665	placeholder_ST284	944	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN19374038	Mammalian	China	2019	N91
+GCF_011030065	415	947	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14120105	Human	Lebanon	2016	CFM_17
+GCF_021417245	116	948	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN21237500	Human	China	2018	17G14
+GCF_017086505	505	949	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13140889	Plant	Switzerland	2019	zone4
+GCF_021440885	416	955	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN24245035	Other	Portugal	2019	INSAq424
+GCF_000786275	placeholder_ST285	956	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03025291	Bovine	Canada	2013	GTA-CB04
+GCF_000972645	placeholder_ST286	957	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03437259	Bovine	Canada	2014	GTA-817-RBA-P2
+GCF_013267145	525	958	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMN11056353	Human	USA	"NA"	FDAARGOS_638
+GCF_009876825	placeholder_ST34	86	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN11945277	Human	USA	2015	BIOML-A6
+GCF_001413165	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872774	"NA"	USA	2011	RU2 LB34
+GCF_013729995	17	466	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15148718	Environment	United Kingdom	2017	RHBSTW-00858
+GCF_001067775	placeholder_ST115	320	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03198201	Human	USA	"NA"	980_SSON
+GCF_014803145	22	959	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205294	Human	France	2018	164F4
+GCF_900636015	placeholder_ST13	960	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMEA3368333	"NA"	"NA"	"NA"	"NA"
+GCF_014103835	162	961	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148537	Environment	United Kingdom	2017	RHBSTW-00201
+GCF_009907085	104	963	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN13830004	Human	Nigeria	2015	2580
+GCF_016503505	placeholder_ST240	797	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220320	Human	USA	2018	CB00115
+GCF_012102405	placeholder_ST287	965	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN14470508	Bovine	Brazil	2019	UFMG-H9
+GCF_902160995	placeholder_ST154	441	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA104567601	"NA"	"NA"	"NA"	"NA"
+GCF_019270275	placeholder_ST105	292	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN17824627	Other	Thailand	"NA"	Colony366
+GCF_014855985	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12220003	Environmental facility	Germany	2014	CF16680
+GCF_002919425	placeholder_ST44	117	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN08395899	Plant	"NA"	"NA"	S1282
+GCF_016503225	114	967	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN13621909	Human	USA	2018	CB00125
+GCF_013615435	placeholder_ST209	968	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148751	Environment	United Kingdom	2017	RHBSTW-00944
+GCF_008931485	8	970	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12289284	Human	Australia	2014	C50
+GCF_016504925	251	971	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10435593	Human	USA	2017	CB00049
+GCF_013786205	placeholder_ST288	972	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148556	Environment	United Kingdom	2017	RHBSTW-00267
+GCF_002738435	139	973	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN07736518	Human	China	2014	CWH001
+GCF_013781985	placeholder_ST71	974	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148767	Environment	United Kingdom	2017	RHBSTW-01013
+GCF_019655655	placeholder_ST181	975	Citrobacter braakii	100.00%	RefSeq	Ext	SAMD00298538	"NA"	"NA"	"NA"	"NA"
+ERQ0572	placeholder_ST67	976	Citrobacter braakii	99.43%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_018441435	19	977	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17372097	Human	Germany	2018	Survcare188
+GCF_001276105	placeholder_ST239	900	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN03982883	Fish	Malaysia	2014	YG6
+GCF_012955545	169	980	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14653284	Human	Kazakhstan	2019	SCAID PHRX1-2019
+GCF_014103585	110	981	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15148578	Environment	United Kingdom	2017	RHBSTW-00325
+ERQ0251	110	982	Citrobacter braakii	99.76%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_013781965	placeholder_ST147	983	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014856095	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12219995	Human	Germany	2014	CF13066
+ERQ0672	placeholder_ST218	824	Citrobacter braakii	99.25%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_011030315	112	984	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14120187	Human	Lebanon	2018	CFM_69
+GCF_002211705	placeholder_ST289	985	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_000937455	22	986	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+ERQ0169	268	987	Citrobacter braakii	98.67%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+SD_9_C7	95	988	Citrobacter freundii	99.78%	Gull	Int	"NA"	Gull	Australia	2019	"NA"
+GCF_014105665	11	990	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148103	Bovine	United Kingdom	2017	RHB14-C01
+GCF_000398825	placeholder_ST290	991	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN00847637	"NA"	"NA"	"NA"	KTE30
+GCF_019265365	placeholder_ST291	992	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN17843176	Other	Thailand	2019	Colony249
+GCF_016504725	placeholder_ST40	993	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN10435605	Human	USA	2017	CB00062
+GCF_005280815	placeholder_ST292	994	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11369647	"NA"	Poland	"NA"	TBCS-15
+DB_3_D1	placeholder_ST23	995	Citrobacter freundii	99.49%	Wastewater	Int	"NA"	Wastewater	Australia	2020	"NA"
+GCF_013737455	placeholder_ST5	996	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+SG18_109_2_S19	183	672	Citrobacter youngae	99.77%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_000238735	placeholder_ST141	396	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN02463852	Human	"NA"	"NA"	4_7_47CFAA
+GCF_018439905	98	997	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371798	Human	Germany	2016	NRZ-29912
+GCF_016503695	62	998	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220315	Human	USA	2018	CB00110
+GCF_001034445	169	999	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03280161	Human	"NA"	2014	MGH99
+GCF_019659885	placeholder_ST105	1000	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN20568213	Human	China	2016	CF-16-58
+GCF_013345705	placeholder_ST293	1001	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15168086	Environmental facility	USA	2017	MBL
+GCF_013751895	11	990	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148584	Environment	United Kingdom	2017	RHBSTW-00342
+GCF_008364645	placeholder_ST294	1002	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12560196	Plant	Germany	2015	C10
+GCF_011392435	128	1003	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN12289071	Human	France	2018	175G8
+GCF_019048805	placeholder_ST237	780	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN16357563	"NA"	Germany	"NA"	FDAARGOS 1421
+GCF_001412855	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872799	"NA"	USA	2013	RU2 BHI23
+GCF_004327835	98	1004	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10976863	Human	USA	2016	2016WA-NCV
+GCF_014856035	252	451	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12219998	Human	Germany	2014	CF13143
+GCF_011022025	98	1005	Citrobacter freundii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015356435	placeholder_ST295	1006	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16125010	Environment	"NA"	2019	CPE2
+ERQ0199	110	673	Citrobacter braakii	99.67%	Wastewater	Int	"NA"	Wastewater	Australia	2019	"NA"
+GCF_018423015	19	1008	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17373003	Human	Germany	2019	Survcare320
+GCF_001412875	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872800	"NA"	USA	2013	RU2 BHI24
+GCF_016501565	placeholder_ST296	1009	Citrobacter pasteurii	100.00%	RefSeq	Ext	SAMN16339995	Human	USA	2019	CB00153
+GCF_014337335	placeholder_ST113	315	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN08148335	Human	USA	"NA"	MGH281
+GCF_001880825	22	1010	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05441430	Human	Spain	2013	CF8_ST22
+GCF_001317135	63	1011	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN04011451	Human	South Africa	2013	ST63:944526466
+GCF_016501545	placeholder_ST297	1012	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN16339996	Human	USA	2019	CB00154
+GCF_014802965	22	1013	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205303	Human	France	2018	179H10
+GCF_016503825	placeholder_ST120	1016	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN12220311	Human	USA	2018	CB00106
+GCF_019656355	497	129	Citrobacter europaeus	100.00%	RefSeq	Ext	SAMD00323044	"NA"	"NA"	"NA"	"NA"
+GCF_008364725	placeholder_ST298	1017	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12560192	Plant	Germany	2015	C4
+GCF_008364895	placeholder_ST263	1018	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN12560197	Plant	Germany	2015	C12
+GCF_009649935	placeholder_ST222	716	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN13135736	Plant	China	2017	S40-1-2
+GCF_021496985	placeholder_ST299	1020	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN15062844	Fish	China	2019	BY9F36
+GCF_019585185	placeholder_ST300	1021	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN11855534	Environment	Nigeria	2016	EC_11
+GCF_016502285	238	1022	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN10435550	Human	USA	2017	CB00005
+GCF_008502135	323	1023	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN09862364	"NA"	Nigeria	2014	CC12
+GCF_004004965	114	1024	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN10644688	Human	France	2017	11600000
+GCF_016893885	104	1025	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN17824650	Other	Thailand	2019	Colony233
+GCF_008693605	3	1027	Citrobacter portucalensis	100.00%	RefSeq	Ext	SAMN11056332	Human	USA	"NA"	FDAARGOS_617
+GCF_016503735	91	440	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12220313	Human	USA	2018	CB00108
+GCF_902160915	placeholder_ST154	441	Citrobacter braakii	100.00%	RefSeq	Ext	SAMEA104567600	"NA"	"NA"	"NA"	"NA"
+GCF_010592375	95	1028	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN12250721	Human	USA	2016	AS012402
+GCF_019731585	20	1029	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN14389568	Human	China	2020	K48_1
+GCF_002025225	placeholder_ST301	1030	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN06444903	Environmental facility	China	2012	BF-6
+GCF_000398845	placeholder_ST197	1031	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN00847640	"NA"	"NA"	"NA"	KTE151
+GCF_008364705	placeholder_ST302	1032	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN12560194	Plant	Germany	2015	C7
+GCF_001413315	100	195	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN02872797	"NA"	USA	2013	RU2 BHI21
+GCF_013336945	95	1034	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082850	Human	USA	2014	YDC661
+SG18_42_S4	placeholder_ST303	1036	Citrobacter youngae	98.96%	Gull	Int	"NA"	Gull	Australia	2018	"NA"
+GCF_013336995	placeholder_ST240	797	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN14082846	Human	USA	2018	RS259
+GCF_019655495	placeholder_ST216	1037	Citrobacter freundii	100.00%	RefSeq	Ext	SAMD00298536	"NA"	"NA"	"NA"	"NA"
+GCF_001880945	64	1038	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN05447747	Human	Spain	2013	CF_11_ST_64
+GCF_014803165	22	1039	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205292	Human	France	2018	1640000000000
+GCF_002185305	placeholder_ST304	1040	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN06812673	Human	USA	2014	CRK0001
+GCF_013751655	11	1041	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148588	Environment	United Kingdom	2017	RHBSTW-00350
+GCF_013790265	150	1042	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148520	Environment	United Kingdom	2017	RHBSTW-00162
+GCF_001062165	placeholder_ST305	1043	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN03197132	Human	USA	"NA"	1175_SENT
+GCF_013828645	placeholder_ST306	1044	Citrobacter gillenii	100.00%	RefSeq	Ext	SAMN15148277	Bovine	United Kingdom	2017	RHB29-C07
+GCF_018444815	116	1045	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17371948	Human	Germany	2018	Survcare036
+GCF_013731955	216	1046	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN15148707	Environment	United Kingdom	2017	RHBSTW-00830
+GCF_000731055	placeholder_ST307	1048	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN02726357	Human	Malaysia	2013	L8A
+GCF_001059255	placeholder_ST233	839	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03198080	Human	USA	"NA"	873_CKOS
+GCF_001037575	19	1049	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN03280169	Human	"NA"	2014	BIDMC107
+GCF_014856055	NA	7	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12219994	Human	Germany	2014	CB13142
+GCF_016501665	NA	8	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16339994	Human	USA	2019	CB00152
+GCF_013836145	NA	25	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_900461055	NA	42	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA104338398	"NA"	"NA"	"NA"	"NA"
+GCF_015965555	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMEA1486318	"NA"	"NA"	"NA"	"NA"
+GCF_014679775	NA	55	Citrobacter koseri	100.00%	RefSeq	Ext	SAMD00244769	"NA"	"NA"	"NA"	"NA"
+GCF_014333315	NA	73	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN08148176	Human	USA	"NA"	UCICRE-127
+GCF_000783445	NA	78	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN02934540	Human	USA	2013	FDAARGOS_86
+GCF_000018045	NA	79	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN02603912	"NA"	"NA"	"NA"	ATCC BAA-895
+GCF_015670485	NA	83	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN15532929	Human	USA	2016	1001285B_161010_B2
+GCF_016504035	NA	110	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN12220298	Human	USA	2018	CB00091
+GCF_016500875	NA	111	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340019	Human	USA	2019	CB00182
+GCF_016501465	NA	121	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340001	Human	USA	2019	CB00159
+GCF_014931625	NA	126	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN15581660	Environment	China	2019	AA2CS
+GCF_015234875	NA	127	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16540216	Rodent	United Kingdom	2017	19428wH4_BL23
+GCF_016503915	NA	133	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220305	Human	USA	2018	CB00099
+GCF_016501025	NA	138	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340014	Human	USA	2019	CB00173
+GCF_002918555	NA	139	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_021373375	NA	140	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16787516	Canine	Australia	2011	MVC201
+GCF_016500795	NA	141	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340022	Human	USA	2019	CB00187
+GCF_014855915	NA	7	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220004	Human	Germany	2014	CK13481
+GCF_018342065	NA	144	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_021533375	NA	145	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN20718298	Environment	Nigeria	2015	OB25N_1
+GCF_000027085	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMEA2272524	"NA"	"NA"	"NA"	"NA"
+GCF_008364715	NA	170	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN12560193	Plant	Germany	2015	C5.1
+GCF_016504365	NA	176	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435615	Human	USA	2018	CB00073
+GCF_018106145	NA	177	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11513636	Human	Malaysia	2015	CRE346
+GCF_902373845	NA	180	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_015558715	NA	191	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN15532944	Human	USA	2015	1001216B_150713_F2
+GCF_002947675	NA	194	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN04014865	"NA"	"NA"	"NA"	AR_0024
+GCF_014230155	NA	196	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15770405	Mammalian	China	2018	FF414
+GCF_016501745	NA	202	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16339989	Human	USA	2019	CB00147
+GCF_016502165	NA	206	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN12220322	Human	USA	2018	CB00117
+GCF_005280845	NA	218	Citrobacter werkmanii	100.00%	RefSeq	Ext	SAMN11369643	"NA"	Poland	"NA"	wls830
+GCF_902387995	NA	220	Citrobacter farmeri	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_015549445	NA	222	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN15533029	Human	USA	2017	1001311H_170123_A1
+GCF_000759815	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMD00019864	"NA"	"NA"	"NA"	"NA"
+GCF_018422455	NA	238	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN17373027	Human	Germany	2019	Survcare347
+GCF_013618825	NA	243	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN15020661	Avian	Nigeria	2019	L38
+GCF_011077325	NA	248	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_014230185	NA	196	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15770404	Mammalian	China	2018	FF371
+GCF_016504085	NA	249	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220296	Human	USA	2018	CB00089
+GCF_000648515	NA	251	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN02713684	Environmental facility	USA	2012	CFNIH1
+GCF_016504825	NA	256	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435600	Human	USA	2017	CB00057
+GCF_016504345	NA	267	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435616	Human	USA	2018	CB00074
+GCF_016501985	NA	281	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN13621920	Human	USA	2018	CB00136
+GCF_016507855	NA	293	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN10435564	Human	USA	2017	CB00020
+GCF_001463265	NA	294	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN04158308	Human	Norway	2012	50677481
+GCF_019399955	NA	300	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_000764735	NA	302	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMD00018686	"NA"	"NA"	"NA"	"NA"
+GCF_016507545	NA	328	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11284930	Human	USA	2018	CB00087
+GCF_018502305	NA	329	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN17978688	Other	Thailand	"NA"	Colony389
+GCF_016505605	NA	330	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435551	Human	USA	2017	CB00006
+GCF_016500805	NA	341	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340023	Human	USA	2019	CB00188
+GCF_002863965	NA	354	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN07974444	Human	USA	"NA"	YDC582
+GCF_014803315	NA	356	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN16205285	Human	France	2017	137i5
+GCF_016502005	NA	359	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN13621919	Human	USA	2018	CB00135
+GCF_900446975	NA	368	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA3443778	"NA"	"NA"	"NA"	"NA"
+GCF_016503385	NA	372	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN13621905	Human	USA	2018	CB00121
+GCF_005280855	NA	379	Citrobacter youngae	100.00%	RefSeq	Ext	SAMN11369641	"NA"	Poland	"NA"	wls828
+GCF_000759835	NA	382	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMD00019865	"NA"	"NA"	"NA"	"NA"
+GCF_003938205	NA	384	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN10249175	Environmental facility	Pakistan	2016	CF_355
+GCF_016500905	NA	386	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340016	Human	USA	2019	CB00178
+GCF_001471775	NA	401	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN03996311	Human	USA	2014	FDAARGOS_164
+GCF_016505225	NA	409	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435576	Human	USA	2017	CB00032
+GCF_016504635	NA	414	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435606	Human	USA	2017	CB00063
+GCF_016503565	NA	419	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220323	Human	USA	2018	CB00118
+GCF_016128275	NA	79	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16357198	"NA"	USA	"NA"	FDAARGOS_1029
+GCF_013889875	NA	426	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN15148185	Bovine	United Kingdom	2017	RHB21-C01
+GCF_014332945	NA	428	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_004181995	NA	448	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10847462	Human	France	2016	ICR003204
+GCF_010588075	NA	450	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12250818	Human	USA	2016	AS012499
+GCF_013336915	NA	452	Citrobacter farmeri	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_016501555	NA	454	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16339997	Human	USA	2019	CB00155
+GCF_014596845	NA	170	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN15963934	Other	Germany	2015	C5_2
+GCF_009295665	NA	468	Citrobacter telavivensis	100.00%	RefSeq	Ext	SAMN12999967	Human	Israel	2010	6106
+GCF_008693945	NA	469	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11056361	Human	USA	"NA"	FDAARGOS_646
+GCF_016500765	NA	497	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN16340024	Human	USA	2019	CB00189
+GCF_016505295	NA	503	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435571	Human	USA	2017	CB00027
+GCF_016500825	NA	504	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340020	Human	USA	2019	CB00183
+GCF_017151475	NA	200	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN15659125	Avian	China	2018	H2F15
+GCF_016504805	NA	563	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435598	Human	USA	2017	CB00055
+GCF_902165615	NA	569	Citrobacter braakii	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_013303045	NA	583	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN15064037	Environment	Brazil	2014	CW_LB-887
+GCF_004146135	NA	589	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN10847453	Human	France	2017	ICR003007
+GCF_002208985	NA	591	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN06173300	Human	USA	2014	FDAARGOS_287
+GCF_016760555	NA	597	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN17317343	Human	USA	2020	MRSN755319
+GCF_905337845	NA	598	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA8158505	"NA"	"NA"	"NA"	"NA"
+GCF_016501505	NA	606	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340000	Human	USA	2019	CB00158
+GCF_011077955	NA	248	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016505565	NA	629	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435553	Human	USA	2017	CB00008
+GCF_018128425	NA	631	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN17736025	Human	Switzerland	2020	3347689II
+GCF_001373155	NA	636	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMEA3218000	"NA"	"NA"	"NA"	"NA"
+GCF_002918505	NA	641	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_017164125	NA	644	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN17807594	Human	Singapore	2019	18CS
+GCF_019443705	NA	645	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN14371231	Human	China	2019	NJ
+GCF_016906165	NA	646	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17843178	Other	Thailand	"NA"	Colony252
+GCF_016503485	NA	648	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN12220325	Human	USA	2018	CB00120
+GCF_003350185	NA	652	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN09428653	"NA"	not applicable	"NA"	HAMBI_1287
+GCF_000981805	NA	656	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_900461175	NA	662	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA2709015	"NA"	"NA"	"NA"	"NA"
+GCF_019382495	NA	665	Citrobacter freundii	100.00%	RefSeq	Ext	SAMN17843186	Other	Thailand	"NA"	Colony475
+GCF_002918535	NA	139	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016504055	NA	674	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220299	Human	USA	2018	CB00092
+GCF_016507865	NA	676	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11284920	Human	USA	2017	CB00014
+GCF_900446895	NA	681	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA80456668	"NA"	"NA"	"NA"	"NA"
+GCF_009363175	NA	468	Citrobacter telavivensis	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_000835925	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMN03115005	"NA"	"NA"	"NA"	ATCC 51459
+GCF_019048065	NA	683	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN16357565	"NA"	Germany	"NA"	FDAARGOS 1423
+GCF_015669215	NA	687	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN15533137	Human	USA	2018	1001295B_180824_H11
+GCF_016501265	NA	688	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340009	Human	USA	2019	CB00168
+GCF_016500445	NA	695	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340040	Human	USA	2019	CB00206
+GCF_016504665	NA	702	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435604	Human	USA	2017	CB00061
+GCF_016503785	NA	704	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220307	Human	USA	2018	CB00102
+GCF_016502995	NA	719	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16339992	Human	USA	2019	CB00150
+GCF_002393245	NA	724	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN07312437	Environment	Missing	2005	FDAARGOS_393
+GCF_003184045	NA	731	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN09270542	Human	China	2016	L168
+GCF_016500775	NA	141	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340021	Human	USA	2019	CB00186
+GCF_001552875	NA	741	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN03842473	Human	"NA"	"NA"	DNF00568
+GCF_900451665	NA	742	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA3222069	"NA"	"NA"	"NA"	"NA"
+GCF_016507605	NA	743	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11284926	Human	USA	2018	CB00083
+GCF_016503745	NA	746	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN12220312	Human	USA	2018	CB00107
+GCF_001057775	NA	751	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN03197864	Human	USA	"NA"	661_CKOS
+GCF_902387665	NA	731	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA5851999	"NA"	"NA"	"NA"	"NA"
+GCF_016505055	NA	757	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016500385	NA	764	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340041	Human	USA	2019	CB00208
+GCF_902377535	NA	382	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMEA5851204	"NA"	"NA"	"NA"	"NA"
+GCF_004181905	NA	776	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10847465	Human	France	2016	ICR003207
+GCF_016500495	NA	788	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340037	Human	USA	2019	CB00202
+GCF_016501315	NA	793	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340008	Human	USA	2019	CB00166
+GCF_001546305	NA	794	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN03842474	Human	"NA"	"NA"	GED7778C
+GCF_016504145	NA	804	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11284927	Human	USA	2018	CB00084
+GCF_016501955	NA	813	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16339983	Human	USA	2018	CB00140
+GCF_016114665	NA	827	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN14379554	Bovine	Canada	2008	20112523
+GCF_016504155	NA	844	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11284925	Human	USA	2018	CB00082
+GCF_004684345	NA	853	Citrobacter tructae	100.00%	RefSeq	Ext	SAMN11282944	Fish	South Korea	2018	SNU WT2
+GCF_018035235	NA	300	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_013889015	NA	426	Citrobacter sedlakii	100.00%	RefSeq	Ext	SAMN15148189	Bovine	United Kingdom	2017	RHB21-C05
+GCF_016504165	NA	864	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11284924	Human	USA	2018	CB00081
+GCF_003938785	NA	872	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10163220	Human	USA	2016	FDAARGOS_526
+GCF_016500695	NA	497	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN16340025	Human	USA	2019	CB00190
+GCF_005281345	NA	875	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_014103415	NA	877	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_015965415	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMEA1486355	"NA"	"NA"	"NA"	"NA"
+GCF_900446955	NA	742	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA3222076	"NA"	"NA"	"NA"	"NA"
+GCF_020889405	NA	878	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMD00412822	"NA"	"NA"	"NA"	"NA"
+GCF_003812405	NA	469	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10163225	Human	"NA"	2016	FDAARGOS_530
+GCF_018252635	NA	881	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN18877678	Insect	India	2017	ku-bf3
+GCF_018257795	NA	883	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_900460985	NA	892	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA103924407	"NA"	"NA"	"NA"	"NA"
+GCF_012955585	NA	895	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN14653268	Human	Kazakhstan	2019	SCAID URN1-2019
+GCF_002947035	NA	896	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN04014866	"NA"	"NA"	"NA"	AR_0025
+GCF_016504225	NA	901	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN11284923	Human	USA	2018	CB00080
+GCF_008802955	NA	902	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN12512809	Human	Germany	2013	Tue2-1
+GCF_016504905	NA	908	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435594	Human	USA	2017	CB00051
+GCF_015672735	NA	917	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_005406305	NA	652	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11369648	"NA"	Poland	"NA"	TBCP-5362
+GCF_003226155	NA	938	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN09104667	Human	Spain	2012	CK778
+GCF_905337805	NA	939	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA8158506	"NA"	"NA"	"NA"	"NA"
+GCF_009832525	NA	945	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11417979	Human	USA	2017	L4281
+GCF_018106185	NA	946	Citrobacter cronae	100.00%	RefSeq	Ext	SAMN11513633	Human	Malaysia	2014	CRE806
+GCF_002249995	NA	220	Citrobacter farmeri	100.00%	RefSeq	Ext	"NA"	"NA"	"NA"	"NA"	"NA"
+GCF_014332835	NA	950	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016505495	NA	951	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435560	Human	USA	2017	CB00016
+GCF_016811995	NA	952	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016501445	NA	953	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340002	Human	USA	2019	CB00160
+GCF_900461045	NA	954	Citrobacter koseri	100.00%	RefSeq	Ext	SAMEA104338401	"NA"	"NA"	"NA"	"NA"
+GCF_002918935	NA	139	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_001858105	NA	962	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN05371063	Human	Malaysia	2013	B1B
+GCF_001546325	NA	964	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN03842475	Human	"NA"	"NA"	PSS_7778B
+GCF_016505035	NA	966	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435590	Human	USA	2017	CB00046
+GCF_018421745	NA	969	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN17373065	Human	Germany	2019	Survcare397
+GCF_910573735	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMEA8801263	"NA"	"NA"	"NA"	"NA"
+GCF_005281245	NA	978	Citrobacter braakii	100.00%	RefSeq	Ext	SAMN11369639	"NA"	Poland	"NA"	wls826
+GCF_019803045	NA	979	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN20153794	Human	Canada	2017	CCRI-24236
+GCF_016505185	NA	989	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435579	Human	USA	2017	CB00035
+GCF_000155975	NA	180	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_017154235	NA	881	Citrobacter amalonaticus	100.00%	RefSeq	Ext	SAMN18043265	Insect	India	2016	ku-bf4
+GCF_016501105	NA	1007	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340013	Human	USA	2019	CB00172
+GCF_004569315	NA	127	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN11126861	Rodent	United Kingdom	2017	BL23
+GCF_010231475	NA	1014	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_014332855	NA	950	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_902706235	NA	1015	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016504745	NA	1019	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN10435603	Human	USA	2017	CB00060
+GCF_016500565	NA	1026	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16340031	Human	USA	2019	CB00196
+GCF_021278985	NA	54	Citrobacter rodentium	100.00%	RefSeq	Ext	SAMN21155799	Rodent	not applicable	"NA"	DSM 16636
+GCF_016501675	NA	1033	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN16339993	Human	USA	2019	CB00151
+GCF_015167655	NA	1035	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_002919495	NA	139	Citrobacter unknown	100.00%	RefSeq	NA	NA	NA	NA	NA	NA
+GCF_016503295	NA	1047	Citrobacter koseri	100.00%	RefSeq	Ext	SAMN13621912	Human	USA	2018	CB00128
+GCF_015554155	NA	1050	Citrobacter farmeri	100.00%	RefSeq	Ext	SAMN15533104	Human	USA	2016	1001302B_160321_F11

@@ -1,0 +1,1869 @@
+---
+title: "Internal Citrobacter Genomic Analysis"
+author: "Max Cummins"
+date: "17/05/2022"
+output:
+    html_document:
+        theme: spacelab
+        toc: true
+        toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Read in our packages
+library(tidyverse)
+library(abricateR)
+library(dplyr)
+library(ggplot2)
+library(ggtree)
+library(pheatmap)
+library(ComplexHeatmap)
+library(phytools)
+#library(plotly)
+library(readr)
+library(readxl)
+#library(paletteer)
+library(grid)
+library(gridExtra)
+library(hrbrthemes)
+library(cowplot)
+#library(plasmidmapR)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
+
+```
+
+## Outline
+
+
+## File summary
+
+A GitHub repository available at *https://github.com/maxlcummins/*
+contains all scripts and files required to rerun analysis detailed in this
+document.
+
+Below are the files associated with this research project and report.
+
+```
+File tree
+```
+
+```{r echo=FALSE}
+#Load paths to files needed for the script
+abritamr_path <- "results/summaries/abritamr_resistance.txt"
+abricate_path <- "results/summaries/genotype.txt"
+pMLST_path <- "results/summaries/pMLST.txt"
+mlst_path <- "results/summaries/mlst.txt"
+tree_path <- "results/summaries/trees/mashtree_rep100_internal_pass_QC.tree"
+
+species_ids_path <- "2022/bacsort/Species_ids.csv"
+
+#Provide output names
+output_name <- "Citrobacter"
+
+#Provide output directory name
+output_dir <- "2022/output"
+
+#Create an output directory
+dir.create("2022/output", showWarnings = FALSE)
+```
+
+
+```{r quiet_abricate, echo=FALSE,include=FALSE}
+#Run AbricateR to summarise genomic data
+abricateR::abricateR(
+        abricate_in = abricate_path,
+        output = output_name,
+        output_directory = output_dir,
+        identity = 90,
+        length = 90,
+        writecsv = FALSE#,
+        #pMLST_data = pMLST_path
+)
+
+#Read in our pMLST data
+pMLST_data <- read_delim(pMLST_path, delim = "\t", show_col_types = FALSE)
+
+#Convert to wide format from long format
+pMLST_data<- pMLST_data %>% pivot_wider(id_cols = 'name', names_from = 'pMLST_scheme', values_from = 'pMLST')
+
+#Join to our abricate data
+Citrobacter_simple_summary_N90L90 <- left_join(Citrobacter_simple_summary_N90L90, pMLST_data)
+
+#Read in our species IDs
+species_ids <- read_csv("2022/bacsort/Species_ids.csv")
+
+#Create a new column for our collection_names
+species_ids <- species_ids %>%
+        mutate(collection = case_when(grepl("GCF", name) ~ "RefSeq",
+                                      grepl("SD", name) ~ "Gull",
+                                      grepl("SG", name) ~ "Gull",
+                                      grepl("ERQ", name) ~ "Wastewater",
+                                      grepl("DB", name) ~ "Wastewater"))
+                                      
+
+#Create our metadata sheet (we will expand on this later with extra data)
+metadata <- species_ids
+
+
+```
+
+```{r mlst_process, echo=FALSE,include=FALSE}
+#Read in MLST data
+mlst <- read_delim(
+    mlst_path,
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE,
+    show_col_types = FALSE
+)
+
+#Read in the list of genomes which passed QC
+QC_pass <- read_csv("2022/delims/QC_pass.txt", col_names = "name", show_col_types = FALSE)
+
+#Filter out samples which didnt pass QC
+mlst <- mlst %>% filter(name %in% QC_pass$name)
+
+#Produce placeholder STs
+placeholder_STs <- mlst %>% select(-name,-scheme) %>% unique() %>% filter(ST == "-") %>% select(-ST) %>%
+       # filter(
+       #         !grepl("-", allele1),
+       #         !grepl("-", allele2),
+       #         !grepl("-", allele3),
+       #         !grepl("-", allele4),
+       #         !grepl("-", allele5),
+       #         !grepl("-", allele6),
+       #         !grepl("-", allele7)) %>% 
+mutate(ST_new = paste0("placeholder_ST",as.character(1:nrow(.)))) %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% select(ST_new, allele_cat)
+
+#Produce a list of the mlsts within the collection
+ST_list <- mlst %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% left_join(placeholder_STs, by = "allele_cat") %>% select(-allele_cat) %>% mutate(ST_new = if_else(is.na(ST_new), ST, ST_new))
+```
+
+```{r make_tree, include=FALSE, echo=FALSE}
+
+#Read in our tree
+tree <- read.tree(tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#species_cols <- c(#Red
+#"#e6194B",
+##Green
+#"#3cb44b",
+###Yellow
+##"#ffe119",
+##Blue
+#"#4363d8",
+##Orange
+#"#f58231",
+##Purple
+#"#911eb4",
+##Cyan
+#"#42d4f4",
+##Magenta
+#"#f032e6",
+##Lime
+#"#bfef45",
+##Pink
+#"#fabed4",
+##Teal
+#"#469990",
+##Brown
+#"#9A6324",
+###Beige
+##"#fffac8",
+##Maroon
+#"#800000",
+##Mint
+#"#aaffc3",
+##Olive
+#"#808000",
+##Apricot
+#"#ffd8b1",
+##Navy
+#"#000075",
+##Grey
+#"#a9a9a9",
+###White
+##"#ffffff",
+##Black
+#"#000000",
+###Lavender
+#"#dcbeff")
+#
+##Make a list of our species names
+#species_names <- metadata %>%
+#        pull(bacsort_species) %>%
+#        unique() %>%
+#        sort()
+#
+##Reduce the number of species colours
+#species_cols <- species_cols[1:length(species_names)]
+#
+##Bind them to the colours
+#names(species_cols) <- species_names
+#
+#Define our colours list for our collection names
+collection_cols <- c("lightblue", "darkred")
+        
+#Make a list of our species names
+collection_names <- species_ids %>%
+        filter(name %in% tree$tip.label) %>%
+        pull(collection) %>%
+        unique() %>%
+        sort()
+
+#Bind them to the colours
+names(collection_cols) <- collection_names
+
+species_cols <- c("Citrobacter amalonaticus" =  "#e6194B",
+"Citrobacter arsenatis" =     "#3cb44b",
+"Citrobacter braakii" =       "#4363d8",
+"Citrobacter cronae" =        "#f58231",
+"Citrobacter europaeus" =     "#911eb4",
+"Citrobacter farmeri" =       "#42d4f4",
+"Citrobacter freundii" =      "#f032e6",
+"Citrobacter gillenii" =      "#bfef45",
+"Citrobacter koseri" =        "#fabed4",
+"Citrobacter murliniae" =     "#469990",
+"Citrobacter pasteurii" =     "#9A6324",
+"Citrobacter portucalensis" = "#800000",
+"Citrobacter rodentium" =     "#aaffc3",
+"Citrobacter sedlakii" =      "#808000",
+"Citrobacter telavivensis" =  "#ffd8b1",
+"Citrobacter tructae" =       "#000075",
+"Citrobacter unknown" =       "#a9a9a9",
+"Citrobacter werkmanii" =     "#000000",
+"Citrobacter youngae" =       "#dcbeff")
+
+#Filter our metadata
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Remove unwanted species colours from the legend
+species_cols <- species_cols[names(species_cols) %in% metadata$bacsort_species]
+
+#Bind in IncF RST data
+metadata <- Citrobacter_simple_summary_N90L90 %>% select(name, incf) %>% inner_join(metadata)
+
+rownames(metadata) <- metadata$name
+
+#Plot our tree
+p <- ggtree(tree) %<+%
+        metadata +
+        geom_tiplab(size = 2,
+                align = TRUE,
+                linesize = 1,
+                aes(color = bacsort_species)
+                ) + theme(legend.position = "none")+
+        geom_tippoint(size = 1.5,
+                aes(colour = collection)
+                ) + scale_fill_manual(
+        aesthetics = c("colour", "fill"),
+        values = c(species_cols, collection_cols),
+        na.value = 'grey'
+        )
+
+species_coord <- fortify(p$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, bacsort_species, y) %>%
+        arrange(y) %>%
+        group_by(bacsort_species) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+#Bind our colours and names
+#Species_cols_df <- suppressWarnings(cbind(species_cols, species_names)) %>% as.data.frame()
+
+#Rename our coloumns
+#Species_cols_df <- Species_cols_df %>% rename(color = species_cols, bacsort_species = species_names)
+
+#Convert our colours to a dataframe
+Species_cols_df <- species_cols %>% as.data.frame() %>% rownames_to_column("bacsort_species") %>% rename("color" = ".")
+
+#Join our df of coordinates for our annotations with our colours for our annotations
+species_coord <- left_join(species_coord, Species_cols_df, by = "bacsort_species")
+
+strip_fontsize <- 3
+strip_offset <- -0.08
+strip_text_offset <- -0.005
+strip_barsize <- 2
+strip_text_hjust <- 1
+
+#Plot our core tree
+p2 <- p +
+        geom_strip(
+                species_coord$firstocc[1],
+                species_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = species_coord$color[1],
+                label = species_coord$bacsort_species[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                species_coord$firstocc[2],
+                species_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = species_coord$color[2],
+                label = species_coord$bacsort_species[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[3],
+                species_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = species_coord$color[3],
+                label = species_coord$bacsort_species[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[4], 
+                species_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = species_coord$color[4],
+                label = species_coord$bacsort_species[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[5],
+                species_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = species_coord$color[5],
+                label = species_coord$bacsort_species[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[6],
+                species_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = species_coord$color[6],
+                label = species_coord$bacsort_species[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                species_coord$firstocc[7],
+                species_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = species_coord$color[7],
+                label = species_coord$bacsort_species[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                )
+
+```
+
+## Species by Source
+
+```{r}
+metadata %>% filter(collection != "RefSeq") %>% group_by(bacsort_species, collection) %>% summarise(Count = n() ,.groups = "keep") %>% dcast(bacsort_species ~ collection)
+```
+
+## Resistance gene carriage
+
+
+```{r card, echo=FALSE, include=FALSE, fig.width=12, fig.height=8}
+
+#Read in abritamr data
+abritamr <- read_delim(abritamr_path, 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE,
+    show_col_types = FALSE)
+
+#Create a list of samples in our tree
+sample_names <- tree$tip.label %>% as.data.frame() %>% rename('name' = '.')
+
+#Filter out samples not in the tree, add in those missing from dataframe
+abritamr<- left_join(sample_names, abritamr)
+
+#Prepend abritamr cols with ABRITAMR
+colnames(abritamr) <- gsub("^", "ABRITAMR.", colnames(abritamr))
+
+#Get rid of spaces from column names
+colnames(abritamr) <- gsub(" ", "_", colnames(abritamr))
+
+#Clean up 'name' column name for joining
+abritamr <- abritamr %>% rename("name" = "ABRITAMR.name")
+
+#Replace NAs with zeroes
+resistance <- abritamr %>%
+        select(-name) %>%
+        #mutate(across(everything(), ~ gsub("[^,]+\\*", "", .x))) %>%
+        #mutate(across(everything(), ~ gsub(",$*", "", .x))) %>% 
+        #mutate(across(everything(), ~ gsub("^,*", "", .x))) %>% 
+        #mutate(across(everything(), ~ gsub("^$", "0", .x))) %>% 
+        #as.data.frame() %>%
+        mutate(across(everything(), ~ replace_na(.x, "0"))) %>%
+        mutate(across(everything(), ~ if_else(grepl("^0$", .x), "0", "1"))) %>%
+        mutate(name = abritamr$name) %>%
+        select(name, everything())
+
+#Remove prefix for colnames and get rid of spaces from colnames
+resistance <- resistance %>%
+        setNames(gsub("ABRITAMR.", "", names(.))) %>%
+        setNames(gsub(" ", "_", names(.))) 
+
+#Convert to data frame type
+resistance <- resistance %>% as.data.frame()
+
+#Assign rownames
+rownames(resistance) <- resistance$name
+
+#Remove name column
+resistance <- resistance %>% select(-name)
+
+#Set names for binary resistance categories
+resnames <- c("0", "1")
+
+#Set colours for binary resistance categories
+rescols <- c('white', '#bebeda')
+
+#Combine resistance category names and colours
+names(rescols) <- resnames
+
+#Make a new resistance table for pheatmap to use
+resistance_pheatmap <- resistance %>%
+        mutate(across(everything(), ~ as.integer(.x))) %>% as.matrix()
+
+#Generate a heatmap for clustering columns
+res_pheatmap <- pheatmap(resistance_pheatmap)
+
+#Save the heatmap
+#ggsave("2022/images/Citro_abritamr_pheatmap.pdf", res_pheatmap, device = "pdf",  height = 8.27, width = 11.69)
+
+#Extract column order
+#res_col_order <- res_pheatmap@matrix$tree_col$order
+
+#Reorder columns based on clustering
+#resistance <- resistance %>% select(all_of(res_pheatmap$tree_col$order))
+
+#Plot our heatmap of card genes
+res_p3 <- gheatmap(
+        p = p,
+        data = resistance,
+        colnames_offset_y = 0.5,
+        font.size = 3,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.05,
+        width = 5,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, rescols),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, rescols),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, length(tree$tip.label)+25) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r plot_card, echo=FALSE, fig.height=8, fig.width=12}
+res_p3
+
+#ggsave("2022/images/Citro_abritamr_gheatmap.pdf", res_p3, device = "pdf",  height = 8.27, width = 11.69)
+#library(ggtreeExtra)
+#library(ggstar)
+#library(treeio)
+#library(ggnewscale)
+#
+#p3 + 
+#      new_scale_fill() + geom_fruit(data = heatmap_df,
+#                geom=geom_tile,
+#                mapping=aes(y=Y, x=X),
+#                pwidth=0.15,
+#                axis.params=list(axis="x", # add axis text of the layer.
+#                                 text.angle=-45, # the text angle of x-axis.
+#                                 hjust=0  # adjust the horizontal position of text of axis.
+#                                 )
+#      )
+
+```
+
+## Abritamr Virulence
+
+```{r}
+
+#Read in abritamr virulence data
+abritamr_vir <- read_delim("results/summaries/abritamr_virulence.txt", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE,
+    show_col_types = FALSE)
+
+#Create a list of samples in our tree
+sample_names <- tree$tip.label %>% as.data.frame() %>% rename('name' = '.')
+
+#Filter out samples not in the tree, add in those missing from dataframe
+abritamr_vir<- left_join(sample_names, abritamr_vir)
+
+#Replace NAs with zero
+abritamr_vir <- abritamr_vir %>% mutate(across(everything(), ~ replace_na(.x, "0")))
+
+#Prepend abritamr_vir cols with abritamr_vir
+colnames(abritamr_vir) <- gsub("^", "abritamr_vir.", colnames(abritamr_vir))
+
+#Get rid of spaces from column names
+colnames(abritamr_vir) <- gsub(" ", "_", colnames(abritamr_vir))
+
+#Clean up 'name' column name for joining
+abritamr_vir <- abritamr_vir %>% rename("name" = "abritamr_vir.name")
+
+#Define the columns we wish to split (taking everything other than name)
+#To do this we identify any columns containing a comma
+cols_for_split <-
+        abritamr_vir %>%
+        select(where(~any(grepl(",", .x)))) %>%
+        colnames()
+
+#Split concatenated data (comma separated into columns)
+decat_abritamr_vir <- 
+        splitstackshape::cSplit(
+                indt = abritamr_vir,
+                splitCols = cols_for_split,
+                sep = ",",
+                direction = "wide")
+
+#Clean column names
+decat_abritamr_vir <- decat_abritamr_vir %>%
+        #Remove prefix "abritamr_vir."
+        rename_with(.cols = everything(),
+                    ~str_replace(.x,
+                                pattern = "abritamr_vir_vir\\.",
+                                replacement = ""
+                                   )
+               )
+
+#Next I need to make a list of vir_genes associated with a given antibiotic class:
+vir_gene_by_class_by_sample <-
+        decat_abritamr_vir %>%
+        pivot_longer(!name,
+                     names_to = "Class",
+                     values_to = "Gene",
+                     values_drop_na = TRUE
+                     )
+
+#Clean "Class" column
+vir_gene_by_class_by_sample <- vir_gene_by_class_by_sample %>%
+        #Remove trailing underscore and numbers"
+        mutate(Class = str_replace(Class,
+                                   pattern = "_[0-9]+$",
+                                   replacement = ""
+                                   )
+               )
+
+#Remove Class column - we will annotate this later on using 'vir_gene_by_class' df
+vir_gene_by_sample <- vir_gene_by_class_by_sample %>%
+        select(-Class)
+
+#We now want to make a wide dataframe
+vir_gene_by_sample <- vir_gene_by_sample %>%
+        #Make a column indicating vir_gene presence (for pivoting)
+        #0.5 indicates a near perfect match
+        #1.0 indicates a perfect match
+        mutate(Gene_present = if_else(
+                str_detect(
+                        string = Gene,
+                        pattern = "\\*"
+                        ),
+                0.5, 1)) %>%
+        #Remove asterisks which indicate imperfect matches
+        #These are now captured in our vallue column 'Gene_present'
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>% 
+        #Pivot our table wider
+        #Use sum function to handle situations where vir_genes are present at n > 1
+        pivot_wider(names_from = Gene,
+                    values_from = Gene_present,
+                    values_fill = 0,
+                    values_fn = sum)
+
+#Move our name column to be our rownames
+vir_gene_by_sample <- vir_gene_by_sample %>% column_to_rownames(var = "name")
+
+#Replace instances where we have multiple hits (perfect or otherwise)
+#with 1.5
+vir_gene_by_sample <- vir_gene_by_sample %>% mutate(across(everything(), ~if_else(.x > 1.5, 1.5, .x)))
+
+#Remove name column
+vir_gene_by_class <- vir_gene_by_class_by_sample %>%
+        #Remove name column
+        select(-name)
+
+#Generate our list of unique vir_gene names and their associated classes
+vir_gene_by_class <- vir_gene_by_class %>%
+        #Get rid of asterisks in our vir_gene names        
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>%
+        #Get rid of the prefix from our vir_gene classes
+        mutate(Class = str_replace(Class,
+                                  pattern = "abritamr_vir\\.",
+                                  replacement = "")) %>%
+        #Remove multiple instances of the same vir_gene
+        unique() %>%
+        #Arrange by Class
+        arrange(Class, Gene)
+
+
+#Set names for binary resistance categories
+rescolfun <- colorRampPalette(c('white', '#bebeda'))
+                              
+#Set colours for binary resistance categories
+rescols2 <- rescolfun(4)
+
+#Assign names for our options to our colours
+names(rescols2) <- c(0, 0.5, 1, 1.5)
+
+#Reorder based on vir_gene by class df
+vir_gene_by_sample <- vir_gene_by_sample %>% select(all_of(vir_gene_by_class$Gene))
+
+#Duplicate our df so we can add vir_gene counts
+vir_gene_by_sample_clone <- vir_gene_by_sample
+
+#Create a binary version of our vir_gene carriage table
+vir_gene_by_sample_clone <- vir_gene_by_sample_clone %>% mutate(across(everything(), ~if_else(.x >= 0.5, 1, .x)))
+
+#Define our function for pasting the sum of carriage of a given vir_gene (And ass.%)
+add_col_sum_perc <- function(x) {
+        new_colnames <- paste0(
+                #Gene name
+                colnames(x),
+                #Number of samples carrying said vir_gene / total number of samples
+                " (n = ", colSums(x),"/", nrow(x),
+                #Percentage of samples carring said vir_gene
+                " [", scales::percent(colSums(x)/nrow(x), accuracy = 2), "])")
+        y <- x
+        colnames(y) <- new_colnames
+        return(y)
+}
+
+#Rename all our columns with our 
+vir_gene_by_sample_clone_wperc <- add_col_sum_perc(vir_gene_by_sample_clone)
+
+# Replace our old colnames with our new ones
+colnames(vir_gene_by_sample) <- colnames(vir_gene_by_sample_clone_wperc)
+
+#Remove weird column that results from there being no virulence genes or acid resistance genes in this cohort
+vir_gene_by_sample <- vir_gene_by_sample %>% select(-starts_with("0"))
+
+#Define species cols again
+Species_cols <- Species_cols_df$color
+
+#Define species names for our cols
+names(Species_cols) <- Species_cols_df$bacsort_species
+
+#Plot our heatmap of card genes
+abritamr_vir_p3 <- gheatmap(
+        p = p2,
+        data = vir_gene_by_sample,
+        colnames_offset_y = 2,
+        font.size = 2.25,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.05,
+        width = 5,
+        color = rgb(0, 0, 0, max = 255, alpha = 150)
+        ) +
+        geom_tiplab(
+                aes(label = myextralab),
+                    align = TRUE,
+                    linetype = NULL,
+                    offset = 0.00575,
+                    size = 2
+                    ) +
+        scale_color_manual(
+                values = c(Species_cols, collection_cols),
+                na.value = 'grey'
+                ) +
+        scale_fill_gradient2(low = "white",
+                            mid = "#bebeda",
+                            high = "red",
+                            midpoint = 1) +
+        theme(legend.position = "bottom",
+              legend.box = "vertical",
+              legend.key.size = unit(1, "mm"),
+              legend.title = element_blank(),
+              legend.text = element_text(size = 8)
+                )+
+        ylim(NA, nrow(vir_gene_by_sample)*1.2) +
+        xlim(c(-0.1,NA))
+```
+## Determine CIA res status
+```{r count CIA res, echo=FALSE, fig.height=8, fig.width=12}
+
+#Duplicate the table to determine CIA status
+CIA_table <- abritamr
+
+#Select CIA gene columns
+CIA_table <- CIA_table %>% select(name, matches('Quinolone'), matches('[^not_]ESBL'), matches('[^or_]Carbapenemase'), matches('Colistin'), matches('Macrolide'), matches('Lincosamide'))
+
+CIA_table <- CIA_table %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "glpT_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "uhpT_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "gyrA_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "parC[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "marR_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~na_if(.,"")
+        ))
+
+CIA_table <- CIA_table %>%
+        column_to_rownames('name') %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   ".*",
+                                   "1"))) %>%
+        mutate(across(everything(),
+                      ~replace_na(.x,
+                                   "0"))) %>%
+        mutate(across(everything(),
+                      ~as.numeric(.x)))
+
+#
+CIA_res <- CIA_table %>%
+        mutate(CIA_res_status = rowSums(CIA_table)) %>%
+        select(CIA_res_status)  %>%
+        rownames_to_column('label') %>%
+        mutate(CIA_res_status = if_else(CIA_res_status >= 1, "+", "-"))
+
+```
+
+## Determine MDR status
+
+```{r count MDR, echo=FALSE, fig.height=8, fig.width=12}
+
+#Duplicate the table to determine CIA status
+MDR_table <- abritamr %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "glpT_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "uhpT_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "gyrA_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "parC[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "marR_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~na_if(.,"")
+        ))
+
+MDR_table <- MDR_table %>%
+        column_to_rownames('name') %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   ".*",
+                                   "1"))) %>%
+        mutate(across(everything(),
+                      ~replace_na(.x,
+                                   "0")))%>%
+        mutate(across(everything(),
+                      ~as.numeric(.x))) %>%
+        rownames_to_column('name')
+
+#Select Aminoglycoside resistance conferring columns
+MDR_table <- MDR_table %>% rowwise() %>%
+        mutate(Aminoglycoside_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Amikacin/Gentamicin/Kanamycin/Tobramycin`,
+                        `ABRITAMR.Amikacin/Kanamycin`,
+                        `ABRITAMR.Amikacin/Kanamycin/Tobramycin`,
+                        `ABRITAMR.Amikacin/Kanamycin/Tobramycin/Quinolone`,
+                        `ABRITAMR.Aminoglycosides_(Ribosomal_methyltransferase)`,
+                        `ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Fosfomycin`,
+                        `ABRITAMR.Gentamicin`,
+                        `ABRITAMR.Gentamicin/Kanamycin/Tobramycin`,
+                        `ABRITAMR.Gentamicin/Tobramycin/Apramycin`,
+                        `ABRITAMR.Kanamycin`,
+                        `ABRITAMR.Other_aminoglycoside_resistance_(non-RMT)`,
+                        `ABRITAMR.Streptomycin`
+                ))
+        )) %>% 
+        mutate(Betalactam_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Beta-lactamase_(not_ESBL_or_carbapenemase)`,
+                        `ABRITAMR.Beta-lactamase_(unknown_spectrum)`,
+                        `ABRITAMR.Carbapenemase`,
+                        `ABRITAMR.Carbapenemase_(KPC_variant)`,
+                        `ABRITAMR.Carbapenemase_(MBL)`,
+                        `ABRITAMR.ESBL`,
+                        `ABRITAMR.ESBL_(AmpC_type)`,
+                ))
+        )) %>% 
+        mutate(Ansamycin_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Rifamycin`,
+                ))
+        )) %>% 
+        mutate(Chloramphenicol_phenicol_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Chloramphenicol`,
+                        `ABRITAMR.Chloramphenicol/Florfenicol`,
+                        `ABRITAMR.Phenicol/Quinolone`,
+                ))
+        )) %>% 
+        mutate(Polymixin_resistance = `ABRITAMR.Colistin`) %>%
+        mutate(Lincosamides_resistance = `ABRITAMR.Lincosamides`) %>% 
+        mutate(Macrolides_resistance = `ABRITAMR.Macrolide`) %>% 
+        mutate(Fluoroquinolone_quinolone_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Amikacin/Kanamycin/Tobramycin/Quinolone`,
+                        `ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Phenicol/Quinolone`,
+                        `ABRITAMR.Quinolone`
+                ))
+        )) %>% 
+        mutate(Sulfonamide_resistance = `ABRITAMR.Sulfonamide`) %>%
+        mutate(Tetracycline_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Tetracycline`
+                ))
+        )) %>%
+        mutate(Trimethoprim_resistance = `ABRITAMR.Trimethoprim`)
+
+MDR_table <- MDR_table %>%
+        select(name,
+               matches("_resistance"),
+               -`ABRITAMR.Other_aminoglycoside_resistance_(non-RMT)`
+               ) %>%
+        column_to_rownames('name') %>%
+        mutate(across(everything(),
+                      ~if_else(.x >= 1, 1, 0))) %>%
+        mutate(count_AMR_genes = rowSums(.))
+        
+MDR_status <- MDR_table %>%
+        select(count_AMR_genes) %>% 
+        mutate(MDR_status = if_else(count_AMR_genes > 2, "+", "-")) %>%
+        rownames_to_column('label')
+```
+
+
+
+# Abritamr by AMR gene
+
+```{r}
+#Define the columns we wish to split (taking everything other than name)
+#To do this we identify any columns containing a comma
+cols_for_split <-
+        abritamr %>%
+        select(where(~any(grepl(",", .x)))) %>%
+        colnames()
+
+#Split concatenated data (comma separated into columns)
+decat_abritamr <- 
+        splitstackshape::cSplit(
+                indt = abritamr,
+                splitCols = cols_for_split,
+                sep = ",",
+                direction = "wide")
+
+#Clean column names
+decat_abritamr <- decat_abritamr %>%
+        #Remove prefix "ABRITAMR."
+        rename_with(.cols = everything(),
+                    ~str_replace(.x,
+                                pattern = "ABRITAMR\\.",
+                                replacement = ""
+                                   )
+               )
+
+#Next I need to make a list of genes associated with a given antibiotic class:
+gene_by_class_by_sample <-
+        decat_abritamr %>%
+        pivot_longer(!name,
+                     names_to = "Class",
+                     values_to = "Gene",
+                     values_drop_na = TRUE
+                     )
+
+#Clean "Class" column
+gene_by_class_by_sample <- gene_by_class_by_sample %>%
+        #Remove trailing underscore and numbers"
+        mutate(Class = str_replace(Class,
+                                   pattern = "_[0-4]$",
+                                   replacement = ""
+                                   )
+               )
+
+#Remove Class column - we will annotate this later on using 'gene_by_class' df
+gene_by_sample <- gene_by_class_by_sample %>%
+        select(-Class)
+
+#We now want to make a wide dataframe
+gene_by_sample <- gene_by_sample %>%
+        #Make a column indicating gene presence (for pivoting)
+        #0.5 indicates a near perfect match
+        #1.0 indicates a perfect match
+        mutate(Gene_present = if_else(
+                str_detect(
+                        string = Gene,
+                        pattern = "\\*"
+                        ),
+                0.5, 1)) %>%
+        #Remove asterisks which indicate imperfect matches
+        #These are now captured in our vallue column 'Gene_present'
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>% 
+        #Pivot our table wider
+        #Use sum function to handle situations where genes are present at n > 1
+        pivot_wider(names_from = Gene,
+                    values_from = Gene_present,
+                    values_fill = 0,
+                    values_fn = sum)
+
+#Move our name column to be our rownames
+gene_by_sample <- gene_by_sample %>% column_to_rownames(var = "name")
+
+#Replace instances where we have multiple hits (perfect or otherwise)
+#with 1.5
+gene_by_sample <- gene_by_sample %>% mutate(across(everything(), ~if_else(.x > 1.5, 1.5, .x)))
+
+#Remove name column
+gene_by_class <- gene_by_class_by_sample %>%
+        #Remove name column
+        select(-name)
+
+#Generate our list of unique gene names and their associated classes
+gene_by_class <- gene_by_class %>%
+        #Get rid of asterisks in our gene names        
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>%
+        #Remove multiple instances of the same gene
+        unique() %>%
+        #Arrange by Class
+        arrange(Class, Gene)
+
+
+#Set names for binary resistance categories
+rescolfun <- colorRampPalette(c('white', '#bebeda'))
+                              
+#Set colours for binary resistance categories
+rescols2 <- rescolfun(4)
+
+#Assign names for our options to our colours
+names(rescols2) <- c(0, 0.5, 1, 1.5)
+
+#Reorder based on gene by class df
+gene_by_sample <- gene_by_sample %>% select(all_of(gene_by_class$Gene))
+
+#Define species cols again
+Species_cols <- Species_cols_df$color
+
+#Define species names for our cols
+names(Species_cols) <- Species_cols_df$bacsort_species
+
+#Define our colours for ARG classes
+AMR_class_order <- c("Sulfonamide",
+                     "Trimethoprim",
+                     "Chloramphenicol", 
+                     "Chloramphenicol/Florfenicol",
+                     "Fosfomycin",
+                     "Tetracycline",
+                     "Beta-lactamase_(not_ESBL_or_carbapenemase)",
+                     "ESBL_(AmpC_type)",
+                     "ESBL",
+                     "Carbapenemase",
+                     "Carbapenemase_(MBL)",
+                     "Macrolide",
+                     "Lincosamides",
+                     "Colistin",
+                     "Phenicol/Quinolone",
+                     "Quinolone",
+                     "Amikacin/Kanamycin/Tobramycin/Quinolone",
+                     "Aminoglycosides_(Ribosomal_methyltransferase)",
+                     "Gentamicin/Kanamycin/Tobramycin",
+                     "Gentamicin/Tobramycin/Apramycin",
+                     "Gentamicin",
+                     "Kanamycin",
+                     "Streptomycin",
+                     "Other_aminoglycoside_resistance_(non-RMT)",
+                     "Rifamycin",
+                     "Other_antimicrobial",
+                     "Efflux")
+
+#Define the order of genes we want for our figure based on AMR class association
+order_of_cols <- AMR_class_order %>% as.data.frame() %>% rename(Class = ".")
+
+#Join our genes and the row order
+gene_by_class_sorted <- gene_by_class %>% arrange(match(Class, order_of_cols$Class))
+
+#Reorder our columns (putting SNPs at the end)
+gene_by_sample <- gene_by_sample %>% select(all_of(gene_by_class_sorted$Gene)) %>% select(-matches("_[A-Z][0-9]+[A-Z]"), matches("_[A-Z][0-9]+[A-Z]"))
+
+#Duplicate our df so we can add gene counts
+gene_by_sample_clone <- gene_by_sample
+
+#Create a binary version of our gene carriage table
+gene_by_sample_clone <- gene_by_sample_clone %>% mutate(across(everything(), ~if_else(.x >= 0.5, 1, .x)))
+
+#Define our function for pasting the sum of carriage of a given gene (And ass.%)
+add_col_sum_perc <- function(x) {
+        new_colnames <- paste0(
+                #Gene name
+                colnames(x),
+                #Number of samples carrying said gene / total number of samples
+                " (n = ", colSums(x),"/", nrow(x),
+                #Percentage of samples carring said gene
+                " [", scales::percent(colSums(x)/nrow(x), accuracy = 2), "])")
+        y <- x
+        colnames(y) <- new_colnames
+        return(y)
+}
+
+#Rename all our columns with our 
+gene_by_sample_clone_wperc <- add_col_sum_perc(gene_by_sample_clone)
+
+# Replace our old colnames with our new ones
+colnames(gene_by_sample) <- colnames(gene_by_sample_clone_wperc)
+
+#Create a dataframe with only binary variables
+#Redundant as this already exists as a variable called gene_by_sample_clone
+#gene_by_sample_binary <- gene_by_sample %>% mutate(across(everything(),
+#                                 ~ case_when(. > 0 ~ 1,
+#                                             . <= 0 ~ 0))) %>%
+#        rowSums() %>%
+#        as.data.frame() %>%
+#        rename('name' = '.')
+
+#Create a table with rowSums for count of ARGs per sample
+ARG_count <- gene_by_sample_clone %>% rowSums() %>% as.data.frame() %>% rename('Count_ARGs' = '.') %>% rownames_to_column('label')
+
+#Add this dataframe to p2's data
+p2$data <- left_join(p2$data, ARG_count, by = 'label')
+
+#Make a new list of STs
+ST_new <- ST_list %>% select(name, ST_new) %>% rename('label' = 'name')
+
+#Replace metadata placeholder names - they are too long and ugly
+ST_new$ST_new <- gsub("^", "ST", ST_new$ST_new)
+ST_new$ST_new <- gsub("STplaceholder_ST(.*)", "ST\\1^^", ST_new$ST_new)
+
+#Add MLST to p2's data
+p2$data <- left_join(p2$data, ST_new, by = 'label')
+
+#Add CIA res status to p2's data
+p2$data <- left_join(p2$data, MDR_status, by = 'label')
+
+#Add MDR status to p2's data
+p2$data <- left_join(p2$data, CIA_res, by = 'label')
+
+#Plot our heatmap of card genes
+res_p3 <- gheatmap(
+        p = p2,
+        data = gene_by_sample,
+        colnames_offset_y = 2,
+        font.size = 2.25,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.120,
+        width = 5,
+        color = rgb(0, 0, 0, max = 255, alpha = 150)
+        ) +
+        scale_color_manual(
+                values = c(Species_cols, collection_cols),
+                na.value = 'grey'
+                ) +
+        scale_fill_gradient2(low = "white",
+                            mid = "#bebeda",
+                            high = "red",
+                            midpoint = 1) +
+        geom_tiplab(
+            aes(label = as.character(ST_new)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.055,
+            size = 2,
+            hjust = 0.5
+            )+
+        geom_tiplab(
+            aes(label = as.character(CIA_res_status)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.075,
+            size = 2,
+            hjust = 0.5
+            ) +
+        geom_tiplab(
+            aes(label = as.character(Count_ARGs)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.105,
+            size = 2,
+            hjust = 0.5
+            )+
+        geom_tiplab(
+            aes(label = as.character(MDR_status)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.09,
+            size = 2,
+            hjust = 0.5
+            )+
+        theme(legend.position = "bottom",
+              legend.box = "vertical",
+              legend.key.size = unit(1, "mm"),
+              legend.title = element_blank(),
+              legend.text = element_text(size = 8)
+                )+
+        ylim(NA, nrow(gene_by_sample)*1.2) +
+        xlim(c(-0.1,NA)) 
+```
+
+## Make supp table
+
+```{r}
+
+supp_table <- right_join(Citrobacter_simple_summary_N90L90, abritamr, by = 'name')
+
+supp_table <- CIA_res %>% rename('name' = 'label') %>% inner_join(supp_table, by = 'name')
+
+supp_table <- MDR_status %>% select(-count_AMR_genes) %>% rename('name' = 'label') %>% inner_join(supp_table, by = 'name') 
+
+supp_table <- MDR_table %>% rownames_to_column('name') %>% inner_join(supp_table, by = 'name') 
+
+supp_table <- ST_new %>% rename('name' = 'label') %>% inner_join(supp_table, by = 'name') 
+
+supp_table <- metadata %>% select(-incf) %>% inner_join(supp_table, by = 'name') 
+
+write_delim(supp_table, "2022/delims/Supplementary_Table.txt", delim = "\t")
+```
+
+
+# Save AMR
+```{r}
+no_theme_abritamr <- res_p3 + theme(legend.position = "none")
+
+ggsave("2022/images/Figure2_Citro_abritamr_new.pdf", no_theme_abritamr, device = "pdf",  height = 8.27, width = 11.69)
+
+#Extract our theme
+abritamr_plot_theme_vertical <- cowplot::get_legend(res_p3)
+
+#Extract our theme
+abritamr_plot_theme_horizontal <- res_p3 +
+        theme(legend.position = "bottom",
+              legend.box = "horizontal",
+              legend.key.size = unit(1, "mm"),
+              legend.title = element_blank(),
+              legend.text = element_text(size = 8)
+                )
+
+abritamr_plot_theme_horizontal <- cowplot::get_legend(abritamr_plot_theme_horizontal)
+
+#Save our theme
+ggsave("2022/images/Figure2_Theme_horizontal_Citro_abritamr_new.pdf", abritamr_plot_theme_vertical, device = "pdf",  height = 8.27, width = 11.69)
+```
+
+
+## Virulence gene carriage
+
+```{r vfdb_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+vfdb <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- vfdb$name
+
+#Select our columns of interest
+vfdb <- vfdb %>% select(starts_with("vfdb")) 
+
+#Change multiple counts for a given gene to a single count
+vfdb[vfdb > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+vfdbcolsums <- colSums(vfdb)
+
+#Remove columns which have colsums under 1 (no hits)
+vfdb <- vfdb[, vfdbcolsums > 0]
+
+#Save a copy of our dataframe
+vfdb_binary <- vfdb
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+vfdbcolsums <- colSums(vfdb)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+vfdb[vfdb == 1] <- "Virulence gene present"
+vfdb[vfdb == 0] <- "Virulence gene absent"
+
+#Create a dataframe from our column names
+vfdb_colnames <- colnames(vfdb) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+vfdb_colnames_percs <- paste0(colnames(vfdb),
+                                     " ",
+                                     vfdbcolsums,
+                                     "/",
+                                     nrow(vfdb),
+                                     " (",
+                                     scales::percent(
+                                             vfdbcolsums/nrow(vfdb),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+vfdb_colnames_percs$join_colnames <- gsub(" .*", "", vfdb_colnames_percs$long_name)
+#Create a new column of names to join by
+vfdb_colnames_percs$long_name <- gsub("vfdb_", "", vfdb_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(vfdb_colnames, vfdb_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(vfdb) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(vfdb) <- internal_rownames
+
+#Define our colors for vfdb genes
+vfdbgenotype_vars <- c("Virulence gene present", "Virulence gene absent")
+vfdbcolors <- c("#fb8072", "white")
+names(vfdbcolors) <- vfdbgenotype_vars
+
+#Plot our heatmap of vfdb genes
+vfdb_heatmap <- gheatmap(
+        p = p2,
+        data = vfdb,
+        colnames_offset_y = 0.5,
+        font.size = 5,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.0125,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        #geom_tiplab(
+        #        aes(label = myextralab),
+        #            align = TRUE,
+        #            linetype = NULL,
+        #            offset = 0.016,
+        #            size = 2
+        #            )+
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, vfdbcolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, vfdbcolors),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r vfdb_plot, echo=FALSE, fig.width=12, fig.height=8}
+vfdb_heatmap2 <- vfdb_heatmap  + scale_x_continuous(limits = c(-0.05, 0.25))
+
+ggsave("2022/images/Figure4_Virulence_genes.pdf", vfdb_heatmap2, device = "pdf",  height = 8.27, width = 11.69)
+
+vfdb_heatmap
+```
+
+```{r, calculate_vag_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of VAG genes per sample
+VAG_gene_count <- vfdb_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+VAG_gene_count$name <- rownames(vfdb)
+
+#Restructure our table
+VAG_gene_count <- VAG_gene_count %>% rename(VAG_gene_count = ".") %>% select(name, VAG_gene_count)
+
+#Bind in our species column
+VAG_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(VAG_gene_count, by = "name")
+
+#Group by species and average the VAG gene counts
+VAG_genes_source_species <- VAG_gene_count %>% group_by(bacsort_species, collection) %>% summarise("VAG gene count (mean)" = mean(VAG_gene_count), .groups = "keep") %>% mutate(`VAG gene count (mean)` = round(`VAG gene count (mean)`, digits = 1)) %>% arrange(desc(`VAG gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+VAG_genes_source_species_simple <- VAG_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r VAG_gene_source_species_table, echo=FALSE}
+knitr::kable(VAG_genes_source_species_simple, align = 'c')
+```
+
+
+
+## IS carriage
+
+```{r ISfinder_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+ISfinder <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- ISfinder$name
+
+#Select our columns of interest
+ISfinder <- ISfinder %>% select(starts_with("ISfinder")) 
+
+#Change multiple counts for a given gene to a single count
+ISfinder[ISfinder > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+ISfindercolsums <- colSums(ISfinder)
+
+#Remove columns which have colsums under 1 (no hits)
+ISfinder <- ISfinder[, ISfindercolsums > 0]
+
+#Save a copy of our dataframe
+ISfinder_binary <- ISfinder
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+ISfindercolsums <- colSums(ISfinder)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+ISfinder[ISfinder == 1] <- "IS element present"
+ISfinder[ISfinder == 0] <- "IS element absent"
+
+#Create a dataframe from our column names
+ISfinder_colnames <- colnames(ISfinder) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+ISfinder_colnames_percs <- paste0(colnames(ISfinder),
+                                     " ",
+                                     ISfindercolsums,
+                                     "/",
+                                     nrow(ISfinder),
+                                     " (",
+                                     scales::percent(
+                                             ISfindercolsums/nrow(ISfinder),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+ISfinder_colnames_percs$join_colnames <- gsub(" .*", "", ISfinder_colnames_percs$long_name)
+#Create a new column of names to join by
+ISfinder_colnames_percs$long_name <- gsub("ISfinder_Feb_2020_", "", ISfinder_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(ISfinder_colnames, ISfinder_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(ISfinder) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(ISfinder) <- internal_rownames
+
+#Define our colors for ISfinder genes
+ISfindergenotype_vars <- c("IS element present", "IS element absent")
+ISfindercolors <- c("#8dd3c7", "white")
+names(ISfindercolors) <- ISfindergenotype_vars
+
+#Plot our heatmap of ISfinder genes
+ISfinder_heatmap <- gheatmap(
+        p = p2,
+        data = ISfinder,
+        colnames_offset_y = 0.5,
+        font.size = 2,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.014,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, ISfindercolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, ISfindercolors),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r ISfinder_plot, echo=FALSE, fig.width=12, fig.height=8}
+ISfinder_heatmap
+```
+
+```{r, calculate_IS_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of IS genes per sample
+IS_gene_count <- ISfinder_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+IS_gene_count$name <- rownames(ISfinder)
+
+#Restructure our table
+IS_gene_count <- IS_gene_count %>% rename(IS_gene_count = ".") %>% select(name, IS_gene_count)
+
+#Bind in our species column
+IS_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(IS_gene_count, by = "name")
+
+#Group by species and average the IS gene counts
+IS_genes_source_species <- IS_gene_count %>% group_by(bacsort_species, collection) %>% summarise("IS gene count (mean)" = mean(IS_gene_count), .groups = "keep") %>% mutate(`IS gene count (mean)` = round(`IS gene count (mean)`, digits = 1)) %>% arrange(desc(`IS gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+IS_genes_source_species_simple <- IS_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r IS_gene_source_species_table, echo=FALSE}
+knitr::kable(IS_genes_source_species_simple, align = 'c')
+```
+
+
+## Plasmid gene carriage
+
+```{r plasmidfinder_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+plasmidfinder <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- plasmidfinder$name
+
+#Select our columns of interest
+plasmidfinder <- plasmidfinder %>% select(EC_custom_intI1_HQ730118.1, EC_custom_intI2_MF150120.1, `ISfinder_Feb_2020_IS26:X00011`, starts_with("plasmidfinder")) 
+
+#Change multiple counts for a given gene to a single count
+plasmidfinder[plasmidfinder > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+plasmidfindercolsums <- colSums(plasmidfinder)
+
+#Remove columns which have colsums under 1 (no hits)
+plasmidfinder <- plasmidfinder[, plasmidfindercolsums > 0]
+
+#Save a copy of our dataframe
+plasmidfinder_binary <- plasmidfinder
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+plasmidfindercolsums <- colSums(plasmidfinder)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+plasmidfinder[plasmidfinder == 1] <- "Gene present"
+plasmidfinder[plasmidfinder == 0] <- "Gene absent"
+
+#Create a dataframe from our column names
+plasmidfinder_colnames <- colnames(plasmidfinder) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+plasmidfinder_colnames_percs <- paste0(colnames(plasmidfinder),
+                                     " ",
+                                     plasmidfindercolsums,
+                                     "/",
+                                     nrow(plasmidfinder),
+                                     " (",
+                                     scales::percent(
+                                             plasmidfindercolsums/nrow(plasmidfinder),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+plasmidfinder_colnames_percs$join_colnames <- gsub(" .*", "", plasmidfinder_colnames_percs$long_name)
+#Create a new column of names to join by
+plasmidfinder_colnames_percs$long_name <- gsub("plasmidfinder_", "", plasmidfinder_colnames_percs$long_name)
+
+#Trim integron gene names
+plasmidfinder_colnames_percs$long_name <- gsub("EC_custom_", "", plasmidfinder_colnames_percs$long_name)
+
+plasmidfinder_colnames_percs$long_name <- gsub("_HQ730118.1", "", plasmidfinder_colnames_percs$long_name)
+
+plasmidfinder_colnames_percs$long_name <- gsub("_MF150120.1", "", plasmidfinder_colnames_percs$long_name)
+
+#Trim IS26 gene name
+plasmidfinder_colnames_percs$long_name <- gsub("ISfinder_Feb_2020_", "", plasmidfinder_colnames_percs$long_name)
+
+plasmidfinder_colnames_percs$long_name <- gsub(":X00011", "", plasmidfinder_colnames_percs$long_name)
+
+
+#Join our old column names to our new ones
+colname_df<- left_join(plasmidfinder_colnames, plasmidfinder_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(plasmidfinder) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(plasmidfinder) <- internal_rownames
+
+#Define our colors for plasmidfinder genes
+plasmidfindergenotype_vars <- c("Gene present", "Gene absent")
+plasmidfindercolors <- c("#80b1d3", "white")
+names(plasmidfindercolors) <- plasmidfindergenotype_vars
+
+#Plot our heatmap of plasmidfinder genes
+plasmidfinder_heatmap <- gheatmap(
+        p = p2,
+        data = plasmidfinder,
+        colnames_offset_y = 0.5,
+        font.size = 2,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.034,
+        width = 2,
+        color = rgb(120, 120, 120, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        geom_tiplab(
+            aes(label = incf),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.022,
+            size = 2
+            ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, plasmidfindercolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, plasmidfindercolors),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r plasmidfinder_plot, echo=FALSE, fig.width=12, fig.height=8}
+plasmidfinder_heatmap2 <- plasmidfinder_heatmap  + scale_x_continuous(limits = c(-0.05, 0.25))
+
+ggsave("2022/images/Figure5_plasmid_genes.pdf", plasmidfinder_heatmap2, device = "pdf",  height = 8.27, width = 11.69)
+
+plasmidfinder_heatmap2
+```
+
+```{r, calculate_plasmid_by_species, include=FALSE, echo=FALSE}
+
+#Generate the count of plasmid genes per sample
+plasmid_gene_count <- plasmidfinder_binary %>% rowSums() %>% as.data.frame()
+
+#Bind our sample names
+plasmid_gene_count$name <- rownames(plasmidfinder)
+
+#Restructure our table
+plasmid_gene_count <- plasmid_gene_count %>% rename(plasmid_gene_count = ".") %>% select(name, plasmid_gene_count)
+
+#Bind in our species column
+plasmid_gene_count <- metadata %>% select(name, bacsort_species, collection) %>% right_join(plasmid_gene_count, by = "name")
+
+#Group by species and average the plasmid gene counts
+plasmid_genes_source_species <- plasmid_gene_count %>% group_by(bacsort_species, collection) %>% summarise("plasmid gene count (mean)" = mean(plasmid_gene_count), .groups = "keep") %>% mutate(`plasmid gene count (mean)` = round(`plasmid gene count (mean)`, digits = 1)) %>% arrange(desc(`plasmid gene count (mean)`)) %>% rename("Species" = bacsort_species, "Source" = collection)
+
+plasmid_genes_source_species_simple <- plasmid_genes_source_species %>% dcast(Species ~ Source) %>% arrange(desc(Wastewater), desc(Gull))
+```
+
+```{r plasmid_gene_source_species_table, echo=FALSE}
+knitr::kable(plasmid_genes_source_species_simple, align = 'c')
+```
+
+```{r}
+
+plas_df <- plasmidfinder %>% rownames_to_column('name')
+
+combo_plas_res <- gene_by_sample %>% rownames_to_column('name') %>% full_join(plas_df, by = 'name')
+
+combo_plas_res <- combo_plas_res %>% mutate(across(where(is.numeric), as.character)) %>% column_to_rownames('name')
+
+#Plot our heatmap of card genes and plasmid genes
+res_p3 <- gheatmap(
+        p = p2,
+        data = combo_plas_res,
+        colnames_offset_y = 2,
+        font.size = 1.75,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.110,
+        width = 6,
+        color = rgb(0, 0, 0, max = 255, alpha = 150)
+        ) +
+        scale_color_manual(
+                values = c(Species_cols, collection_cols),
+                na.value = 'grey'
+                ) +
+        scale_fill_manual(values = c('0' = "white",#"",
+                                     '0.5' = "#abd9e9",
+                                     '1' = "#2c7bb6",
+                                     '1.5' = "#d7191c",
+                                     "Gene present" = "#fdae61",
+                                     "Gene absent" = "white")) +
+        geom_tiplab(
+            aes(label = as.character(ST_new)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.055,
+            size = 2,
+            hjust = 0.5
+            )+
+        geom_tiplab(
+            aes(label = as.character(CIA_res_status)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.075,
+            size = 2,
+            hjust = 0.5
+            ) +
+        geom_tiplab(
+            aes(label = as.character(Count_ARGs)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.105,
+            size = 2,
+            hjust = 0.5
+            )+
+        geom_tiplab(
+            aes(label = as.character(MDR_status)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.09,
+            size = 2,
+            hjust = 0.5
+            )+
+        theme(legend.position = "bottom",
+              legend.box = "vertical",
+              legend.key.size = unit(1, "mm"),
+              legend.title = element_blank(),
+              legend.text = element_text(size = 8)
+                )+
+        ylim(NA, nrow(gene_by_sample)*1.3) +
+        xlim(c(-0.1,NA)) 
+```
+
+
+## Plasmid gene carriage
+
+```{r EC_custom_process, echo=FALSE, include=FALSE}
+#Filter our rows of interest
+EC_custom <- Citrobacter_simple_summary_N90L90 %>% filter(name %in% tree$tip.label) 
+
+#Save our rownames
+internal_rownames <- EC_custom$name
+
+#Select our columns of interest
+EC_custom <- EC_custom %>% select(starts_with("EC_custom")) 
+
+#Change multiple counts for a given gene to a single count
+EC_custom[EC_custom > 1] <- 1
+
+#Count the number of time a gene occurs in the cohort
+EC_customcolsums <- colSums(EC_custom)
+
+#Remove columns which have colsums under 1 (no hits)
+EC_custom <- EC_custom[, EC_customcolsums > 0]
+
+#Save a copy of our dataframe
+EC_custom_binary <- EC_custom
+
+#Count the number of time a gene occurs in the cohort (after removing 0 columns)
+EC_customcolsums <- colSums(EC_custom)
+
+#Create new names for our cell contents to help colorise things in our heatmap
+EC_custom[EC_custom == 1] <- "Plasmid replicon present"
+EC_custom[EC_custom == 0] <- "Plasmid replicon absent"
+
+#Create a dataframe from our column names
+EC_custom_colnames <- colnames(EC_custom) %>% as.data.frame() %>% rename(join_colnames = ".")
+
+#Add percentages to colnames
+EC_custom_colnames_percs <- paste0(colnames(EC_custom),
+                                     " ",
+                                     EC_customcolsums,
+                                     "/",
+                                     nrow(EC_custom),
+                                     " (",
+                                     scales::percent(
+                                             EC_customcolsums/nrow(EC_custom),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     ) %>% as.data.frame() %>% rename(long_name = ".")
+
+#Create a new column of names to join by
+EC_custom_colnames_percs$join_colnames <- gsub(" .*", "", EC_custom_colnames_percs$long_name)
+#Create a new column of names to join by
+EC_custom_colnames_percs$long_name <- gsub("EC_custom_", "", EC_custom_colnames_percs$long_name)
+
+#Join our old column names to our new ones
+colname_df<- left_join(EC_custom_colnames, EC_custom_colnames_percs, by = "join_colnames")
+
+#Reassign our rownames
+colnames(EC_custom) <- colname_df$long_name
+
+#Reassign our rownames
+rownames(EC_custom) <- internal_rownames
+
+#Define our colors for EC_custom genes
+EC_customgenotype_vars <- c("Plasmid replicon present", "Plasmid replicon absent")
+EC_customcolors <- c("#80b1d3", "white")
+names(EC_customcolors) <- EC_customgenotype_vars
+
+#Plot our heatmap of EC_custom genes
+EC_custom_heatmap <- gheatmap(
+        p = p,
+        data = EC_custom,
+        colnames_offset_y = 0.5,
+        font.size = 2,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.014,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(species_cols, collection_cols, EC_customcolors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(species_cols, collection_cols, EC_customcolors),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, 100) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r EC_custom_plot, echo=FALSE, fig.width=12, fig.height=8}
+EC_custom_heatmap
+```

@@ -1,0 +1,1239 @@
+name	Quinolone	Fosfomycin	ESBL (AmpC type)	Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline	Beta-lactamase (not ESBL or carbapenemase)	Trimethoprim	Streptomycin	Other antimicrobial	Carbapenemase (MBL)	Sulfonamide	Chloramphenicol	Amikacin/Kanamycin/Tobramycin	Macrolide	ESBL	Tetracycline	Amikacin/Kanamycin/Tobramycin/Quinolone	Rifamycin	Kanamycin	Carbapenemase	Gentamicin	Beta-lactamase (unknown spectrum)	Amikacin/Kanamycin	Gentamicin/Kanamycin/Tobramycin	Colistin	Phenicol/Quinolone	Chloramphenicol/Florfenicol	Aminoglycosides (Ribosomal methyltransferase)	Lincosamides	Other aminoglycoside resistance (non-RMT)	Gentamicin/Tobramycin/Apramycin	Amikacin/Gentamicin/Kanamycin/Tobramycin	Carbapenemase (KPC variant)
+GCF_014901875	gyrA_S83I,parE_L416F,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaCMY-23	marR_S3N	blaOXA-10,blaTEM-1	dfrA17	aadA1,aadA5	ble	blaNDM-1	sul1,sul1*	cmlA5*	aac(6')-Ib3	mph(A)*	blaSHV-12																		
+GCF_001281005	gyrA_S83I,parC_S80I,qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N																												
+GCF_905218895	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-76*	marR_S3N	blaOXA-1		aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia	blaKPC-2													
+GCF_902166445		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+GCF_016500615	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_016905765	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1,catB3					aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IIe												
+GCF_014856055	qnrB2	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId	blaMAL-2											
+GCF_016501665		fosA7.4,glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_013801705	qnrB89*	glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_019660505	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaTEM-1	dfrA1,dfrA12	aadA1,aadA2	ble,sat2	blaNDM-1	sul1,sul2	catA2		mph(A)	blaSHV-12	tet(D)					aac(3)-IId												
+GCF_010590395		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_016905675	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaOXA-1					sul1	catB3		mph(A)				arr-3		blaKPC-2	aac(3)-IIe												
+GCF_013925725	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_901456235	gyrA_S83I,parC_S80I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-106*	marR_S3N	blaOXA-10,blaOXA-2	dfrA12	aadA10*,aadA2*		blaIMP-8	sul1	catA1		mph(A)		tet(A)			aph(3')-Ia		aac(6')-Ib*,aac(6')-Ib4		aph(3')-XV*										
+GCF_018439045	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1,dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3			blaCTX-M-9	tet(A)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId			ant(2'')-Ia									
+GCF_008931625	qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1				blaIMP-4	sul1,sul1*	catB3		mph(A)							aac(3)-IId,aac(6')-Ib4				mcr-9								
+GCF_013724985		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_020809005	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	ble,sat2	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3			aac(3)-IId												
+GCF_902498925	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-1,blaSED*,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2	catB3			blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId		aph(3')-VI		mcr-9	oqxA*,oqxB27*	floR						
+GCF_018919595		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_014855955	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_905338045	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-67*									aac(6')-If							blaKPC-2													
+GCF_016500575	qnrB19	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA21				sul1																						
+GCF_002151755	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																												
+GCF_013836145		glpT_E448K,uhpT_E350Q																							oqxA*,oqxB25*							
+ERQ0166	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaOXA-1					sul1			mph(A)			aac(6')-Ib-cr5																
+GCF_016892575	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-106*	marR_S3N																												
+GCF_013899385	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N																												
+GCF_013725595	gyrA_D87N,gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152																													
+GCF_005281355	qnrB69*	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_016504815	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_016859905	qnrB1	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1*,cmlA10	aac(6')-If		blaCTX-M-15	tet(A),tet(C)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_000521965	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_004004805	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N															blaOXA-48													
+GCF_014803105	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2					mph(A)	blaCTX-M-15,blaOXA-35	tet(A)				blaOXA-48	aac(3)-IId,aac(6')-Ib4												
+GCF_013749535	qnrB38*	glpT_E448K,uhpT_E350Q	blaCMY-84	marR_S3N																												
+GCF_001037585	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77*	marR_S3N	blaOXA-9,blaTEM-1,blaTEM-2*,blaTEM-33*	dfrA17	aadA1,aadA1*,aadA5			sul1	catA1		mph(A)						blaKPC-2*,blaKPC-3,blaKPC-7*	aac(3)-IId,aac(6')-Ib',aac(6')-Ib*	blaTEM-181*											
+GCF_001721255	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*,blaCMY-2		blaOXA-1,blaTEM-1	dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2	catA1		mph(A)	blaCTX-M-15	tet(C)*	aac(6')-Ib-cr5		aph(3')-Ia		aac(3)-IIe												
+GCF_008931685	qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1				blaIMP-4	sul1,sul1*	catB3		mph(A)							aac(3)-IId,aac(6')-Ib4												
+GCF_900079795		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_014803115	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_900461055		glpT_E448K,uhpT_E350Q			blaCKO-1*,blaTEM-1		aadA1			sul1	catA1				tet(B)																	
+GCF_018066565	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48,blaFOX-5	marR_S3N	blaCARB-2	dfrA1,dfrA19	aadA1,aadA2	sat2		sul1	catB11,catB3,cmlA6*		mph(E),msr(E)						blaKPC-3				ant(2'')-Ia									
+GCF_005281175		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_003990165	gyrA_S83I,parC_S80I,qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-35	marR_S3N	blaTEM-1	dfrA1	aadA1	sat2																								
+GCF_002051555	parC_S80I,qnrB13,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-86*	marR_S3N		dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2			mph(A)		tet(A)			aph(3')-Ia			blaTEM-176											
+GCF_016905775	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)		tet(B)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016505335		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_001022155	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA3b	aadA1*			sul1,sul2*	catA2,catB3			blaSHV-30	tet(D)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IIe,aac(6')-Ib4												
+GCF_002192675	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1	aadA1			sul2																						
+GCF_014101295		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_005281025	qnrB69	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+ERQ0156	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_015965555	parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																														
+GCF_014679775		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_000937505	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA19			blaVIM-4									aph(3')-Ia		aac(6')-Ib4												
+GCF_001880955	gyrA_S83I,parC_S80I,qnrB19*	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaTEM-1	dfrA17,dfrB1	aadA1,aadA5		blaVIM-1	sul1	catA1,catA2,catB2		mph(E),msr(E)	blaCTX-M-15	tet(D)		arr-3			aac(6')-Ib4												
+GCF_018441285	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-1	dfrA16	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1			blaCTX-M-9					blaOXA-48				ant(2'')-Ia	mcr-9								
+GCF_019270335		glpT_E448K,uhpT_E350Q	blaCMY-70																													
+DB_3_C11	qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N					blaIMP-4	sul1	catB3		mph(A)						blaKPC-2	aac(3)-IId,aac(6')-Ib4												
+SD_5_A12		glpT_E448K,uhpT_E350Q																														
+GCF_014802805	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1,dfrA12	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id	sat2		sul1,sul2			mph(A)	blaCTX-M-15					blaOXA-48	aac(3)-IIe												
+GCF_008370125	gyrA_S83I,parC_S80I,qnrB2*	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aph(6)-Id			sul2				blaCTX-M-15		aac(6')-Ib-cr5						aph(3')-VIa*										
+GCF_002903215	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaCARB-2,blaOXA-9,blaTEM-1	dfrA19	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB11,cmlA6*		mph(E),msr(E)						blaKPC-2	aac(6')-Ib'												
+ERQ0165	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_013792365	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_002863945	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-157*		blaOXA-9,blaTEM-1	dfrA14	aadA1			sul1,sul1*				blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_003400395	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_015731115	qnrS2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA12	aadA2,aph(3'')-Ib*,aph(6)-Id			sul1,sul2					tet(D),tet(X4)			aph(3')-Ia								floR*						
+GCF_018421715	gyrA_D87N,gyrA_S83I,parC_S80I,qnrB38,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaTEM-1	dfrA27	aadA16			sul1,sul1*			mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48													
+GCF_002386385		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_019584005	qnrB69*	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_014333315		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_002918575		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_004801125		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																												
+GCF_016500865		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N			aph(3'')-Ib,aph(6)-Id					aac(6')-If*																				
+GCF_016503635	qnrB61	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_000783445		fosA7.5,glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_000018045		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_004005255	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-150	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1			mph(A)						blaOXA-48	aac(3)-IId												
+GCF_016500885		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_005281165		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_015670485		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016502045		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1	aadA1			sul1					tet(A)																	
+GCF_005281155		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_009876795		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_003015305	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-67*		blaTEM-1	dfrA1	aph(3'')-Ib,aph(6)-Id	sat2		sul1	catA1				tet(A)																	
+GCF_002417525		glpT_E448K,uhpT_E350Q	blaCMY-116*									aac(6')-If																				
+GCF_011602505		glpT_E448K,uhpT_E350Q																							oqxA*,oqxB27*							
+GCF_015230995	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-104*	marR_S3N																												
+GCF_000277565	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaTEM-1										tet(A)																	
+GCF_016500585	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1,sul2	catA2		mph(A)	blaSHV-30					blaKPC-3	aac(3)-IId												
+GCF_004801105		glpT_E448K,uhpT_E350Q	blaCMY-81																													
+GCF_005960425	qnrB4,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-97,blaDHA-1	marR_S3N	blaTEM-1	dfrA19,dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catA2,catA2*	aac(6')-Ib3		blaSHV-12	tet(D)	aac(6')-Ib-cr5	arr,arr-3			aac(3)-IIg			aac(6')-IIc	mcr-9		floR						
+GCF_004023995	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-116*,blaFOX-5	marR_S3N	blaCARB-2	dfrA17,dfrA19	aadA2,aadA5			sul1*,sul2	catA1,catB11,catB3,cmlA6*	aac(6')-If	mph(A),mph(E)*,msr(E)		tet(B)			aph(3')-Ia	blaKPC-2				ant(2'')-Ia									
+GCF_004801115		glpT_E448K,uhpT_E350Q	blaCMY-51	marR_S3N																				mcr-9								
+GCF_010319905	gyrA_S83I,parC_S80I,qnrB1,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-4	marR_S3N	blaOXA-1,blaTEM-1	dfrA12,dfrA14	aadA2,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul1*,sul2			mph(E),msr(E)		tet(A)												armA					
+GCF_002939255	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-82																					mcr-1.1								
+GCF_021417205	gyrA_S83I,parC_S80I,qnrB18,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-176	marR_S3N					blaIMP-4		catA2				tet(D)																	
+GCF_016509215	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*			dfrA15				sul1																						
+GCF_014855625	qnrB2	glpT_E448K,uhpT_E350Q			blaOXA-1,blaSED*,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_014803025	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+ERQ0683	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_016503845	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaTEM-1	dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id*			sul1		aac(6')-If	mph(A)		tet(A)					aac(3)-IId												
+GCF_000158355	qnrB18	glpT_E448K,uhpT_E350Q	blaCMY-13	marR_S3N																												
+GCF_016502215	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_013745755		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+ERQ0172	qnrA1,qnrB29	glpT_E448K,uhpT_E350Q	blaCMY-106*		blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id		blaNDM-1	sul1	catA2			blaSHV-12	tet(D),tet(G)		arr			aac(3)-IIg			aac(6')-IIc	mcr-9		floR2	rmtB4					
+GCF_001055315		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_016504035		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_016500875		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+SD_2_G2		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_900446905		glpT_E448K,uhpT_E350Q	blaCMY-118*																													
+ERQ0682	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-103		aph(3'')-Ib,aph(6)-Id			sul2																						
+GCF_905219065	gyrA_S83I,parC_S80I,qnrB2	uhpT_E350Q	blaCMY-116*	marR_S3N	blaOXA-2,blaTEM-1*	dfrA1	aadA1	sat2	blaIMP-22	sul1,sul1*,sul2		aac(6')-If							blaKPC-2	aac(3)-IIe,aac(6')-Ib*	blaTEM-181*											
+GCF_013786145		glpT_E448K,uhpT_E350Q	blaCMY-48*																													
+GCF_002918495		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_013798355	gyrA_D87Y	glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_010119415	gyrA_S83I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-157*,blaDHA-1	marR_S3N	blaOXA-1,blaOXA-10,blaTEM-1	dfrA7	aadA1			sul1,sul1*	catA1,catB3		mph(A),mph(E)*,msr(E)*			aac(6')-Ib-cr5	arr-3		blaKPC-2		blaOXA-256*		ant(2'')-Ia									
+ERQ0044	qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_016501465		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_014803275	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_002918465		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_018443005	gyrA_S83I,parC_S80R,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA19	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)	blaCTX-M-9	tet(A)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId			ant(2'')-Ia									
+GCF_018441725	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N										blaCTX-M-15					blaOXA-48													
+GCF_015730635	qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-74*		blaTEM-1		aadA22								tet(X4)											floR*		lnu(G)*				
+GCF_014931625	parE_I355T,qnrS1	fosA3,glpT_E448K,uhpT_E350Q			blaOXA-1,blaOXA-10,blaSED-1*	dfrA12,dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id*	ble	blaNDM-5	sul1	catB3,cmlA5		mph(A)	blaCTX-M-14		aac(6')-Ib-cr5	arr-2	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa		
+GCF_015234875		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_013815045	qnrB89*	glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_019656375	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*									aac(6')-Ib							blaKPC-2													
+GCF_014103655	gyrA_S83I,qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_003471655	qnrB18	glpT_E448K,uhpT_E350Q	blaCMY-13	marR_S3N																												
+GCF_005217825	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_016503915		fosA7.5,glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_001317155	gyrA_S83I,parC_S80I,qnrB2,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaTEM-1	dfrA12,dfrA14	aadA2,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2		aac(6')-Ib3	mph(A)	blaCTX-M-3	tet(A)		arr-3										rmtC					
+GCF_013797615	gyrA_S83I,parC_S80R	uhpT_E350Q	blaCMY-101*																													
+GCF_013826265	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77	marR_S3N	blaTEM-1	dfrA16				sul1					tet(A)														aph(4)-Ia	aac(3)-IVa*		
+GCF_014803265	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_016501025		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_002918555		glpT_E448K																														
+GCF_021373375		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_016500795		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016505625	qnrB70	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_014855915	qnrB2	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId	blaMAL-2											
+GCF_015674715		glpT_E448K,uhpT_E350Q	blaCMY-67*												tet(B)																	
+GCF_018342065	qnrB89	glpT_E448K,uhpT_E350Q	blaCFE-1*			dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2			mph(A)		tet(D)											floR*						
+GCF_021533375		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_900449345		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_016505395	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_016505485		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_020099335		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+ERQ0243	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_014103475	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_015230755	qnrB35,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaTEM-1	dfrA1,dfrA14	aadA1			sul1		aac(6')-Ib3		blaCTX-M-3	tet(A)		arr-3															
+GCF_016504865		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N																												
+GCF_018106225	gyrA_S83I,parC_S80I,qnrA1,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1,blaOXA-10,blaTEM-1	dfrA12,dfrA23	aadA1*,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1,catB,cmlA5		mph(A),mph(E),msr(E)	blaGES-9	tet(A)		arr-2*		blaKPC-6	aac(6')-Ib*						floR						
+GCF_016859695	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-74*			dfrA1	aadA1	sat2		sul1			mph(A)				arr-3		blaGES-5	aac(6')-Ib4												
+GCF_001482575	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-10,blaTEM-1	dfrA1,dfrA19	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id	sat2		sul1,sul2				blaSHV-12			arr		blaOXA-436	aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_001297795		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_009876695		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_009664045	gyrA_S83I,parC_S80I,qnrA1,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaTEM-1	dfrA16	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id		blaVIM-1	sul1,sul1*,sul2	catA1			blaCTX-M-9,blaSHV-12		aac(6')-Ib-cr5		aph(3')-Ia	blaOXA-48	aac(3)-IId				mcr-9								
+GCF_016504115		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_013612875	gyrA_S83I	glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_018423095	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-48*			dfrA14								blaCTX-M-3					blaOXA-48													
+GCF_003255895	qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-124*	marR_S3N																												
+GCF_001034485		glpT_E448K,uhpT_E350Q	blaCMY-48*									aac(6')-If																				
+GCF_015674155	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-82												tet(B)																	
+GCF_016504735		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N								aac(6')-If																				
+GCF_016502055		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+SG18_265_S115		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_013741395		glpT_E448K,uhpT_E350Q	blaCMY-48*																													
+GCF_000027085	parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																														
+GCF_008364715	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1	dfrA19	aadA1			sul1	catA1,catB3				tet(B)*								ant(2'')-Ia									
+GCF_014902035	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N		dfrA1	aadA1	sat2						blaSHV-30					blaKPC-2			aphA16	ant(2'')-Ia									
+GCF_902381795	gyrA_S83I,parC_S80I,qnrB54	glpT_E448K,uhpT_E350Q	blaCMY-26*	marR_S3N																												
+GCF_013890155		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_016893745	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_901456255	gyrA_S83I,parC_S80I,qnrB38	uhpT_E350Q	blaCMY-150	marR_S3N	blaOXA-10,blaOXA-2		aadA10*		blaIMP-8	sul1										aac(6')-Ib*,aac(6')-Ib4		aph(3')-XV*										
+GCF_016504365		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_018106145	gyrA_S83I,parC_S80I,qnrA1,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA12	aadA1,aadA2			sul1,sul1*	catA1		mph(A)						blaKPC-6	aac(3)-IId												
+GCF_015231155	qnrB35,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaTEM-1	dfrA1,dfrA14	aadA1			sul1		aac(6')-Ib3		blaCTX-M-3	tet(A)		arr-3															
+GCF_014104005	gyrA_S83I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-75*,blaDHA-1	marR_S3N	blaTEM-1	dfrA19				sul1,sul2	catA2	aac(6')-Ib3			tet(D)														aac(6')-31*,aacA8*			
+GCF_900446875		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_902373845	qnrB39	glpT_E448K,uhpT_E350Q	blaCMY-159*												tet(C)																	
+GCF_004353845	qnrB19*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_013746155	gyrA_S83I,parC_S80R	uhpT_E350Q	blaCMY-101*																													
+GCF_001880845	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N		dfrA12,dfrB1	aadA1,aadA2		blaVIM-1	sul1	catA1,catB2	aac(6')-If	mph(A)		tet(A)					aac(6')-Ib4												
+GCF_002919455		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_014855525	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-48*		blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_013816515	qnrB47	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_016502265	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*			dfrA1	aadA1			sul1																						
+GCF_001922445	qnrB28*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_013784645		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N																												
+SD_9_H6		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_016859715	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-74*			dfrA1	aadA1	sat2												aac(6')-Ib												
+GCF_015558715		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_001034465		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_013899325	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-104*	marR_S3N																												
+GCF_002947675		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_001413195		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_014230155	gyrA_S83I,parC_S80I,qnrS1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-101*		blaOXA-1	dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB3	aac(6')-Ib3	mph(A)	blaCTX-M-55	tet(A)*		arr-3			aac(3)-IId						floR*						
+GCF_001057215		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+ERQ0222	gyrA_S83I,qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_013725165	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-152			dfrA1	aadA1	sat2																								
+GCF_001880775	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77	marR_S3N	blaTEM-1	dfrA12,dfrB1	aadA1,aadA2		blaVIM-1	sul1,sul2	catA1,catA2,catB2		mph(A),mph(E),msr(E)		tet(D)					aac(3)-IId,aac(6')-Ib4												
+GCF_017151575	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-82,blaDHA-1		blaOXA-1	dfrA12	aadA2	ble	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa*		
+GCF_013390245	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q		marR_S3N						sul2				blaCTX-M-3,blaCTX-M-39,blaPER-2	tet(D)						blaOXA-900											
+GCF_016501745		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_013794885	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_900638065		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_018420455	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016502165	parE_I355T	glpT_E448K,uhpT_E350Q			blaSED-1*																											
+GCF_001413255		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_902387635	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_013747755	qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-82																													
+GCF_902807235	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77*	marR_S3N	blaOXA-1,blaOXA-10,blaTEM-1	dfrA16,dfrA17	aadA1,aadA2,aadA5			sul1	catA1,catB2,cmlA5			blaCTX-M-15	tet(A)	aac(6')-Ib-cr5	arr-2			aac(3)-IIe												
+GCF_019502645	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-74*,blaDHA-1		blaOXA-10	dfrA14	aadA1	ble	blaNDM-1	sul1,sul1*,sul2	cmlA5	aac(6')-Ib3	mph(A)		tet(D)		arr-2			aac(6')-Ib4*						floR*						
+GCF_000783755	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+ERQ0233	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-135	marR_S3N																												
+GCF_016894085	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159																													
+GCF_019800295	qnrS1	glpT_E448K,uhpT_E350Q			blaSED*				blaVIM-1			aac(6')-Il													oqxA*,oqxB27*							
+GCF_014104235	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-83			dfrA1	aadA1	sat2																								
+GCF_013741155		uhpT_E350Q	blaCMY-101*																													
+GCF_900460975	qnrB68	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_015230675	qnrB35,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaTEM-1	dfrA1,dfrA14	aadA1			sul1		aac(6')-Ib3		blaCTX-M-3	tet(A)		arr-3															
+GCF_005280845		glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_014803045	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1,dfrA12	aadA1,aadA2	sat2		sul1									blaOXA-48													
+GCF_902387995	qnrA1,qnrA3*	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA19	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA2,catB3	aac(6')-Ib3	mph(A)	blaSHV-12	tet(D)	aac(6')-Ib-cr5	arr,arr-3		blaKPC-2	aac(3)-IId,aac(3)-IIg	blaTEM-181*		aac(6')-IIc	mcr-9	oqxB3*							
+GCF_009876815		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_015549445		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_018447685	gyrA_S83I,parC_S80I	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N	blaTEM-2														blaOXA-162													
+GCF_014803335	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1		aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3			aac(3)-IId												
+GCF_905329885	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1,dfrA27	aadA1,aadA16	sat2		sul1						aac(6')-Ib-cr5	arr-3		blaKPC-2													
+GCF_019448455	gyrA_S83I,parC_S80I,qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-63	marR_S3N	blaTEM-1	dfrA12	aadA2,aadA22*			sul2					tet(D),tet(X4)			aph(3')-Ia								floR*		lnu(G)*	aph(4)-Ia	aac(3)-IVa		
+GCF_020889125		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N					blaIMP-1	sul1													aac(6')-IIc									
+GCF_000759815	parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																														
+GCF_001558935		glpT_E448K,uhpT_E350Q			blaSED*								mph(A)*												oqxA*,oqxB27*							
+GCF_016939615	gyrA_D87G,gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaTEM-1	dfrA1	aadA1	sat2		sul2		aac(6')-If,aac(6')-Im							blaKPC-2	aac(3)-IId											aph(2'')-IIa*	
+GCF_016505125		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_005281265		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_002151735		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_018446835	gyrA_D87Y,gyrA_S83I,parC_S80I,qnrA1	uhpT_E350Q	blaCMY-152	marR_S3N	blaOXA-10	dfrA1	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id	sat2	blaVIM-4	sul1,sul1*				blaSHV-12						aac(3)-Ib			ant(2'')-Ia									
+GCF_021729115	qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-86*	marR_S3N											tet(59)																	
+GCF_001413095		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_014855535		glpT_E448K,uhpT_E350Q	blaCMY-68		blaTEM-1		aph(3'')-Ib,aph(6)-Id												blaKPC-2	aac(3)-IId												
+GCF_005280945		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+ERQ0689	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-103		aph(3'')-Ib,aph(6)-Id			sul2																						
+GCF_018422455	qnrB2	glpT_E448K,uhpT_E350Q			blaCKO-1*,blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_001880865	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48			dfrA14,dfrB1	aadA1*,aph(6)-Id		blaVIM-1	sul1	catB2		mph(A)				arr-2			aac(6')-Ib4												
+GCF_001034475	qnrB38	glpT_E448K,uhpT_E350Q		marR_S3N	blaOXA-9,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id			sul2			mph(A)		tet(B)				blaKPC-3	aac(6')-Ib'												
+GCF_016504515	qnrB71	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016905875	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaOXA-1					sul1	catB3		mph(A)				arr-3		blaKPC-2	aac(3)-IIe												
+GCF_013618825	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA12*	aadA1,aph(3'')-Ib*,aph(6)-Id*			sul1,sul3	cmlA1		mef(B)		tet(B)*,tet(M)*			aph(3')-Ia														
+GCF_014104375	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-70																													
+GCF_001412825		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_001559235		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																												
+GCF_004152635	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1	dfrA1,dfrA12	aadA2	sat2		sul1				blaCTX-M-15		aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe												
+GCF_013882995		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_011077325	qnrB6	glpT_E448K				dfrA27	aadA16	ble	blaNDM-5	sul1,sul1*			mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3								oqxB27*	floR						
+GCF_014230185	gyrA_S83I,parC_S80I,qnrS1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-101*		blaOXA-1	dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB3	aac(6')-Ib3	mph(A)	blaCTX-M-55	tet(A)*		arr-3			aac(3)-IId						floR*						
+GCF_016504085		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_018138525	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-82		blaTEM-1	dfrA14																										
+GCF_000648515	gyrA_S83I,parC_S80I,qnrA1,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*,blaFOX-5		blaOXA-1	dfrA14,dfrA19	aadA1			sul1,sul1*	catA1,catB3	aac(6')-Ib3	mph(E),msr(E)	blaSHV-5					blaKPC-2	aac(3)-Ia			ant(2'')-Ia									
+ERQ0227	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-135	marR_S3N			aadA1	sat2																								
+GCF_010279875	gyrA_S83I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-116*,blaDHA-1	marR_S3N						sul1	catA2		mph(A)			aac(6')-Ib-cr9	arr		blaGES-5,blaGES-5*	aac(3)-IIg			aac(6')-IIc									
+GCF_013816335	qnrB19*	glpT_E448K,uhpT_E350Q	blaCMY-104*	marR_S3N																												
+GCF_014104775		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_016504825		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_012524235		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_013925325		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_014104155	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_016504605		glpT_E448K,uhpT_E350Q	blaCMY-101*									aac(6')-If*																				
+GCF_002042885	qnrB58	glpT_E448K,uhpT_E350Q	blaCMY-13*	marR_S3N																												
+GCF_002215385	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N											tmexC2,tmexD2,toprJ2				blaKPC-2													
+GCF_004331585	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_018438605	gyrA_D87Y,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-67*	marR_S3N	blaOXA-1*,blaTEM-1	dfrA16,dfrA17	aadA2,aadA5,aph(3'')-Ib,aph(6)-Id		blaVIM-2	sul1	catB3		mph(A)	blaCTX-M-9,blaSHV-12				aph(3')-Ia		aac(3)-IId,aac(6')-Ib4			ant(2'')-Ia	mcr-9								
+ERQ0671	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_001559075		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB9*							
+GCF_016504345		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_015230695	qnrB35,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaTEM-1	dfrA1,dfrA14	aadA1			sul1		aac(6')-Ib3		blaCTX-M-3	tet(A)		arr-3															
+GCF_016503495		glpT_E448K,uhpT_E350Q	blaCMY-67*	marR_S3N																												
+GCF_019660135	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaTEM-1	dfrA1,dfrA19	aadA1,aph(3'')-Ib,aph(6)-Id	ble,sat2	blaNDM-1	sul1,sul2	catA2	aac(6')-Ib3		blaSHV-12	tet(D)		arr	aph(3')-Ia		aac(3)-IId,aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_016501755	qnrB47	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_000759735		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_004024405	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-80*	marR_S3N		dfrA12,dfrA19	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA2		mph(A)	blaSHV-12	tet(D)		arr		blaKPC-3	aac(3)-IId,aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_005281305	qnrB69	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_014803285	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_001065805		glpT_E448K,uhpT_E350Q	blaCMY-82*																													
+GCF_004145665	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-1	dfrA16	aadA2,aph(3'')-Ib,aph(6)-Id*			sul1	catA1			blaCTX-M-15,blaCTX-M-9	tet(A)				blaOXA-48	aac(3)-IIe*			ant(2'')-Ia									
+GCF_016501405		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_005280805		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_016503985	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaTEM-1	dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id*			sul1		aac(6')-If	mph(A)		tet(A)					aac(3)-IId												
+GCF_015137095	gyrA_S83I,qnrB9	glpT_E448K	blaCMY-34*	marR_S3N			aadA2*,aph(3'')-Ib*,aph(6)-Id*																									
+GCF_900112055		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_016501985		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_000388155	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																												
+GCF_014803075	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA27,dfrB1	aadA1,aadA11,aadA16			sul1,sul2				blaCTX-M-3	tet(A)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-Ia				basR_G53S		floR						
+GCF_018066535	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48,blaFOX-5	marR_S3N	blaCARB-2	dfrA1,dfrA19	aadA1,aadA2	sat2		sul1*	catB11,catB3,cmlA6*		mph(E),msr(E)						blaKPC-3				ant(2'')-Ia									
+GCF_005281325		glpT_E448K,uhpT_E350Q	blaCMY-100*																													
+GCF_018423075		glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N		dfrA1	aph(6)-Id			sul2		aac(6')-If							blaOXA-162					mcr-9*								
+GCF_016428845		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_005281215		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_013728095	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_018421575	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q		marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_013821695		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_016504485	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_019270375		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_016507855	parE_I355T	glpT_E448K,uhpT_E350Q			blaSED-1*																											
+GCF_001463265	gyrA_D87N,parC_S80I,parE_I355T	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-10,blaSED-1*	dfrA14	aadA1		blaNDM-1	sul1	cmlA5		mph(E),msr(E)				arr-2					aph(3')-VI					armA					
+DB_3_D2	qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N					blaIMP-4	sul1	catB3		mph(A)						blaKPC-2	aac(3)-IId,aac(6')-Ib4												
+GCF_014802905	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1	catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_902506695	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-1,blaSED*,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2	catB3			blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId		aph(3')-VI		mcr-9	oqxA*,oqxB27*	floR						
+GCF_014333035		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_014189375	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-4,blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1,aph(3'')-Ib*,aph(6)-Id*	sat2		sul1,sul2,sul2*	catA2,catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3		blaOXA-204,blaOXA-244*	aac(3)-IId												
+GCF_002189125	qnrA1	fosA7.5,glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N	blaOXA-1	dfrA12	aadA1	bleO*		sul1,sul2,sul3	catB3,cmlA1	aac(6')-If			tet(A)*	aac(6')-Ib-cr5	arr-3	aph(3')-Ia					ant(2'')-Ia	mcr-1.1,mcr-3.19	oqxA,oqxB	floR			aph(4)-Ia	aac(3)-IVa		
+GCF_019399955	qnrB38*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_019270355		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+ERQ0183	qnrB3*	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_000764735		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_016501935		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_016501295		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+ERQ0213	gyrA_S83I,qnrS1	uhpT_E350Q	blaCMY-101*			dfrA14																										
+GCF_009721345		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_005281255	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_009856875	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159		blaTEM-1	dfrA12		ble	blaNDM-1	sul1,sul2			mph(E),msr(E)																			
+GCF_016503935		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1	aadA1			sul1,sul2					tet(A)																	
+GCF_013425705		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_016501785	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_001412735		glpT_E448K,uhpT_E350Q																														
+GCF_003812325		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+GCF_018423215	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-2	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5	ble	blaNDM-5	sul1			mph(A)	blaCTX-M-15	tet(B)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_014337295	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaOXA-9,blaTEM-1		aadA1												blaKPC-3	aac(6')-Ib'												
+GCF_003363295	gyrA_S83I,qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1	dfrA14						aac(6')-If		blaCTX-M-15	tet(A)	aac(6')-Ib-cr5						aph(3')-VIa*										
+GCF_016501115	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_014902055	gyrA_S83I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-2	marR_S3N	blaTEM-1	dfrA12	aadA2,aph(6)-Id			sul1,sul2			mph(A)		tet(D)					aac(3)-IId												
+GCF_009821555	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-74*,blaDHA-1		blaOXA-1,blaOXA-10,blaTEM-1	dfrA12,dfrA14	aadA1			sul1,sul2	catB3,cmlA5		mph(A)		tet(D)			aph(3')-Ia								floR*	rmtB1		aph(4)-Ia	aac(3)-IVa		
+GCF_001059745		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+ERQ0678	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-103		aph(3'')-Ib,aph(6)-Id			sul2																						
+GCF_013337015		glpT_E448K,uhpT_E350Q	blaCMY-48*		blaOXA-9,blaTEM-1		aadA1			sul1				blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_001411885	gyrA_S83I,parE_L416F,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2,sul2*					tet(A),tet(D)	aac(6')-Ib-cr5	arr-3									floR						
+GCF_019270215		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_019270575		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_002850715	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-101																													
+ERQ0045		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_016501905	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_009821375	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-83		blaTEM-1	dfrA27	aadA16*,aph(6)-Id	bleO*		sul1,sul2					tet(B),tet(D)	aac(6')-Ib-cr5	arr-3							mcr-1.1		floR						
+ERQ0154	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_004167485		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_016507545		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_018502305		fosA7.5,glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_016505605		fosA7.5,glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_013085885		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N																												
+GCF_001055295		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_001867255	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-63*				aadA7,aph(6)-Id			sul1									blaKPC-2*	aac(3)-IIe									aac(6')-31*			
+GCF_008370135	gyrA_S83I,parC_S80I,qnrB6	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-176*	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA14*	aadA1,aph(3'')-Ib*,aph(6)-Id			sul1,sul2	catA1*			blaCTX-M-15	tet(A),tet(A)*	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_016500505	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_016504495	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																												
+GCF_019281555	qnrB19	glpT_E448K,uhpT_E350Q			blaSED*	dfrA1	aadA1			sul1															oqxA*,oqxB27*							
+GCF_018442145	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaOXA-1,blaTEM-1	dfrA12	aadA2,aph(3'')-Ib		blaNDM-1	sul1,sul1*,sul2					tet(A)	aac(6')-Ib-cr5		aph(3')-Ia		aac(3)-IIe		aph(3')-VI										
+GCF_019047765	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016501865		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_001880905	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N		dfrA14,dfrB1	aadA1,aph(6)-Id		blaVIM-1	sul1,sul2	catB2									aac(6')-Ib4												
+GCF_016500805		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_002880615		glpT_E448K,uhpT_E350Q			blaOXA-9,blaSED*	dfrA14	aadA1												blaKPC-3	aac(6')-Ib'												
+GCF_019659905	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5	ble	blaNDM-1	sul1	catB3*		mph(A)	blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR						
+GCF_016905625	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaOXA-1					sul1	catB3		mph(A)				arr-3		blaKPC-2	aac(3)-IIe												
+GCF_013266895	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-82																													
+GCF_016505445	qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-70		blaOXA-1,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id			sul2				blaCTX-M-15	tet(A)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_018420365	gyrA_S83I,parE_L416F	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaOXA-10	dfrA14,dfrA17	aadA1,aadA5,aph(3'')-Ib,aph(6)-Id*			sul1,sul2	cmlA5				tet(A)*		arr-2	aph(3')-Ia	blaKPC-3	aac(6')-Ib4		aph(3')-VIb*				floR						
+GCF_013724765	qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-40*	marR_S3N																												
+GCF_018420675	gyrA_S83I,qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016461655		glpT_E448K,uhpT_E350Q	blaCMY-76	marR_S3N																												
+GCF_020034515	qnrB47*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_013791065		fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N																												
+GCF_019660345	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaTEM-1	dfrA1,dfrA12	aadA1,aadA2	ble,sat2	blaNDM-1	sul1,sul2	catA2		mph(A)	blaSHV-12						aac(3)-IId												
+GCF_002863965		fosA7.5,glpT_E448K,uhpT_E350Q			blaTEM-1														blaKPC-2		blaMAL-1*											
+ERQ0250	gyrA_S83I	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N																												
+GCF_001412795		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_020215855	gyrA_S83I,parC_S80I,qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-63	marR_S3N	blaTEM-1	dfrA12	aadA2,aadA22*			sul2					tet(D),tet(X4)			aph(3')-Ia								floR*		lnu(G)*	aph(4)-Ia	aac(3)-IVa		
+GCF_014803315	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA1				sul1,sul2	catA2,catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_019270315		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_018446045	gyrA_S83I,parE_L416F	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaOXA-10	dfrA14,dfrA17	aadA1,aadA5,aph(3'')-Ib,aph(6)-Id*			sul1,sul2	cmlA5				tet(A)*		arr-2	aph(3')-Ia	blaKPC-3	aac(6')-Ib4		aph(3')-VIb*				floR						
+GCF_009876755		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_016502005		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_014596835	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_005280825		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_004331535	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_016859065		glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N																												
+ERQ0173	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-152																													
+GCF_013746415	gyrA_S83I,parC_S80R	uhpT_E350Q	blaCMY-101*																													
+GCF_001546285	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-152*	marR_S3N																												
+GCF_009876705		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_900446975		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_009648935		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_900520335	gyrA_S83I,parC_S80I,qnrB19	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1	aadA1,aadA1*	sat2	blaVIM-1,blaVIM-4*	sul1,sul1*			mph(A)		tet(A),tet(D)					aac(3)-IId,aac(6')-Ib*,aac(6')-Ib4												
+GCF_900080005	qnrB28*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_016503385		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_002918855	gyrA_D87Y	glpT_E448K,uhpT_E350Q	blaCMY-152,blaFOX-5		blaCARB-2	dfrA19	aadA2			sul1*	catB11,catB3,cmlA6*		mph(E),msr(E)*						blaKPC-2				ant(2'')-Ia									
+GCF_014903125	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159		blaTEM-1	dfrA12	aadA2			sul1	catA2		mph(A)		tet(D)			aph(3')-Ia		aac(3)-IId				mcr-9								
+SG18_138_1_S32		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+ERQ0685	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-103		aph(3'')-Ib,aph(6)-Id			sul2																						
+GCF_009857035	gyrA_S83I	fosA7.4,uhpT_E350Q	blaCMY-78	marR_S3N		dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul1*,sul2			mph(A)			aac(6')-Ib-cr5	arr-3,arr-3*			aac(3)-IId												
+GCF_004801555	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-39	marR_S3N																												
+GCF_005280855		glpT_E448K,uhpT_E350Q																														
+GCF_016504105		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_014926275	qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-152*	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id			sul2	catA1*			blaCTX-M-15		aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_000759835	parE_I355T	glpT_E448K,uhpT_E350Q			blaSED-1*																											
+GCF_019265345	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-2	marR_S3N																												
+GCF_003938205		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_016501325		glpT_E448K,uhpT_E350Q	blaCMY-51	marR_S3N																												
+GCF_016500905		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_005281045	qnrB60	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N																												
+GCF_002215605	gyrA_S83I,parC_S80I,qnrB54	glpT_E448K,uhpT_E350Q	blaCMY-26*	marR_S3N																												
+GCF_014189285	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-4,blaCMY-48	marR_S3N	blaTEM-1	dfrA1	aadA1,aph(3'')-Ib*,aph(6)-Id*	sat2		sul1,sul2,sul2*	catA2,catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3		blaOXA-204	aac(3)-IId												
+GCF_013899425	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_016503645		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_018919505	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_003429605		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*		aph(3'')-Ib,aph(6)-Id								tet(Y)																	
+GCF_013168955	gyrA_S83I,parC_S80I,qnrB19	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1,dfrA1*	aadA1,aadA10*,aph(3'')-Ib,aph(6)-Id	sat2		sul1,sul2	catA2	aac(6')-Ian			tet(B)*,tet(D)			aph(3')-Ia*	blaKPC-2	aac(3)-IIe												
+GCF_002796505	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_016505385		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_009730355	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-25	marR_S3N																												
+GCF_003401455		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_001413215		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_000342325		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+ERQ0212	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_000692135	gyrA_S83F,parC_S80I	glpT_E448K,uhpT_E350Q			blaOXA-1,blaSED*,blaTEM-1					sul1	catB3					aac(6')-Ib-cr5	arr-3		blaKPC-4	aac(3)-Ib					oqxA*,oqxB27*							
+GCF_001412725		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_001471775		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016894105	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_013816795		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_003665575		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_005280915		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016502105		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+ERQ0216	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_016939655	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA1,catB3				tet(B)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId,aac(3)-IIe	blaTEM-181*											
+GCF_016505225		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+ERQ0255	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_018442185	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaOXA-1,blaTEM-1	dfrA12,dfrA19	aadA2,aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3	aph(3')-Ia	blaKPC-2	aac(3)-IId												
+GCF_021417265	gyrA_S83I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1																						
+GCF_013782845	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N			aph(3'')-Ib																									
+GCF_016504635		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+ERQ0175	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA5				sul1,sul2			ere(A)		tet(D)																	
+GCF_001586845		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_013784225		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1																											
+GCF_013614655	gyrA_S83I,qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*		blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul2				blaSHV-12			arr	aph(3')-Ia		aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_001412715		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_016503565		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_016508125	qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-157*		blaLAP-2,blaTEM-1	dfrA14	aph(3'')-Ib*,aph(6)-Id			sul2					tet(A)																	
+GCF_013792125		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_016505465		glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_018106165	gyrA_S83I,parC_S80I,qnrA1,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA12	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA1		mph(A)						blaKPC-6	aac(3)-IId												
+GCF_016128275		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_016500725		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+GCF_013874155	qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-51	marR_S3N		dfrA19*	aadA1,aadA1*,aadA2,aadA2*		blaVIM-4	sul1,sul1*	catA2,cmlA1	aac(6')-Ib3			tet(A)			aph(3')-Ia,aph(3')-Ia*		aac(3)-Ia,aac(6')-Ib4*			ant(2'')-Ia	mcr-9								
+GCF_013889875	parE_I355T	glpT_E448K,uhpT_E350Q			blaSED-1*																											
+GCF_016503625		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_901456285	gyrA_S83I,parC_S80I,qnrB38	uhpT_E350Q	blaCMY-150	marR_S3N	blaOXA-10,blaOXA-2		aadA10*		blaIMP-8	sul1										aac(6')-Ib*,aac(6')-Ib4		aph(3')-XV*										
+GCF_014332945	qnrB38*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_009905315		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_905335685	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1*	dfrA1,dfrA12	aadA2			sul1			mph(A)			aac(6')-Ib-cr5		aph(3')-Ia	blaKPC-2													
+GCF_904425445		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+ERQ0246	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_002208845		glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_013738635		glpT_E448K,uhpT_E350Q	blaCMY-152												tet(C)																	
+GCF_004331565	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N																												
+GCF_016502115	qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N																												
+GCF_018421475	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-110		aph(3'')-Ib,aph(6)-Id			sul2	catA1			blaCTX-M-3					blaOXA-48													
+GCF_020559475	qnrB33	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_014230105	gyrA_S83I,parC_S80I,qnrS1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-101*		blaOXA-1	dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB3	aac(6')-Ib3	mph(A)	blaCTX-M-55	tet(A)*		arr-3			aac(3)-IId						floR*						
+ERQ0200	qnrS2	glpT_E448K,uhpT_E350Q	blaCMY-76	marR_S3N																												
+GCF_016505245	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N		dfrA12	aadA2*			sul1		aac(6')-If	mph(A)		tet(A)																	
+GCF_902160855	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_019660715	gyrA_S83I,parC_S80I,qnrB9,qnrS2	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N	blaTEM-1	dfrA12	aadA2	ble	blaNDM-1	sul1			mph(A)	blaCTX-M-3,blaSHV-12	tet(D)					aac(3)-IId,aac(6')-Ib												
+ERQ0043		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_004795555	gyrA_S83I,parC_S80I,qnrB4,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaOXA-1	dfrA1,dfrA12	aadA2	ble	blaNDM-1	sul1	catB		mph(A)	blaCTX-M-15	tet(A)					aac(3)-IIe		aph(3')-VI										
+GCF_013739375		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N						sul2																						
+ERQ0160	gyrA_S83I,qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_019584605	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1					tet(A)																	
+GCF_018439245	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N		dfrA14			blaVIM-1						tet(B)					aac(6')-Ib4												
+GCF_004181995		glpT_E448K,uhpT_E350Q			blaCKO-1*														blaOXA-48													
+GCF_018446035	gyrA_S83I,parC_S80I,qnrB2	uhpT_E350Q	blaCMY-39	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_010588075		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_014855945	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_013336915	gyrA_S83F,qnrA1	glpT_E448K,uhpT_E350Q			blaOXA-2,blaOXA-9,blaTEM-1	dfrA14	aadA1			sul1,sul1*			ere(A)	blaSHV-7				aph(3')-Ib*	blaKPC-3	aac(6')-Ib',aac(6')-Ib4			ant(2'')-Ia		oqxB3*							
+GCF_018421175	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	ble,sat2	blaNDM-5	sul1	catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3									floR						
+GCF_009664065	gyrA_S83I,parC_S80I,qnrA1,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaOXA-9,blaTEM-1	dfrA16	aadA1,aadA2,aadA2*,aph(3'')-Ib,aph(6)-Id		blaVIM-1	sul1,sul1*,sul2	catA1	aac(6')-Ib*		blaCTX-M-9,blaSHV-12		aac(6')-Ib-cr5		aph(3')-Ia	blaOXA-48	aac(3)-IId			ant(2'')-Ia	mcr-9								
+GCF_016501555		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_005281115	qnrB69*	glpT_E448K,uhpT_E350Q	blaCMY-159*									aac(6')-If*																				
+GCF_002151785	qnrB60	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_015666935	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_001037505	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-41	marR_S3N	blaOXA-9	dfrA1	aadA1	sat2		sul2			mph(E),msr(E)	blaCTX-M-39					blaKPC-2													
+ERQ0186	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-152																													
+GCF_018422995	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1			blaSHV-12			arr		blaOXA-48	aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_014803055	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_014169975	gyrA_D87Y,gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48		blaTEM-1	dfrA12	aadA2			sul1,sul2			mph(A)						blaKPC-2	aac(3)-IId												
+GCF_014596845	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1		aadA1				catA1				tet(B)*																	
+GCF_014859035		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_014802995	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_016906145		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB9*							
+GCF_013730455	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N																												
+GCF_014802945	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_009295665		glpT_E448K,uhpT_E350Q			blaSED*																			mcr-9	oqxA*,oqxB3*							
+GCF_008693945		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_014596855	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_018439745	gyrA_S83I,parC_S80R,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA19	aadA1,aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016505085	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-150	marR_S3N																												
+GCF_019661085	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77	marR_S3N	blaTEM-1	dfrA12	aadA2	ble	blaNDM-1	sul1,sul2			mph(A)	blaSHV-12	tet(D)					aac(3)-IId												
+GCF_008693645	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_000692115	gyrA_S83I,qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*			dfrA14				sul1		aac(6')-Ib											ant(2'')-Ia									
+GCF_003362775	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-75*	marR_S3N	blaOXA-2,blaSHV-14					sul1		aac(6')-If,aac(6')-If*							blaKPC-2			aphA16	ant(2'')-Ia									
+GCF_001413125		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_016894025	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_020889185		glpT_E448K,uhpT_E350Q			blaSED*				blaIMP-1	sul1				blaCTX-M-3									aac(6')-IIc		oqxA*,oqxB27*							
+GCF_016504015		glpT_E448K,uhpT_E350Q	blaCMY-118*																													
+GCF_018444505	gyrA_S83I,parC_S80R,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2		aac(6')-If		blaCTX-M-15	tet(A),tet(B)	aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe												
+GCF_013726215		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_020593155	qnrB33	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_000982845	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_009647535		glpT_E448K,uhpT_E350Q	blaCMY-74																													
+GCF_019731375	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*			dfrA7																										
+GCF_001022685	qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-70,blaFOX-5		blaCARB-2,blaOXA-9,blaTEM-1	dfrA19	aadA1,aadA2			sul1*	catB11,catB3,cmlA6*	aac(6')-Ib	mph(E),msr(E)						blaKPC-2				ant(2'')-Ia									
+GCF_003665675		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_009910785	qnrB69	glpT_E448K,uhpT_E350Q	blaCMY-39*	marR_S3N																												
+GCF_004331635	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-137*																													
+GCF_009881155		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_014802845	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_016504005		fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N								aac(6')-If																				
+GCF_004305705		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																				mcr-9								
+GCF_016502965	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_013747275	gyrA_S83I,parE_L416F	glpT_E448K,uhpT_E350Q	blaCMY-70												tet(A)																	
+GCF_015134935	gyrA_S83I,qnrB9	glpT_E448K	blaCMY-34*	marR_S3N			aadA2*,aph(3'')-Ib*,aph(6)-Id*																									
+GCF_002114305	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1,blaOXA-10	dfrA17	aadA1,aadA5	ble	blaNDM-1	sul1	cmlA5		mph(A),mph(E),msr(E)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3			aac(3)-IIe		aph(3')-VI					armA					
+GCF_905232395	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-152*	marR_S3N		dfrB1	aadA1		blaVIM-1	sul1,sul1*	catA1,catB2									aac(6')-Ib4												
+GCF_019270235		glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_016500765	qnrB1	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id			sul2				blaCTX-M-15		aac(6')-Ib-cr5				aac(3)-IIe					oqxB3*							
+GCF_016507635		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+GCF_016406035	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-124	marR_S3N																												
+GCF_016503265		fosA3,glpT_E448K,uhpT_E350Q	blaCMY-85	marR_S3N		dfrA27	aadA16			sul1					tet(A)	aac(6')-Ib-cr5	arr-3							mcr-9								
+GCF_900079785		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_004153245	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aph(3'')-Ib,aph(6)-Id*	sat2						blaCTX-M-15		aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe*												
+GCF_016505295		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_016500825		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016133805	gyrA_S83I,parC_S80I,qnrA1,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N	blaOXA-1		aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul1*	catB3			blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3															
+GCF_005281015	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_902506715	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-1,blaSED*,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2	catB3			blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId		aph(3')-VI		mcr-9	oqxA*,oqxB27*	floR						
+GCF_016505645		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_004004705	parC_S80I	uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA12	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id*	sat2		sul1,sul2	catA2		mph(A)	blaCTX-M-15	tet(A)	aac(6')-Ib-cr5			blaOXA-48													
+GCF_905335675	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-76*,blaDHA-15	marR_S3N	blaOXA-1		aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia	blaKPC-2													
+GCF_900169625	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-70							sul1	cmlA5					aac(6')-Ib-cr5			blaKPC-2,blaOXA-48		blaOXA-74											
+GCF_018423195	gyrA_S83I,qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-65*		blaOXA-1					sul1	catA1,catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaKPC-2													
+GCF_014855935	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-48*		blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_001413035		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_000582615		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_009876715		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_013604545	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_015135215	gyrA_S83I,qnrB9	glpT_E448K	blaCMY-34*	marR_S3N			aadA2,aph(3'')-Ib*,aph(6)-Id*						mph(A)					aph(3')-Ia	blaGES-24,blaGES-47*	aac(6')-Ib,aac(6')-Ib*												
+GCF_021440745	qnrB6*	glpT_E448K,uhpT_E350Q	blaCMY-119	marR_S3N																												
+GCF_016501285	qnrB28*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_010365585		glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaTEM-1	dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id			sul2				blaCTX-M-25*				aph(3')-Ia	blaKPC-2				ant(2'')-Ia									
+GCF_010597685		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_003204265	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-9,blaTEM-1	dfrA12	aadA1,aadA2	ble	blaNDM-1	sul1,sul1*	catA1		erm(B)*,mph(A)*,mph(E),msr(E)	blaCTX-M-15						aac(6')-Ib'							armA,rmtC					
+GCF_001037495		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																												
+GCF_013724425	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_905232515	gyrA_S83I,parC_S80I,qnrB4	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaOXA-1	dfrA1	aadA1	sat2		sul1,sul1*	catB3				tet(A)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IIe												
+GCF_020341495	qnrB69	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_017151475	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-82,blaDHA-1		blaOXA-1	dfrA12	aadA2	ble	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa*		
+GCF_009876765		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_018445825	qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N		dfrA5		ble	blaNDM-5	sul1			mph(A),mph(E),msr(E)	blaCTX-M-15				aph(3')-Ia				aph(3')-VI					armA					
+GCF_016505025		glpT_E448K,uhpT_E350Q	blaCMY-48*									aac(6')-If																				
+GCF_905232555	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N		dfrA17	aadA2			sul1,sul1*,sul2		aac(6')-Ib3		blaCTX-M-9,blaSHV-12	tet(A)				blaOXA-48	aac(3)-IId			ant(2'')-Ia	mcr-9								
+GCF_002417535		fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N																												
+GCF_016503115		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_018446995	gyrA_S83I,parC_S80I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-46	marR_S3N	blaTEM-1	dfrA12	aadA1,aadA2		blaVIM-1	sul1,sul2	catB2		mph(A)		tet(D)					aac(3)-IId,aac(6')-Ib4		aph(3')-XV										
+GCF_003687835	gyrA_S83I,parC_S80I,qnrB19	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+ERQ0152	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_902160945	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_014103735	qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_002252065	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N											tmexC2,tmexD2,toprJ2				blaKPC-2													
+GCF_016503575		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_016502085		glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_002042945	qnrB19*	glpT_E448K,uhpT_E350Q	blaCMY-104*	marR_S3N																												
+GCF_008373795	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_018442425	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaOXA-48													
+GCF_019764095	gyrA_S83I,qnrB33	glpT_E448K,uhpT_E350Q	blaCFE-1*			dfrA16	aadA2			sul1				blaCTX-M-14					blaOXA-48				ant(2'')-Ia	mcr-9								
+GCF_002843195	qnrB77	glpT_E448K,uhpT_E350Q	blaCMY-127	marR_S3N	blaTEM-1	dfrA14	aph(6)-Id			sul2	catA2				tet(A)																	
+GCF_002239605	gyrA_S83I,parC_S80I,qnrB10*,qnrB4	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-70*,blaDHA-1				aph(3'')-Ib,aph(6)-Id			sul1			mph(A),mph(E),msr(E)	blaCTX-M-14	tet(B),tet(E)*			aph(3')-Ia	blaKPC-2				ant(2'')-Ia				armA					
+GCF_013170055	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N															blaKPC-2													
+GCF_001702455	gyrA_D87N,gyrA_S83I,parC_S80W	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA1	aadA5		blaIMP-4	sul1			mph(E),msr(E)					aph(3')-Ia		aac(6')-Ib4		aph(3')-XV		mcr-10.1			armA					
+GCF_015668675		glpT_E448K,uhpT_E350Q	blaCMY-67*	marR_S3N																												
+GCF_014802955	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_016503685		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_013705425	gyrA_S83I,parC_S80R,qnrS2	uhpT_E350Q		marR_S3N	blaGIL-1*,blaOXA-1		aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)	blaSHV-12		aac(6')-Ib-cr5	arr-3															
+GCF_013170035	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-66*	marR_S3N	blaOXA-1,blaTEM-1		aadA1,aph(3'')-Ib,aph(6)-Id			sul1	cmlA6		erm(B)*,mph(A)	blaCTX-M-15		aac(6')-Ib-cr5			blaKPC-2	aac(3)-IIe			ant(2'')-Ia									
+GCF_013797345	gyrA_S83I,parC_S80R	uhpT_E350Q	blaCMY-101*																													
+GCF_013590555	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_003665595		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+GCF_019802365	gyrA_S83I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA1,dfrA15	aadA1,aadA1*			sul1,sul2	catA2				tet(A)																	
+GCF_018438555	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1	aadA1*	sat2	blaVIM-4	sul1,sul2	catA2	aac(6')-Il	mph(A)						blaKPC-2			aph(3')-VI*										
+GCF_018447695	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA27	aadA1,aadA16		blaVIM-1	sul1							arr-3	aph(3')-Ia	blaKPC-2	aac(6')-Ib4									aph(4)-Ia	aac(3)-IVa		
+GCF_018446095	gyrA_S83I,parC_S80I,qnrB18	uhpT_E350Q	blaCMY-13	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aph(3'')-Ib,aph(6)-Id*			sul1,sul2	catA2		mph(A)	blaSHV-12	tet(A),tet(D)	aac(6')-Ib-cr5	arr	aph(3')-Ia	blaKPC-3	aac(3)-IId,aac(3)-IIg		aph(3')-VIb*	aac(6')-IIc	mcr-9		floR						
+GCF_013796805	gyrA_S83I,parC_S80R	uhpT_E350Q	blaCMY-101*																													
+GCF_013371705	gyrA_S83I,parC_S80I	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N			aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul2				blaCTX-M-55,blaSHV-12	tet(A)*					aac(3)-IId						floR*						
+GCF_003070705	qnrB38,qnrE1	glpT_E448K,uhpT_E350Q	blaCMY-150	marR_S3N	blaTEM-1	dfrA27	aadA16		blaLMB-1	sul1				blaCTX-M-8,blaPER-2			arr-3															
+GCF_001413155		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_003665615		glpT_E448K,uhpT_E350Q	blaCMY-75*	marR_S3N																												
+GCF_021228875	gyrA_S83I,parC_S80I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-35	marR_S3N	blaTEM-1	dfrA1	aadA1,aph(3'')-Ib,aph(6)-Id			sul2	catA1																					
+SD_9_B7		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_010590925		glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																												
+GCF_002919795	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaCARB-2,blaOXA-9,blaTEM-1	dfrA19	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB11,cmlA6*		mph(E),msr(E)						blaKPC-2	aac(6')-Ib'												
+GCF_018446195	gyrA_S83I,parE_L416F	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaCMY-16	marR_S3N	blaOXA-10	dfrA14,dfrA17	aadA1,aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2	cmlA5				tet(A)		arr-2	aph(3')-Ia	blaKPC-3	aac(6')-Ib4		aph(3')-VIb*				floR						
+GCF_009881185		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_013368465	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaLEN-11*,blaLEN-17*,blaOXA-9,blaTEM-1		aadA1			sul1,sul1*				blaSHV-104*,blaSHV-129*,blaSHV-30*,blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_016905635	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N	blaTEM-1		aph(6)-Id												blaKPC-2	aac(3)-IId												
+GCF_002923765		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_016504805		glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_003195445	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-66*	marR_S3N										blaSHV-7									ant(2'')-Ia									
+GCF_902807305	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77*	marR_S3N	blaOXA-1,blaOXA-10,blaTEM-1	dfrA14*,dfrA16,dfrA17	aadA1,aadA2,aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1,catB2,cmlA5			blaCTX-M-15	tet(A)	aac(6')-Ib-cr5	arr-2			aac(3)-IIe												
+GCF_004005165	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1	dfrA1,dfrA12	aadA1,aadA2			sul1			mph(A)	blaCTX-M-15	tet(A)	aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe												
+GCF_001952715	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-83		blaTEM-1	dfrA27	aadA16*,aph(6)-Id	bleO*		sul1,sul2					tet(B),tet(D)	aac(6')-Ib-cr5	arr-3							mcr-1.1		floR						
+GCF_013729795	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_015673475		glpT_E448K,uhpT_E350Q	blaCMY-67*												tet(B)																	
+GCF_020695525	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-51	marR_S3N		dfrA19*	aadA1,aadA2,aadA2*		blaVIM-4	sul1,sul1*	catA2,cmlA1	aac(6')-Ib3						aph(3')-Ia,aph(3')-Ia*					ant(2'')-Ia	mcr-9								
+GCF_014104295		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_902165615	qnrB10	glpT_E448K	blaCMY-101																													
+GCF_014855735	gyrA_S83I,qnrB10,qnrB2,qnrB62*	glpT_E448K,uhpT_E350Q	blaCMY-83		blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_018420725	gyrA_S83I,parC_S80I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-152*	marR_S3N	blaOXA-1,blaTEM-1	dfrA19				sul1		aac(6')-If	mph(A)	blaCTX-M-15	tet(A)	aac(6')-Ib-cr5	arr-3		blaKPC-2													
+GCF_018441905	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*		blaTEM-1	dfrA12	aadA2*,aph(3'')-Ib,aph(6)-Id		blaVIM-1	sul1,sul2			mph(A)		tet(B)					aac(3)-IId,aac(6')-Ib4												
+GCF_005280875		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_003665555	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*									aac(6')-If*																				
+GCF_004327735	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1,sul2					tet(A)																	
+GCF_005280975		fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_012952665		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id			sul2	catA1*			blaCTX-M-15	tet(A)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_015674675		glpT_E448K,uhpT_E350Q	blaCMY-67*												tet(B)																	
+GCF_017963565		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_003665635	gyrA_G81D,parC_G78D,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_014337315	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaOXA-9,blaTEM-1		aadA1												blaKPC-3	aac(6')-Ib'												
+GCF_900446885		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_015138175	gyrA_S83I,qnrB9	glpT_E448K	blaCMY-34*	marR_S3N			aadA2,aph(3'')-Ib*,aph(6)-Id*						mph(A)					aph(3')-Ia	blaGES-24	aac(6')-Ib,aac(6')-Ib'*												
+GCF_013899035	qnrB19,qnrD1*	glpT_E448K,uhpT_E350Q	blaCMY-104	marR_S3N																												
+GCF_001413045		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_902506645	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-1,blaSED*,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2	catB3			blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId		aph(3')-VI		mcr-9	oqxA*,oqxB27*	floR						
+GCF_001413295		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_013303045	gyrA_S83I,parC_S80I,qnrB12,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1,blaOXA-2	dfrA19	aadA1			sul1	catB3	aac(6')-Ib	mph(A)		tet(C)		arr-3	aph(3')-Ia	blaKPC-2,blaOXA-370				ant(2'')-Ia									
+GCF_013738135		glpT_E448K,uhpT_E350Q		marR_S3N																												
+GCF_003665655	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-152*	marR_S3N																												
+GCF_016503245	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-150	marR_S3N																												
+GCF_016504895		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N																												
+GCF_016893685	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_004146135	gyrA_S83I,parC_S80I,qnrB1,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1,blaTEM-1	dfrA14,dfrA19	aadA1			sul1				blaCTX-M-15	tet(B)*	aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe			ant(2'')-Ia									
+GCF_902388105		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_016505505		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																												
+GCF_002208985		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_017114565	qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N	blaTEM-1	dfrA14,dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*			ere(A),mph(A)						blaKPC-2	aac(3)-IId												
+GCF_016893705	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_009939625	qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-70*																				ant(2'')-Ia									
+GCF_008364635	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-137												tet(A)																	
+GCF_016504545		glpT_E448K,uhpT_E350Q	blaCMY-76*	marR_S3N																												
+GCF_016760555		glpT_E448K,uhpT_E350Q			blaCKO-1*																											blaKPC-82
+GCF_905337845		glpT_E448K,uhpT_E350Q			blaCKO-1*,blaTEM-1		aph(3'')-Ib			sul2									blaOXA-48							floR*						
+GCF_016502145	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_014218795		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N											tet(X4)											floR*						
+GCF_014803235	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_002871775		glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N											tet(D)																	
+GCF_013790835	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_018323885		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_014803225	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1		ble,sat2	blaNDM-1	sul1,sul2	catA2		mph(A),mph(E),msr(E)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId							armA					
+GCF_014803175	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1		aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_016501505		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_014712635	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-74*,blaDHA-1		blaOXA-1,blaOXA-10,blaTEM-1	dfrA12,dfrA14	aadA1			sul1,sul2	catB3,cmlA5	aac(6')-Ib3	mph(A)		tet(D)		arr-2	aph(3')-Ia								floR*	rmtB1		aph(4)-Ia	aac(3)-IVa		
+GCF_021417225	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaDHA-1	marR_S3N	blaTEM-1	dfrA17	aadA5	ble	blaNDM-1	sul1*	catA2	aac(6')-Ib3		blaSHV-12	tet(D)		arr			aac(3)-IIg			aac(6')-IIc									
+GCF_013706575		glpT_E448K,uhpT_E350Q		marR_S3N																												
+GCF_019382615	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-64*	marR_S3N																												
+GCF_014856075	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_001880795	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA17,dfrB1	aadA1,aadA5		blaVIM-1	sul1	catA1,catA2,catB2,catB3		mph(A),mph(E),msr(E)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia														
+GCF_002918835	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-152,blaFOX-5		blaCARB-2,blaOXA-9,blaTEM-1	dfrA19	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB11,catB3,cmlA6*		mph(E),msr(E)						blaKPC-2	aac(6')-Ib'			ant(2'')-Ia									
+GCF_013336895	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-9,blaTEM-1	dfrA12	aadA1,aadA2			sul1,sul1*			mph(A)	blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_005281125	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_001037485	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaOXA-9,blaTEM-1		aadA1												blaKPC-3	aac(6')-Ib'												
+GCF_015135075	gyrA_S83I,qnrB9	glpT_E448K	blaCMY-34*	marR_S3N			aadA2,aph(3'')-Ib*,aph(6)-Id*						mph(A)					aph(3')-Ia	blaGES-24	aac(6')-Ib,aac(6')-Ib'*												
+GCF_009660335		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_018445725	gyrA_D87Y,gyrA_S83I,parC_S80I	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N			aadA1		blaVIM-2	sul1				blaOXA-17				aph(3')-Ia		aac(6')-Ib4			ant(2'')-Ia									
+ERQ0161	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+DB_3_F10	qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N		dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul2														mcr-9*								
+GCF_019270195		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_011077955	qnrB6	glpT_E448K				dfrA27	aadA16			sul1,sul1*			mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3								oqxB27*	floR						
+GCF_019800135	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA12,dfrA27	aadA1,aadA16,aadA2		blaVIM-1	sul1,sul2			mph(A)		tet(D)		arr-3	aph(3')-Ia	blaKPC-2	aac(3)-IId,aac(6')-Ib4									aph(4)-Ia	aac(3)-IVa		
+DB_5_F12	qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N					blaIMP-4	sul1	catB3		mph(A)						blaKPC-2	aac(3)-IId,aac(6')-Ib4												
+GCF_000313895	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaTEM-1										tet(A)																	
+GCF_001413075		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_014855635	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA19	aadA1,aph(3'')-Ib,aph(6)-Id	sat2		sul1,sul1*	catB3		mph(A)		tet(B)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016502245	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+ERQ0310	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaCARB-2		aadA2								tet(G)											floR2						
+ERQ0230	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_013458095	gyrA_S83I,parC_S80I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-82		blaTEM-1	dfrA12	aadA2			sul1			mph(E),msr(E)		tet(B)					aac(3)-IId							armA					
+GCF_013727235	gyrA_S83I,parC_S80I	uhpT_E350Q	blaCMY-101*																													
+GCF_018440275	gyrA_S83I,parE_L416F	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaCMY-16	marR_S3N	blaOXA-10	dfrA14,dfrA17	aadA1,aadA5,aph(3'')-Ib,aph(6)-Id*			sul1,sul2	cmlA5				tet(A)*		arr-2	aph(3')-Ia	blaKPC-3	aac(6')-Ib4		aph(3')-VIb*				floR						
+GCF_016501915	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1,sul2			mph(A)		tet(D)					aac(3)-IId												
+GCF_016505565		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_004004895	gyrA_D87N,gyrA_S83I,parC_S80I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaTEM-1		aph(6)-Id												blaOXA-48	aac(3)-IIe												
+GCF_018128425	parE_I355T	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-1,blaOXA-10,blaSED-1*	dfrA1,dfrA14	aadA1		blaNDM-1	sul1,sul1*	catB3,cmlA5		mph(A),mph(E),msr(E)			aac(6')-Ib-cr5	arr-2										armA					
+GCF_904859905		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N								aac(6')-If																				
+ERQ0159	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_019270455		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_001880835	gyrA_S83I,qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N		dfrB1	aadA1		blaVIM-1	sul1	catB2		mph(E),msr(E)							aac(6')-Ib4												
+GCF_016501085	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-72*,blaDHA-1	marR_S3N	blaOXA-1	dfrA12	aadA2			sul1,sul2	catA2,catB3				tet(D)	aac(6')-Ib-cr5																
+GCF_001373155		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB9*							
+GCF_014903525	gyrA_S83I,parC_S80R,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-157*		blaOXA-10	dfrA14	aadA1			sul1,sul1*,sul2	cmlA5			blaSHV-12			arr,arr-2		blaKPC-3	aac(3)-IIg			aac(6')-IIc			floR						
+GCF_019731875		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N										blaCTX-M-14					blaOXA-48													
+GCF_001037515	qnrB85	glpT_E448K,uhpT_E350Q	blaCMY-144*	marR_S3N																												
+GCF_016939595	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA1,catB3		mph(A)		tet(B)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_014803195	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1	aadA1	sat2		sul2	catA2					aac(6')-Ib-cr5			blaOXA-48													
+GCF_002918505	qnrB19*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+ERQ0225	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1		aadA1,aph(3'')-Ib,aph(6)-Id			sul1					tet(B)																	
+GCF_000398865		glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_017164125	parE_I355T	glpT_E448K,uhpT_E350Q	blaCMY-2		blaSED-1*					sul3			erm(B)*					aph(3')-Ia		aac(3)-IId	blaTEM-176					floR						
+GCF_019443705		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_016906165		glpT_E448K,uhpT_E350Q	blaCMY-128	marR_S3N																												
+GCF_017151495	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-82,blaDHA-1		blaOXA-1	dfrA12	aadA2	ble	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa*		
+GCF_013899405	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34*	marR_S3N																												
+GCF_016503485		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_014901845	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_902160715		glpT_E448K,uhpT_E350Q	blaCMY-51	marR_S3N																												
+GCF_016501525	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_016501815	gyrA_S83I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_003350185		glpT_E448K,uhpT_E350Q			blaCKO-1*		aph(3'')-Ib,aph(6)-Id								tet(B)																	
+GCF_002151815		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_004024365	gyrA_D87N,qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaTEM-1	dfrA16	aadA2			sul1,sul2			ere(A)	blaSHV-12					blaKPC-3													
+GCF_017151545	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-82,blaDHA-1		blaOXA-1	dfrA12	aadA2	ble	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa*		
+GCF_013785085		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_000981805		glpT_E448K			blaSED*																											
+GCF_008180565	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*,blaFOX-5	marR_S3N	blaOXA-9		aadA1			sul1									blaKPC-2												aac(6')-Ib	
+GCF_902506735	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-4		blaOXA-1,blaSED*,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2	catB3			blaSHV-12	tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId		aph(3')-VI		mcr-9	oqxA*,oqxB27*	floR						
+SD_5_D4		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_004005235	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1,dfrA12	aadA2	sat2		sul1,sul2	catA2		mph(A)						blaOXA-48	aac(3)-IId												
+GCF_004004715	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1		aadA1,aph(3'')-Ib,aph(6)-Id*	sat2		sul1					tet(A)	aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe												
+GCF_014230205	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*			dfrA12	aadA2	bleO*							tet(A)																	
+GCF_900461175		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_004322975	gyrA_S83I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1,sul2					tet(A)				blaKPC-3													
+GCF_002289385		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_016503835		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_013743055	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_019382495	gyrA_S83I,qnrB38	glpT_E448K		marR_S3N																												
+GCF_001471655		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB9*							
+GCF_019270255		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_013786345		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016501885	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_013337065	gyrA_S83I,qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaTEM-1	dfrA10				sul1,sul1*			erm(C)		tet(A)				blaKPC-3				ant(2'')-Ia									
+ERQ0189	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_002918535		glpT_E448K																														
+GCF_905232605	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaTEM-1	dfrA12,dfrA17	aadA2			sul1,sul1*,sul2		aac(6')-Ib3	mph(A)	blaCTX-M-9,blaSHV-12	tet(A)				blaOXA-48	aac(3)-IId			ant(2'')-Ia	mcr-9								
+GCF_019448475	gyrA_S83I,parC_S80I,qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-63	marR_S3N	blaTEM-1	dfrA12	aadA2,aadA22*			sul2					tet(D),tet(X4)			aph(3')-Ia								floR*		lnu(G)*	aph(4)-Ia	aac(3)-IVa		
+SG18_100_2_S18		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+ERQ0224	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaOXA-1					sul1			mph(A)			aac(6')-Ib-cr5																
+GCF_016504055		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_018441215	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1	dfrA1	aadA1			sul1	catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3		blaOXA-48													
+GCF_016507865		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_013733095	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_000714305		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N									mph(A)*																			
+GCF_013826505	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-108*	marR_S3N	blaTEM-1	dfrA14	aph(6)-Id			sul2					tet(A)														aph(4)-Ia	aac(3)-IVa*		
+GCF_004331575	qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-70																													
+GCF_900446895		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_019731005	gyrA_D87Y,gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N	blaLAP-2,blaTEM-1	dfrA14	aph(3'')-Ib*,aph(6)-Id			sul2	catA2				tet(A)																	
+GCF_009363175		glpT_E448K,uhpT_E350Q			blaSED*																			mcr-9	oqxA*,oqxB3*							
+ERQ0278	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_019270295		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_000835925	parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																														
+GCF_019584545	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1					tet(A)																	
+GCF_019048065		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_011064845		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_017151535	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-82,blaDHA-1		blaOXA-1	dfrA12	aadA2	ble	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa*		
+GCF_001022275	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA3b	aadA1*			sul1			mph(E),msr(E)	blaSHV-30	tet(A)*				blaKPC-2,blaKPC-5*	aac(6')-Ib4	blaTEM-181*											
+SG18_223_S110		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_013395115		glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																				mcr-9								
+GCF_015669215		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_016501265		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_001689745		glpT_E448K,uhpT_E350Q	blaCMY-70*																													
+GCF_004331545		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_016500895		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_013168975	qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA27	aadA16			sul1						aac(6')-Ib-cr5	arr-3		blaKPC-2													
+GCF_014337275	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaOXA-9,blaTEM-1		aadA1												blaKPC-3	aac(6')-Ib'												
+GCF_004344985	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA3b	aadA1*			sul1				blaSHV-30					blaKPC-2	aac(6')-Ib4												
+GCF_005281055		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_013798115	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_016500445		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_004327825	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_016894305	gyrA_S83I,parC_S80I,qnrB6	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-176*	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1				blaSFO-1	tet(A)					aac(3)-IId												
+GCF_019655555	gyrA_S83I,parC_S80I,qepA1,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id						mph(A)		tet(A),tet(B),tet(X4),tmexC3,tmexD3*,toprJ1			aph(3')-Ia		aac(3)-IId						floR*						
+GCF_003812345		glpT_E448K,uhpT_E350Q	blaCMY-75*	marR_S3N																												
+GCF_905232695	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaTEM-1		aadA2			sul1,sul2		aac(6')-Ib3		blaCTX-M-9,blaSHV-12	tet(A)				blaOXA-48	aac(3)-IId			ant(2'')-Ia	mcr-9								
+GCF_016501625		glpT_E448K,uhpT_E350Q	blaCMY-48									aac(6')-If																				
+GCF_016504665		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_016905745	gyrA_S83I,qnrA1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1,catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IIe												
+GCF_016503785		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_003175795		fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N																												
+GCF_014103235	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_020710145	qnrS1	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N		dfrA14	aadA1,aph(3'')-Ib*		blaVIM-1	sul1,sul2										aac(6')-Ib4												
+ERQ0674	gyrA_S83I,parC_E84K,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-2,blaCMY-83		blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2			mph(A)		tet(A)*,tet(B)	aac(6')-Ib-cr5	arr-3			aac(3)-IIe						floR*						
+GCF_916618775		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																												
+GCF_004181935	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_016501425		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_018919545		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_016894145		glpT_E448K,uhpT_E350Q	blaCMY-70*																													
+ERQ0259	gyrA_S83I,parC_E84G	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1*					sul2			mph(A)							aac(3)-IId												
+GCF_016500465		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_009649895	gyrA_S83I,parC_S80I,qnrB13*,qnrS1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-122		blaOXA-1,blaTEM-1	dfrA12	aadA2,aph(3'')-Ib*,aph(6)-Id	bleO*		sul1,sul2	catB3			blaCTX-M-14	tet(A)*	aac(6')-Ib-cr5	arr-3									floR*	rmtB1	lnu(F)*				
+GCF_016503805	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N																												
+GCF_018422965	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-1		aph(3'')-Ib,aph(6)-Id			sul2	catA1								blaOXA-48													
+GCF_016502995		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_013589875	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_900520375	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-2,blaCMY-48*	marR_S3N	blaOXA-10,blaTEM-1		aadA1,aph(3'')-Ib,aph(6)-Id			sul1,sul2	cmlA5		mph(E),mph(E)*,msr(E)*	blaCTX-M-15	tet(A),tet(A)*		arr-2									floR,floR*	armA					
+GCF_901456225	gyrA_S83I,parC_S80I,qnrB38	uhpT_E350Q	blaCMY-150	marR_S3N	blaOXA-10,blaOXA-2		aadA10*		blaIMP-8	sul1										aac(6')-Ib*,aac(6')-Ib4		aph(3')-XV*										
+GCF_016505165	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_016505285		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id			sul2	catA1*			blaCTX-M-15	tet(A)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_016905585	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB3				tet(B)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_013890595		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_002393245		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_002934505	gyrA_D87Y,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-152,blaFOX-5		blaCARB-2	dfrA19	aadA2			sul1,sul1*	catB11,catB3,cmlA6*		mph(E),msr(E)*						blaKPC-2				ant(2'')-Ia									
+GCF_014596895		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*		aph(3'')-Ib,aph(6)-Id								tet(Y)																	
+GCF_001412755		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_018443215	qnrB27	glpT_E448K,uhpT_E350Q	blaCFE-1*				aadA1		blaVIM-1	sul1										aac(6')-Ib4												
+GCF_016507955		uhpT_E350Q	blaCMY-101*																													
+GCF_002252025	gyrA_S83I,qnrB32	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5				catB3		mph(A),mph(E),msr(E)	blaCTX-M-14	tmexC2,tmexD2,toprJ2	aac(6')-Ib-cr5	arr-3		blaKPC-2								armA					
+GCF_014189355	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-4,blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaOXA-204	aac(3)-IId												
+GCF_013883595		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_002151775	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaCARB-2	dfrA19	aadA2			sul1	catB11,catB3,cmlA6*		mph(E),msr(E)						blaKPC-3				ant(2'')-Ia									
+GCF_003184045	gyrA_D87N	glpT_E448K,uhpT_E350Q			blaCKO-1*														blaKPC-2													
+GCF_018067665	qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-9,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id			sul2		aac(6')-Ib			tet(A)				blaKPC-3	aac(3)-IIe												
+SD_9_A7		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_016679915	gyrA_S83I,parC_S80R	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-157*			dfrA27	aadA1*,aadA16,aadA2			sul1,sul2,sul3	cmlA1		mph(A)	blaCTX-M-14	tet(D)*,tet(M)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia						mcr-1.1		floR*			aph(4)-Ia	aac(3)-IVa		
+GCF_018107715	gyrA_S83I,qnrA1,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N	blaOXA-1,blaTEM-1	dfrA16	aadA2,aph(3'')-Ib*,aph(6)-Id		blaVIM-4	sul1,sul1*,sul2	catB3		erm(42),mph(A)	blaSFO-1	tet(A),tet(D)	aac(6')-Ib-cr5			blaKPC-6	aac(3)-IId												
+GCF_018441745	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3															
+GCF_016502025	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_020271725	gyrA_S83I,qnrB12,qnrS1,qnrS11*	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA27	aadA16,aadA22,aph(3'')-Ib,aph(6)-Id			sul1,sul2					tet(A)*,tet(X4)	aac(6')-Ib-cr5	arr-3									floR*		lnu(G)*				
+GCF_016500775		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_015137255	gyrA_S83I,qnrB9	glpT_E448K	blaCMY-34*	marR_S3N			aadA2,aph(3'')-Ib*,aph(6)-Id*			folP_P64S			mph(A)					aph(3')-Ia	blaGES-24	aac(6')-Ib,aac(6')-Ib'*												
+GCF_001413235		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_019802385	gyrA_S83I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA15	aadA1*			sul1,sul2	catA2																					
+GCF_012843215	qnrB69	glpT_E448K,uhpT_E350Q	blaCMY-39*	marR_S3N																												
+GCF_001552875		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_900451665		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_016507605		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_009881195		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_001413275		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+ERQ0217	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_016503745		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_003818115		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_014903475		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaTEM-1	dfrA26				sul2					tet(D)																	
+GCF_018439105	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1								mph(A)						blaKPC-2	aac(3)-IId												
+GCF_013337685		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_001057775		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_013816655	qnrB19*	glpT_E448K,uhpT_E350Q	blaCMY-104*	marR_S3N																												
+GCF_016505255		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N						sul2																						
+ERQ0155	gyrA_S83I,parC_S80I	uhpT_E350Q	blaCMY-101*																													
+GCF_008086465	gyrA_S83I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N		dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id			sul1									blaKPC-2													
+GCF_902387665	gyrA_D87N	glpT_E448K,uhpT_E350Q			blaCKO-1*														blaKPC-2													
+GCF_018439185	gyrA_S83I,parC_S80R,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA19	aadA1,aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+SG18_229_S54	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016505055	qnrB65	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_020559425	qnrB33	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+SG18_8_S1		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_014802885	gyrA_S83I,parC_S80I	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaOXA-9,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2				blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48													
+GCF_004005035	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aph(3'')-Ib,aph(6)-Id*							blaCTX-M-15		aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe*												
+GCF_016894045	qnrB34	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_021440245	qnrB18	glpT_E448K,uhpT_E350Q	blaCMY-176	marR_S3N																												
+ERQ0681	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-103		aph(3'')-Ib,aph(6)-Id			sul2																						
+GCF_002918455		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016500385		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016504885		glpT_E448K,uhpT_E350Q	blaCMY-82																													
+GCF_020215765	gyrA_S83I,parC_S80I,qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-63	marR_S3N	blaTEM-1		aadA22								tet(X4)											floR*		lnu(G)*				
+GCF_000826205	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_015668205	qnrB9*	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_902377535	parE_I355T	glpT_E448K,uhpT_E350Q			blaSED-1*																											
+GCF_018441765	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaOXA-48		blaTEM-181*											
+GCF_013786025		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_902807175	gyrA_S83I,qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id			sul2	catA2			blaCTX-M-15	tet(A),tet(D)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_016503095		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_020215805	gyrA_S83I,parC_S80I,qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-63	marR_S3N	blaTEM-1	dfrA12	aadA2,aadA22*			sul2					tet(D),tet(X4)			aph(3')-Ia								floR*		lnu(G)*	aph(4)-Ia	aac(3)-IVa		
+GCF_016503305		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_013786565		glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N																												
+GCF_017151595	qnrB9,qnrB91	glpT_E448K,uhpT_E350Q	blaCMY-35	marR_S3N	blaLAP-2,blaTEM-1	dfrA12,dfrA14	aadA2,aadA22*,aph(6)-Id	ble	blaNDM-5	sul1,sul2,sul3		aac(6')-Ib3	mph(A)		tet(A)		arr-2	aph(3')-Ia		aac(3)-IId								lnu(F)				
+GCF_004005615	gyrA_S83I,parC_S80I,qnrS1	uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1,dfrA12	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id*	sat2		sul1,sul2	catA2		mph(A)	blaCTX-M-15	tet(A)	aac(6')-Ib-cr5			blaOXA-48													
+GCF_019660585	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-67*	marR_S3N				ble	blaNDM-1					blaSHV-12																		
+GCF_002919485		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016507625		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																				mcr-9								
+GCF_004181905		fosA7.3,glpT_E448K,uhpT_E350Q																	blaOXA-48		blaMAL-1											
+GCF_009881175		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_005281195		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_014170055	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_011603985		glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N																												
+GCF_002075345	qnrB61	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_017151515	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-82,blaDHA-1		blaOXA-1	dfrA12	aadA2	ble	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia								floR			aph(4)-Ia	aac(3)-IVa*		
+GCF_016504785		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB9*							
+GCF_014855595	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_014855645	qnrB1,qnrB2,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016893985	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_018449455	gyrA_S83I,parC_S80I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-83																blaKPC-2			aph(3')-VIa										
+GCF_013169475	gyrA_S83I,parC_S80I,qnrB19,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-77	marR_S3N		dfrA12,dfrA27	aadA16,aadA2			sul1,sul2*			mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3		blaKPC-2													
+GCF_019660945	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaTEM-1	dfrA1,dfrA12	aadA1,aadA2	ble,sat2	blaNDM-1	sul1,sul2	catA2		mph(A)	blaSHV-12	tet(D)					aac(3)-IId												
+GCF_001273815	gyrA_S83I,parC_S80I,qnrB10	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-137,blaCMY-6		blaOXA-1			ble	blaNDM-1	sul1	catB3		mph(A)	blaCTX-M-12,blaCTX-M-14,blaSHV-12		aac(6')-Ib-cr5	arr-3		blaKPC-2													
+GCF_014903115	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N		dfrA1*	aadA1,aadA2	sat2		sul1,sul2		aac(6')-If			tet(B)																	
+GCF_019645955		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_016500495		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+ERQ0211	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaOXA-1					sul1			mph(A)			aac(6')-Ib-cr5																
+GCF_013726615		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_014855715	gyrA_S83I,qnrB2,qnrB38,qnrB53*	glpT_E448K,uhpT_E350Q		marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_014802855	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1	catA2,catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId*												
+GCF_016501315		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_001546305		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016504585		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_014856005	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_000936345		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB9*							
+GCF_013336865	qnrB38,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul1*,sul2			mph(A)	blaSHV-7	tet(A)	aac(6')-Ib-cr5	arr-3,arr-3*	aph(3')-Ia		aac(3)-IId			ant(2'')-Ia			floR*						
+GCF_009648235	qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-63*	marR_S3N																												
+GCF_016505095	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_009721615		glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_003665535	qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N																												
+GCF_009821535	gyrA_S83I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA27	aadA16			sul1,sul2				blaSHV-2	tet(D)	aac(6')-Ib-cr5	arr-3			aac(3)-IId						floR						
+GCF_013748235	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_018066625	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48,blaFOX-5	marR_S3N	blaCARB-2	dfrA19	aadA2			sul1*	catB11,catB3,cmlA6*		mph(E),msr(E)						blaKPC-3				ant(2'')-Ia									
+GCF_019048045	qnrB68	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016504145		glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_905330765	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N			aadA2			sul1,sul2				blaCTX-M-9*					blaOXA-48				ant(2'')-Ia	mcr-9								
+GCF_013707835		glpT_E448K,uhpT_E350Q	blaCMY-51	marR_S3N																												
+GCF_000809165	parC_S80I	glpT_E448K,uhpT_E350Q			blaOXA-1,blaSED*,blaTEM-1	dfrA12	aadA2	ble		sul1			mph(A)	blaCTX-M-15		aac(6')-Ib-cr5		aph(3')-Ia							oqxA*,oqxB27*							
+GCF_018441785	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1	aadA1,aadA2			sul1			mph(A)	blaCTX-M-9	tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId			ant(2'')-Ia									
+GCF_000783995	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_018422725		glpT_E448K,uhpT_E350Q	blaCMY-83																blaOXA-48													
+GCF_016503885	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaSHV-14,blaTEM-1	dfrA1	aadA1,aph(3'')-Ib,aph(6)-Id	sat2		sul2					tet(D)					aac(6')-Ib4			ant(2'')-Ia									
+GCF_001718055	gyrA_S83I,qnrB6,qnrB9*,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA1,catA1*,catA2		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3			aac(3)-IId,aac(3)-IIe,aac(3)-IIe*												
+GCF_018883525	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-157*		blaTEM-1																											
+GCF_016501955	gyrA_D87G,gyrA_S83F,parC_S80I	fosA7.5,glpT_E448K,uhpT_E350Q			blaTEM-1	dfrA5				sul1				blaCTX-M-35						aac(3)-IIe	blaMAL-1*											
+GCF_001413115		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_004004645	parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA12	aadA2			sul1			mph(A)	blaCTX-M-15					blaOXA-48	aac(3)-IId												
+GCF_014103715	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-152																													
+GCF_000208765		glpT_E448K,uhpT_E350Q	blaCMY-101*												tet(C)*																	
+GCF_013336955	gyrA_S83I,qnrB75	glpT_E448K,uhpT_E350Q	blaCMY-176*	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1			mph(A)						blaKPC-2	aac(3)-IId												
+GCF_014103885	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N								aac(6')-If																				
+GCF_018066575	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48,blaFOX-5	marR_S3N	blaCARB-2,blaTEM-1	dfrA1,dfrA12,dfrA19	aadA1	sat2		sul1*	catA2,catB11,catB3,cmlA6*		mph(A),mph(E),msr(E)		tet(D)				blaKPC-3	aac(3)-IId			ant(2'')-Ia									
+GCF_013814485		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_002786865	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*					ble	blaNDM-5																							
+GCF_019382635		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_015674725		glpT_E448K,uhpT_E350Q	blaCMY-67*												tet(B)																	
+ERQ0677	gyrA_S83I,parC_E84K,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-2,blaCMY-83		blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2			mph(A)		tet(A)*,tet(B)	aac(6')-Ib-cr5	arr-3			aac(3)-IIe												
+GCF_002934585	gyrA_S83F,qnrB10*,qnrB19	glpT_E448K,uhpT_E350Q			blaOXA-9,blaSED*,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id			sul2									blaKPC-2	aac(6')-Ib'			ant(2'')-Ia		oqxA*,oqxB27*							blaKPC-82*
+GCF_018439765	gyrA_S83I,qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016114665		glpT_E448K,uhpT_E350Q																			blaMAL-2*											
+GCF_013739755	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-70																													
+GCF_016507745		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_003938795		glpT_E448K,uhpT_E350Q			blaSED*,blaTEM-1	dfrA8	aph(3'')-Ib,aph(6)-Id			sul2					tet(B)										oqxA*,oqxB27*							
+GCF_000786265		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+ERQ0046		glpT_E448K,uhpT_E350Q	blaCMY-81																													
+GCF_013785525		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+ERQ0192	gyrA_S83I,qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+ERQ0241	gyrA_S83I,qnrB38*	glpT_E448K,uhpT_E350Q	blaCMY-84	marR_S3N	blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul2			mph(A)		tet(A)*	aac(6')-Ib-cr5	arr-3			aac(3)-IIe												
+GCF_013738915	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+GCF_011030295	gyrA_S83I,parC_S80I,qnrB38	uhpT_E350Q	blaCMY-65*	marR_S3N				ble	blaNDM-1	sul1*		aac(6')-If															rmtC					
+GCF_002903305	gyrA_S83I,qnrA1,qnrB13	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1,sul1*,sul2	catA2	aac(6')-Ib3	mph(A)	blaSHV-5	tet(D)				blaKPC-2	aac(3)-IId,aac(3)-Ia												blaKPC-82*
+GCF_001058675		glpT_E448K,uhpT_E350Q		marR_S3N																												
+GCF_004005085	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-150	marR_S3N															blaOXA-48													
+GCF_000734905		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_013783065		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_001482545	gyrA_S83I,qnrA1	uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-10,blaTEM-1	dfrA19	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2				blaSHV-12			arr		blaOXA-436	aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_021440705		glpT_E448K,uhpT_E350Q	blaCMY-41	marR_S3N																												
+GCF_016504155		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_001412815		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_016504355		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N																												
+GCF_019659965	gyrA_S83I,parC_S80I,qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N				ble	blaNDM-1					blaSHV-12						aac(6')-Ib*												
+GCF_016501455	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-9,blaTEM-1*	dfrA12	aadA1,aadA2			sul1,sul1*			mph(A)	blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_006965505	qnrB4	glpT_E448K,uhpT_E350Q	blaDHA-1		blaSED*	dfrA17				sul1			mph(A)												oqxA*,oqxB27*							
+GCF_002252125	gyrA_S83I,qnrB32	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5				catB3		mph(A),mph(E),msr(E)	blaCTX-M-14	tmexC2,tmexD2,toprJ2	aac(6')-Ib-cr5	arr-3		blaKPC-2								armA					
+GCF_016502155	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159																													
+GCF_001880915		fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-78	marR_S3N		dfrB1	aadA1		blaVIM-1	sul1	catB2									aac(6')-Ib4												
+GCF_013336965	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-2	dfrA1	aadA1,aadA7*,aph(3'')-Ib,aph(6)-Id	sat2		sul2					tet(D)			aph(3')-Ia	blaKPC-3				ant(2'')-Ia									
+GCF_002151695		glpT_E448K,uhpT_E350Q																							oqxA*,oqxB9*							
+GCF_007004285	gyrA_D87N,gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-112*		blaOXA-10,blaTEM-1	dfrA12	aadA1,aadA2		blaVIM-1*	sul1,sul2	catB2		mph(A)	blaSHV-12	tet(D)					aac(3)-IId,aac(6')-Ib		aph(3')-XV										
+GCF_016502205	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_004684345		glpT_E448K,uhpT_E350Q	blaCFE-1*				aph(3'')-Ib,aph(6)-Id			sul2					tet(D)			aph(3')-Ia								floR*						
+GCF_021417185	gyrA_S83I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-63*	marR_S3N	blaTEM-1	dfrA17	aadA5,aph(3'')-Ib*,aph(6)-Id			sul2					tet(A)*																	
+GCF_016505545		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_020639355	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	ble,sat2	blaNDM-5	sul1,sul1*,sul2	catA2,catB3		mph(A)		tet(D)	aac(6')-Ib-cr5	arr-3			aac(3)-IId												
+GCF_013728515	qnrB47*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_014101305	qnrB89*	glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_018035235	qnrB38*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_019800325	qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-101*		blaOXA-1,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id			sul2				blaCTX-M-15	tet(A)	aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe												
+GCF_003795375	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*																					mcr-1.1								
+GCF_008931505	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaOXA-1,blaOXA-10	dfrA1	aadA1	sat2	blaIMP-4	sul1	catB3,catB3*		mph(A)	blaVEB-3		aac(6')-Ib-cr5	arr-3			aac(3)-IId,aac(6')-Ib4												
+GCF_019660705	gyrA_S83I,parC_S80I,qnrB9,qnrS2	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N	blaTEM-1	dfrA12	aadA2	ble	blaNDM-1	sul1			mph(A)	blaCTX-M-3,blaSHV-12	tet(D)					aac(3)-IId,aac(6')-Ib												
+GCF_900446835		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_013889015	parE_I355T	glpT_E448K,uhpT_E350Q			blaSED-1*																											
+GCF_016894065	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_901456305	gyrA_S83I,parC_S80I,qnrB38	uhpT_E350Q	blaCMY-150	marR_S3N	blaOXA-10,blaOXA-2		aadA10*		blaIMP-8	sul1										aac(6')-Ib*,aac(6')-Ib4		aph(3')-XV*										
+GCF_901456265	gyrA_S83I,parC_S80I,qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-106*	marR_S3N	blaOXA-10,blaOXA-2	dfrA12	aadA10*,aadA2*		blaIMP-8	sul1	catA1		mph(A)		tet(A)			aph(3')-Ia		aac(6')-Ib*,aac(6')-Ib4		aph(3')-XV*										
+GCF_016504165		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_013791465	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-70																													
+GCF_009664025	gyrA_S83I,parC_S80I,qnrA1,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaTEM-1	dfrA16	aadA1,aadA2,aadA2*,aph(3'')-Ib,aph(6)-Id		blaVIM-1	sul1,sul1*,sul2	catA1			blaCTX-M-9,blaSHV-12		aac(6')-Ib-cr5		aph(3')-Ia	blaOXA-48	aac(3)-IId			ant(2'')-Ia	mcr-9								
+GCF_018438625	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-117*,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA17	aadA5			sul1	catB3		mph(A)	blaCTX-M-1		aac(6')-Ib-cr5	arr-3		blaOXA-48													
+GCF_016503905	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_013791615	qnrB38	glpT_E448K,uhpT_E350Q		marR_S3N																												
+GCF_000312465		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_004792475		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_000739675		glpT_E448K,uhpT_E350Q	blaCMY-157*	marR_S3N																												
+GCF_004331445	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_003938785		fosA7.3,glpT_E448K,uhpT_E350Q			blaOXA-2					sul1				blaSHV-7							blaMAL-1	aphA16	ant(2'')-Ia									
+GCF_016500695	qnrB1	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id			sul2				blaCTX-M-15		aac(6')-Ib-cr5				aac(3)-IIe					oqxB3*							
+GCF_015356495	gyrA_S83I	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaOXA-1,blaTEM-1*	dfrA1	aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catB3			blaCTX-M-14		aac(6')-Ib-cr5			blaOXA-48	aac(3)-IId												
+GCF_014725915	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-4,blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaOXA-204	aac(3)-IId												
+GCF_018446915	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N		dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catA2						arr		blaOXA-48	aac(3)-IIg			aac(6')-IIc	mcr-9								
+GCF_005281345	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_006937845	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1		aph(3'')-Ib,aph(6)-Id								tet(B)					aac(3)-IIe												
+GCF_014103415	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-157*			dfrA12	aadA2			sul1					tet(A)																	
+GCF_015965415	parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																														
+GCF_900446955		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_020889405		glpT_E448K,uhpT_E350Q			blaTEM-1	dfrA17	aadA5*		blaIMP-1	sul1,sul2													aac(6')-IIc		oqxB3*							
+GCF_013732395	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_013336855	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1,sul2	catA2		mph(A)	blaSHV-30					blaKPC-3	aac(3)-IId												
+GCF_003812405		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_002864025		glpT_E448K,uhpT_E350Q	blaCMY-48*		blaOXA-9,blaTEM-1		aadA1			sul1				blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_013336845	gyrA_S83I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-157*		blaOXA-9,blaTEM-1	dfrA14	aadA1			sul1,sul1*				blaSHV-7					blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_016507845		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_018252635		glpT_E448K,uhpT_E350Q			blaSED*																											
+GCF_004146055	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1		aadA1	sat2		sul1,sul2	catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_018257795	parE_D475E	uhpT_E350Q																														
+GCF_001306025	gyrA_S83I,parE_L416F,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-117*	marR_S3N	blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul2					tet(A),tet(D)	aac(6')-Ib-cr5	arr-3									floR						
+GCF_014856085	gyrA_S83I,qnrB2,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_013784065	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-137																													
+GCF_013899365		glpT_E448K,uhpT_E350Q	blaCMY-152*									aac(6')-If																				
+GCF_016859885	qnrB1	fosA7.4,glpT_E448K,uhpT_E350Q	blaCMY-151	marR_S3N	blaOXA-1,blaTEM-1	dfrA14	aadA1,aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2	catA1*,cmlA10	aac(6')-If		blaCTX-M-15	tet(A),tet(C)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_014596815		glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N						sul2					tet(D)																	
+GCF_018107785	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA2		mph(A)		tet(A)			aph(3')-Ia	blaKPC-2	aac(3)-IId												
+GCF_005280955	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_015668035		glpT_E448K,uhpT_E350Q	blaCMY-116*																													
+GCF_014104105		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_900460985		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_015208815	gyrA_S83I,qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-10,blaTEM-1	dfrA14,dfrA23,dfrA7	aadA1,aph(3'')-Ib,aph(6)-Id*	ble	blaNDM-1		cmlA5			blaCTX-M-15	tet(A)	aac(6')-Ib-cr5	arr-2	aph(3')-Ia*		aac(3)-IId,aac(3)-IIe							rmtC					
+GCF_900079995	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*		blaTEM-116													aph(3')-IIa														
+GCF_012955585		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_002947035		glpT_E448K,uhpT_E350Q			blaCKO-1*,blaTEM-1	dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2			mph(A)		tet(A)					aac(3)-IId												
+GCF_015353115	gyrA_D87N,gyrA_S83L,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q			blaSED*				blaIMP-4					blaCTX-M-14											oqxA*,oqxB27*							
+GCF_013748855	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-84	marR_S3N																												
+GCF_003937345	gyrA_S83I,qnrB13,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-106*	marR_S3N	blaOXA-1*,blaOXA-10*,blaTEM-1	dfrA12	aadA1,aadA2	ble	blaNDM-1	sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3			aac(3)-IId												
+GCF_012952645	qnrB1	glpT_E448K,uhpT_E350Q	blaCMY-70		blaOXA-1,blaTEM-1	dfrA14	aph(3'')-Ib,aph(6)-Id			sul2				blaCTX-M-15	tet(A)	aac(6')-Ib-cr5				aac(3)-IIe												
+GCF_016503955	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaTEM-1*	dfrA17	aadA5,aph(3'')-Ib			sul1		aac(6')-If			tet(A)																	
+GCF_001276125	qnrS1	glpT_E448K,uhpT_E350Q			blaSED*	dfrA14									tet(A)			aph(3')-Ia			blaTEM-176				oqxA*,oqxB9*	floR*						
+ERQ0162	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaOXA-1					sul1			mph(A)			aac(6')-Ib-cr5																
+GCF_016504225		glpT_E448K,uhpT_E350Q																							oqxB3*							
+GCF_008802955	crpP*,gyrA_D87N,gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1		aadA1		blaVIM-48	sul1					tet(B)*					aac(6')-Ib4												
+GCF_014802925	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_900169695	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-70							sul1	cmlA5					aac(6')-Ib-cr5			blaKPC-2,blaOXA-48		blaOXA-74											
+GCF_005280935	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-124*	marR_S3N																												
+GCF_021503935	qnrB47,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-101*		blaTEM-1	dfrA16	aadA2			sul1			ere(A)		tet(D)				blaOXA-48													
+GCF_018443315	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-67*	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_018279205	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_016504905		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_016500715		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_004103775	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-72*,blaDHA-1	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1,sul1*,sul2	catA2		mph(A)		tet(D)					aac(3)-IId												
+GCF_016893845	gyrA_S83I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_013360255	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaTEM-1														blaKPC-2													
+GCF_902363265	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-65																													
+GCF_013389635	gyrA_S83I,qnrB38,qnrVC4	glpT_E448K,uhpT_E350Q	blaCMY-66*	marR_S3N								aac(6')-Ib3*							blaKPC-2	aac(6')-Ib												
+SG18_227_S53		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_002073755	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+SG18_138_2_S33		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_015672735		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_015667445		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_004005575	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1,aph(3'')-Ib,aph(6)-Id*	sat2		sul1				blaCTX-M-15	tet(A)	aac(6')-Ib-cr5			blaOXA-48	aac(3)-IIe*												
+GCF_013781945		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_003019835		glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N																												
+GCF_003571565	gyrA_D87Y,gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N		dfrA1	aadA1	sat2		sul1,sul2		aac(6')-If							blaKPC-2				ant(2'')-Ia									
+GCF_001586835	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-84	marR_S3N																												
+GCF_001058505		glpT_E448K,uhpT_E350Q	blaCMY-72	marR_S3N																												
+GCF_014104015	gyrA_S83I	glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_016500665		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_009856695	gyrA_S83I,qnrB9	fosA3,uhpT_E350Q	blaCMY-2	marR_S3N	blaTEM-1	dfrA12	aadA2			sul1	catA1		mph(A)		tet(B)					aac(3)-IId												
+GCF_002918865	gyrA_S83I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaTEM-1	dfrA1	aadA1			sul1,sul2					tet(A)				blaKPC-3													
+GCF_003114935	gyrA_S83I,parC_S80I,qnrA1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-74*		blaOXA-1	dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1,blaNDM-1*	sul2	catA1,catB3		mph(A)	blaCTX-M-14,blaSHV-12	tet(B)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia		aac(3)-IId		aph(3')-VIb*				floR						
+GCF_006385635		glpT_E448K,uhpT_E350Q	blaCMY-85	marR_S3N	blaTEM-1		aadA1	ble	blaNDM-1,blaVIM-1	sul1	catB2			blaCTX-M-3,blaSHV-12					blaGES-5	aac(6')-Ib4		aph(3')-XV	aac(6')-IIa									
+GCF_013727455	gyrA_D87N,gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152																													
+GCF_013740875	gyrA_S83I,parC_S80R,qnrS2	uhpT_E350Q		marR_S3N	blaGIL-1*,blaOXA-1		aph(3'')-Ib,aph(6)-Id,aph(6)-Id*			sul1	catB3		mph(A)	blaSHV-12		aac(6')-Ib-cr5	arr-3	aph(3')-Ia														
+GCF_002918875	gyrA_S83I,qnrB19,qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N	blaOXA-9,blaTEM-1	dfrA14	aadA1,aph(3'')-Ib			sul2									blaKPC-2	aac(6')-Ib'												
+GCF_017151445	qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-5	sul1,sul2			mph(A)	blaCTX-M-3	tet(A)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia		aac(3)-IId						floR						
+GCF_016505325	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_005406305		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_001413335		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_017353275		glpT_E448K,uhpT_E350Q	blaCMY-41	marR_S3N																												
+GCF_001316675	gyrA_S83I,qnrB38,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N	blaTEM-1*	dfrA14,dfrA15				sul1	cmlA4	aac(6')-Ib3		blaCTX-M-3			arr-3,arr-3*															
+GCF_016505585	qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-68	marR_S3N	blaCARB-2	dfrA12	aadA2			sul1,sul1*					tet(A)*																	
+GCF_021441345	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																												
+GCF_003226155	qnrS1	glpT_E448K,uhpT_E350Q			blaOXA-1					sul1					tet(A)*	aac(6')-Ib-cr5	arr-3		blaOXA-48		blaMAL-1											
+GCF_905337805		glpT_E448K,uhpT_E350Q																	blaOXA-48		blaMAL-1*											
+GCF_016505195		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_000521945	qnrB30	glpT_E448K,uhpT_E350Q	blaCMY-86	marR_S3N																												
+GCF_015910405	qnrB9,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N		dfrA14	aadA1		blaVIM-1	sul1			mph(A)							aac(6')-Ib4												
+GCF_002919825	qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA14	aadA1			sul1,sul1*		aac(6')-Ib3		blaSHV-5					blaKPC-2	aac(3)-Ia												
+GCF_018917665	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_009832525		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_018106185	gyrA_S83I,parC_S80I,qnrA1,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaOXA-1,blaTEM-1	dfrA12	aadA1,aadA2	ble	blaNDM-5	sul1,sul1*	catA1		mph(A)			aac(6')-Ib-cr5			blaKPC-6	aac(3)-IId												
+GCF_011030065	gyrA_S83I,parC_S80I,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaOXA-1			ble	blaNDM-1	sul1				blaCTX-M-15		aac(6')-Ib-cr5											rmtC					
+GCF_021417245	gyrA_S83I,parC_S80I,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA1,dfrA12	aadA2			sul1									blaKPC-2													
+GCF_017086505		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N								aac(6')-If*							blaOXA-48													
+GCF_002249995	qnrA1,qnrA3*	glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA19	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2	catA2,catB3	aac(6')-Ib3	mph(A)	blaSHV-12	tet(D)	aac(6')-Ib-cr5	arr,arr-3		blaKPC-2	aac(3)-IId,aac(3)-IIg	blaTEM-181*		aac(6')-IIc	mcr-9	oqxB3*							
+GCF_014332835	qnrB38*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_016505495		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016811995		glpT_E448K,uhpT_E350Q																														
+GCF_016501445		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_900461045		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_021440885	qnrB7	glpT_E448K,uhpT_E350Q	blaCMY-175	marR_S3N																												
+GCF_000786275		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_000972645		glpT_E448K,uhpT_E350Q	blaCMY-70																													
+GCF_013267145	gyrA_D87G,gyrA_S83I,parC_S80I,qnrB33	glpT_E448K,uhpT_E350Q	blaCFE-1*		blaOXA-2					sul1				blaSHV-7								aphA16	ant(2'')-Ia									
+GCF_009876825		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_001413165		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_002918935		glpT_E448K																														
+GCF_013729995	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N																												
+GCF_001067775		glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_014803145	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaOXA-9,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_900636015	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N																												
+GCF_014103835		glpT_E448K,uhpT_E350Q	blaCMY-85	marR_S3N																												
+GCF_001858105		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_009907085	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*			dfrA12	aadA2			sul1,sul2	catA2		mph(A)	blaCTX-M-15	tet(A)	aac(6')-Ib-cr5		aph(3')-Ia		aac(3)-IIe												
+GCF_001546325		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_016503505	qnrB38,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N			aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2			mph(A)	blaSHV-7	tet(A)*			aph(3')-Ia		aac(3)-IId			ant(2'')-Ia			floR*						
+GCF_012102405	qnrB32	glpT_E448K,uhpT_E350Q	blaCMY-46*	marR_S3N																												
+GCF_902160995	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_019270275		glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_014855985	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016505035		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_002919425		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016503225		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_013615435		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_018421745	qnrB2	fosA7.3,glpT_E448K,uhpT_E350Q			blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId	blaMAL-1											
+GCF_008931485	gyrA_S83I,parC_S80R	glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N	blaOXA-1,blaOXA-10	dfrA1	aadA1	sat2	blaIMP-4	sul1	catB3,catB3*		mph(A)	blaVEB-3		aac(6')-Ib-cr5	arr-3			aac(3)-IId,aac(6')-Ib4												
+GCF_910573735	gyrA_S83F,parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																aph(3')-Ia														
+GCF_016504925	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N								aac(6')-If																				
+GCF_013786205		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_002738435	gyrA_S83I,parC_E84G,qnrS1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaTEM-1	dfrA12,dfrA14	aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1			mph(A),mph(E),msr(E)	blaSFO-1,blaVEB-3						aac(3)-IId							armA					
+GCF_013781985	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-83																													
+GCF_019655655	gyrA_S83I,parC_S80I,qnrB10*,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-70*		blaOXA-1	dfrA17	aadA1,aadA2,aadA5,aph(3'')-Ib,aph(6)-Id			sul1,sul2,sul3	catB3,cmlA1				tet(B),tet(X4)*,tmexC3,tmexD3*,toprJ1	aac(6')-Ib-cr5	arr-3	aph(3')-Ia			blaTEM-176					floR			aph(4)-Ia	aac(3)-IVa		
+ERQ0572	gyrA_S83I,parC_E84K,qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-82																													
+GCF_018441435	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N	blaOXA-1	dfrA12	aadA2,aph(3'')-Ib,aph(6)-Id		blaVIM-2	sul1,sul2	catB3		mph(A)	blaCTX-M-3,blaSHV-31	tet(A)	aac(6')-Ib-cr5	arr-3	aph(3')-Ia														
+GCF_005281245		uhpT_E350Q																														
+GCF_001276105	qnrS1	glpT_E448K,uhpT_E350Q			blaSED*	dfrA14									tet(A)			aph(3')-Ia			blaTEM-176				oqxA*,oqxB9*	floR*						
+GCF_019803045	qnrB2	glpT_E448K,uhpT_E350Q			blaTEM-1	dfrA25				sul1,sul1*			mph(A)						blaKPC-2						oqxB3*							
+GCF_012955545	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N																												
+GCF_014103585	gyrA_S83I	uhpT_E350Q	blaCMY-101*																													
+ERQ0251	gyrA_S83I,parC_S80I	uhpT_E350Q	blaCMY-101*																													
+GCF_013781965	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_014856095	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+ERQ0672	gyrA_S83I,parC_E84K,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-2,blaCMY-83		blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id			sul1,sul1*,sul2			mph(A)		tet(A)*,tet(B)	aac(6')-Ib-cr5	arr-3			aac(3)-IIe												
+GCF_011030315	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N	blaTEM-1	dfrA1	aadA1	ble	blaNDM-1	sul1,sul2			mph(A)		tet(A)							aph(3')-VI									aac(6')-Ib11	
+GCF_002211705	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-75	marR_S3N															blaOXA-48													
+GCF_000937455	gyrA_S83I,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N		dfrA1,dfrA19	aadA1,aph(3'')-Ib,aph(6)-Id	sat2			catA1,catA2	aac(6')-Ib3	mph(A)	blaCTX-M-39,blaSHV-12	tet(C)		arr			aac(3)-IId,aac(3)-IIg			aac(6')-IIc	mcr-9								
+ERQ0169	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101																													
+SD_9_C7		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_016505185		glpT_E448K,uhpT_E350Q																			blaMAL-2											
+GCF_014105665	qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N																												
+GCF_000398825		glpT_E448K,uhpT_E350Q	blaCMY-76*	marR_S3N																												
+GCF_000155975	qnrB39	glpT_E448K,uhpT_E350Q	blaCMY-159*												tet(C)																	
+GCF_019265365	qnrB6*	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N																												
+GCF_016504725		glpT_E448K,uhpT_E350Q			blaSED*																											
+GCF_005280815	qnrB69	fosA7.2,glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+DB_3_D1	qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N					blaIMP-4	sul1	catB3		mph(A)						blaKPC-2	aac(3)-IId,aac(6')-Ib4												
+GCF_013737455	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+SG18_109_2_S19		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_000238735	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-25	marR_S3N																												
+GCF_018439905	gyrA_S83I,qnrB2,qnrB38	uhpT_E350Q	blaCMY-109	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_016503695	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-150	marR_S3N																												
+GCF_001034445	gyrA_S83I,qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65	marR_S3N	blaTEM-1	dfrA12	aadA2			sul2	catA2		mph(A)						blaKPC-2	aac(3)-IId												
+GCF_019659885	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-83		blaOXA-1,blaTEM-1			ble	blaNDM-1	sul1	catB3		mph(A),mph(E),msr(E)	blaCTX-M-3	tet(B)	aac(6')-Ib-cr5	arr-3										armA					
+GCF_013345705	qnrB93	glpT_E448K,uhpT_E350Q	blaCMY-124*																													
+GCF_013751895	qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N																												
+GCF_008364645	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-53	marR_S3N											tet(D)																	
+GCF_011392435	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-157*				aadA1			sul1	cmlA1	aac(6')-Il							blaOXA-48		blaOXA-198											
+GCF_019048805	qnrB61	glpT_E448K,uhpT_E350Q	blaCMY-74*																													
+GCF_017154235		glpT_E448K,uhpT_E350Q			blaSED*																											
+GCF_001412855		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_004327835	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N																												
+GCF_014856035	qnrB1,qnrB2	glpT_E448K,uhpT_E350Q	blaCMY-49	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1,sul1*	catB3		mph(A)			aac(6')-Ib-cr5	arr-3		blaKPC-2	aac(3)-IId												
+GCF_011022025	qnrB38,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-109	marR_S3N					blaIMP-4																							
+GCF_015356435	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N								aac(6')-If							blaOXA-48													
+ERQ0199	gyrA_S83I	uhpT_E350Q	blaCMY-101*		blaOXA-1					sul1			mph(A)			aac(6')-Ib-cr5																
+GCF_016501105		fosA7.5,glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_018423015	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N		dfrA1,dfrA14	aadA1,aph(3'')-Ib,aph(6)-Id	sat2	blaVIM-1											aac(6')-Ib4												
+GCF_001412875		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_016501565	qnrB12*	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_014337335	qnrB17	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaOXA-9,blaTEM-1		aadA1												blaKPC-3	aac(6')-Ib'												
+GCF_004569315		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_001880825	gyrA_S83I,parC_S80I,qnrA1	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-10	dfrA1,dfrA14,dfrB1	aadA1*	sat2	blaVIM-1	sul1,sul2	catB2		mph(A)				arr-2			aac(3)-IId,aac(6')-Ib4												
+GCF_001317135	gyrA_S83I,parC_S80I,qnrB2,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaTEM-1	dfrA12,dfrA14	aadA2,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul2		aac(6')-Ib3	mph(A)	blaCTX-M-3	tet(A)		arr-3										rmtC					
+GCF_016501545		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_014802965	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1,sul2	catA2,catB3		mph(A)	blaCTX-M-15	tet(D)	aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_010231475		glpT_E448K,uhpT_E350Q																														
+GCF_014332855	qnrB38*	glpT_E448K,uhpT_E350Q	blaCFE-1*																													
+GCF_902706235	qnrB96*	glpT_E448K	blaBUT-1*																													
+GCF_016503825		glpT_E448K,uhpT_E350Q			blaSED*	dfrA15				sul1															oqxA*,oqxB27*							
+GCF_019656355	qnrB28	glpT_E448K,uhpT_E350Q	blaCFE-1*									aac(6')-Ib							blaKPC-2													
+GCF_008364725	qnrB9	glpT_E448K,uhpT_E350Q	blaCMY-2	marR_S3N											tet(A),tet(D)																	
+GCF_008364895		glpT_E448K,uhpT_E350Q	blaCMY-34	marR_S3N						sul2					tet(D)																	
+GCF_009649935	gyrA_S83I,parC_S80I,qnrB13*,qnrS1	fosA3,glpT_E448K,uhpT_E350Q	blaCMY-122		blaOXA-1,blaTEM-1	dfrA12	aadA2,aph(3'')-Ib*,aph(6)-Id	bleO*		sul1,sul2	catB3			blaCTX-M-14	tet(A)*	aac(6')-Ib-cr5	arr-3									floR*	rmtB1	lnu(F)*				
+GCF_016504745		fosA7.4,glpT_E448K,uhpT_E350Q																			blaMAL-1*											
+GCF_021496985	gyrA_S83I,parC_S80I,qnrB6	glpT_E448K,uhpT_E350Q	blaCMY-129*	marR_S3N	blaTEM-1	dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-5	sul1,sul1*,sul2			mph(A)		tet(A)	aac(6')-Ib-cr5	arr-3			aac(3)-IId						floR						
+GCF_019585185	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA12	aadA2			sul1,sul2			mph(A)		tet(D)					aac(3)-IId												
+GCF_016502285		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_008502135	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-75*	marR_S3N	blaTEM-1	dfrA19	aadA2,aph(3'')-Ib,aph(6)-Id			sul1,sul2																						
+GCF_004004965	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N	blaTEM-1	dfrA12	aadA2,aph(6)-Id			sul1			mph(A)						blaOXA-48	aac(3)-IId,aac(3)-IIe												
+GCF_016893885	gyrA_S83I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*								catA1																					
+GCF_016500565		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_008693605	qnrB30	glpT_E448K,uhpT_E350Q	blaCMY-86	marR_S3N																												
+GCF_016503735	qnrB38	glpT_E448K,uhpT_E350Q	blaCMY-65*	marR_S3N		dfrA12	aadA2*			sul1		aac(6')-If	mph(A)		tet(A)																	
+GCF_902160915	qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101																													
+GCF_010592375		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N																												
+GCF_021278985	parE_D475E,parE_I355T	glpT_E448K,uhpT_E350Q																														
+GCF_019731585	gyrA_S83I,parC_S80I,qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*		blaTEM-1	dfrA7	aph(3'')-Ib,aph(6)-Id			sul1*,sul2					tet(A)																	
+GCF_002025225	qnrB69	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_000398845	qnrB10*	glpT_E448K,uhpT_E350Q	blaCMY-70*																													
+GCF_008364705		glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_016501675		glpT_E448K,uhpT_E350Q			blaCKO-1*																											
+GCF_001413315		glpT_E448K,uhpT_E350Q	blaCMY-48																													
+GCF_013336945	gyrA_S83I,parC_E84K	glpT_E448K,uhpT_E350Q	blaCMY-48*		blaOXA-9,blaTEM-1	dfrA12	aadA1,aadA2			sul1*			mph(A),mph(E),msr(E)	blaSHV-7	tet(C)			aph(3')-Ia	blaKPC-3	aac(6')-Ib'			ant(2'')-Ia									
+GCF_015167655		glpT_E448K																							oqxA*,oqxB5*							
+SG18_42_S4		glpT_E448K,uhpT_E350Q	blaCMY-157*																													
+GCF_013336995	qnrB38,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA27	aadA16,aph(3'')-Ib,aph(6)-Id	ble	blaNDM-1	sul1,sul1*,sul2			mph(A)	blaSHV-7	tet(A)*	aac(6')-Ib-cr5	arr-3	aph(3')-Ia		aac(3)-IId			ant(2'')-Ia			floR*						
+GCF_019655495	gyrA_S83I,parC_S80I,qepA1,qnrS1	glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N		dfrA17	aadA5,aph(3'')-Ib,aph(6)-Id						mph(A)		tet(A),tet(B),tet(X4),tmexC3,tmexD3*,toprJ1			aph(3')-Ia		aac(3)-IId						floR*						
+GCF_001880945	gyrA_S83I	glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N		dfrB1	aadA1		blaVIM-1	sul1	catA1,catB2		mph(E),msr(E)						blaKPC-2	aac(6')-Ib4												
+GCF_014803165	gyrA_S83I,parC_S80I	glpT_E448K,uhpT_E350Q	blaCMY-48	marR_S3N	blaOXA-1,blaTEM-1	dfrA1	aadA1	sat2		sul1	catB3		mph(A)	blaCTX-M-15		aac(6')-Ib-cr5	arr-3		blaOXA-48	aac(3)-IId												
+GCF_002185305	qnrB12	glpT_E448K,uhpT_E350Q	blaCMY-159*																													
+GCF_013751655	qnrB35	glpT_E448K,uhpT_E350Q	blaCMY-66	marR_S3N																												
+GCF_013790265		glpT_E448K,uhpT_E350Q	blaCMY-116*	marR_S3N																												
+GCF_001062165	gyrA_S83I,qnrB10	glpT_E448K,uhpT_E350Q	blaCMY-101*																													
+GCF_013828645		glpT_E448K,uhpT_E350Q		marR_S3N	blaGIL-1*																											
+GCF_002919495		glpT_E448K																														
+GCF_018444815	gyrA_S83I,qnrB2,qnrB4	glpT_E448K,uhpT_E350Q	blaCMY-48*,blaDHA-1	marR_S3N	blaOXA-1,blaTEM-1	dfrA19	aph(3'')-Ib,aph(6)-Id			sul1	catB3		mph(A)			aac(6')-Ib-cr5	arr,arr-3		blaKPC-2	aac(3)-IId,aac(3)-IIg			aac(6')-IIc									
+GCF_013731955		glpT_E448K,uhpT_E350Q	blaCMY-48*	marR_S3N								aac(6')-If																				
+GCF_016503295		fosA7.3,glpT_E448K,uhpT_E350Q																			blaMAL-1											
+GCF_000731055		glpT_E448K,uhpT_E350Q			blaSED*																				oqxA*,oqxB27*							
+GCF_001059255		glpT_E448K,uhpT_E350Q	blaCMY-67*	marR_S3N																												
+GCF_001037575		glpT_E448K,uhpT_E350Q	blaCMY-152	marR_S3N																												
+GCF_015554155		glpT_E448K,uhpT_E350Q																							oqxB3*							

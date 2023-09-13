@@ -15,6 +15,9 @@ library(phangorn)
 library(phytools)
 library(readxl)
 library(ggpubr)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
 ```
 
 # Outline
@@ -45,14 +48,14 @@ mlst <- read_delim(
 )
 
 #Read in the list of genomes which passed QC
-QC_pass <- read_csv("2022/delims/QC_pass.txt", col_names = "name", show_col_types = FALSE)
+QC_pass <- read_csv("delims/QC_pass.txt", col_names = "name", show_col_types = FALSE)
 
 #Read in our metadata
-metadata <- read_excel("Metadata_public_genomes.xlsx", 
+metadata <- read_excel("delims/Metadata_public_genomes.xlsx", 
     sheet = "metadata_only")
 
 #Read in our species IDs
-species_ids <- read_csv("2022/bacsort/Species_ids.csv")
+species_ids <- read_csv("bacsort/Species_ids.csv")
 ```
 
 ## Editing of MLSTs
@@ -89,15 +92,36 @@ placeholder_STs$ST_new <- gsub("placeholder_ST(.*)", "ST\\1^^", placeholder_STs$
 ST_list <- mlst %>% mutate(allele_cat = paste0(allele1, allele2, allele3, allele4, allele5, allele6, allele7)) %>% left_join(placeholder_STs, by = "allele_cat") %>% select(-allele_cat) %>% mutate(ST_new = if_else(is.na(ST_new), ST, ST_new))
 ```
 
-```{r}
-#Read in our novel ST designations
 
-mlst_pubmlst <- read_delim("pubMLST/mlst.txt", delim = "\t")
+```{r, novel_MLSTs, include = FALSE, echo = FALSE}
+#Read in novel MLST data
+pubmlst <- read_delim(
+    "delims/pubMLST.txt",
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE,
+    show_col_types = FALSE
+)
 
-mlst_pubmlst <- mlst_pubmlst %>% rename("name" = isolate)
+#Filter out samples which didn't pass QC
+pubmlst <- pubmlst %>% rename('name' = isolate) %>% filter(name %in% QC_pass$name) %>% select(name, arcA:mdh,`ST (MLST)`, -matches("BACT"))
 
-inner_join(ST_list, mlst_pubmlst, by = "name")
+#Change column names
+colnames(pubmlst) <- c('name', 'allele5', 'allele1', 'allele2', 'allele6', 'allele3', 'allele7', 'allele4', 'ST')
+
+pubmlst <- pubmlst %>% mutate(across(everything(), ~ as.character(.))) %>% rename('ST_pub' = ST) %>% mutate(ST_pub = str_replace(ST_pub, 'NA', 'Untypeable')) %>% select(name, ST_pub)
+
+placeholder_to_new <- left_join(ST_list, pubmlst) %>% as.data.frame() %>% select(ST_new, ST_pub) %>% unique()
+
+ST_list <- left_join(ST_list, placeholder_to_new, by = 'ST_new', relationship = 'many-to-many')
+
+ST_list <- ST_list %>% group_by(name) %>% slice_max(order_by = ST_pub, n = 1)
+
+ST_list <- ST_list %>% mutate(ST_placeholder = ST_new)
+
+ST_list <- ST_list %>% mutate(ST_new = if_else(is.na(ST_pub), ST_new, ST_pub))
 ```
+
 
 Now we will assign sources based on our sample names
 
@@ -182,7 +206,7 @@ supp_table_x <- data_microreact %>%
                                                       "Unknown"
                                                       )))
 
-write_delim(supp_table_x, "2022/delims/Supplementary_table_1.txt")
+write_delim(supp_table_x, "delims/Supplementary_table_1.txt")
 
 d1 <- supp_table_x %>% filter(collection == "RefSeq") %>%group_by(Source_simple, Country, Year_bin) %>% 
         dplyr::summarise(count = n())
@@ -198,7 +222,7 @@ d1 <- d1 %>% select(-Country) %>% rename('Source' = Source_simple) %>% rename('Y
 
 
 #to save as pdf 
-pdf(file = "2022/figures/Alluvial_plot_NCBI_Citros.pdf", width = 25, height = 15, useDingbats = FALSE)
+pdf(file = "Figures/Alluvial_plot_NCBI_Citros.pdf", width = 25, height = 15, useDingbats = FALSE)
 
 #plot 
 ggplot(data = d1,
@@ -396,7 +420,7 @@ mixed_plots <- ggarrange(gull_dist_plot, ww_dist_plot, ncol=2, nrow=1, legend="n
 
 plot_w_legend <- ggarrange(mixed_plots, legend_mixed, ncol=1, nrow=2, heights = c(8, 2))
 
-ggsave(plot_w_legend, filename = "/Users/131785/Dropbox/PostDoc/Manuscripts/2021/Citrobacter/Citrobacter_analysis/2022/images/SKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
+ggsave(plot_w_legend, filename = "images/SKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
 ```
 
 ```{r}
@@ -447,7 +471,7 @@ int_gull_dist_plot <- int_gull_dists %>%
 
 int_plots <- ggarrange(int_gull_dist_plot, int_ww_dist_plot, ncol=2, nrow=1, legend="bottom", common.legend = TRUE)
 
-ggsave(int_plots, filename = "/Users/131785/Dropbox/PostDoc/Manuscripts/2021/Citrobacter/Citrobacter_analysis/2022/images/internal_SKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
+ggsave(int_plots, filename = "images/internal_SKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
 ```
 
 
@@ -499,5 +523,5 @@ ext_plots <- ggarrange(ext_gull_dist_plot, ext_ww_dist_plot, ncol=2, nrow=1, leg
 
 #plotly::ggplotly(ext_plots)
 
-ggsave(ext_plots, filename = "/Users/131785/Dropbox/PostDoc/Manuscripts/2021/Citrobacter/Citrobacter_analysis/2022/images/externalSKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
+ggsave(ext_plots, filename = "images/externalSKA_distances_WW_gull_ST_overlap.pdf", height = 8.27, width = 11.69)
 ```

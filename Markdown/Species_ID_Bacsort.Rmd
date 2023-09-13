@@ -107,7 +107,3 @@ unknown genomes          Bacsort:26 internal:0
 werkmanii genomes        Bacsort:9 internal:0
 youngae genomes          Bacsort:36 internal:9
 ```
-
-# To do
-
-* Add yaml file for bacsort

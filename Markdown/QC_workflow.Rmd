@@ -28,7 +28,6 @@ library(grid)
 library(gridExtra)
 library(hrbrthemes)
 library(cowplot)
-library(plasmidmapR)
 
 #Define our not in function
 `%nin%` <- Negate(`%in%`)
@@ -53,18 +52,18 @@ File tree
 
 ```{r, file_paths, echo=FALSE}
 
-assembly_stats_path <- '2022/QC_summari2022/assembly_stats.txt'
-checkm_qa_path <- '2022/QC_summari2022/checkm_qa.txt'
-gunc_report_path <- '2022/QC_summari2022/gunc_report.txt'
+assembly_stats_path <- 'QC_summaries/assembly_stats.txt'
+checkm_qa_path <- 'QC_summaries/checkm_qa.txt'
+gunc_report_path <- 'QC_summaries/gunc_report.txt'
 
 
 #Load paths to files needed for the script
 #A list of taxonomic IDs and their respective scientific names
 tax_id_converter_path  <-
-        file.path(getwd(), "2022/delims/taxid_to_scientific_name.txt")
+        file.path(getwd(), "delims/taxid_to_scientific_name.txt")
 #A list of expected genome sizes.
 genome_sizes_path  <-
-        file.path(getwd(), "2022/delims/species_genome_size.txt")
+        file.path(getwd(), "delims/species_genome_size.txt")
 ```
 
 ```{r echo=FALSE}
@@ -74,16 +73,16 @@ assembly_stats_path <-
         file.path(getwd(), "results/summaries/assembly_stats.txt")
 #A list of taxonomic IDs and their respective scientific names
 tax_id_converter_path  <-
-        file.path(getwd(), "2022/delims/taxid_to_scientific_name.txt")
+        file.path(getwd(), "delims/taxid_to_scientific_name.txt")
 #A list of expected genome sizes.
 genome_sizes_path  <-
-        file.path(getwd(), "2022/delims/species_genome_size.txt")
+        file.path(getwd(), "delims/species_genome_size.txt")
 
 abricate_path <- file.path(getwd(), "results/summaries/genotype.txt")
 pointfinder_path <- file.path(getwd(), "results/summaries/pointfinder.txt")
 pMLST_data <- file.path(getwd(), "results/summaries/pMLST.txt")
 mlst_path <- file.path(getwd(), "results/summaries/mlst.txt")
-bacsort_path <- file.path(getwd(), "2022/bacsort/Species_ids.csv")
+bacsort_path <- file.path(getwd(), "bacsort/Species_ids.csv")
 SPI_path <- file.path(getwd(), "results/summaries/spi_report.txt")
 checkm_path <- file.path(getwd(), "results/summaries/checkm_qa.txt")
 
@@ -340,7 +339,7 @@ df_large <- left_join(df, mlst, by = "name")
 #Combine our CheckM data 
 df_large <- left_join(df_large, checkm_qa, by = "name")
 
-tablesss <- df_large %>% group_by(bacsort_species != "Citrobacter unknown", name %nin% species_size_fails$name, Contamination > 10, Completeness > 90) %>% summarise(counts = n(), .groups="keep")
+tablesss <- df_large %>% group_by(bacsort_species != "Citrobacter unknown", name %nin% species_size_fails$name, Contamination > 10, Completeness > 90, scheme == "cfreundii") %>% summarise(counts = n(), .groups="keep")
 
 colnames(tablesss) <- c('Known Species Identified', 'Appropriate size', "Contaminated", "Complete", "Count")
 
@@ -351,7 +350,7 @@ QC_pass <- df_large %>% filter(bacsort_species != "Citrobacter unknown", name %n
 QC_fail <- df_large %>% filter(name %nin% QC_pass) %>% pull(name)
 
 #Write to file which samples passed QC
-#write_delim(x = as.data.frame(QC_pass), file = "2022/delims/QC_pass.txt")
+#write_delim(x = as.data.frame(QC_pass), file = "delims/QC_pass.txt")
 
 ```
 
@@ -384,4 +383,15 @@ p <- g + geom_boxplot(varwidth=T, fill="#DD8D29") +
 p <- ggplotly(p)
 
 p
+```
+
+## Make supp table 1
+
+```{r}
+metadata <- read_excel("delims/Metadata_public_genomes.xlsx", 
+    sheet = "metadata_only")
+
+supp_table_1 <- full_join(metadata, df_large, by = 'name')
+
+write_delim(supp_table_1, "delims/Supplementary_Table_1.txt", delim = "\t")
 ```

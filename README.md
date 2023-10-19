@@ -4,7 +4,7 @@ This GitHub page accompanies a manuscript currently under review.
 
 There are additional scripts available that detail other analyses performed that didn't make it into the final analyses, however the most relevant scripts to look at (as it pertains to the manuscript) are:
 
-1. `Markdown/Figure_1_internal_tree_wrefs.Rmd`
+1. `Markdown/Figure_1_internal_tree_w_refseq_refs.Rmd`
 2. `Markdown/Figures_2_4_5_internal_only.Rmd`
 3. `Markdown/SKA_analysis_100_SNPs.Rmd`
 4. `Markdown/QC_workflow.Rmd`
